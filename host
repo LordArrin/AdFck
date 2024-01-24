@@ -1,4 +1,9 @@
-||m2.tuyaeu.com^
-||vc-static.sberdevices.ru^
-||openapi.tuyaeu.com^
-||gateway.iot.sberdevices.ru^
+||https://m2.tuyaeu.com^
+||https://vc-static.sberdevices.ru^
+||https://openapi.tuyaeu.com^
+||https://gateway.iot.sberdevices.ru^
+
+||http://m2.tuyaeu.com^
+||http://vc-static.sberdevices.ru^
+||http://openapi.tuyaeu.com^
+||http://gateway.iot.sberdevices.ru^

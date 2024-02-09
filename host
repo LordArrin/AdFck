@@ -16,10 +16,13 @@
 ||*events.gfe.nvidia.com^
 ||*ls.dtrace.nvidia.com^
 ||*lightstep.kaizen.nvidia.com^
-||*gvt1.com^
 ||*kaspersky-labs.com^
 ||*crashlytics.com^
 ||*geo-location-api.gx.nvidia.com^
 ||*nvidia.cn^
 ||*accounts.nvgs.nvidia.cn^
 ||*geo.kaspersky.com^
+#play market
+@@||*gvt2.com^
+@@||*gvt1.com^
+#

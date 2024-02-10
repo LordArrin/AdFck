@@ -21,7 +21,6 @@
 ||*geo-location-api.gx.nvidia.com^
 ||*nvidia.cn^
 ||*accounts.nvgs.nvidia.cn^
-||*geo.kaspersky.com^
 #play market
 @@||*gvt2.com^
 @@||*gvt1.com^
@@ -29,3 +28,4 @@
 ||*jethrojeff.com^
 ||*auth.docker.io^
 ||*registry-1.docker.io^
+@@||*geo.kaspersky.com^

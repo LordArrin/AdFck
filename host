@@ -16,7 +16,6 @@
 ||*events.gfe.nvidia.com^
 ||*ls.dtrace.nvidia.com^
 ||*lightstep.kaizen.nvidia.com^
-||*kaspersky-labs.com^
 ||*crashlytics.com^
 ||*geo-location-api.gx.nvidia.com^
 ||*nvidia.cn^
@@ -26,4 +25,3 @@
 @@||*gvt1.com^
 #
 ||*jethrojeff.com^
-@@||*geo.kaspersky.com^

@@ -1,3 +1,8 @@
+!
+! Title: AdFck Custom hosts Blocklist
+! Description: Custom filter list using the hosts file
+! Homepage: https://github.com/LordArrin/AdFck
+!
 ! 2022-09-17 https://pikabu.ru
 pikabu.ru##.carousel__content
 pikabu.ru##.carousel__main

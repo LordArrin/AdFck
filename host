@@ -1,3 +1,8 @@
+!
+! Title: AdFck Custom DNS Blocklist
+! Description: Custom filter list using the DNS blocker
+! Homepage: https://github.com/LordArrin/AdFck
+!
 ||*sberdevices.ru^
 ||*unchecky.com^
 ||*cust-service.com^

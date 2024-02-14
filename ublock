@@ -1065,3 +1065,37 @@ yandex.ru###rsya-guarantee
 ! 2024-02-13 https://market.yandex.ru
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
 
+! 2024-02-13 https://kemono.su
+kemono.su##[href="/fanboximports"] > div
+
+! 2024-02-13 https://ficbook.net
+ficbook.net##.disclaimer
+
+! 2024-02-13 https://pikabu.ru
+pikabu.ru##.promo-banner-sticky_visible
+pikabu.ru##.pkb-tab_active.pkb-tab
+
+! 2024-02-13 https://aliexpress.ru
+aliexpress.ru##.RedFooter_FooterBottom__linksItem__is8x4.RedFooter_FooterBottom__linksInner__is8x4
+aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
+aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
+aliexpress.ru##.ModuleBanner_ModuleBanner__inner-wrapper_profile_desktop__100x6
+aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
+
+! 2024-02-13 https://github.com
+github.com##.color-fg-muted.f6.pb-6.pt-8.footer
+
+! 2024-02-13 https://kemono.su
+kemono.su##.global-footer
+
+! 2024-02-13 https://f95zone.to
+f95zone.to##.p-footer
+
+! 2024-02-13 https://author.today
+author.today##.pb-lg.pr.pl.genre-s-footer
+author.today##.genre-s-footer
+
+! 2024-02-13 https://4pda.to
+4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
+4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
+4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp

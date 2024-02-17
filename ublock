@@ -1120,3 +1120,30 @@ megamarket.ru##.banner-view
 ! 2024-02-16 https://habr.com
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
+
+! 2024-02-15 https://www.youtube.com
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
+
+! 2024-02-15 https://pikabu.ru
+||cs13.pikabu.ru/post_img/2023/08/07/11/1691431376148685648.png$image
+
+! 2024-02-15 https://www.terabox.com
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
+www.terabox.com##.membership-entry
+
+! 2024-02-16 https://nauchniestati.ru
+nauchniestati.ru##.eduChat
+
+! 2024-02-16 https://megamarket.ru
+megamarket.ru##.banner-view
+
+! 2024-02-16 https://habr.com
+habr.com##.tm-block_spacing-around.block.tm-block
+habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
+
+! 2024-02-17 https://ficbook.net
+ficbook.net##.disclaimer
+
+! 2024-02-17 https://kemono.su
+kemono.su##.shifted.content-wrapper > [href]

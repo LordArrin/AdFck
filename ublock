@@ -1099,3 +1099,24 @@ author.today##.genre-s-footer
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
 4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
+
+! 2024-02-15 https://www.youtube.com
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
+
+! 2024-02-15 https://pikabu.ru
+||cs13.pikabu.ru/post_img/2023/08/07/11/1691431376148685648.png$image
+
+! 2024-02-15 https://www.terabox.com
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
+www.terabox.com##.membership-entry
+
+! 2024-02-16 https://nauchniestati.ru
+nauchniestati.ru##.eduChat
+
+! 2024-02-16 https://megamarket.ru
+megamarket.ru##.banner-view
+
+! 2024-02-16 https://habr.com
+habr.com##.tm-block_spacing-around.block.tm-block
+habr.com##.tm-block_spacing-around.tm-stories-block.tm-block

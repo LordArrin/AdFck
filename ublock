@@ -1155,3 +1155,11 @@ www.terabox.com##a.header-btn:nth-of-type(6)
 www.terabox.com##a.header-btn:nth-of-type(5)
 www.terabox.com##a.header-btn:nth-of-type(3)
 www.terabox.com##.capacity-expansion
+
+! 2024-02-17 https://3dnews.ru
+3dnews.ru##.denyOrgsWARN-footer
+
+! 2024-02-17 https://yandex.ru
+yandex.ru##.DistributionDrawer.Drawer_view_default
+yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
+yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup

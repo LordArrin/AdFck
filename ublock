@@ -1147,3 +1147,11 @@ ficbook.net##.disclaimer
 
 ! 2024-02-17 https://kemono.su
 kemono.su##.shifted.content-wrapper > [href]
+
+! 2024-02-17 https://www.terabox.com
+www.terabox.com##div.bottom-box:nth-of-type(23)
+www.terabox.com##.premium-tip
+www.terabox.com##a.header-btn:nth-of-type(6)
+www.terabox.com##a.header-btn:nth-of-type(5)
+www.terabox.com##a.header-btn:nth-of-type(3)
+www.terabox.com##.capacity-expansion

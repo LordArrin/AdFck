@@ -21,7 +21,7 @@
 ||*events.gfe.nvidia.com^
 ||*ls.dtrace.nvidia.com^
 ||*lightstep.kaizen.nvidia.com^
-||*crashlytics.com^
+||*crashlytics*^
 ||*geo-location-api.gx.nvidia.com^
 ||*nvidia.cn^
 ||*accounts.nvgs.nvidia.cn^
@@ -44,7 +44,6 @@
 ||*bdurl.net^
 ||*miui.com^
 ||*telemetry.mozilla.org^
-||*crashlyticsreports-pa.googleapis.com^
 ||*bytedance.com^
 ||*api.boosty.to^
 ||*daisy.ubuntu.com^
@@ -52,3 +51,5 @@
 ||*sbdv.ru^
 ||*api-hprof.odkl.ru^
 ||*user-geo-data.wildberries.ru^
+||*ycxrl*^
+||*cbphe*^

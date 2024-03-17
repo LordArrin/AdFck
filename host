@@ -3,10 +3,6 @@
 ! Description: Custom filter list using the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 !
-||*sberdevices.ru^
-||*unchecky.com^
-||*cust-service.com^
-||*vertigo-games.com^
 # Genshin Impact
 @@||autopatchhk.yuanshen.com^
 @@||herokuapp.com^
@@ -16,8 +12,9 @@
 @@||osuspider.yuanshen.com^
 @@||ys-log-upload-os.hoyoverse.com^
 @@||oseurodispatch.yuanshen.com^
-#
+# Other whitelist
 @@||*ot.io.mi.com^
+#
 ||*events.gfe.nvidia.com^
 ||*ls.dtrace.nvidia.com^
 ||*lightstep.kaizen.nvidia.com^
@@ -55,6 +52,15 @@
 ||*dler.org^
 ||*xiaomi*^
 ||*jethrojeff*^
+||*sberdevices.ru^
+||*unchecky.com^
+||*cust-service.com^
+||*vertigo-games.com^
+||*api.paradox-interactive.com^
+||*services.paradoxplaza.com^
+||*androidattestationvalidation-pa.googleapis.com^
+||*lineageos.org^
+||*odkl.ru^
 # 2GIS
 ||datafeedback.api.2gis.ru^
 ||advisor.api.2gis.ru^
@@ -63,3 +69,8 @@
 ||social-graph.2gis.com^
 ||tips.api.2gis.ru^
 ||disk.2gis.com^
+||glp.api.2gis.com^
+||jam.api.2gis.com^
+||taksa.api.2gis.ru^
+||zond.api.2gis.ru^
+#

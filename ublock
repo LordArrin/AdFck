@@ -3,22 +3,10 @@
 ! Description: Custom filter list using the hosts file
 ! Homepage: https://github.com/LordArrin/AdFck
 !
-! 2022-09-17 https://pikabu.ru
-pikabu.ru##.carousel__content
-pikabu.ru##.carousel__main
-pikabu.ru##.sidebar-block__achievements.sidebar-block__content_hr.sidebar-block__content
-pikabu.ru##.community-info-block.sidebar-block_border.sidebar-block
-pikabu.ru##.messengers-widget.sidebar-block_border.sidebar-block
-pikabu.ru##.keyboard-controls.sidebar-block_border.sidebar-block
-pikabu.ru##.communities-list.sidebar-block_border.sidebar-block
-pikabu.ru##.sidebar-footer.sidebar-block-links.sidebar-block_border.sidebar-block
 
 ! 2022-09-17 https://www.youtube.com
 www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
-
-! 2022-09-17 https://pikabu.ru
-pikabu.ru##.recommended-communities.carousel_small.carousel
 
 ! 2022-09-18 https://ru.gecid.com
 ||ru.gecid.com/data/adbn/1024_90.png$image
@@ -151,9 +139,6 @@ www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"] > font
 www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"]
 www.xda-developers.com###footer
 
-! 2022-10-02 https://pikabu.ru
-pikabu.ru##.promo-banner_button.promo-banner
-
 ! 2022-10-02 https://mail.yandex.ru
 mail.yandex.ru##.Drawer-DragObserver
 
@@ -191,14 +176,6 @@ rule34video.com##.thumb.spot-thumb
 ! 2022-10-04 https://m.avito.ru
 m.avito.ru##div.a0ZZf:nth-of-type(3)
 m.avito.ru##div:nth-of-type(5)
-
-! 2022-10-04 https://pikabu.ru
-pikabu.ru##.story__donate
-pikabu.ru##.emotions.story__emotions
-
-! 2022-10-07 https://pikabu.ru
-pikabu.ru##.thematic-campaign
-pikabu.ru##div.sidebar-block_border.sidebar-block:nth-of-type(1)
 
 ! 2022-10-08 https://valid.x86.fr
 valid.x86.fr###main__legals
@@ -257,9 +234,6 @@ aliexpress.ru##.MCBanner_MCBanner__active__fcbgp
 ! 2022-10-31 https://home.aliexpress.ru
 home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
 
-! 2022-11-03 https://pikabu.ru
-pikabu.ru##.footer__main
-
 ! 2022-11-04 https://www.saveporn.net
 www.saveporn.net###itfloater_wd
 
@@ -268,9 +242,6 @@ www.nexusmods.com###rj-footer
 
 ! 2022-11-07 https://ya.ru
 ya.ru##.usermenu-redesign__after-footer
-
-! 2022-11-08 https://pikabu.ru
-pikabu.ru##.carousel_short-stories.carousel_small.carousel
 
 ! 2022-11-09 https://ficbook.net
 ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
@@ -281,8 +252,6 @@ www.youtube.com###content > .ytd-rich-section-renderer.style-scope
 
 ! 2022-11-11 https://kemono.party
 kemono.party##.stuck-bottom.global-sidebar-entry
-
-pikabu.ru##article.story:has(a.story__sponsor)
 
 ! 2022-11-12 https://4pda.to
 4pda.to##article.iUz2VrOjotdohZul
@@ -298,12 +267,6 @@ zvideox.net##iframe:nth-of-type(2)
 
 ! 2022-11-14 https://www.youtube.com
 www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-
-! 2022-11-16 https://pikabu.ru
-pikabu.ru###menu-companies
-
-! 2022-11-18 https://pikabu.ru
-pikabu.ru###menu-courses
 
 ! 2022-11-20 https://www.foxnews.com
 www.foxnews.com##.contain
@@ -397,13 +360,6 @@ track.aliexpress.com##.footer-copywrite
 ! 2022-12-04 https://music.yandex.ru
 music.yandex.ru##.footer
 
-! 2022-12-07 https://pikabu.ru
-pikabu.ru##.story-tiles
-pikabu.ru##.section-hr
-pikabu.ru##.button_width_100.button_create-community.button
-pikabu.ru##.carousel__helper
-pikabu.ru###menu-companies > a
-
 ! 2022-12-07 https://ya.ru
 ya.ru##.search3__doodle-link.home-link2
 
@@ -470,10 +426,6 @@ ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
 ! 2023-01-18 https://www.pochta.ru
 www.pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
 
-! 2023-01-18 https://pikabu.ru
-pikabu.ru##.profile-series_empty.profile-series
-
-
 ! 2023-01-25 https://www.ixbt.com
 www.ixbt.com##.b-content__footer.b-content
 
@@ -492,10 +444,6 @@ www.newgrounds.com##.header-deck
 www.newgrounds.com##.blackout-inner
 www.newgrounds.com##div.blackout-hover
 www.newgrounds.com##div.blackout
-
-
-! 2023-02-01 https://pikabu.ru
-pikabu.ru##.questions-sidebar-promo.sidebar-block
 
 ! 2023-02-02 https://mail.yandex.ru
 mail.yandex.ru##.legouser__menu-item_action_hiring.legouser__menu-item.count-me.menu__item_type_link.menu__item
@@ -557,9 +505,6 @@ mega.nz##.almost-full.fm-notification-block
 ! 2023-03-15 https://mail.yandex.ru
 mail.yandex.ru##.Badge
 
-! 2023-03-15 https://pikabu.ru
-pikabu.ru##.section_warning
-
 ! 2023-03-15 https://ixbt.market
 ixbt.market###accept_cookie_policy_wrapper
 
@@ -617,17 +562,11 @@ ficbook.net##.important-link
 ! 2023-03-28 https://4pda.to
 4pda.to##.daRohrHmjZz14SuGDBqgP
 
-! 2023-03-28 https://pikabu.ru
-pikabu.ru##.sidebar
-
 ! 2023-03-29 https://backit.me
 backit.me##.onboarding-modal.el-dialog__wrapper
 
 ! 2023-03-29 https://yandex.ru
 yandex.ru##.h6g2e8ot8G0O6hN2wk5oa-FooterContent
-
-! 2023-03-29 https://pikabu.ru
-pikabu.ru##.footer__captcha_nofooter
 
 ! 2023-03-29 https://www.yandex.ru
 www.yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
@@ -690,12 +629,6 @@ www.fanfiction.net###p_footer
 ! 2023-04-30 https://www.youtube.com
 www.youtube.com##ytd-reel-shelf-renderer
 
-! 2023-05-07 https://pikabu.ru
-pikabu.ru##[href^="https://vk.com/club_rosgobelskiy_athelas"]
-
-! 2023-05-16 https://pikabu.ru
-pikabu.ru##.story__placeholder
-
 ! 2023-05-20 https://q32.pw
 q32.pw##div#\$_v_banner
 
@@ -746,9 +679,6 @@ music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(2)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3)
 music.yandex.ru##.page-line_chart
 music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
-
-! 2023-05-25 https://pikabu.ru
-pikabu.ru##.m-t-7
 
 ! 2023-05-25 https://trade.aliexpress.ru
 trade.aliexpress.ru##.footer-copywrite
@@ -823,9 +753,6 @@ music.yandex.ru##.sidebar-rup__special-station-section
 ! 2023-07-04 https://rutube.ru
 rutube.ru##div.storefront-item_tag.storefront-item
 
-! 2023-07-05 https://pikabu.ru
-pikabu.ru##.story-block_type_fundraising.story-block
-
 ! 2023-07-05 https://music.yandex.ru
 music.yandex.ru##.rup__content_disable.rup__content
 
@@ -838,9 +765,6 @@ yandex.ru##.AliceFabPromo_shown.AliceFabPromo
 ! 2023-07-21 https://www.pepper.ru
 www.pepper.ru##.footer
 www.pepper.ru##.cept-banner-id-1.cept-banner
-
-! 2023-07-23 https://pikabu.ru
-pikabu.ru##article.story[data-rating^="-"]
 
 ! 2023-07-27 https://www.avito.ru
 www.avito.ru##.create-promocode-banner-create-promocode-banner-_XHN2
@@ -1028,9 +952,6 @@ yandex.ru##.RequestMeta-Level_type_level
 ! 2024-01-16 https://music.yandex.ru
 music.yandex.ru##.head-kids__app
 
-! 2024-01-16 https://pikabu.ru
-pikabu.ru##[href="/browse"]
-
 ! 2024-01-19 http://samlib.ru
 samlib.ru##td > table
 
@@ -1070,11 +991,6 @@ kemono.su##[href="/fanboximports"] > div
 
 ! 2024-02-13 https://ficbook.net
 ficbook.net##.disclaimer
-
-! 2024-02-13 https://pikabu.ru
-pikabu.ru##.promo-banner-sticky_visible
-pikabu.ru##.pkb-tab_active.pkb-tab
-
 ! 2024-02-13 https://aliexpress.ru
 aliexpress.ru##.RedFooter_FooterBottom__linksItem__is8x4.RedFooter_FooterBottom__linksInner__is8x4
 aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
@@ -1103,9 +1019,6 @@ author.today##.genre-s-footer
 ! 2024-02-15 https://www.youtube.com
 www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
 
-! 2024-02-15 https://pikabu.ru
-||cs13.pikabu.ru/post_img/2023/08/07/11/1691431376148685648.png$image
-
 ! 2024-02-15 https://www.terabox.com
 www.terabox.com##.coupon-Popup-box
 www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
@@ -1123,9 +1036,6 @@ habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
 
 ! 2024-02-15 https://www.youtube.com
 www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
-
-! 2024-02-15 https://pikabu.ru
-||cs13.pikabu.ru/post_img/2023/08/07/11/1691431376148685648.png$image
 
 ! 2024-02-15 https://www.terabox.com
 www.terabox.com##.coupon-Popup-box
@@ -1166,9 +1076,6 @@ yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
 
 ! 2024-02-18 https://fanfics.me
 fanfics.me##div.Sidebar_NativeAd
-
-! 2024-02-21 https://pikabu.ru
-||cs13.pikabu.ru/post_img/2024/02/17/11/1708193672164130489.png$image
 
 ! 2024-02-22 https://geekrewind.com
 geekrewind.com##.swg-dialog

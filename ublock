@@ -3,1170 +3,548 @@
 ! Description: Custom filter list using the hosts file
 ! Homepage: https://github.com/LordArrin/AdFck
 !
-
-! 2022-09-17 https://www.youtube.com
-www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
-www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
-
-! 2022-09-18 https://ru.gecid.com
-||ru.gecid.com/data/adbn/1024_90.png$image
-
-! 2022-09-18 https://4pda.to
-4pda.to##article.iUz2VrOjotdohZul.oM1atWC3y9.post:nth-of-type(9)
-
-! 2022-09-18 https://vk.com
-vk.com###feed_filters
-vk.com##.stories_feed_not_nav_buttons.stories_feed_with_thumb.clear_fix.stories_feed_wrap.page_block
-vk.com##.InterestsBlock.page_block
-vk.com##.feed_groups_recomm_friends.js-feed_groups_recomm.feed_groups_recomm.page_block
-
-! 2022-09-19 https://www.fimfiction.net
-www.fimfiction.net##.advert.right
-
-! 2022-09-22 https://disk.yandex.ru
-disk.yandex.ru##.Subscription-Onboarding.Base-Onboarding
-
-! 2022-09-25 https://rutor.org
-rutor.org##h2:nth-of-type(1)
-
-! 2022-09-25 https://www.avito.ru
-www.avito.ru##.advert-serp-block-wrapper-KtgxK
-www.avito.ru##div.styles-adv-D1naz.advert-mimicry-block-wrapper-_Fmsp
-
-! 2022-09-25 https://aliexpress.ru
-aliexpress.ru##.Footer_Footer__footer__1nhxk
-aliexpress.ru##.TopBanner_TopBanner__bannerLink__1xuml.ali-kit_Link__default__cmgtoz
-
-! 2022-09-25 https://trade.aliexpress.ru
-trade.aliexpress.ru##.SnowFooter_SnowFooter__container__ph6zk
-
-! 2022-09-25 https://www.ixbt.com
-www.ixbt.com##.block__footer.b-block
-
-! 2022-09-25 https://github.com
-github.com##.px-0.my-5.container-lg.footer.flex-items-between.d-flex
-
-! 2022-09-25 https://4pda.to
-4pda.to##.second-menu
-4pda.to##.f-holder
-
-! 2022-09-25 https://ficbook.net
-ficbook.net##.page-footer
-ficbook.net##.disclamer
-
-! 2022-09-25 https://www.ixbt.com
-www.ixbt.com##div.b-lined-title.b-block__newslistdefault.b-block:nth-of-type(5)
-www.ixbt.com##.b-lined-title.b-block__tagscloud.b-block
-
-! 2022-09-25 https://3dnews.ru
 3dnews.ru###currencyTicker
-3dnews.ru###right-sidebar
-3dnews.ru##.footer-sub
-3dnews.ru###projects
 3dnews.ru###footer
+3dnews.ru###projects
+3dnews.ru###right-sidebar
 3dnews.ru###stripe
-
-! 2022-09-25 https://www.avito.ru
-www.avito.ru##.navbar-root-H9tUO
-
-! 2022-09-25 https://www.fimfiction.net
-www.fimfiction.net##.footer
-www.fimfiction.net##.sponsor-reminder
-
-! 2022-09-25 https://disk.yandex.ru
-disk.yandex.ru##.InfoSpace_expanded.InfoSpace_notanimation.InfoSpace_discount.InfoSpace.Link
-disk.yandex.ru##.root__footer.footer
-
-! 2022-09-27 https://aliexpress.ru
-aliexpress.ru##.TopBanner-styles_bannerLink__1na4w
-
-! 2022-09-27 https://trade.aliexpress.ru
-trade.aliexpress.ru##.SnowBanner_SnowBanner__banner__1p0dy
-
-! 2022-09-27 https://aliexpress.ru
-aliexpress.ru##.MultiSidebarTab_MultiSidebarTab__sideBarContainer__6cn83
-aliexpress.ru##.FestivalVenue_FestivalVenue__festivalBanner__yoxs9
-
-! 2022-09-27 https://trade.aliexpress.ru
-trade.aliexpress.ru##.SnowBanner_SnowBanner__banner__21lbx
-
-! 2022-10-02 https://trade.aliexpress.ru
-trade.aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(4)
-
-! 2022-10-02 https://www.ixbt.com
-www.ixbt.com###ixbt-video-news-block
-www.ixbt.com##.b-footer__mobile--wrapper
-www.ixbt.com##.recommend_item-container
-
-! 2022-10-02 https://www.fimfiction.net
-www.fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded-button
-www.fimfiction.net##ul.navigation-drawer-list [href="/rules"]
-www.fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
-www.fimfiction.net##ul.navigation-drawer-list [href="/faq"]
-
-! 2022-10-02 https://4pda.to
-4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"] > svg
-
-! 2022-10-02 https://www.ixbt.com
-www.ixbt.com##.footer-center
-
-! 2022-10-02 https://yandex.ru
-yandex.ru##.DarkThemePromo
-yandex.ru##.HeaderPhoneActions-Alice
-yandex.ru##.SerpFooterLinksGroup_type_feedback.SerpFooterLinksGroup
-yandex.ru##div.serp-list__card.serp-item:nth-of-type(5)
-
-! 2022-10-02 https://www.google.ru
-www.google.ru###swml
-
-! 2022-10-02 https://m.aliexpress.ru
-m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
-m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
-
-! 2022-10-02 https://kemono.party
-kemono.party##.footer
-
-! 2022-10-02 https://pornado.co
-pornado.co###page_container > .rta_cont
-
-! 2022-10-02 https://www.xda-developers.com
-www.xda-developers.com##nav.panel-section:nth-of-type(3)
-www.xda-developers.com##nav.panel-section:nth-of-type(4)
-www.xda-developers.com##[href="https://www.xda-developers.com/newsletter-signup/"]
-www.xda-developers.com##.panel-target-highlight
-www.xda-developers.com##.panel-list > li > [href="https://www.xda-developers.com/about/"]
-www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"] > font > font
-www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"]
-www.xda-developers.com###footer
-
-! 2022-10-02 https://mail.yandex.ru
-mail.yandex.ru##.Drawer-DragObserver
-
-! 2022-10-02 https://www.pochta.ru
-www.pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
-
-! 2022-10-02 https://ficbook.net
-ficbook.net##.discount-sticky-container
-
-! 2022-10-03 https://ficbook.net
-ficbook.net##[href^="/home/money"]
-ficbook.net##.main-discount-desktop.hidden-xs.main-discount.discount
-ficbook.net##[href="/home/premium/coins"]
-ficbook.net##.main-discount-mobile.visible-xs.main-discount.discount
-
-! 2022-10-04 https://timeweb.com
-timeweb.com##.cm-banner-popup-small
-
-! 2022-10-04 https://4pda.to
-4pda.to##.pTcWKkPpPgxwDeA32ucm.roQu
-
-! 2022-10-04 https://yandex.ru
-yandex.ru##._view_small.tooltip-content-view
-yandex.ru##.user-menu-view__plus
-yandex.ru##a.user-menu-item-view:nth-of-type(1)
-
-! 2022-10-04 https://m.fanfiction.net
-m.fanfiction.net##form > div
-m.fanfiction.net##div:nth-of-type(8)
-
-! 2022-10-04 https://rule34video.com
-rule34video.com##.footer
-rule34video.com##.thumb.spot-thumb
-
-! 2022-10-04 https://m.avito.ru
-m.avito.ru##div.a0ZZf:nth-of-type(3)
-m.avito.ru##div:nth-of-type(5)
-
-! 2022-10-08 https://valid.x86.fr
-valid.x86.fr###main__legals
-valid.x86.fr##.widget-advert-970
-valid.x86.fr###hhbblrlrba-728-1-blocked
-valid.x86.fr##.widget-advert-728
-valid.x86.fr##.block_33
-
-! 2022-10-08 https://if.downloadbro.fun
-if.downloadbro.fun###p_arrow
-
-! 2022-10-10 https://derpibooru.org
-derpibooru.org###footer
-
-! 2022-10-10 https://yougame.biz
-yougame.biz##.yg_first_post
-
-! 2022-10-10 http://rutor.info
-rutor.info###down
-
-! 2022-10-13 https://oterraria.ru
-oterraria.ru##noindex
-||oterraria.ru/wp-content/uploads/2022/09/fon-genshindrop.jpg$image
-oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
-oterraria.ru##.clearfix.copyright-inner
-
-! 2022-10-13 https://akspic.ru
-akspic.ru##.gallery_fluid-column-block-raw_container
-
-! 2022-10-17 https://mail.yandex.ru
-mail.yandex.ru##.DisableAdsButton__root--dCJnD
-
-! 2022-10-21 https://riccardotramma.com
-riccardotramma.com###footer-bottom
-
-! 2022-10-24 https://www.avito.ru
-www.avito.ru##.alert-design-warning-lSCAn
-
-! 2022-10-27 https://photos.google.com
-photos.google.com##.JJpMec
-
-! 2022-10-27 https://forum.xda-developers.com
-forum.xda-developers.com##.uix_extendedFooter
-forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
-forum.xda-developers.com##.p-footer-inner
-
-! 2022-10-28 https://github.com
-||raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg$image
-
-! 2022-10-31 https://author.today
-author.today##.footer
-
-! 2022-10-31 https://aliexpress.ru
-aliexpress.ru##.MCBanner_MCBanner__active__fcbgp
-
-! 2022-10-31 https://home.aliexpress.ru
-home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
-
-! 2022-11-04 https://www.saveporn.net
-www.saveporn.net###itfloater_wd
-
-! 2022-11-05 https://www.nexusmods.com
-www.nexusmods.com###rj-footer
-
-! 2022-11-07 https://ya.ru
-ya.ru##.usermenu-redesign__after-footer
-
-! 2022-11-09 https://ficbook.net
-ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
-ficbook.net##article.fanfic-inline-hot.fanfic-inline
-
-! 2022-11-09 https://www.youtube.com
-www.youtube.com###content > .ytd-rich-section-renderer.style-scope
-
-! 2022-11-11 https://kemono.party
-kemono.party##.stuck-bottom.global-sidebar-entry
-
-! 2022-11-12 https://4pda.to
-4pda.to##article.iUz2VrOjotdohZul
-
-! 2022-11-13 https://mail.yandex.ru
-mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
-
-! 2022-11-13 https://www.speedtest.net
-www.speedtest.net##.footer
-
-! 2022-11-14 https://zvideox.net
-zvideox.net##iframe:nth-of-type(2)
-
-! 2022-11-14 https://www.youtube.com
-www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-
-! 2022-11-20 https://www.foxnews.com
-www.foxnews.com##.contain
-www.foxnews.com##.site-footer
-
-! 2022-11-22 https://www.youtube.com
-www.youtube.com###categoryPill
-
-! 2022-11-23 https://yandex.ru
-yandex.ru##.distr-nav
-
-! 2022-11-23 https://4pda.to
-4pda.to##.pTcWKkPpPgxwDeA32ucm
-
-! 2022-11-26 https://www.youtube.com
-www.youtube.com###guide-links-primary
-www.youtube.com###guide-links-secondary
-www.youtube.com###copyright
-
-www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
-www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
-www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
-www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
-m.youtube.com##ytm-reel-shelf-renderer
-m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
-m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
-m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
-m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
-youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
-youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
-youtube.com##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element-shadow
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-expanding-image
-youtube.com##.ytp-pause-overlay
-youtube.com##.ytp-scroll-min.ytp-pause-overlay
-youtube.com##.iv-click-target
-youtube.com##.ytp-cards-button
-youtube.com##.ytp-cards-teaser
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-overlay
-youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element-shadow
-
-! 2022-11-26 https://4pda.to
-4pda.to##.globalmesscontent
-4pda.to###go_1
-
-! 2022-11-30 https://lesta.ru
-lesta.ru##.footer_panel
-
-! 2022-12-03 https://www.pochta.ru
-www.pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
-
-! 2022-12-04 https://www.aliexpress.com
-www.aliexpress.com##.site-footer
-www.aliexpress.com##.footer-copywrite
-
-! 2022-12-04 https://aliexpress.ru
-aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
-aliexpress.ru##.SnowSaleBanner_SnowSaleBanner__container__9s7tt
-
-! 2022-12-04 https://4pda.to
-4pda.to##.copyright
-4pda.to##div:nth-of-type(20)
-4pda.to###fo_-1
-
-! 2022-12-04 https://drive.google.com
-drive.google.com##.ml-Pr-kg
-
-! 2022-12-04 https://one.google.com
-one.google.com##.bIfCgf
-one.google.com##.jiw3Ff.hJGsQe
-
-! 2022-12-04 https://track.aliexpress.com
-track.aliexpress.com##.site-footer
-track.aliexpress.com##.footer-copywrite
-
-! 2022-12-04 https://music.yandex.ru
-music.yandex.ru##.footer
-
-! 2022-12-07 https://ya.ru
-ya.ru##.search3__doodle-link.home-link2
-
-! 2022-12-11 https://mail.yandex.ru
-mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-ServiceList-MainService.promozavr-anchor-servicePremiumButton.PSHeaderService_theme_dark.PSHeaderService
-
-! 2022-12-11 https://www.avito.ru
-www.avito.ru##.js-apps-banner-banner
-www.avito.ru##.js-seller-safety-banner
-
-! 2022-12-11 https://kemono.party
-kemono.party##.jumbo
-
-! 2022-12-11 https://www.chitai-gorod.ru
-www.chitai-gorod.ru##.footer
-
-! 2022-12-12 https://www.ixbt.com
-www.ixbt.com##.mini_quiz
-www.ixbt.com##.video-slider-block.b-lined-title.b-block__conflist.b-block
-
-! 2022-12-12 https://sprut.ai
-sprut.ai##.col-12.col-md-4
-
-! 2022-12-13 https://www.ixbt.com
-www.ixbt.com##.js-conf-block.b-lined-title.b-block__conflist.b-block
-
-! 2022-12-13 https://aliexpress.ru
-aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
-
-! 2022-12-13 https://www.youtube.com
-www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
-
-! 2022-12-13 https://dtf.ru
-dtf.ru##.lm-ph-15.l-ph-20.sidebar__footer
-
-! 2022-12-13 https://www.ixbt.com
-www.ixbt.com##.topline__left
-
-! 2022-12-24 https://3dnews.ru
+3dnews.ru##.denyOrgsWARN-footer
+3dnews.ru##.footer-sub
 3dnews.ru##.rbxglob.relatedbox.content-block
-
-! 2022-12-25 https://github.com
-github.com##.mt-4.color-fg-muted.f6
-github.com##.p-responsive.container-xl
-
-! 2022-12-26 https://disk.yandex.ru
-disk.yandex.ru##.NewYearSpecial
-
-! 2022-12-26 https://www.apkmirror.com
-www.apkmirror.com##.expandMargins
-
-! 2022-12-28 https://www.fimfiction.net
-www.fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button > .branding-text
-||static.fimfiction.net/images/icons/subscribe-star.png$image
-www.fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button
-
-
-! 2023-01-13 https://ficbook.net
-ficbook.net##.hidden-xs.btn-on-book-background--premium.btn-on-book-background
-ficbook.net##.premium-button
-ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
-
-
-! 2023-01-18 https://www.pochta.ru
-www.pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
-
-! 2023-01-25 https://www.ixbt.com
-www.ixbt.com##.b-content__footer.b-content
-
-! 2023-01-26 https://4pda.to
-4pda.to##.rnd-replace-revive_zone-type
-4pda.to##article.rnd-replace-sidebar-all
-
-! 2023-01-27 https://hoff.ru
-hoff.ru##.banner-container
-
-! 2023-01-27 https://www.newgrounds.com
-www.newgrounds.com##.inhousepromo
-www.newgrounds.com##.header-deck
-
-! 2023-01-28 https://www.newgrounds.com
-www.newgrounds.com##.blackout-inner
-www.newgrounds.com##div.blackout-hover
-www.newgrounds.com##div.blackout
-
-! 2023-02-02 https://mail.yandex.ru
-mail.yandex.ru##.legouser__menu-item_action_hiring.legouser__menu-item.count-me.menu__item_type_link.menu__item
-
-! 2023-02-02 https://calendar.yandex.ru
-calendar.yandex.ru##.AsideFooter__wrap--zQe-n
-
-! 2023-02-02 https://lk.bcnn.ru
-lk.bcnn.ru##.site-footer
-
-! 2023-02-09 https://aliexpress.ru
-aliexpress.ru##.SnowFooter_SnowFooter__root__1c9lw
-
-! 2023-02-13 https://sdgfsdgyuise3.duckdns.org:3766
-sdgfsdgyuise3.duckdns.org##.mt-2.show.fade.alert-dismissible.mt-3.alert-info.alert
-sdgfsdgyuise3.duckdns.org###sidebar > .pt-3
-
-||avatars.mds.yandex.net/get-adfox-content
-
-! 2023-02-14 https://cloud.mail.ru
-cloud.mail.ru###topBanner > .b-react-component
-
-! 2023-02-19 https://www.youtube.com
-www.youtube.com###chat
-
-! 2023-02-23 https://rule34.xxx
-rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
-rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
-rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(4)
-rule34.xxx##[src="https://rule34.xxx/static/icame.png"]
-
-! 2023-02-25 https://4pda.to
-4pda.to##article.ud2DA3bn3ktLoer
-
-! 2023-02-25 https://www.citilink.ru
-www.citilink.ru##.eowcxv00
-www.citilink.ru##.Footer__copyright
-www.citilink.ru##.js--Subscribe.Subscribe
-www.citilink.ru##.e14s7mmi0
-
-! 2023-03-05 https://rsload.net
-rsload.net##.bundle-descr
-
-! 2023-03-07 https://disk.yandex.ru
-disk.yandex.ru##.footer
-
-! 2023-03-12 https://ficbook.net
-ficbook.net##.hot-request
-
-! 2023-03-12 https://4pda.to
-4pda.to##article.WbCEasV0mEC7NlI
-4pda.to##div.BRbtWw2wvz1b > .side-item
+4pda.to###fo_-1
+4pda.to###go_1
+4pda.to##.copyright
+4pda.to##.daRohrHmjZz14SuGDBqgP
+4pda.to##.dz0PiQx0
+4pda.to##.f-holder
+4pda.to##.globalmesscontent
 4pda.to##.j3z13EwC1B69wiUQ6d6Uc8fulg
 4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
-
-! 2023-03-15 https://mega.nz
-mega.nz##.almost-full.fm-notification-block
-
-! 2023-03-15 https://mail.yandex.ru
-mail.yandex.ru##.Badge
-
-! 2023-03-15 https://ixbt.market
-ixbt.market###accept_cookie_policy_wrapper
-
-! 2023-03-16 https://www.ixbt.com
-www.ixbt.com##.adv_button_container
-
-! 2023-03-19 https://store.epicgames.com
-store.epicgames.com##.epic_games
-
-! 2023-03-20 https://sdgfsdgyuise3.duckdns.org:3766
-sdgfsdgyuise3.duckdns.org##.mt-4.footer
-
-! 2023-03-20 https://mail.google.com
-mail.google.com##.aeU
-
-! 2023-03-21 https://rt.pornhub.com
-rt.pornhub.com##.clearfix.search-video-thumbs.videos
-rt.pornhub.com##.footerContentWrapper
-rt.pornhub.com##.sectionWrapper > div.sectionWrapper > .sectionTitle
-rt.pornhub.com###js-networkBar
-
-! 2023-03-22 https://www.dns-shop.ru
-www.dns-shop.ru##.footer
-
-! 2023-03-23 https://plus.yandex.ru
-plus.yandex.ru##.tariff-tarifficator-layout__footer
-
-! 2023-03-24 https://www.nvidia.com
-www.nvidia.com##.footer
-
-! 2023-03-24 https://message.aliexpress.com
-message.aliexpress.com##.footer-copywrite
-message.aliexpress.com##.site-footer
-
-! 2023-03-26 https://boosty.to
+4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
+4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"] > svg
+4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
+4pda.to##.pTcWKkPpPgxwDeA32ucm
+4pda.to##.pTcWKkPpPgxwDeA32ucm.roQu
+4pda.to##.QhXeG6pWTz1lBDcdSz1ldWXg
+4pda.to##.rnd-replace-revive_zone-type
+4pda.to##.second-menu
+4pda.to##.wide-1
+4pda.to##.wide-2
+4pda.to##.wide-3
+4pda.to##article.iUz2VrOjotdohZul
+4pda.to##article.iUz2VrOjotdohZul.oM1atWC3y9.post:nth-of-type(9)
+4pda.to##article.rnd-replace-sidebar-all
+4pda.to##article.ud2DA3bn3ktLoer
+4pda.to##article.WbCEasV0mEC7NlI
+4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
+4pda.to##div.BRbtWw2wvz1b > .side-item
+4pda.to##div:nth-of-type(20)
+akspic.ru##.gallery_fluid-column-block-raw_container
+aliexpress.ru##.ali-kit_Container__size_default__1m9f8n.transparent
+aliexpress.ru##.FestivalVenue_FestivalVenue__festivalBanner__yoxs9
+aliexpress.ru##.Footer_Footer__footer__1nhxk
+aliexpress.ru##.golden-items-banner_GoldenItemsBanner__desktopRoot__14mvzs
+aliexpress.ru##.MCBanner_MCBanner__active__fcbgp
+aliexpress.ru##.ModuleBanner_ModuleBanner__inner-wrapper_profile_desktop__100x6
+aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
+aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper_desktop__hxlp1
+aliexpress.ru##.MultiSidebarTab_MultiSidebarTab__sideBarContainer__6cn83
+aliexpress.ru##.ProfitShelf_ProfitShelf__profitShelf__cxe7m
+aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
+aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
+aliexpress.ru##.RedFooter_FooterBottom__linksItem__is8x4.RedFooter_FooterBottom__linksInner__is8x4
+aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
+aliexpress.ru##.RedFooter_RedFooter__root__obhtq
+aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
+aliexpress.ru##.SnowFooter_SnowFooter__root__1c9lw
+aliexpress.ru##.SnowSaleBanner_SnowSaleBanner__container__9s7tt
+aliexpress.ru##.TopBanner-styles_bannerLink__1na4w
+aliexpress.ru##.TopBanner_TopBanner__bannerLink__1xuml.ali-kit_Link__default__cmgtoz
+aliexpress.ru##div.ModuleBanner_CustomBanner__lineContainer__e0373
+aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v > .RedModuleBanner_RedModuleBanner__container__1fvl9 > .RedModuleBanner_RedModuleBanner__outer-wrapper__1fvl9
+aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-kit_Col__align-self-flex-start__1ccuye.snow-ali-kit_Col__col__1ccuye > .snow-container_SnowContainer__container__dku64u .snow-container_SnowContainer__container__dku64u
+author.today##.footer
+author.today##.genre-s-footer
+author.today##.pb-lg.pr.pl.genre-s-footer
+backit.me##.onboarding-modal.el-dialog__wrapper
+beatsage.com##.beat-sage-socials
+beatsage.com##.footer
 boosty.to##.Footer_content_PwrVj
-
-! 2023-03-26 https://forms.yandex.ru
-forms.yandex.ru##.clearfix.footer
-
-! 2023-03-26 https://ya.ru
-ya.ru##.survey__content
-
-! 2023-03-26 https://www.eldorado.ru
-www.eldorado.ru##.footer
-
-! 2023-03-26 https://www.avito.ru
-www.avito.ru##.apps-banner-apps-banner-BKOwv
-
-! 2023-03-27 https://ficbook.net
-ficbook.net##article.fanfic-block-disliked
+calendar.yandex.ru##.AsideFooter__wrap--zQe-n
+cloud.mail.ru###topBanner > .b-react-component
+club.dns-shop.ru##.club-sidebar__footer
+club.dns-shop.ru##.club-sidebar__footer-navigation-list
+denuvo.store##.altumcode-informational-wrapper
+derpibooru.org###footer
+disk.yandex.ru##.footer
+disk.yandex.ru##.InfoSpace_expanded.InfoSpace_notanimation.InfoSpace_discount.InfoSpace.Link
+disk.yandex.ru##.LeftColumn__InnerWrapperBottom
+disk.yandex.ru##.Modal-Overlay
+disk.yandex.ru##.Modal-Wrapper
+disk.yandex.ru##.NewYearSpecial
+disk.yandex.ru##.root__footer.footer
+disk.yandex.ru##.Subscription-Onboarding.Base-Onboarding
+dnevnik.statusapp.ru##.scrollable.v--modal-overlay
+docs.yandex.ru##.Modal-Overlay
+docs.yandex.ru##.Modal-Wrapper
+drive.google.com##.ml-Pr-kg
+dtf.ru##.comments__show-all-always
+dtf.ru##.layout__right-column
+dtf.ru##.lm-ph-15.l-ph-20.sidebar__footer
+eu.iot.tuya.com##.g-iot-help-modal-fadeIn
+eu.iot.tuya.com##.react-draggable.g-iot-help-modal-entry
+f95zone.to##.p-footer
+fanfics.me##div.Sidebar_NativeAd
+ficbook.net##.disclaimer
+ficbook.net##.disclaimer
+ficbook.net##.disclamer
+ficbook.net##.discount-sticky-container
+ficbook.net##.ficfan-banner
+ficbook.net##.ficfan-top-link
+ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
+ficbook.net##.hidden-xs.btn-on-book-background--premium.btn-on-book-background
+ficbook.net##.hot-request
 ficbook.net##.if-you-were-premium
 ficbook.net##.important-link
-
-! 2023-03-28 https://4pda.to
-4pda.to##.daRohrHmjZz14SuGDBqgP
-
-! 2023-03-29 https://backit.me
-backit.me##.onboarding-modal.el-dialog__wrapper
-
-! 2023-03-29 https://yandex.ru
-yandex.ru##.h6g2e8ot8G0O6hN2wk5oa-FooterContent
-
-! 2023-03-29 https://www.yandex.ru
-www.yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
-
-! 2023-03-29 https://mail.yandex.ru
-mail.yandex.ru##.Popup_modal_24TLt
-
-! 2023-03-29 https://pornolab.net
-pornolab.net##.hide-for-print
-
-! 2023-03-29 https://theporndude.com
-theporndude.com##.with-bg
-theporndude.com##.footer
-theporndude.com##.top-text
-
-! 2023-03-30 https://www.paypal.com
-www.paypal.com##.footer
-www.paypal.com##.css-lm4xxy-elevation_level1
-
-! 2023-03-30 https://www.deviantart.com
-www.deviantart.com##.uNMof._3WH5n
-www.deviantart.com##.srMYi
-
-! 2023-03-30 https://unite4buy.ru
-unite4buy.ru##.footer-wrapper
-
-! 2023-03-30 https://www.dropbox.com
-www.dropbox.com##.dig-Modal-overlay
-
-! 2023-04-01 https://disk.yandex.ru
-disk.yandex.ru##.LeftColumn__InnerWrapperBottom
-
-
-! 2023-04-02 https://thecommunity.ru
-thecommunity.ru##.footer
-
-! 2023-04-02 https://dnevnik.statusapp.ru
-dnevnik.statusapp.ru##.scrollable.v--modal-overlay
-
-! 2023-04-03 https://4pda.to
-4pda.to##.QhXeG6pWTz1lBDcdSz1ldWXg
-
-! 2023-04-04 https://torrent-soft.pro
-torrent-soft.pro##.pa-wrapper
-
-! 2023-04-05 https://lewdninja.com
+ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
+ficbook.net##.justify-content-between
+ficbook.net##.justify-content-center.align-items-center
+ficbook.net##.list-inline
+ficbook.net##.main-discount-desktop.hidden-xs.main-discount.discount
+ficbook.net##.main-discount-mobile.visible-xs.main-discount.discount
+ficbook.net##.page-footer
+ficbook.net##.premium-button
+ficbook.net##.text-right.mb-30
+ficbook.net##[href="/authors/845367/blog#content"]
+ficbook.net##[href="/home/premium/coins"]
+ficbook.net##[href="/randomfic"]
+ficbook.net##[href^="/home/money"]
+ficbook.net##article.fanfic-block-disliked
+ficbook.net##article.fanfic-inline-hot.fanfic-inline
+ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
+forms.yandex.ru##.clearfix.footer
+forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
+forum.xda-developers.com##.p-footer-inner
+forum.xda-developers.com##.uix_extendedFooter
+geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
+geekrewind.com##.swg-dialog
+genshinhelper.ru##.main-ad-button.slot
+github.com##.color-fg-muted.f6.pb-6.pt-8.footer
+github.com##.mt-4.color-fg-muted.f6
+github.com##.overflow-hidden.js-notice-dismiss
+github.com##.p-responsive.container-xl
+github.com##.px-0.my-5.container-lg.footer.flex-items-between.d-flex
+github.com##div.react-code-size-details-in-header.Box-sc-g0xbh4-0 > .eYbaPB.types__StyledButton-sc-ws60qy-0
+habr.com##.tm-block_spacing-around.block.tm-block
+habr.com##.tm-block_spacing-around.block.tm-block
+habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
+habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
+habr.com##a[href^="https://vdsina.ru/cloud-servers"]
+hoff.ru##.banner-container
+home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
+https://[*.]www.yandex.ru:443
+id.sber.ru##.CookiePolicy_container__3FE8X
+if.downloadbro.fun###p_arrow
+iot.tuya.com##.g-iot-help-modal-fadeIn
+iot.tuya.com##.react-draggable
+ixbt.market###accept_cookie_policy_wrapper
+kemono.party##.footer
+kemono.party##.jumbo
+kemono.party##.stuck-bottom.global-sidebar-entry
+kemono.su##.global-footer
+kemono.su##.shifted.content-wrapper > [href]
+kemono.su##.stuck-bottom
+kemono.su##[href="/fanboximports"] > div
+lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
-
-! 2023-04-10 https://www.youtube.com
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
-www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-
-
-! 2023-04-27 https://www.avito.ru
-www.avito.ru##.shortVideosWitcher-section-NHx6w
-
-! 2023-04-29 https://www.fanfiction.net
-www.fanfiction.net###p_footer
-
-! 2023-04-30 https://www.youtube.com
-www.youtube.com##ytd-reel-shelf-renderer
-
-! 2023-05-20 https://q32.pw
-q32.pw##div#\$_v_banner
-
-! 2022-10-01 https://music.yandex.ru
-music.yandex.ru##.head-kids__promocode-link
+lk.bcnn.ru##.site-footer
+lurkmore.me###siteNotice
+m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
+m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
+m.avito.ru##div.a0ZZf:nth-of-type(3)
+m.avito.ru##div:nth-of-type(5)
+m.fanfiction.net##div:nth-of-type(8)
+m.fanfiction.net##form > div
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
+m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+mail.google.com##.aeU
+mail.yandex.ru##.Badge
+mail.yandex.ru##.DisableAdsButton__root--dCJnD
+mail.yandex.ru##.Drawer-DragObserver
+mail.yandex.ru##.legouser__menu-item_action_hiring.legouser__menu-item.count-me.menu__item_type_link.menu__item
+mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
+mail.yandex.ru##.mail-SubscriptionsPopup
+mail.yandex.ru##.Modal-Wrapper
+mail.yandex.ru##.Popup_modal_24TLt
+mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-ServiceList-MainService.promozavr-anchor-servicePremiumButton.PSHeaderService_theme_dark.PSHeaderService
+market.yandex.ru##.-GPMv
+market.yandex.ru##._169PI._381y5 > li > .cia-cs
+market.yandex.ru##._2MOII._2H8Pe
+market.yandex.ru##._2MOII._3eAaC
+market.yandex.ru##._2q2DD
+market.yandex.ru##._31mNV
+market.yandex.ru##._3ECBO._2qTMc._2et7a
+market.yandex.ru##._3RoU0 > .cia-cs
+market.yandex.ru##._3WotU > div > .cia-cs
+market.yandex.ru##._3WotU > div > .cia-vs
+market.yandex.ru##._3WotU > div > div > .cia-cs
+market.yandex.ru##.cq9mG.side-menu-item_help
+market.yandex.ru##.side-menu-item_vacancies
+market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
+mega.nz##.almost-full.fm-notification-block
+mega.nz##.almost-full.storage-dialog
+megamarket.ru##.banner-view
+megamarket.ru##.banner-view
+megamarket.ru##.catalog-item_banner
+megamarket.ru##.header-entry-point__app
+megamarket.ru##.item_dark.item.header-entry-point__item
+megamarket.ru##.mass-communication__img
+megamarket.ru##.page-footer__middle
+megamarket.ru##.page-footer__top
+message.aliexpress.com##.footer-copywrite
+message.aliexpress.com##.site-footer
+music.mts.ru##.hUZfug
+music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
+music.mts.ru##.svelte-1rnzvbl.hr-line
+music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
+music.yandex.ru##.auto-playlists__item_editorial
+music.yandex.ru##.auto-playlists__item_podcasts
+music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.d-icon_hq.d-icon
 music.yandex.ru##.deco-player-controls__button.player-controls__btn.hq__icon
+music.yandex.ru##.footer
+music.yandex.ru##.head-kids__app
 music.yandex.ru##.head-kids__plus-points.plus-points
+music.yandex.ru##.head-kids__promocode-link
+music.yandex.ru##.multi-auth__plus
 music.yandex.ru##.multi-auth__plus-rainbow.multi-auth__plus
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
-
-! 2023-05-20 https://music.yandex.ru
+music.yandex.ru##.page-line_chart
+music.yandex.ru##.page-line_clips
 music.yandex.ru##.page-line_new-playlists
 music.yandex.ru##.page-line_new-releases
 music.yandex.ru##.page-line_podcasts
 music.yandex.ru##.page-line_promotions
-
-! 2023-05-21 https://music.yandex.ru
-music.yandex.ru##.auto-playlists__item_recentTracks
-music.yandex.ru##.auto-playlists__item_podcasts
-
-! 2023-05-21 https://aliexpress.ru
-aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper_desktop__hxlp1
-
-! 2023-05-21 https://ficbook.net
-ficbook.net##.text-right.mb-30
-
-! 2023-05-21 https://lurkmore.me
-lurkmore.me###siteNotice
-
-! 2023-05-23 https://music.yandex.ru
-music.yandex.ru##.auto-playlists__item_editorial
-
-! 2023-05-25 https://www.igromania.ru
-www.igromania.ru##.strunmenu
-
-! 2023-05-25 https://docs.yandex.ru
-docs.yandex.ru##.Modal-Wrapper
-docs.yandex.ru##.Modal-Overlay
-
-! 2023-05-25 https://ficbook.net
-ficbook.net##[href="/authors/845367/blog#content"]
-
-
-! 2023-05-25 https://music.yandex.ru
+music.yandex.ru##.page-main__title-chart
+music.yandex.ru##.rup__content_disable.rup__content
+music.yandex.ru##.sidebar-rup__special-station-section
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
+music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
+music.yandex.ru##div.popup_modal.deco-pane-popup
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(2)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3)
-music.yandex.ru##.page-line_chart
-music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
-
-! 2023-05-25 https://trade.aliexpress.ru
-trade.aliexpress.ru##.footer-copywrite
-trade.aliexpress.ru##.site-footer
-
-! 2023-05-26 https://4pda.to
-4pda.to##.wide-3
-4pda.to##.wide-2
-4pda.to##.wide-1
-
-! 2023-05-26 https://xhamstervideo.net
-xhamstervideo.net##.top-video-block
-xhamstervideo.net##.no-update
-xhamstervideo.net##.cookie-announce
-xhamstervideo.net##.no-ts-initiailize
-
-! 2023-05-27 https://www.expresslrs.org
-www.expresslrs.org##.md-consent__overlay
-www.expresslrs.org##.md-consent
-
-! 2023-05-27 https://club.dns-shop.ru
-club.dns-shop.ru##.club-sidebar__footer-navigation-list
-club.dns-shop.ru##.club-sidebar__footer
-
-! 2023-05-31 https://xakep.ru
-xakep.ru##.default
-
-! 2023-06-05 https://ficbook.net
-ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
-ficbook.net##[href="/randomfic"]
-
-! 2023-06-06 https://music.yandex.ru
-music.yandex.ru##.page-line_clips
-
-! 2023-06-10 https://kemono.su
-kemono.su##.stuck-bottom
-
-! 2023-06-11 https://www.aliexpress.com
-www.aliexpress.com###mobile-download
-
-! 2023-06-11 https://ficbook.net
-ficbook.net##.list-inline
-
-! 2023-06-12 https://music.yandex.ru
-music.yandex.ru##div.popup_modal.deco-pane-popup
-music.yandex.ru##.page-main__title-chart
-
-! 2023-06-12 https://disk.yandex.ru
-disk.yandex.ru##.Modal-Wrapper
-disk.yandex.ru##.Modal-Overlay
-
-! 2023-06-15 https://ya.ru
-ya.ru##.message-promo_js_inited
-
-! 2023-06-20 https://vk.com
-vk.com##.CallHistoryScreenLanding--list
-vk.com##.CallHistoryScreenLanding--header
-vk.com##.CallHistoryScreenLanding--subheader
-vk.com##.left_menu_nav_wrap
-vk.com###l_ads
-
-! 2023-06-23 https://www.youtube.com
-www.youtube.com##.ytd-metadata-row-container-renderer.style-scope
-
-! 2023-06-25 https://vk.com
-vk.com###l_vkfest2023
-
-
-! 2023-07-01 https://music.yandex.ru
-music.yandex.ru##.sidebar-rup__special-station-section
-
-! 2023-07-04 https://rutube.ru
-rutube.ru##div.storefront-item_tag.storefront-item
-
-! 2023-07-05 https://music.yandex.ru
-music.yandex.ru##.rup__content_disable.rup__content
-
-! 2023-07-07 https://rutube.ru
-rutube.ru##.pen-video-carousel__container_inline.pen-video-carousel__container
-
-! 2023-07-20 https://yandex.ru
-yandex.ru##.AliceFabPromo_shown.AliceFabPromo
-
-! 2023-07-21 https://www.pepper.ru
-www.pepper.ru##.footer
-www.pepper.ru##.cept-banner-id-1.cept-banner
-
-! 2023-07-27 https://www.avito.ru
-www.avito.ru##.create-promocode-banner-create-promocode-banner-_XHN2
-www.avito.ru##.index-root-auOiW
-www.avito.ru##.index-nav-r2kHM
-www.avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
-www.avito.ru##.index-innerPosition-sNjFT
-www.avito.ru##.services-root-hgyuF
-
-! 2023-08-01 https://mail.yandex.ru
-mail.yandex.ru##.Modal-Wrapper
-
-! 2023-08-03 https://id.sber.ru
-id.sber.ru##.CookiePolicy_container__3FE8X
-
-! 2023-08-03 https://aliexpress.ru
-aliexpress.ru##.golden-items-banner_GoldenItemsBanner__desktopRoot__14mvzs
-
-! 2023-08-03 https://mega.nz
-mega.nz##.almost-full.storage-dialog
-
-! 2023-08-04 https://www.playground.ru
-||vkplay.live/app/embed/random$subdocument
-
-! 2023-08-05 https://megamarket.ru
-megamarket.ru##.mass-communication__img
-megamarket.ru##.header-entry-point__app
-megamarket.ru##.item_dark.item.header-entry-point__item
-
-! 2023-08-06 https://www.asus.com
-www.asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
-www.asus.com##.footerExternal
-
-! 2023-08-06 https://denuvo.store
-denuvo.store##.altumcode-informational-wrapper
-
-! 2023-08-09 https://mail.yandex.ru
-mail.yandex.ru##.mail-SubscriptionsPopup
-
-! 2023-08-10 https://www.avito.ru
-www.avito.ru##.uxs-unilch
-||widget.uxfeedback.ru$image
-www.avito.ru##.uxs-1ii9xhp
-
-! 2023-08-13 https://www.ozon.ru
-www.ozon.ru##.c7t
-
-! 2023-08-15 https://rule34.xxx
-rule34.xxx###pv_leaderboard
-
-! 2023-08-16 https://habr.com
-habr.com##a[href^="https://vdsina.ru/cloud-servers"]
-
-! 2023-08-18 https://ficbook.net
-ficbook.net##.justify-content-between
-
-! 2023-08-18 https://rog-forum.asus.com
-rog-forum.asus.com###cookie-policy-info
-
-! 2023-08-18 https://rule34.xxx
-rule34.xxx##.content > span
-
-! 2023-08-20 https://www.youtube.com
-www.youtube.com##tp-yt-paper-tab.ytd-c4-tabbed-header-renderer.style-scope:nth-of-type(3)
-
-! 2023-08-24 https://ya.ru
-ya.ru##.dist-overlay__content_button-theme_light
-ya.ru##.simple-popup__overlay_shown
-
-! 2023-08-25 https://www.avito.ru
-www.avito.ru##.styles-module-root_withPaddings-_crED
-
-! 2023-08-27 https://new.dtf.ru
+nauchniestati.ru##.eduChat
+nauchniestati.ru##.eduChat
 new.dtf.ru##.live
 new.dtf.ru##.sidebar__footer
-
-! 2023-08-28 https://ru.anyquestion.info
-ru.anyquestion.info##.z-10.relative
-
-! 2023-08-30 https://ficbook.net
-ficbook.net##.justify-content-center.align-items-center
-
-! 2023-09-01 https://yandex.ru
-yandex.ru##.RequestMeta-Level_type_antispam
-
-! 2023-09-03 https://dtf.ru
-dtf.ru##.comments__show-all-always
-
-! 2023-09-12 https://www.pepper.ru
-www.pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
-
-! 2023-09-12 https://vk.com
-vk.com##.Post--redesign.deep_active.closed_comments.mailru-visibility-check
-
-! 2023-09-14 https://www.youtube.com
-www.youtube.com##tp-yt-paper-dialog
-
-! 2023-09-15 https://dtf.ru
-dtf.ru##.layout__right-column
-
-! 2023-09-21 https://4pda.to
-4pda.to##.dz0PiQx0
-||4pda.to/s/PXtiacOWGWRz2Yqx3HC4YTf52H1z2A.jpg$image
-
-! 2023-09-22 https://aliexpress.ru
-aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v > .RedModuleBanner_RedModuleBanner__container__1fvl9 > .RedModuleBanner_RedModuleBanner__outer-wrapper__1fvl9
-
-! 2023-09-26 https://ficbook.net
-ficbook.net##.ficfan-top-link
-ficbook.net##.ficfan-banner
-
-! 2023-10-01 https://music.mts.ru
-music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
-music.mts.ru##.hUZfug
-music.mts.ru##.svelte-1rnzvbl.hr-line
-music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
-
-! 2023-10-01 https://music.yandex.ru
-music.yandex.ru##.multi-auth__plus
-
-! 2023-10-04 https://www.fimfiction.net
-www.fimfiction.net##[href="/chat"]
-www.fimfiction.net##li:nth-of-type(5) > [href="/faq"]
-
-! 2023-10-09 https://rule34.xxx
-rule34.xxx##.rightside.dp
-rule34.xxx##.leftside.dp
-
-! 2023-10-13 https://www.dns-shop.ru
-www.dns-shop.ru##.left-filters__consult-wrap
-www.dns-shop.ru##.banner-slider-block
-www.dns-shop.ru##div.products-list__banner
-
-! 2023-10-15 https://www.youtube.com
-www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
-
-! 2023-10-17 https://www.torrentleech.org
-www.torrentleech.org##.vpn-msg-placeholder
-www.torrentleech.org##span.topMenuAds
-
-! 2023-10-17 https://github.com
-github.com##.overflow-hidden.js-notice-dismiss
-
-! 2023-10-18 https://www.reddit.com
-www.reddit.com##._24UNt1hkbrZxLzs5vkvuDh
-
-! 2023-10-18 https://github.com
-github.com##div.react-code-size-details-in-header.Box-sc-g0xbh4-0 > .eYbaPB.types__StyledButton-sc-ws60qy-0
-
-! 2023-10-29 https://megamarket.ru
-megamarket.ru##.catalog-item_banner
-
-https://[*.]www.yandex.ru:443
-
-! 2023-11-06 https://rsload.net
-rsload.net##.tgwrap
-rsload.net##.prfl
-
-! 2023-11-11 https://www.pepper.ru
-www.pepper.ru##.cept-banner-id-6
-
-! 2023-11-15 https://rsload.net
-rsload.net##.link-block > div > div
-
-! 2023-11-29 https://vk.com
-vk.com##.FeedBlockWrap__marginM
-
-! 2023-12-02 https://aliexpress.ru
-aliexpress.ru##div.ModuleBanner_CustomBanner__lineContainer__e0373
-
-! 2023-12-03 https://vrtor.ru
-vrtor.ru###adv_fon
-||vrtor.ru/templates/Torrentino/images/fon.jpg$image
-
-! 2023-12-07 https://thejavasea.me
-thejavasea.me##[href^="https://www.lunaproxy.com/"]
-thejavasea.me##[href^="https://dnsproxy.org/"]
-
-! 2023-12-12 https://www.youtube.com
-www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
-
-! 2023-12-12 https://yandex.ru
-yandex.ru##.RequestMeta-Level_type_level
-
-! 2024-01-16 https://music.yandex.ru
-music.yandex.ru##.head-kids__app
-
-! 2024-01-19 http://samlib.ru
-samlib.ru##td > table
-
-! 2024-01-21 https://market.yandex.ru
-market.yandex.ru##._2q2DD
-market.yandex.ru##._169PI._381y5 > li > .cia-cs
-market.yandex.ru##._3WotU > div > .cia-cs
-market.yandex.ru##._3WotU > div > div > .cia-cs
-market.yandex.ru##._3WotU > div > .cia-vs
-market.yandex.ru##.cq9mG.side-menu-item_help
-market.yandex.ru##.side-menu-item_vacancies
-market.yandex.ru##._31mNV
-
-! 2024-01-24 https://yandex.ru
-yandex.ru##.ImagesViewer-SidebarAdv
-
-! 2024-01-29 https://market.yandex.ru
-market.yandex.ru##._3ECBO._2qTMc._2et7a
-
-! 2024-02-02 https://xeon-e5450.ru
-||xeon-e5450.ru/img/tg_welcome.jpg$image
-
-! 2024-02-04 https://rule34.xxx
-||rule34.xxx/blacklisted.png$image
-
-! 2024-02-07 https://market.yandex.ru
-market.yandex.ru##._3RoU0 > .cia-cs
-
-! 2024-02-12 https://yandex.ru
-yandex.ru###rsya-guarantee
-
-! 2024-02-13 https://market.yandex.ru
-market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
-
-! 2024-02-13 https://kemono.su
-kemono.su##[href="/fanboximports"] > div
-
-! 2024-02-13 https://ficbook.net
-ficbook.net##.disclaimer
-! 2024-02-13 https://aliexpress.ru
-aliexpress.ru##.RedFooter_FooterBottom__linksItem__is8x4.RedFooter_FooterBottom__linksInner__is8x4
-aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
-aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
-aliexpress.ru##.ModuleBanner_ModuleBanner__inner-wrapper_profile_desktop__100x6
-aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
-
-! 2024-02-13 https://github.com
-github.com##.color-fg-muted.f6.pb-6.pt-8.footer
-
-! 2024-02-13 https://kemono.su
-kemono.su##.global-footer
-
-! 2024-02-13 https://f95zone.to
-f95zone.to##.p-footer
-
-! 2024-02-13 https://author.today
-author.today##.pb-lg.pr.pl.genre-s-footer
-author.today##.genre-s-footer
-
-! 2024-02-13 https://4pda.to
-4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
-4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
-4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
-
-! 2024-02-15 https://www.youtube.com
-www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
-
-! 2024-02-15 https://www.terabox.com
-www.terabox.com##.coupon-Popup-box
-www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
-www.terabox.com##.membership-entry
-
-! 2024-02-16 https://nauchniestati.ru
-nauchniestati.ru##.eduChat
-
-! 2024-02-16 https://megamarket.ru
-megamarket.ru##.banner-view
-
-! 2024-02-16 https://habr.com
-habr.com##.tm-block_spacing-around.block.tm-block
-habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
-
-! 2024-02-15 https://www.youtube.com
-www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
-
-! 2024-02-15 https://www.terabox.com
-www.terabox.com##.coupon-Popup-box
-www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
-www.terabox.com##.membership-entry
-
-! 2024-02-16 https://nauchniestati.ru
-nauchniestati.ru##.eduChat
-
-! 2024-02-16 https://megamarket.ru
-megamarket.ru##.banner-view
-
-! 2024-02-16 https://habr.com
-habr.com##.tm-block_spacing-around.block.tm-block
-habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
-
-! 2024-02-17 https://ficbook.net
-ficbook.net##.disclaimer
-
-! 2024-02-17 https://kemono.su
-kemono.su##.shifted.content-wrapper > [href]
-
-! 2024-02-17 https://www.terabox.com
-www.terabox.com##div.bottom-box:nth-of-type(23)
-www.terabox.com##.premium-tip
-www.terabox.com##a.header-btn:nth-of-type(6)
-www.terabox.com##a.header-btn:nth-of-type(5)
-www.terabox.com##a.header-btn:nth-of-type(3)
-www.terabox.com##.capacity-expansion
-
-! 2024-02-17 https://3dnews.ru
-3dnews.ru##.denyOrgsWARN-footer
-
-! 2024-02-17 https://yandex.ru
-yandex.ru##.DistributionDrawer.Drawer_view_default
-yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
-yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
-
-! 2024-02-18 https://fanfics.me
-fanfics.me##div.Sidebar_NativeAd
-
-! 2024-02-22 https://geekrewind.com
-geekrewind.com##.swg-dialog
-geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
-
-! 2024-02-25 https://shoppingcart.aliexpress.ru
-shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
-
-! 2024-02-26 https://servernews.ru
-servernews.ru##.typo-hint
-servernews.ru###copyright
-servernews.ru##body > .right
-
-! 2024-03-01 https://yandex.ru
-yandex.ru##.SplashscreenDefault
-yandex.ru##.DistributionSplashScreenModal-CloseButtonOuter
-
-! 2024-03-01 https://tv.yandex.ru
-tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
-
-! 2024-03-02 https://www.aliexpress.com
-www.aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
-www.aliexpress.com##.order-block.order-recommend
-
-! 2024-03-02 https://aliexpress.ru
-aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-kit_Col__align-self-flex-start__1ccuye.snow-ali-kit_Col__col__1ccuye > .snow-container_SnowContainer__container__dku64u .snow-container_SnowContainer__container__dku64u
-aliexpress.ru##.RedFooter_RedFooter__root__obhtq
-aliexpress.ru##.ProfitShelf_ProfitShelf__profitShelf__cxe7m
-aliexpress.ru##.ali-kit_Container__size_default__1m9f8n.transparent
-
-! 2024-03-02 https://www.ozon.ru
-www.ozon.ru##li.sd8 > .d4155-a
-
-! 2024-03-03 https://market.yandex.ru
-market.yandex.ru##.-GPMv
-
-! 2024-03-05 https://www.avito.ru
-www.avito.ru##.index-module-nav-stRnY
-
-! 2024-03-08 https://vk.com
-vk.com##.shown.submit_post_box_with_sitposting
-vk.com##.submit_post_box_with_sitposting
-
-! 2024-03-10 https://sdgfsdgyuise3.duckdns.org:8081
-sdgfsdgyuise3.duckdns.org##.footer__copyright
-
-! 2024-03-11 https://genshinhelper.ru
-genshinhelper.ru##.main-ad-button.slot
-
-! 2024-03-14 https://promotion.aliexpress.ru
-promotion.aliexpress.ru##.ae-ru-footer
-
-! 2024-03-14 https://beatsage.com
-beatsage.com##.beat-sage-socials
-beatsage.com##.footer
-
-! 2024-03-15 https://megamarket.ru
-megamarket.ru##.page-footer__top
-megamarket.ru##.page-footer__middle
-
-! 2024-03-15 https://www.mvideo.ru
-www.mvideo.ru##.ng-star-inserted.insider-banner
-
-! 2024-03-15 https://market.yandex.ru
-market.yandex.ru##._2MOII._3eAaC
-market.yandex.ru##._2MOII._2H8Pe
-
-! 2024-03-17 https://eu.iot.tuya.com
-eu.iot.tuya.com##.g-iot-help-modal-fadeIn
-
-! 2024-03-17 https://iot.tuya.com
-iot.tuya.com##.g-iot-help-modal-fadeIn
-
-! 2024-03-17 https://eu.iot.tuya.com
-eu.iot.tuya.com##.react-draggable.g-iot-help-modal-entry
-
-! 2024-03-17 https://iot.tuya.com
-iot.tuya.com##.react-draggable
-
-! 2024-03-21 https://pikabu.ru
+one.google.com##.bIfCgf
+one.google.com##.jiw3Ff.hJGsQe
+oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
+oterraria.ru##.clearfix.copyright-inner
+oterraria.ru##noindex
+photos.google.com##.JJpMec
+pikabu.ru##.bell_profile-menu
+pikabu.ru##.footer
 pikabu.ru##.header-menu__item_notification-dot
 pikabu.ru##.menu_promo-sidebar
-pikabu.ru##div.sidebar-block-links
-pikabu.ru##.sidebar-public-ratings
-pikabu.ru##.bell_profile-menu
-pikabu.ru##.sidebar-achievements
-pikabu.ru##.footer
-pikabu.ru##.promo-banner_button
-pikabu.ru##.sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
-pikabu.ru##.sidebar-menu__item_notification-dot
-pikabu.ru##.sidebar-menu__new-badge_green
-pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##.profile-series_empty
 pikabu.ru##.profile__section_achievements
+pikabu.ru##.promo-banner_button
+pikabu.ru##.sidebar-achievements
+pikabu.ru##.sidebar-menu__item_notification-dot
+pikabu.ru##.sidebar-menu__new-badge_green
+pikabu.ru##.sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##.sidebar-public-ratings
+pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##div.sidebar-block-links
+plus.yandex.ru##.tariff-tarifficator-layout__footer
+pornado.co###page_container > .rta_cont
+pornolab.net##.hide-for-print
+promotion.aliexpress.ru##.ae-ru-footer
+q32.pw##div#\$_v_banner
+riccardotramma.com###footer-bottom
+rog-forum.asus.com###cookie-policy-info
+rsload.net##.bundle-descr
+rsload.net##.link-block > div > div
+rsload.net##.prfl
+rsload.net##.tgwrap
+rt.pornhub.com###js-networkBar
+rt.pornhub.com##.clearfix.search-video-thumbs.videos
+rt.pornhub.com##.footerContentWrapper
+rt.pornhub.com##.sectionWrapper > div.sectionWrapper > .sectionTitle
+ru.anyquestion.info##.z-10.relative
+rule34.xxx###pv_leaderboard
+rule34.xxx##.content > span
+rule34.xxx##.leftside.dp
+rule34.xxx##.rightside.dp
+rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
+rule34.xxx##[src="https://rule34.xxx/static/icame.png"]
+rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(4)
+rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
+rule34video.com##.footer
+rule34video.com##.thumb.spot-thumb
+rutor.info###down
+rutor.org##h2:nth-of-type(1)
+rutube.ru##.pen-video-carousel__container_inline.pen-video-carousel__container
+rutube.ru##div.storefront-item_tag.storefront-item
+samlib.ru##td > table
+sdgfsdgyuise3.duckdns.org###sidebar > .pt-3
+sdgfsdgyuise3.duckdns.org##.footer__copyright
+sdgfsdgyuise3.duckdns.org##.mt-2.show.fade.alert-dismissible.mt-3.alert-info.alert
+sdgfsdgyuise3.duckdns.org##.mt-4.footer
+servernews.ru###copyright
+servernews.ru##.typo-hint
+servernews.ru##body > .right
+shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
+sprut.ai##.col-12.col-md-4
+store.epicgames.com##.epic_games
+thecommunity.ru##.footer
+thejavasea.me##[href^="https://dnsproxy.org/"]
+thejavasea.me##[href^="https://www.lunaproxy.com/"]
+theporndude.com##.footer
+theporndude.com##.top-text
+theporndude.com##.with-bg
+timeweb.com##.cm-banner-popup-small
+torrent-soft.pro##.pa-wrapper
+track.aliexpress.com##.footer-copywrite
+track.aliexpress.com##.site-footer
+trade.aliexpress.ru##.footer-copywrite
+trade.aliexpress.ru##.site-footer
+trade.aliexpress.ru##.SnowBanner_SnowBanner__banner__1p0dy
+trade.aliexpress.ru##.SnowBanner_SnowBanner__banner__21lbx
+trade.aliexpress.ru##.SnowFooter_SnowFooter__container__ph6zk
+trade.aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(4)
+tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
+unite4buy.ru##.footer-wrapper
+valid.x86.fr###hhbblrlrba-728-1-blocked
+valid.x86.fr###main__legals
+valid.x86.fr##.block_33
+valid.x86.fr##.widget-advert-728
+valid.x86.fr##.widget-advert-970
+vk.com###feed_filters
+vk.com###l_ads
+vk.com###l_vkfest2023
+vk.com##.CallHistoryScreenLanding--header
+vk.com##.CallHistoryScreenLanding--list
+vk.com##.CallHistoryScreenLanding--subheader
+vk.com##.feed_groups_recomm_friends.js-feed_groups_recomm.feed_groups_recomm.page_block
+vk.com##.FeedBlockWrap__marginM
+vk.com##.InterestsBlock.page_block
+vk.com##.left_menu_nav_wrap
+vk.com##.Post--redesign.deep_active.closed_comments.mailru-visibility-check
+vk.com##.shown.submit_post_box_with_sitposting
+vk.com##.stories_feed_not_nav_buttons.stories_feed_with_thumb.clear_fix.stories_feed_wrap.page_block
+vk.com##.submit_post_box_with_sitposting
+vrtor.ru###adv_fon
+www.aliexpress.com###mobile-download
+www.aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
+www.aliexpress.com##.footer-copywrite
+www.aliexpress.com##.order-block.order-recommend
+www.aliexpress.com##.site-footer
+www.apkmirror.com##.expandMargins
+www.asus.com##.footerExternal
+www.asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
+www.avito.ru##.advert-serp-block-wrapper-KtgxK
+www.avito.ru##.alert-design-warning-lSCAn
+www.avito.ru##.apps-banner-apps-banner-BKOwv
+www.avito.ru##.create-promocode-banner-create-promocode-banner-_XHN2
+www.avito.ru##.index-innerPosition-sNjFT
+www.avito.ru##.index-module-nav-stRnY
+www.avito.ru##.index-nav-r2kHM
+www.avito.ru##.index-root-auOiW
+www.avito.ru##.js-apps-banner-banner
+www.avito.ru##.js-seller-safety-banner
+www.avito.ru##.navbar-root-H9tUO
+www.avito.ru##.services-root-hgyuF
+www.avito.ru##.shortVideosWitcher-section-NHx6w
+www.avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
+www.avito.ru##.styles-module-root_withPaddings-_crED
+www.avito.ru##.uxs-1ii9xhp
+www.avito.ru##.uxs-unilch
+www.avito.ru##div.styles-adv-D1naz.advert-mimicry-block-wrapper-_Fmsp
+www.chitai-gorod.ru##.footer
+www.citilink.ru##.e14s7mmi0
+www.citilink.ru##.eowcxv00
+www.citilink.ru##.Footer__copyright
+www.citilink.ru##.js--Subscribe.Subscribe
+www.deviantart.com##.srMYi
+www.deviantart.com##.uNMof._3WH5n
+www.dns-shop.ru##.banner-slider-block
+www.dns-shop.ru##.footer
+www.dns-shop.ru##.left-filters__consult-wrap
+www.dns-shop.ru##div.products-list__banner
+www.dropbox.com##.dig-Modal-overlay
+www.eldorado.ru##.footer
+www.expresslrs.org##.md-consent
+www.expresslrs.org##.md-consent__overlay
+www.fanfiction.net###p_footer
+www.fimfiction.net##.advert.right
+www.fimfiction.net##.footer
+www.fimfiction.net##.sponsor-reminder
+www.fimfiction.net##[href="/chat"]
+www.fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button
+www.fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button > .branding-text
+www.fimfiction.net##li:nth-of-type(5) > [href="/faq"]
+www.fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded-button
+www.fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
+www.fimfiction.net##ul.navigation-drawer-list [href="/faq"]
+www.fimfiction.net##ul.navigation-drawer-list [href="/rules"]
+www.foxnews.com##.contain
+www.foxnews.com##.site-footer
+www.google.ru###swml
+www.igromania.ru##.strunmenu
+www.ixbt.com###ixbt-video-news-block
+www.ixbt.com##.adv_button_container
+www.ixbt.com##.b-content__footer.b-content
+www.ixbt.com##.b-footer__mobile--wrapper
+www.ixbt.com##.b-lined-title.b-block__tagscloud.b-block
+www.ixbt.com##.block__footer.b-block
+www.ixbt.com##.footer-center
+www.ixbt.com##.js-conf-block.b-lined-title.b-block__conflist.b-block
+www.ixbt.com##.mini_quiz
+www.ixbt.com##.recommend_item-container
+www.ixbt.com##.topline__left
+www.ixbt.com##.video-slider-block.b-lined-title.b-block__conflist.b-block
+www.ixbt.com##div.b-lined-title.b-block__newslistdefault.b-block:nth-of-type(5)
+www.mvideo.ru##.ng-star-inserted.insider-banner
+www.newgrounds.com##.blackout-inner
+www.newgrounds.com##.header-deck
+www.newgrounds.com##.inhousepromo
+www.newgrounds.com##div.blackout
+www.newgrounds.com##div.blackout-hover
+www.nexusmods.com###rj-footer
+www.nvidia.com##.footer
+www.ozon.ru##.c7t
+www.ozon.ru##li.sd8 > .d4155-a
+www.paypal.com##.css-lm4xxy-elevation_level1
+www.paypal.com##.footer
+www.pepper.ru##.cept-banner-id-1.cept-banner
+www.pepper.ru##.cept-banner-id-6
+www.pepper.ru##.footer
+www.pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
+www.pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
+www.pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
+www.pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
+www.reddit.com##._24UNt1hkbrZxLzs5vkvuDh
+www.saveporn.net###itfloater_wd
+www.speedtest.net##.footer
+www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
+www.terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
+www.terabox.com##.capacity-expansion
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.coupon-Popup-box
+www.terabox.com##.membership-entry
+www.terabox.com##.membership-entry
+www.terabox.com##.premium-tip
+www.terabox.com##a.header-btn:nth-of-type(3)
+www.terabox.com##a.header-btn:nth-of-type(5)
+www.terabox.com##a.header-btn:nth-of-type(6)
+www.terabox.com##div.bottom-box:nth-of-type(23)
+www.torrentleech.org##.vpn-msg-placeholder
+www.torrentleech.org##span.topMenuAds
+www.xda-developers.com###footer
+www.xda-developers.com##.panel-list > li > [href="https://www.xda-developers.com/about/"]
+www.xda-developers.com##.panel-target-highlight
+www.xda-developers.com##[href="https://www.xda-developers.com/newsletter-signup/"]
+www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"]
+www.xda-developers.com##[href="https://www.xda-developers.com/the-team/"] > font > font
+www.xda-developers.com##nav.panel-section:nth-of-type(3)
+www.xda-developers.com##nav.panel-section:nth-of-type(4)
+www.yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
+www.youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
+www.youtube.com###categoryPill
+www.youtube.com###chat
+www.youtube.com###content > .ytd-rich-section-renderer.style-scope
+www.youtube.com###copyright
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
+www.youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
+www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
+www.youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
+www.youtube.com##.ytd-metadata-row-container-renderer.style-scope
+www.youtube.com##tp-yt-paper-dialog
+www.youtube.com##tp-yt-paper-tab.ytd-c4-tabbed-header-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-browse #dismissible ytd-rich-grid-slim-media[is-short]:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-grid-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+www.youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+xakep.ru##.default
+xhamstervideo.net##.cookie-announce
+xhamstervideo.net##.no-ts-initiailize
+xhamstervideo.net##.no-update
+xhamstervideo.net##.top-video-block
+ya.ru##.dist-overlay__content_button-theme_light
+ya.ru##.message-promo_js_inited
+ya.ru##.search3__doodle-link.home-link2
+ya.ru##.simple-popup__overlay_shown
+ya.ru##.survey__content
+ya.ru##.usermenu-redesign__after-footer
+yandex.ru###rsya-guarantee
+yandex.ru##._view_small.tooltip-content-view
+yandex.ru##.AliceFabPromo_shown.AliceFabPromo
+yandex.ru##.DarkThemePromo
+yandex.ru##.distr-nav
+yandex.ru##.DistributionDrawer.Drawer_view_default
+yandex.ru##.DistributionSplashScreenModal-CloseButtonOuter
+yandex.ru##.h6g2e8ot8G0O6hN2wk5oa-FooterContent
+yandex.ru##.HeaderPhoneActions-Alice
+yandex.ru##.ImagesViewer-SidebarAdv
+yandex.ru##.RequestMeta-Level_type_antispam
+yandex.ru##.RequestMeta-Level_type_level
+yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
+yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
+yandex.ru##.SerpFooterLinksGroup_type_feedback.SerpFooterLinksGroup
+yandex.ru##.SplashscreenDefault
+yandex.ru##.user-menu-view__plus
+yandex.ru##a.user-menu-item-view:nth-of-type(1)
+yandex.ru##div.serp-list__card.serp-item:nth-of-type(5)
+yougame.biz##.yg_first_post
+youtube.com##.iv-click-target
+youtube.com##.ytp-cards-button
+youtube.com##.ytp-cards-teaser
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-image
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-element-shadow
+youtube.com##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
+youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this
+youtube.com##.ytp-ce-element.ytp-ce-video.ytp-ce-element-show
+youtube.com##.ytp-ce-expanding-image
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+zvideox.net##iframe:nth-of-type(2)
+||4pda.to/s/PXtiacOWGWRz2Yqx3HC4YTf52H1z2A.jpg$image
+||avatars.mds.yandex.net/get-adfox-content
+||oterraria.ru/wp-content/uploads/2022/09/fon-genshindrop.jpg$image
+||raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg$image
+||ru.gecid.com/data/adbn/1024_90.png$image
+||rule34.xxx/blacklisted.png$image
+||static.fimfiction.net/images/icons/subscribe-star.png$image
+||vkplay.live/app/embed/random$subdocument
+||vrtor.ru/templates/Torrentino/images/fon.jpg$image
+||widget.uxfeedback.ru$image
+||xeon-e5450.ru/img/tg_welcome.jpg$image

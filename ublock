@@ -21,7 +21,6 @@
 4pda.to##.j3z13EwC1B69wiUQ6d6Uc8fulg
 4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
-4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"] > svg
 4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
 4pda.to##.pTcWKkPpPgxwDeA32ucm
 4pda.to##.pTcWKkPpPgxwDeA32ucm.roQu
@@ -32,7 +31,6 @@
 4pda.to##.wide-2
 4pda.to##.wide-3
 4pda.to##article.iUz2VrOjotdohZul
-4pda.to##article.iUz2VrOjotdohZul.oM1atWC3y9.post:nth-of-type(9)
 4pda.to##article.rnd-replace-sidebar-all
 4pda.to##article.ud2DA3bn3ktLoer
 4pda.to##article.WbCEasV0mEC7NlI
@@ -139,7 +137,6 @@ f95zone.to##.p-footer
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
 ficbook.net##.disclaimer
-ficbook.net##.disclaimer
 ficbook.net##.disclamer
 ficbook.net##.discount-sticky-container
 ficbook.net##.ficfan-banner
@@ -153,8 +150,8 @@ ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
 ficbook.net##.justify-content-between
 ficbook.net##.justify-content-center.align-items-center
 ficbook.net##.list-inline
-ficbook.net##.main-discount-desktop.hidden-xs.main-discount.discount
-ficbook.net##.main-discount-mobile.visible-xs.main-discount.discount
+ficbook.net##.main-discount-desktop
+ficbook.net##.main-discount-mobile
 ficbook.net##.page-footer
 ficbook.net##.premium-button
 ficbook.net##.text-right.mb-30
@@ -187,8 +184,6 @@ geekrewind.com##.swg-dialog
 genshinhelper.ru##.main-ad-button.slot
 google.ru###swml
 habr.com##.tm-block_spacing-around.block.tm-block
-habr.com##.tm-block_spacing-around.block.tm-block
-habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
 habr.com##a[href^="https://vdsina.ru/cloud-servers"]
 hoff.ru##.banner-container
@@ -399,11 +394,8 @@ spiskin.ru###is_reclame-layer
 sprut.ai##.col-12.col-md-4
 store.epicgames.com##.epic_games
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
-terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
 terabox.com##.capacity-expansion
 terabox.com##.coupon-Popup-box
-terabox.com##.coupon-Popup-box
-terabox.com##.membership-entry
 terabox.com##.membership-entry
 terabox.com##.premium-tip
 terabox.com##a.header-btn:nth-of-type(3)
@@ -512,11 +504,8 @@ youtube.com##.ytd-metadata-row-container-renderer.style-scope
 youtube.com##.ytp-cards-button
 youtube.com##.ytp-cards-teaser
 youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-image
-youtube.com##.ytp-ce-covering-overlay
 youtube.com##.ytp-ce-covering-overlay
 youtube.com##.ytp-ce-element
-youtube.com##.ytp-ce-element-shadow
 youtube.com##.ytp-ce-element-shadow
 youtube.com##.ytp-ce-element.ytp-ce-bottom-right-quad.ytp-ce-size-640
 youtube.com##.ytp-ce-element.ytp-ce-channel.ytp-ce-channel-this

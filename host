@@ -33,6 +33,9 @@
 ||*.gay^
 ||*.ua^
 #
+||*cackle.me^
+||*sc.omtrdc.net^
+||*devices.sberbank.ru^
 ||*androidattestationvalidation-pa.googleapis.com^
 ||*api-hprof.odkl.ru^
 ||*api.boosty.to^

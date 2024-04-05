@@ -182,6 +182,7 @@ foxnews.com##.site-footer
 geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
 geekrewind.com##.swg-dialog
 genshinhelper.ru##.main-ad-button.slot
+github.com##.p-responsive.color-fg-muted
 google.ru###swml
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
@@ -262,7 +263,6 @@ market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
 mega.nz##.almost-full.fm-notification-block
 mega.nz##.almost-full.storage-dialog
 megamarket.ru##.banner-view
-megamarket.ru##.banner-view
 megamarket.ru##.catalog-item_banner
 megamarket.ru##.header-entry-point__app
 megamarket.ru##.item_dark.item.header-entry-point__item
@@ -303,7 +303,6 @@ music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(2)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3)
 mvideo.ru##.ng-star-inserted.insider-banner
 nauchniestati.ru##.eduChat
-nauchniestati.ru##.eduChat
 new.dtf.ru##.live
 new.dtf.ru##.sidebar__footer
 newgrounds.com##.blackout-inner
@@ -328,6 +327,7 @@ pepper.ru##.footer
 pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
 photos.google.com##.JJpMec
 pikabu.ru##.bell_profile-menu
+pikabu.ru##.emotions
 pikabu.ru##.footer
 pikabu.ru##.header-menu__item_notification-dot
 pikabu.ru##.menu_promo-sidebar
@@ -340,6 +340,7 @@ pikabu.ru##.sidebar-menu__item_notification-dot
 pikabu.ru##.sidebar-menu__new-badge_green
 pikabu.ru##.sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##.sidebar-public-ratings
+pikabu.ru##.story__donate_new
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links
 pixeldrain.com##strong
@@ -446,6 +447,16 @@ vkplay.ru##.ph-footer__bottom
 vrtor.ru###adv_fon
 www.avito.ru##.index-module-root-FJ4jT
 www.nexusmods.com##.donation-form
+www.nexusmods.com##.hr
+www.nexusmods.com##.mfp-ready
+www.nexusmods.com##.mfp-s-ready
+www.nexusmods.com##.rj-btn-full.rj-btn-standard
+www.nexusmods.com##.subheader
+www.nexusmods.com##tbody
+www.nexusmods.com##thead > tr
+www.ozon.ru##.df0
+www.ozon.ru##.df1
+www.ozon.ru##.e8d
 xakep.ru##.default
 xda-developers.com###footer
 xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"]
@@ -462,6 +473,9 @@ xhamstervideo.net##.top-video-block
 ya.ru##.dist-overlay__content_button-theme_light
 ya.ru##.message-promo_js_inited
 ya.ru##.search3__doodle-link.home-link2
+ya.ru##.SerpFooter-LinksGroup_type_feedback
+ya.ru##.SerpFooter-LinksGroup_type_morda
+ya.ru##.SerpFooter-LinksGroup_type_recommendations
 ya.ru##.simple-popup__overlay_shown
 ya.ru##.survey__content
 ya.ru##.usermenu-redesign__after-footer
@@ -491,7 +505,6 @@ youtube.com###categoryPill
 youtube.com###chat
 youtube.com###content > .ytd-rich-section-renderer.style-scope
 youtube.com###copyright
-youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
 youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next

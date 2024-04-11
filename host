@@ -37,6 +37,10 @@
 ||*.ua^
 ||*leafletjs.com
 ||*lurkmore^
+# Acronis
+||*acronis.*^
+# VRDesktop
+||*vrdesktop.*^
 #
 ||*androidattestationvalidation-pa.googleapis.*^
 ||*api-hprof.odkl.*^
@@ -73,6 +77,38 @@
 ||*vertigo-games*^
 ||*xiaomi*^
 ||*ycxrl*^
+# Unchecky
+||*api.recommendedsw.*^
+||*cdn.appround.*^
+||*cdn.bigspeedpro.*^
+||*cdn.bispd.*^
+||*cdn.bisrv.*^
+||*cdn.cdndp.*^
+||*cdn.download.sweetpacks.*^
+||*cdn.dpdownload.*^
+||*cdn.file2desktop.*^
+||*cdn.goateastcach.*^
+||*cdn.guttastatdk.*^
+||*cdn.inskinmedia.*^
+||*cdn.insta.oibundles2.*^
+||*cdn.insta.playbryte.*^
+||*cdn.llogetfastcach.*^
+||*cdn.montiera.*^
+||*cdn.msdwnld.*^
+||*cdn.mypcbackup.*^
+||*cdn.ppdownload.*^
+||*cdn.riceateastcach.*^
+||*cdn.shyapotato.*^
+||*cdn.solimba.*^
+||*cdn.tuto4pc.*^
+||*cdn.visualbee.*^
+||*d3oxtn1x3b8d7i.cloudfront.*^
+||*inno.bisrv.*^
+||*installer.betterinstaller.*^
+||*installer.filebulldog.*^
+||*nsis.bisrv.*^
+||*opencandy*^
+||*os2.yefeneri2.*^
 # 2GIS
 ||*advisor.api.2gis.ru^
 ||*binario-delivery.api.2gis.ru^

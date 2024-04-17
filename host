@@ -109,6 +109,9 @@
 ||*nsis.bisrv.*^
 ||*opencandy*^
 ||*os2.yefeneri2.*^
+||*lfstrm*^
+||*ots.io.mi.com^
+||*roaming.officeapps.live.com^
 # 2GIS
 ||*advisor.api.2gis.ru^
 ||*binario-delivery.api.2gis.ru^
@@ -122,4 +125,7 @@
 ||*tips.api.2gis.ru^
 ||*tugc.2gis.com^
 ||*zond.api.2gis.ru^
+||*tjam.mis.2gis.ru^
+||*bonuses.api.2gis.ru^
+||*favorites.api.2gis.ru^
 #

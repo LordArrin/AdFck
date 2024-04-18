@@ -72,6 +72,7 @@ aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-k
 apkmirror.com##.expandMargins
 asus.com##.footerExternal
 asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
+audio-extractor.net###allapps-extension-popup
 author.today##.footer
 author.today##.genre-s-footer
 author.today##.pb-lg.pr.pl.genre-s-footer
@@ -106,6 +107,7 @@ citilink.ru##.js--Subscribe.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
 club.dns-shop.ru##.club-sidebar__footer
 club.dns-shop.ru##.club-sidebar__footer-navigation-list
+community.cloudflare.com##.modal-container
 denuvo.store##.altumcode-informational-wrapper
 derpibooru.org###footer
 deviantart.com##.srMYi
@@ -155,6 +157,7 @@ ficbook.net##.justify-content-center.align-items-center
 ficbook.net##.list-inline
 ficbook.net##.main-discount-desktop
 ficbook.net##.main-discount-mobile
+ficbook.net##.main-holder > .mb-10
 ficbook.net##.page-footer
 ficbook.net##.premium-button
 ficbook.net##.text-right.mb-30
@@ -222,6 +225,7 @@ kemono.su##[href="/fanboximports"] > div
 lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
 lk.bcnn.ru##.site-footer
+losst.pro###extapp-feedback-container
 lurkmore.me###siteNotice
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
@@ -240,9 +244,11 @@ mail.google.com##.aeU
 mail.yandex.ru##.Badge
 mail.yandex.ru##.DisableAdsButton__root--dCJnD
 mail.yandex.ru##.Drawer-DragObserver
+mail.yandex.ru##.InboxGPTOnboarding__modal--n2gzf
 mail.yandex.ru##.legouser__menu-item_action_hiring.legouser__menu-item.count-me.menu__item_type_link.menu__item
 mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
 mail.yandex.ru##.mail-SubscriptionsPopup
+mail.yandex.ru##.Modal-Overlay
 mail.yandex.ru##.Modal-Wrapper
 mail.yandex.ru##.Popup_modal_24TLt
 mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-ServiceList-MainService.promozavr-anchor-servicePremiumButton.PSHeaderService_theme_dark.PSHeaderService
@@ -267,11 +273,13 @@ mega.nz##.almost-full.fm-notification-block
 mega.nz##.almost-full.storage-dialog
 megamarket.ru##.banner-view
 megamarket.ru##.catalog-item_banner
+megamarket.ru##.department-header-banners-search
 megamarket.ru##.header-entry-point__app
 megamarket.ru##.item_dark.item.header-entry-point__item
 megamarket.ru##.mass-communication__img
 megamarket.ru##.page-footer__middle
 megamarket.ru##.page-footer__top
+megamarket.ru##div.catalog-item_product-promo-banner
 message.aliexpress.com##.footer-copywrite
 message.aliexpress.com##.site-footer
 music.mts.ru##.hUZfug
@@ -344,6 +352,7 @@ pikabu.ru##.sidebar-menu__new-badge_green
 pikabu.ru##.sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##.sidebar-public-ratings
 pikabu.ru##.story__donate_new
+pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links
 pixeldrain.com##strong
@@ -362,6 +371,7 @@ rsload.net##.bundle-descr
 rsload.net##.link-block > div > div
 rsload.net##.prfl
 rsload.net##.tgwrap
+rsload.net##[href="https://rsload.net/soft/windows/"]
 rt.pornhub.com###js-networkBar
 rt.pornhub.com##.clearfix.search-video-thumbs.videos
 rt.pornhub.com##.footerContentWrapper
@@ -431,6 +441,7 @@ valid.x86.fr###main__legals
 valid.x86.fr##.block_33
 valid.x86.fr##.widget-advert-728
 valid.x86.fr##.widget-advert-970
+vk.com###box_layer_bg
 vk.com###feed_filters
 vk.com###l_ads
 vk.com###l_vkfest2023
@@ -448,6 +459,7 @@ vk.com##.submit_post_box_with_sitposting
 vkplay.ru##.ph-footer-wrapper
 vkplay.ru##.ph-footer__bottom
 vrtor.ru###adv_fon
+www.avito.ru##.col-12
 www.avito.ru##.index-module-root-FJ4jT
 www.nexusmods.com##.donation-form
 www.nexusmods.com##.hr
@@ -460,6 +472,8 @@ www.nexusmods.com##thead > tr
 www.ozon.ru##.df0
 www.ozon.ru##.df1
 www.ozon.ru##.e8d
+www.pepper.ru##.cept-banner-id-25
+www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 xakep.ru##.default
 xda-developers.com###footer
 xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"]

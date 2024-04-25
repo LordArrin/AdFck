@@ -141,16 +141,25 @@ f95zone.to###patreon_banner
 f95zone.to##.p-footer
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
+ficbook.net###main > .mx-10.d-flex.fb-ads-block
+ficbook.net##.ads-in-text
+ficbook.net##.desktop-ad-stick-to-left.d-flex.fb-ads-block
 ficbook.net##.disclaimer
 ficbook.net##.disclamer
 ficbook.net##.discount-sticky-container
+ficbook.net##.fanfic-promo
 ficbook.net##.ficfan-banner
 ficbook.net##.ficfan-top-link
 ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
+ficbook.net##.help-box
+ficbook.net##.hidden-xs.btn-on-book-background--premium
 ficbook.net##.hidden-xs.btn-on-book-background--premium.btn-on-book-background
+ficbook.net##.hidden-xs.mx-10.d-flex.fb-ads-block
+ficbook.net##.hot-fanfic
 ficbook.net##.hot-request
 ficbook.net##.if-you-were-premium
 ficbook.net##.important-link
+ficbook.net##.js-fanfic-promo-carousel
 ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
 ficbook.net##.justify-content-between
 ficbook.net##.justify-content-center.align-items-center
@@ -158,16 +167,23 @@ ficbook.net##.list-inline
 ficbook.net##.main-discount-desktop
 ficbook.net##.main-discount-mobile
 ficbook.net##.main-holder > .mb-10
+ficbook.net##.mb-30.d-flex.fb-ads-block
 ficbook.net##.page-footer
 ficbook.net##.premium-button
+ficbook.net##.sticky-bottom-block
 ficbook.net##.text-right.mb-30
+ficbook.net##.visible-xs.main-discount-mobile
 ficbook.net##[href="/authors/845367/blog#content"]
 ficbook.net##[href="/home/premium/coins"]
 ficbook.net##[href="/randomfic"]
 ficbook.net##[href^="/home/money"]
+ficbook.net##a.mb-5
 ficbook.net##article.fanfic-block-disliked
+ficbook.net##article.fanfic-inline-hot
 ficbook.net##article.fanfic-inline-hot.fanfic-inline
+ficbook.net##div.d-flex.fb-ads-block
 ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
+ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
 fimfiction.net##.advert.right
 fimfiction.net##.footer
 fimfiction.net##.sponsor-reminder
@@ -252,6 +268,7 @@ mail.yandex.ru##.Modal-Overlay
 mail.yandex.ru##.Modal-Wrapper
 mail.yandex.ru##.Popup_modal_24TLt
 mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-ServiceList-MainService.promozavr-anchor-servicePremiumButton.PSHeaderService_theme_dark.PSHeaderService
+mail.yandex.ru##.qa-LeftColumn-Footer
 mail.yandex.ru##.smartBannerToast-container
 mail.yandex.ru##.smartBannerToast-text
 market.yandex.ru###banner-streamer
@@ -460,7 +477,9 @@ vkplay.ru##.ph-footer-wrapper
 vkplay.ru##.ph-footer__bottom
 vrtor.ru###adv_fon
 www.avito.ru##.col-12
+www.avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 www.avito.ru##.index-module-root-FJ4jT
+www.avito.ru##.personal-discount-adaptive-original-banner-Ohtse
 www.nexusmods.com##.donation-form
 www.nexusmods.com##.hr
 www.nexusmods.com##.mfp-ready
@@ -473,6 +492,7 @@ www.ozon.ru##.df0
 www.ozon.ru##.df1
 www.ozon.ru##.e8d
 www.pepper.ru##.cept-banner-id-25
+www.pepper.ru##.cept-banner-id-26.cept-banner
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 xakep.ru##.default
 xda-developers.com###footer

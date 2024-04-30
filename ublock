@@ -26,7 +26,6 @@
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
 4pda.to##.pTcWKkPpPgxwDeA32ucm
-4pda.to##.pTcWKkPpPgxwDeA32ucm.roQu
 4pda.to##.QhXeG6pWTz1lBDcdSz1ldWXg
 4pda.to##.rnd-replace-revive_zone-type
 4pda.to##.second-menu
@@ -58,7 +57,6 @@ aliexpress.ru##.MultiSidebarTab_MultiSidebarTab__sideBarContainer__6cn83
 aliexpress.ru##.ProfitShelf_ProfitShelf__profitShelf__cxe7m
 aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
-aliexpress.ru##.RedFooter_FooterBottom__linksItem__is8x4.RedFooter_FooterBottom__linksInner__is8x4
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_RedFooter__root__obhtq
 aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
@@ -70,6 +68,10 @@ aliexpress.ru##div.ModuleBanner_CustomBanner__lineContainer__e0373
 aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v > .RedModuleBanner_RedModuleBanner__container__1fvl9 > .RedModuleBanner_RedModuleBanner__outer-wrapper__1fvl9
 aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-kit_Col__align-self-flex-start__1ccuye.snow-ali-kit_Col__col__1ccuye > .snow-container_SnowContainer__container__dku64u .snow-container_SnowContainer__container__dku64u
 apkmirror.com##.expandMargins
+archiveofourown.org###add_comment_placeholder
+archiveofourown.org###footer
+archiveofourown.org###kudos
+as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 asus.com##.footerExternal
 asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
 audio-extractor.net###allapps-extension-popup
@@ -153,7 +155,6 @@ ficbook.net##.ficfan-top-link
 ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
 ficbook.net##.help-box
 ficbook.net##.hidden-xs.btn-on-book-background--premium
-ficbook.net##.hidden-xs.btn-on-book-background--premium.btn-on-book-background
 ficbook.net##.hidden-xs.mx-10.d-flex.fb-ads-block
 ficbook.net##.hot-fanfic
 ficbook.net##.hot-request
@@ -180,7 +181,6 @@ ficbook.net##[href^="/home/money"]
 ficbook.net##a.mb-5
 ficbook.net##article.fanfic-block-disliked
 ficbook.net##article.fanfic-inline-hot
-ficbook.net##article.fanfic-inline-hot.fanfic-inline
 ficbook.net##div.d-flex.fb-ads-block
 ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
 ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
@@ -189,7 +189,6 @@ fimfiction.net##.footer
 fimfiction.net##.sponsor-reminder
 fimfiction.net##[href="/chat"]
 fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button
-fimfiction.net##div.desktop.section > .branded-button-subscribe-star.branded-button > .branding-text
 fimfiction.net##li:nth-of-type(5) > [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded-button
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
@@ -245,9 +244,6 @@ losst.pro###extapp-feedback-container
 lurkmore.me###siteNotice
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
-m.avito.ru##div.a0ZZf:nth-of-type(3)
-m.avito.ru##div:nth-of-type(5)
-m.fanfiction.net##div:nth-of-type(8)
 m.fanfiction.net##form > div
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
@@ -281,7 +277,6 @@ market.yandex.ru##._31mNV
 market.yandex.ru##._3ECBO._2qTMc._2et7a
 market.yandex.ru##._3RoU0 > .cia-cs
 market.yandex.ru##._3WotU > div > .cia-cs
-market.yandex.ru##._3WotU > div > .cia-vs
 market.yandex.ru##._3WotU > div > div > .cia-cs
 market.yandex.ru##.cq9mG.side-menu-item_help
 market.yandex.ru##.side-menu-item_vacancies
@@ -349,6 +344,11 @@ ozon.ru##.c7t
 ozon.ru##li.sd8 > .d4155-a
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
+pentest-tools.com##.lg\:py-6.lg\:px-8
+pentest-tools.com##.min-\[1800px\]\:flex-col
+pentest-tools.com##.min-\[1800px\]\:p-12
+pentest-tools.com##.py-4.px-2
+pentest-tools.com##.sm\:mx-0.-mx-4
 pepper.ru##.cept-banner-id-1.cept-banner
 pepper.ru##.cept-banner-id-6
 pepper.ru##.footer
@@ -372,6 +372,7 @@ pikabu.ru##.story__donate_new
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links
+pikabu.ru##section.stories-feed__message:nth-of-type(2)
 pixeldrain.com##strong
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
@@ -415,6 +416,7 @@ sdgfsdgyuise3.duckdns.org###sidebar > .pt-3
 sdgfsdgyuise3.duckdns.org##.footer__copyright
 sdgfsdgyuise3.duckdns.org##.mt-2.show.fade.alert-dismissible.mt-3.alert-info.alert
 sdgfsdgyuise3.duckdns.org##.mt-4.footer
+sdgfsdgyuise3.duckdns.org##a.footer__link:nth-of-type(2)
 servernews.ru###copyright
 servernews.ru##.typo-hint
 servernews.ru##body > .right
@@ -478,6 +480,8 @@ vkplay.ru##.ph-footer__bottom
 vrtor.ru###adv_fon
 www.avito.ru##.col-12
 www.avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
+www.avito.ru##.index-content-SaGyO > div
+www.avito.ru##.index-miniMenu-pZSYw
 www.avito.ru##.index-module-root-FJ4jT
 www.avito.ru##.personal-discount-adaptive-original-banner-Ohtse
 www.nexusmods.com##.donation-form
@@ -491,6 +495,7 @@ www.nexusmods.com##thead > tr
 www.ozon.ru##.df0
 www.ozon.ru##.df1
 www.ozon.ru##.e8d
+www.ozon.ru##div.om_7_a:nth-of-type(5)
 www.pepper.ru##.cept-banner-id-25
 www.pepper.ru##.cept-banner-id-26.cept-banner
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
@@ -519,6 +524,7 @@ ya.ru##.usermenu-redesign__after-footer
 yandex.ru###rsya-guarantee
 yandex.ru##._view_small.tooltip-content-view
 yandex.ru##.AliceFabPromo_shown.AliceFabPromo
+yandex.ru##.content__right_cols_12
 yandex.ru##.DarkThemePromo
 yandex.ru##.distr-nav
 yandex.ru##.DistributionDrawer.Drawer_view_default

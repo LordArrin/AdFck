@@ -6,6 +6,7 @@
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
 !
+3dnews.ru###btwLabel
 3dnews.ru###currencyTicker
 3dnews.ru###footer
 3dnews.ru###projects
@@ -22,6 +23,7 @@
 4pda.to##.f-holder
 4pda.to##.globalmesscontent
 4pda.to##.j3z13EwC1B69wiUQ6d6Uc8fulg
+4pda.to##.l5ohJYJW2FH
 4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
@@ -55,10 +57,12 @@ aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
 aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper_desktop__hxlp1
 aliexpress.ru##.MultiSidebarTab_MultiSidebarTab__sideBarContainer__6cn83
 aliexpress.ru##.ProfitShelf_ProfitShelf__profitShelf__cxe7m
+aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
 aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_RedFooter__root__obhtq
+aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
 aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
 aliexpress.ru##.SnowFooter_SnowFooter__root__1c9lw
 aliexpress.ru##.SnowSaleBanner_SnowSaleBanner__container__9s7tt
@@ -99,6 +103,8 @@ avito.ru##div.styles-adv-D1naz.advert-mimicry-block-wrapper-_Fmsp
 backit.me##.onboarding-modal.el-dialog__wrapper
 beatsage.com##.beat-sage-socials
 beatsage.com##.footer
+blog.csdn.net##.false.passport-login-tip-container
+blog.csdn.net##.passport-login-container
 boosty.to##.Footer_content_PwrVj
 calendar.yandex.ru##.AsideFooter__wrap--zQe-n
 chitai-gorod.ru##.footer
@@ -145,6 +151,7 @@ fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
 ficbook.net###main > .mx-10.d-flex.fb-ads-block
 ficbook.net##.ads-in-text
+ficbook.net##.btn-primary.btn-sm.btn
 ficbook.net##.desktop-ad-stick-to-left.d-flex.fb-ads-block
 ficbook.net##.disclaimer
 ficbook.net##.disclamer
@@ -161,6 +168,7 @@ ficbook.net##.hot-request
 ficbook.net##.if-you-were-premium
 ficbook.net##.important-link
 ficbook.net##.js-fanfic-promo-carousel
+ficbook.net##.jsVueComponent.dropdown.vs--searchable.vs--single.v-select
 ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
 ficbook.net##.justify-content-between
 ficbook.net##.justify-content-center.align-items-center
@@ -168,6 +176,8 @@ ficbook.net##.list-inline
 ficbook.net##.main-discount-desktop
 ficbook.net##.main-discount-mobile
 ficbook.net##.main-holder > .mb-10
+ficbook.net##.mb-15 > .section-title
+ficbook.net##.mb-15 > .text-muted
 ficbook.net##.mb-30.d-flex.fb-ads-block
 ficbook.net##.page-footer
 ficbook.net##.premium-button
@@ -203,6 +213,9 @@ foxnews.com##.site-footer
 geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
 geekrewind.com##.swg-dialog
 genshinhelper.ru##.main-ad-button.slot
+github.blog##.mt-6.footer
+github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
+github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.p-responsive.color-fg-muted
 google.ru###swml
 habr.com##.tm-block_spacing-around.block.tm-block
@@ -276,8 +289,10 @@ market.yandex.ru##._2q2DD
 market.yandex.ru##._31mNV
 market.yandex.ru##._3ECBO._2qTMc._2et7a
 market.yandex.ru##._3RoU0 > .cia-cs
+market.yandex.ru##._3sgU6
 market.yandex.ru##._3WotU > div > .cia-cs
 market.yandex.ru##._3WotU > div > div > .cia-cs
+market.yandex.ru##.amhEY
 market.yandex.ru##.cq9mG.side-menu-item_help
 market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
@@ -294,6 +309,7 @@ megamarket.ru##.page-footer__top
 megamarket.ru##div.catalog-item_product-promo-banner
 message.aliexpress.com##.footer-copywrite
 message.aliexpress.com##.site-footer
+monocle.ru##.subscr_info
 music.mts.ru##.hUZfug
 music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
 music.mts.ru##.svelte-1rnzvbl.hr-line
@@ -399,6 +415,8 @@ rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
 rule34.xxx##.leftside.dp
 rule34.xxx##.rightside.dp
+rule34.xxx##[href="https://discord.gg/rule34xxx"]
+rule34.xxx##[href="https://kanako.store"]
 rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
 rule34.xxx##[src="https://rule34.xxx/static/icame.png"]
 rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(4)
@@ -421,9 +439,13 @@ servernews.ru###copyright
 servernews.ru##.typo-hint
 servernews.ru##body > .right
 shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
+softdroids.com##.fx-row.footer
+softdroids.com##.sect-recl
+softdroids.com##.tabs-box
 speedtest.net##.footer
 spiskin.ru###is_reclame
 spiskin.ru###is_reclame-layer
+split.yandex.ru##.AccountPage-module__promos__p0DX
 sprut.ai##.col-12.col-md-4
 store.epicgames.com##.epic_games
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
@@ -462,8 +484,10 @@ valid.x86.fr##.widget-advert-728
 valid.x86.fr##.widget-advert-970
 vk.com###box_layer_bg
 vk.com###feed_filters
+vk.com###groups_donut_module
 vk.com###l_ads
 vk.com###l_vkfest2023
+vk.com###page_wall_donut
 vk.com##.CallHistoryScreenLanding--header
 vk.com##.CallHistoryScreenLanding--list
 vk.com##.CallHistoryScreenLanding--subheader
@@ -478,12 +502,31 @@ vk.com##.submit_post_box_with_sitposting
 vkplay.ru##.ph-footer-wrapper
 vkplay.ru##.ph-footer__bottom
 vrtor.ru###adv_fon
+wifigid.ru##.site-footer
+wifigid.ru##.wifigid-test-block
+wifigid.ru##.wp-image-49583
+wifigid.ru##div.decoration-none
+wiki.merionet.ru##.discountBanner
+wiki.merionet.ru##.header
 www.avito.ru##.col-12
 www.avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 www.avito.ru##.index-content-SaGyO > div
 www.avito.ru##.index-miniMenu-pZSYw
 www.avito.ru##.index-module-root-FJ4jT
+www.avito.ru##.index-outerPosition_main-C2CVT
 www.avito.ru##.personal-discount-adaptive-original-banner-Ohtse
+www.banki.ru###newsContentContainer
+www.banki.ru###newsTabsContainer
+www.banki.ru##.bg-white
+www.banki.ru##.dbvVqF
+www.banki.ru##.gwYWXA0fQvaucbKOcDjd
+www.banki.ru##.l62f85681
+www.banki.ru##.l69f93a0b
+www.banki.ru##.lazy-widget--loaded.l9accb175
+www.banki.ru##.lfd489732.seo-block
+www.banki.ru##.page-section__header > [href="/news/"]
+www.banki.ru##.seo-block
+www.kinopoisk.ru##.ReactModalPortal
 www.nexusmods.com##.donation-form
 www.nexusmods.com##.hr
 www.nexusmods.com##.mfp-ready
@@ -492,12 +535,21 @@ www.nexusmods.com##.rj-btn-full.rj-btn-standard
 www.nexusmods.com##.subheader
 www.nexusmods.com##tbody
 www.nexusmods.com##thead > tr
+www.nvidia.com###footer-container
+www.nvidia.com##a.bannerTracking
+www.nvidia.com##li.header-emotion-cache-md7zz7
+www.ozon.ru##.c2y
 www.ozon.ru##.df0
 www.ozon.ru##.df1
 www.ozon.ru##.e8d
+www.ozon.ru##.j5
+www.ozon.ru##.om_18_b2
+www.ozon.ru##.rd9
+www.ozon.ru##.yc2
 www.ozon.ru##div.om_7_a:nth-of-type(5)
 www.pepper.ru##.cept-banner-id-25
 www.pepper.ru##.cept-banner-id-26.cept-banner
+www.pixiv.net##.cugra.sc-4nj1pr-4
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 xakep.ru##.default
 xda-developers.com###footer
@@ -523,17 +575,22 @@ ya.ru##.survey__content
 ya.ru##.usermenu-redesign__after-footer
 yandex.ru###rsya-guarantee
 yandex.ru##._view_small.tooltip-content-view
+yandex.ru##.AdvMastHead
+yandex.ru##.AdvRsyaCrossPage
 yandex.ru##.AliceFabPromo_shown.AliceFabPromo
+yandex.ru##.Branding_with-hint
 yandex.ru##.content__right_cols_12
 yandex.ru##.DarkThemePromo
 yandex.ru##.distr-nav
 yandex.ru##.DistributionDrawer.Drawer_view_default
 yandex.ru##.DistributionSplashScreenModal-CloseButtonOuter
+yandex.ru##.GenAnswer_view_fact
 yandex.ru##.h6g2e8ot8G0O6hN2wk5oa-FooterContent
 yandex.ru##.HeaderPhoneActions-Alice
 yandex.ru##.ImagesViewer-SidebarAdv
 yandex.ru##.RequestMeta-Level_type_antispam
 yandex.ru##.RequestMeta-Level_type_level
+yandex.ru##.SearchResultsHeader
 yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
 yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
 yandex.ru##.SerpFooterLinksGroup_type_feedback.SerpFooterLinksGroup
@@ -599,57 +656,3 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
-
-#test updates
-ficbook.net##.jsVueComponent.dropdown.vs--searchable.vs--single.v-select
-ficbook.net##.mb-15 > .section-title
-ficbook.net##.mb-15 > .text-muted
-github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
-github.com##.color-fg-muted.f6.pb-6.pt-8.footer
-monocle.ru##.subscr_info
-softdroids.com##.fx-row.footer
-softdroids.com##.sect-recl
-softdroids.com##.tabs-box
-www.banki.ru###newsContentContainer
-www.banki.ru###newsTabsContainer
-www.banki.ru##.bg-white
-www.banki.ru##.dbvVqF
-www.banki.ru##.gwYWXA0fQvaucbKOcDjd
-www.banki.ru##.l62f85681
-www.banki.ru##.l69f93a0b
-www.banki.ru##.lazy-widget--loaded.l9accb175
-www.banki.ru##.lfd489732.seo-block
-www.banki.ru##.page-section__header > [href="/news/"]
-www.banki.ru##.seo-block
-www.kinopoisk.ru##.ReactModalPortal
-www.ozon.ru##.c2y
-www.ozon.ru##.rd9
-www.pixiv.net##.cugra.sc-4nj1pr-4
-3dnews.ru###btwLabel
-aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
-blog.csdn.net##.false.passport-login-tip-container
-blog.csdn.net##.passport-login-container
-ficbook.net##.btn-primary.btn-sm.btn
-github.blog##.mt-6.footer
-rule34.xxx##[href="https://discord.gg/rule34xxx"]
-rule34.xxx##[href="https://kanako.store"]
-wifigid.ru##.site-footer
-wifigid.ru##.wifigid-test-block
-wifigid.ru##.wp-image-49583
-wifigid.ru##div.decoration-none
-wiki.merionet.ru##.discountBanner
-wiki.merionet.ru##.header
-www.nvidia.com###footer-container
-www.nvidia.com##a.bannerTracking
-www.nvidia.com##li.header-emotion-cache-md7zz7
-www.ozon.ru##.j5
-www.ozon.ru##.om_18_b2
-yandex.ru##.AdvRsyaCrossPage
-www.avito.ru##.index-outerPosition_main-C2CVT
-www.avito.ru##.index-module-root-FJ4jT
-yandex.ru##.GenAnswer_view_fact
-yandex.ru##.Branding_with-hint
-yandex.ru##.SearchResultsHeader
-mail.yandex.ru##.Modal-Overlay
-mail.yandex.ru##.InboxGPTOnboarding__modal--n2gzf
-market.yandex.ru##.amhEY

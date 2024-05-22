@@ -654,5 +654,12 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||static.fimfiction.net/images/icons/subscribe-star.png$image
 ||vkplay.live/app/embed/random$subdocument
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
+#test
+habr.com##[href^="https://selectel.ru/blog/courses/"]
+media.vkplay.ru##.aside__sticky
+www.litres.ru##.MainPromoBanner_wrapper__26kyB
+www.litres.ru##.Search_banner__qqTDK
+www.ozon.ru##div.y0f:nth-of-type(3)
+||static.pepper.ru/srennab/raw/large_horizontal*/22_*/re/1*w/qt/80/22_*.png$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image

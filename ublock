@@ -685,3 +685,13 @@ www.wildberries.ru##.footer__add-info
 www.wildberries.ru##.footer__inner-wrap
 www.wildberries.ru##.footer__list-wrap--social
 www.wildberries.ru##.footer__social-wrap
+github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
+studio.rutube.ru##.vl-navigation__info-block
+studio.rutube.ru##.vl-navigation__bottom-links
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-app-module__list
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-social-module__list
+rutube.ru##.storefront-item_ruts.storefront-item
+www.avito.ru##.index-module-root_23-_oWcy
+

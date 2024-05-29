@@ -694,4 +694,16 @@ rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-con
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-social-module__list
 rutube.ru##.storefront-item_ruts.storefront-item
 www.avito.ru##.index-module-root_23-_oWcy
+aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(7)
+aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(8)
+gdeposylka.ru##.footer-copyright
+gdeposylka.ru##.splinks
+market.yandex.ru##.At4Zq
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper:nth-of-type(1) > .navigation_group_main.menu-links-module__list > li:nth-of-type(2) > .menu-link-module__item.wdp-link-module__link
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+yandex.ru##.copyright-tech
+yandex.ru##.footer__end
+yandex.ru##.tCK00N4A.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
+yandex.ru##div.links-section:nth-of-type(1)
+yandex.ru##div.links-section:nth-of-type(4)
 

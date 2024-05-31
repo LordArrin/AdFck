@@ -747,3 +747,21 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
+
+#test
+aliexpress.ru##.SnowStoreInfo_SnowStoreInfo__buttonWrap__19y61.SnowStoreInfo_SnowStoreInfo__button__19y61.snow-ali-kit_Button__sizeS__1yq34d.snow-ali-kit_Button__button__1yq34d.snow-ali-kit_Button-Secondary__button__4468ot
+aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v:nth-of-type(5)
+liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
+liteapks.com##div.text-center:nth-of-type(5)
+liteapks.com##p:nth-of-type(2)
+portal-shop.com###popup_iframe_wrapper
+portal-shop.com##.TOP_HEADER
+sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
+www.avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
+www.avito.ru##.profile-sidebar-navigation-tag-fatJg
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
+www.gigabyte.com##.img-ribbon
+www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
+www.ozon.ru##.c3y

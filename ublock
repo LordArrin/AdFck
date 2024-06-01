@@ -765,3 +765,14 @@ www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profil
 www.gigabyte.com##.img-ribbon
 www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
 www.ozon.ru##.c3y
+online.sberbank.ru##.zPjJrC1waEJ29GEB4xzA
+www.shecodes.io##.promotion-banner--bootcamp
+market.yandex.ru##._2yAEt > ._2LuiL
+gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
+gitverse.ru##a.hover\:underline:nth-of-type(2)
+gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
+gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
+www.deviantart.com##._2hxRR
+leafletjs.com##.iframe-container
+leafletjs.com###dialog
+leafletjs.com##.leaflet-right

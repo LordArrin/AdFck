@@ -800,3 +800,15 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
+
+#test
+
+author.today##.col-xs-3 > .panel-default.panel
+author.today##.slick-slider.slick-initialized.section-f-books.slick-container
+author.today##aside-widget > .panel
+openvpn.net##.site-copyright
+pikabu.ru##.popup_show.popup_animate.popup_green.popup
+pikabu.ru##.thematic-campaign
+pikabu.ru##div.sidebar-block_border.sidebar-block:nth-of-type(1)
+ya.ru##.dialog_visibility_visible.dialog_js_inited.dialog_type_fast-access-popup.dialog_top-popup_yes.i-mini-bem.dialog
+

@@ -50,6 +50,8 @@
 4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
 4pda.to##div.BRbtWw2wvz1b > .side-item
 4pda.to##div:nth-of-type(20)
+account.microsoft.com##.content-303
+account.microsoft.com##.root-302
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
 aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
@@ -76,6 +78,7 @@ aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
 aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
 aliexpress.ru##.SnowFooter_SnowFooter__root__1c9lw
 aliexpress.ru##.SnowSaleBanner_SnowSaleBanner__container__9s7tt
+aliexpress.ru##.SnowStoreInfo_SnowStoreInfo__buttonWrap__19y61.SnowStoreInfo_SnowStoreInfo__button__19y61.snow-ali-kit_Button__sizeS__1yq34d.snow-ali-kit_Button__button__1yq34d.snow-ali-kit_Button-Secondary__button__4468ot
 aliexpress.ru##.TopBanner-styles_bannerLink__1na4w
 aliexpress.ru##.TopBanner_TopBanner__bannerLink__1xuml.ali-kit_Link__default__cmgtoz
 aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(2) > .Diamonds_Diamond__linkSale__1yq87.Diamonds_Diamond__link__1yq87
@@ -83,10 +86,12 @@ aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__
 aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(8)
 aliexpress.ru##div.ModuleBanner_CustomBanner__lineContainer__e0373
 aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v > .RedModuleBanner_RedModuleBanner__container__1fvl9 > .RedModuleBanner_RedModuleBanner__outer-wrapper__1fvl9
+aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v:nth-of-type(5)
 aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-kit_Col__align-self-flex-start__1ccuye.snow-ali-kit_Col__col__1ccuye > .snow-container_SnowContainer__container__dku64u .snow-container_SnowContainer__container__dku64u
 aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(2)
 aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(3)
 apkmirror.com##.expandMargins
+apkpure.com##.footer_new
 archiveofourown.org###add_comment_placeholder
 archiveofourown.org###footer
 archiveofourown.org###kudos
@@ -94,9 +99,13 @@ as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 asus.com##.footerExternal
 asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
 audio-extractor.net###allapps-extension-popup
+author.today###banner\.at-col-07\.23
 author.today##.footer
 author.today##.genre-s-footer
 author.today##.pb-lg.pr.pl.genre-s-footer
+author.today##[href="/discussions"]
+author.today##li.accordion-item:nth-of-type(5)
+author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.advert-serp-block-wrapper-KtgxK
 avito.ru##.alert-design-warning-lSCAn
 avito.ru##.apps-banner-apps-banner-BKOwv
@@ -235,6 +244,11 @@ github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
 github.com##.p-responsive.color-fg-muted
+gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
+gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
+gitverse.ru##a.hover\:underline:nth-of-type(2)
+gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
+gofile.io##.py-0.filesContentOptionReport.filesContentOption
 google.ru###swml
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
@@ -269,8 +283,14 @@ kemono.su##.global-footer
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom
 kemono.su##[href="/fanboximports"] > div
+leafletjs.com###dialog
+leafletjs.com##.iframe-container
+leafletjs.com##.leaflet-right
 lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
+liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
+liteapks.com##div.text-center:nth-of-type(5)
+liteapks.com##p:nth-of-type(2)
 lk.bcnn.ru##.site-footer
 losst.pro###extapp-feedback-container
 lurkmore.me###siteNotice
@@ -299,13 +319,18 @@ mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-Servic
 mail.yandex.ru##.qa-LeftColumn-Footer
 mail.yandex.ru##.smartBannerToast-container
 mail.yandex.ru##.smartBannerToast-text
+market.yandex.ru###\/content\/page\/fancyPage\/cms\/4\/SearchSerp-SearchSerp\/serpSearch\/content\/lazyGenerator\/initialContent\/serpLayoutItem_17175496077019353206327001_746660f
 market.yandex.ru###banner-streamer
 market.yandex.ru##.-GPMv
 market.yandex.ru##._169PI._381y5 > li > .cia-cs
+market.yandex.ru##._1bCJz._1MOwX._1pIA_
+market.yandex.ru##._1bCJz._1MOwX.searchIncut
 market.yandex.ru##._2MOII._2H8Pe
 market.yandex.ru##._2MOII._3eAaC
 market.yandex.ru##._2q2DD
+market.yandex.ru##._2yAEt > ._2LuiL
 market.yandex.ru##._31mNV
+market.yandex.ru##._352qm
 market.yandex.ru##._3ECBO._2qTMc._2et7a
 market.yandex.ru##._3RoU0 > .cia-cs
 market.yandex.ru##._3sgU6
@@ -374,6 +399,7 @@ nexusmods.com###rj-footer
 nvidia.com##.footer
 one.google.com##.bIfCgf
 one.google.com##.jiw3Ff.hJGsQe
+online.sberbank.ru##.zPjJrC1waEJ29GEB4xzA
 oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
 oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
@@ -397,6 +423,7 @@ pikabu.ru##.footer
 pikabu.ru##.header-menu__item_notification-dot
 pikabu.ru##.menu_promo-sidebar
 pikabu.ru##.pkb-tab_notification-dot
+pikabu.ru##.popup__content-notification
 pikabu.ru##.profile-series_empty
 pikabu.ru##.profile__section_achievements
 pikabu.ru##.promo-banner_button
@@ -417,6 +444,8 @@ pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
 pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
 pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
+portal-shop.com###popup_iframe_wrapper
+portal-shop.com##.TOP_HEADER
 promotion.aliexpress.ru##.ae-ru-footer
 q32.pw##div#\$_v_banner
 reddit.com##._24UNt1hkbrZxLzs5vkvuDh
@@ -468,6 +497,7 @@ sdgfsdgyuise3.duckdns.org##a.footer__link:nth-of-type(2)
 sdgfsdgyuise3.duckdns.org##div.form-group:nth-of-type(5) > div.col-sm-12:nth-of-type(1) > .app-react-components-form-components-SwitchField-SwitchField-module__root
 sdgfsdgyuise3.duckdns.org##div.form-group:nth-of-type(7) > .col-sm-12 > .app-react-components-form-components-SwitchField-SwitchField-module__root
 sdgfsdgyuise3.duckdns.org##div.form-group:nth-of-type(8) > .col-sm-12 > .app-react-components-form-components-SwitchField-SwitchField-module__root
+sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
 sdgfsdgyuise3.duckdns.org##div.widget:nth-of-type(2) > .widget-body > .widget-content > .form-horizontal > div.text-base.font-medium.pl-0.mb-2.mt-1.col-sm-12:nth-of-type(6)
 servernews.ru###copyright
 servernews.ru##.typo-hint
@@ -558,7 +588,12 @@ www.avito.ru##.index-miniMenu-pZSYw
 www.avito.ru##.index-module-root-FJ4jT
 www.avito.ru##.index-module-root_23-_oWcy
 www.avito.ru##.index-outerPosition_main-C2CVT
+www.avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
 www.avito.ru##.personal-discount-adaptive-original-banner-Ohtse
+www.avito.ru##.profile-sidebar-navigation-tag-fatJg
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
 www.banki.ru###newsContentContainer
 www.banki.ru###newsTabsContainer
 www.banki.ru##.bg-white
@@ -570,9 +605,14 @@ www.banki.ru##.lazy-widget--loaded.l9accb175
 www.banki.ru##.lfd489732.seo-block
 www.banki.ru##.page-section__header > [href="/news/"]
 www.banki.ru##.seo-block
+www.deviantart.com##._2hxRR
 www.dns-shop.ru###base-footer
+www.dropbox.com##._nav-link-container_1is5l_26
+www.dropbox.com##.account-menu-v2_quota-bar-btn-container.dig-Menu-row--interactive.dig-Menu-row
+www.gigabyte.com##.img-ribbon
 www.ixbt.com##.social_links.menu__right
 www.kinopoisk.ru##.ReactModalPortal
+www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
 www.litres.ru##.MainPromoBanner_wrapper__26kyB
 www.litres.ru##.Search_banner__qqTDK
 www.nexusmods.com##.donation-form
@@ -583,10 +623,12 @@ www.nexusmods.com##.rj-btn-full.rj-btn-standard
 www.nexusmods.com##.subheader
 www.nexusmods.com##tbody
 www.nexusmods.com##thead > tr
+www.noob-club.ru##.support-nc.bottomleft
 www.nvidia.com###footer-container
 www.nvidia.com##a.bannerTracking
 www.nvidia.com##li.header-emotion-cache-md7zz7
 www.ozon.ru##.c2y
+www.ozon.ru##.c3y
 www.ozon.ru##.cy3
 www.ozon.ru##.d3f
 www.ozon.ru##.df0
@@ -599,6 +641,8 @@ www.ozon.ru##.j5
 www.ozon.ru##.ko7
 www.ozon.ru##.m5d
 www.ozon.ru##.om_18_b2
+www.ozon.ru##.om_7_b4
+www.ozon.ru##.om_7_b5
 www.ozon.ru##.rd9
 www.ozon.ru##.yc2
 www.ozon.ru##div.fd7:nth-of-type(1)
@@ -606,6 +650,12 @@ www.ozon.ru##div.fd7:nth-of-type(2)
 www.ozon.ru##div.fd7:nth-of-type(3)
 www.ozon.ru##div.om_7_a:nth-of-type(5)
 www.ozon.ru##div.y0f:nth-of-type(3)
+www.ozon.ru##li.hd4_9:nth-of-type(10)
+www.ozon.ru##li.hd4_9:nth-of-type(9)
+www.ozon.ru##li.s4d_9:nth-of-type(1)
+www.ozon.ru##li.s4d_9:nth-of-type(2)
+www.ozon.ru##li.s4d_9:nth-of-type(3)
+www.ozon.ru##li.s4d_9:nth-of-type(4)
 www.pepper.ru##.cept-banner-id-25
 www.pepper.ru##.cept-banner-id-26.cept-banner
 www.pixiv.net##.cugra.sc-4nj1pr-4
@@ -630,11 +680,13 @@ www.reddit.com##hr.border-0.bg-neutral-border-weak.w-100.h-px
 www.reddit.com##left-nav-create-community-button
 www.reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
 www.reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.shecodes.io##.promotion-banner--bootcamp
 www.wildberries.ru##.banner.main-page__banner
 www.wildberries.ru##.footer__add-info
 www.wildberries.ru##.footer__inner-wrap
 www.wildberries.ru##.footer__list-wrap--social
 www.wildberries.ru##.footer__social-wrap
+www.youtube.com###dismissed
 www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 xakep.ru##.default
@@ -748,53 +800,3 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
-
-#test
-aliexpress.ru##.SnowStoreInfo_SnowStoreInfo__buttonWrap__19y61.SnowStoreInfo_SnowStoreInfo__button__19y61.snow-ali-kit_Button__sizeS__1yq34d.snow-ali-kit_Button__button__1yq34d.snow-ali-kit_Button-Secondary__button__4468ot
-aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v:nth-of-type(5)
-liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
-liteapks.com##div.text-center:nth-of-type(5)
-liteapks.com##p:nth-of-type(2)
-portal-shop.com###popup_iframe_wrapper
-portal-shop.com##.TOP_HEADER
-sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
-www.avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
-www.avito.ru##.profile-sidebar-navigation-tag-fatJg
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
-www.gigabyte.com##.img-ribbon
-www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
-www.ozon.ru##.c3y
-online.sberbank.ru##.zPjJrC1waEJ29GEB4xzA
-www.shecodes.io##.promotion-banner--bootcamp
-market.yandex.ru##._2yAEt > ._2LuiL
-gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
-gitverse.ru##a.hover\:underline:nth-of-type(2)
-gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
-gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
-www.deviantart.com##._2hxRR
-leafletjs.com##.iframe-container
-leafletjs.com###dialog
-leafletjs.com##.leaflet-right
-apkpure.com##.footer_new
-gofile.io##.py-0.filesContentOptionReport.filesContentOption
-market.yandex.ru###\/content\/page\/fancyPage\/cms\/4\/SearchSerp-SearchSerp\/serpSearch\/content\/lazyGenerator\/initialContent\/serpLayoutItem_17175496077019353206327001_746660f
-market.yandex.ru##._1bCJz._1MOwX._1pIA_
-market.yandex.ru##._1bCJz._1MOwX.searchIncut
-pikabu.ru##.popup__content-notification
-www.youtube.com###dismissed
-account.microsoft.com##.content-303
-account.microsoft.com##.root-302
-author.today###banner\.at-col-07\.23
-market.yandex.ru##._352qm
-www.noob-club.ru##.support-nc.bottomleft
-www.ozon.ru##.om_7_b4
-www.ozon.ru##.om_7_b5
-www.ozon.ru##li.hd4_9:nth-of-type(10)
-www.ozon.ru##li.hd4_9:nth-of-type(9)
-www.ozon.ru##li.s4d_9:nth-of-type(1)
-www.ozon.ru##li.s4d_9:nth-of-type(2)
-www.ozon.ru##li.s4d_9:nth-of-type(3)
-www.ozon.ru##li.s4d_9:nth-of-type(4)
-www.youtube.com###dismissed

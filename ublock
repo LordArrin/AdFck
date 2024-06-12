@@ -818,3 +818,9 @@ nnov.mts.ru##.footer__bottom
 nnov.mts.ru##.footer__content-left-grid
 nnov.mts.ru##.footer__text-block
 www.pepper.ru##div:nth-of-type(2) > div > .card--responsive.aGrid.listLayout-box.card--type-vertical.card
+mail.yandex.ru##.sidebarPromo.promoPanel.promoPanel_noClose
+mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item
+mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item > .leftPanelItem-text
+www.reddit.com##body > div
+www.reddit.com##faceplate-tracker.contents:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+www.reddit.com##xpromo-untagged-content-blocking-modal

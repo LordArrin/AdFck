@@ -836,6 +836,19 @@ www.rustore.ru##div._section_12qot_1:nth-of-type(3)
 www.rustore.ru##div._section_12qot_1:nth-of-type(3) > div
 www.rustore.ru##div._section_12qot_1:nth-of-type(5)
 www.rustore.ru##div._section_12qot_1:nth-of-type(5) > div
+aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
+aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
+aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
+aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(1) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__subContent__1i7x1
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(1) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__title__1i7x1.red-ali-kit_Label__medium__1ydbpm.red-ali-kit_Label__M__1ydbpm.red-ali-kit_Typography__medium__16fy3h.red-ali-kit_Typography__base__16fy3h
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(1)
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(1) > .RedFooter_UserHelper__subContent__1i7x1
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__subContent__1i7x1
+aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__title__1i7x1.red-ali-kit_Label__medium__1ydbpm.red-ali-kit_Label__M__1ydbpm.red-ali-kit_Typography__medium__16fy3h.red-ali-kit_Typography__base__16fy3h
+aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(2)
+aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(3)
+m.aliexpress.com##._1MfQC
 yandex.ru##.link_js_inited.rxKYBpR8.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
 yandex.ru##.top-root
 yandex.ru##.x_HfV_E4u5

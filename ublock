@@ -54,42 +54,9 @@ account.microsoft.com##.content-303
 account.microsoft.com##.root-302
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
-aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
 aliexpress.com##.footer-copywrite
 aliexpress.com##.order-block.order-recommend
 aliexpress.com##.site-footer
-aliexpress.ru##.ali-kit_Container__size_default__1m9f8n.transparent
-aliexpress.ru##.FestivalVenue_FestivalVenue__festivalBanner__yoxs9
-aliexpress.ru##.Footer_Footer__footer__1nhxk
-aliexpress.ru##.golden-items-banner_GoldenItemsBanner__desktopRoot__14mvzs
-aliexpress.ru##.MCBanner_MCBanner__active__fcbgp
-aliexpress.ru##.ModuleBanner_ModuleBanner__inner-wrapper_profile_desktop__100x6
-aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
-aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper_desktop__hxlp1
-aliexpress.ru##.MultiSidebarTab_MultiSidebarTab__sideBarContainer__6cn83
-aliexpress.ru##.ProfitShelf_ProfitShelf__profitShelf__cxe7m
-aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
-aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
-aliexpress.ru##.RedCrosslinks_RedCrosslinks__wrap__1bmyh
-aliexpress.ru##.RedFooter_FooterBottom__itemInner__is8x4
-aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
-aliexpress.ru##.RedFooter_RedFooter__root__obhtq
-aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
-aliexpress.ru##.SnowFooter_SnowFooter__container__79kvj
-aliexpress.ru##.SnowFooter_SnowFooter__root__1c9lw
-aliexpress.ru##.SnowSaleBanner_SnowSaleBanner__container__9s7tt
-aliexpress.ru##.SnowStoreInfo_SnowStoreInfo__buttonWrap__19y61.SnowStoreInfo_SnowStoreInfo__button__19y61.snow-ali-kit_Button__sizeS__1yq34d.snow-ali-kit_Button__button__1yq34d.snow-ali-kit_Button-Secondary__button__4468ot
-aliexpress.ru##.TopBanner-styles_bannerLink__1na4w
-aliexpress.ru##.TopBanner_TopBanner__bannerLink__1xuml.ali-kit_Link__default__cmgtoz
-aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(2) > .Diamonds_Diamond__linkSale__1yq87.Diamonds_Diamond__link__1yq87
-aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(7)
-aliexpress.ru##a.Diamonds_Diamond__item__1yq87.red-ali-kit_Typography__regular__16fy3h.red-ali-kit_Typography__link__16fy3h:nth-of-type(8)
-aliexpress.ru##div.ModuleBanner_CustomBanner__lineContainer__e0373
-aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v > .RedModuleBanner_RedModuleBanner__container__1fvl9 > .RedModuleBanner_RedModuleBanner__outer-wrapper__1fvl9
-aliexpress.ru##div.snow-container_SnowContainer__container__h49r2v:nth-of-type(5)
-aliexpress.ru##div.SnowHomePageColumn_SnowHomePageColumn__grid__lz4bv.snow-ali-kit_Col__align-self-flex-start__1ccuye.snow-ali-kit_Col__col__1ccuye > .snow-container_SnowContainer__container__dku64u .snow-container_SnowContainer__container__dku64u
-aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(2)
-aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(3)
 apkmirror.com##.expandMargins
 apkpure.com##.footer_new
 archiveofourown.org###add_comment_placeholder
@@ -564,10 +531,6 @@ wifigid.ru##.wp-image-49583
 wifigid.ru##div.decoration-none
 wiki.merionet.ru##.discountBanner
 wiki.merionet.ru##.header
-www.aliexpress.com##div.page-menu-item:nth-of-type(11)
-www.aliexpress.com##div.page-menu-item:nth-of-type(14)
-www.aliexpress.com##div.page-menu-item:nth-of-type(15)
-www.aliexpress.com##div.page-menu-item:nth-of-type(16)
 www.avito.ru##.col-12
 www.avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 www.avito.ru##.index-content-SaGyO > div
@@ -851,3 +814,29 @@ www.ozon.ru##g
 www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:nth-of-type(3)
 www.reddit.com##faceplate-tracker.contents:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
 www.reddit.com##xpromo-untagged-content-blocking-modal
+crowdin.com##.dropdown-menu-right.dropdown-menu.user-menu-dropdown > a.dropdown-item:nth-of-type(3)
+crowdin.com##.mb-2.progress
+crowdin.com##.text-center.bg-gray.p-3.questionary-header
+crowdin.com##a.target-blank.dropdown-item:nth-of-type(10)
+crowdin.com##a.target-blank.dropdown-item:nth-of-type(11)
+crowdin.com##a.target-blank.dropdown-item:nth-of-type(9)
+crowdin.com##div.dropdown-divider:nth-of-type(3)
+crowdin.com##div.dropdown-divider:nth-of-type(4)
+sdgfsdgyuise3.duckdns.org###sidebar > .pt-3
+sdgfsdgyuise3.duckdns.org##.mt-4.footer
+sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
+www.ozon.ru##.cy7_9.a305-a2
+www.ozon.ru##.o3d_22_9.tsBodyControl300XSmall
+www.ozon.ru##.y6c_9
+www.pochta.ru##.portal-footer.CZEWq.Footerstyles__FooterMain-j1ecjx-1
+www.rustore.ru##._copyRight_1h8ee_45
+www.rustore.ru##._qrCodeBlock_1h8ee_22
+www.rustore.ru##._socialLinks_1h8ee_59
+www.rustore.ru##div._section_12qot_1:nth-of-type(3)
+www.rustore.ru##div._section_12qot_1:nth-of-type(3) > div
+www.rustore.ru##div._section_12qot_1:nth-of-type(5)
+www.rustore.ru##div._section_12qot_1:nth-of-type(5) > div
+yandex.ru##.link_js_inited.rxKYBpR8.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
+yandex.ru##.top-root
+yandex.ru##.x_HfV_E4u5
+ficbook.net##.bd-ribbon

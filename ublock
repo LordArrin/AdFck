@@ -853,3 +853,23 @@ yandex.ru##.link_js_inited.rxKYBpR8.header-b2b__link-instead-of-sighup.header-b2
 yandex.ru##.top-root
 yandex.ru##.x_HfV_E4u5
 ficbook.net##.bd-ribbon
+gelbooru.com###static-index > div:nth-of-type(3)
+github.com##.px-md-0.px-3 > .my-2
+rule34.xxx##[src="https://rule34.xxx//images/r34chibi.png"]
+www.fanfiction.net##.main-content > .spacer.core-msg
+ya.ru##.AdvOffers-Wrapper
+ya.ru##.AdvPremium
+ya.ru##.AdvRsyaCrossPage
+ya.ru##.AppAdvancedSearch-LikeTooltip
+ya.ru##.dialog__overlay
+ya.ru##.dialog__wrapper
+ya.ru##.EntityFeedbackFooter
+ya.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
+ya.ru##.MessageBox-Content
+ya.ru##.Organic-Warning
+ya.ru##.RequestMeta_view_minified
+ya.ru##.RknWarningFeature
+ya.ru##.RoundedButton_view_primary.RoundedButton.Button2_pin_circle-circle.Button2
+ya.ru##.SearchPrevention
+ya.ru##.ya-search-promo
+ya.ru##div.JustifierRowLayout-Incut

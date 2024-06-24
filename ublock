@@ -873,3 +873,26 @@ ya.ru##.RoundedButton_view_primary.RoundedButton.Button2_pin_circle-circle.Butto
 ya.ru##.SearchPrevention
 ya.ru##.ya-search-promo
 ya.ru##div.JustifierRowLayout-Incut
+diakov.net##.title_spoiler
+diakov.net##.zvcwers .quote
+download.oxy.st##.footer-area
+download.oxy.st##.text-right.list-inline
+katfile.com##footer > .container-fluid
+katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
+nitroflare.com###bottomAlerts
+nitroflare.com###footer
+nitroflare.com###footerCredits
+nitroflare.com###menu [href="payment"]
+nitroflare.com##.good.table2
+nitroflare.com##[src="img/swf/HighSpeedMeter.png"]
+nitroflare.com##body > div:nth-of-type(2)
+nitroflare.com##div > .bootstrapButton
+nitroflare.com##li:nth-of-type(3)
+oxy.st##.footer-area
+turbobi.pw##.footer
+turbobi.pw##.main-menu-links > [href^="/turbo"]
+turbobi.pw##.max-speed-time
+turbobi.pw##td.download-button.no-border:nth-of-type(3)
+turbobi.pw##td.minus-ok-cell:nth-of-type(3)
+turbobi.pw##td.speed-img.no-border:nth-of-type(2)
+turbobi.pw##td.speed-img.no-border:nth-of-type(3)

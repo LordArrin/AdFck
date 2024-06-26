@@ -881,3 +881,15 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
+
+#test
+savetwitter.net###dlModal
+savetwitter.net##.alert-gr.alert-warning.alert
+savetwitter.net##.container-main > .container
+savetwitter.net##.extension-header
+savetwitter.net##footer
+twitter.com##a.r-1loqt21.r-1ny4l3l.r-1mkv55d.r-13qz1uu.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
+vkplay.ru##.wrapper___2COVA
+www.nexusmods.com##.background-2.premium-block--upgrade
+www.nexusmods.com##.container.premium-banner
+www.nexusmods.com##.user-profile-menu-upgrade

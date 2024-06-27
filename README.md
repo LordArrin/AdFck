@@ -3,4 +3,4 @@
 
 Кастомные списки для блокировки рекламы.
 
-Add list to [uBlock](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LordArrin/AdFck/main/ublock?_=rawlist&title=AdF*ck)
+Добавить список в [uBlock](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LordArrin/AdFck/main/ublock?_=rawlist&title=AdF*ck)

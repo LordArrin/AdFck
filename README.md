@@ -2,3 +2,5 @@
 <h2>Custom ad filter</h2>
 
 Кастомные списки для блокировки рекламы.
+
+Add list to [uBlock](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/LordArrin/AdFck/main/ublock?_=rawlist&title=AdF*ck)

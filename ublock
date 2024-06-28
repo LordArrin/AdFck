@@ -944,3 +944,13 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
+#
+4pda.to##div:nth-of-type(18)
+dzen.ru##.mg-survey-screen__component.mg-survey-screen-rate-stars_isDesktop.mg-survey-screen-rate-stars
+market.yandex.ru##._3VhdE
+pikabu.ru##.recommended-communities.carousel_small.carousel
+safe.cnews.ru##.event_list
+sourceforge.net##.as-row
+sourceforge.net##.l-nav-bottom
+www.vremyan.ru##.ajaxload
+www.vremyan.ru##.ok-link

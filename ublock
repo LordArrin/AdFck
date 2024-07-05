@@ -971,3 +971,11 @@ skillbox.ru##.container.footer__underline
 skillbox.ru##.flex-row-rev.row > .col-author.col-lg-4.col-xl-3
 www.minitool.com##.article-author-infos
 www.minitool.com##.footer-copyright-wrapper
+knowyourmeme.com###global-message
+knowyourmeme.com###sub_network_footer_wrapper
+knowyourmeme.com##body > .ad-unit-wrapper
+knowyourmeme.com##div.ad-unit-wrapper
+pikabu.ru##.community-info-block__rules
+www.urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
+yandex.ru##.link_js_inited.zplDw7uo.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
+yandex.ru##div.links-section:nth-of-type(2) > .links-section__list > a.zplDw7uo.links-section__link.link_theme_normal.link:nth-of-type(1)

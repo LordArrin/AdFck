@@ -808,7 +808,13 @@ rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-con
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-app-module__list
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-social-module__list
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper:nth-of-type(1) > .navigation_group_main.menu-links-module__list > li:nth-of-type(2) > .menu-link-module__item.wdp-link-module__link
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper:nth-of-type(1) > .navigation_group_main.menu-links-module__list > li:nth-of-type(4) > .menu-link-module__item.wdp-link-module__link
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper:nth-of-type(5)
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper:nth-of-type(7)
 rutube.ru##.pen-video-carousel__container_inline.pen-video-carousel__container
+rutube.ru##.raichu-fade-enter-done
+rutube.ru##.raichu-player-header-module__headerBackgroundSmall___dPwaV
+rutube.ru##.raichu-player-header-module__headerInfo___gLGcZ
 rutube.ru##.storefront-item_ruts.storefront-item
 rutube.ru##div.storefront-item_tag.storefront-item
 s1.byrutorg.com##.brapr
@@ -871,6 +877,7 @@ stoigr.org##.abusemessage
 stoigr.org##.footer
 store.epicgames.com##.epic_games
 studio.rutube.ru##.vl-navigation__bottom-links
+studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
 tankionline.com##.cookies-int
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
@@ -1108,6 +1115,7 @@ youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.styl
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 youtube.com###guide-links-primary
 youtube.com###guide-links-secondary
+youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

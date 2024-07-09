@@ -121,7 +121,9 @@ avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 avito.ru##.index-content-SaGyO > div
 avito.ru##.index-innerPosition-sNjFT
 avito.ru##.index-miniMenu-pZSYw
+avito.ru##.index-module-content-IpbCP > div
 avito.ru##.index-module-nav-stRnY
+avito.ru##.index-module-root-cedSM
 avito.ru##.index-module-root-FJ4jT
 avito.ru##.index-module-root_23-_oWcy
 avito.ru##.index-nav-r2kHM
@@ -140,6 +142,7 @@ avito.ru##.styles-module-root_withPaddings-_crED
 avito.ru##.uxs-1ii9xhp
 avito.ru##.uxs-unilch
 avito.ru##div.styles-adv-D1naz.advert-mimicry-block-wrapper-_Fmsp
+avito.ru##li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(7)
 avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
 avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
 avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
@@ -242,6 +245,7 @@ expresslrs.org##.md-consent
 expresslrs.org##.md-consent__overlay
 f95zone.to###patreon_banner
 f95zone.to##.p-footer
+fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg
@@ -330,6 +334,7 @@ github.blog##.mt-6.footer
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
+github.com##.mb-2.mt-md-2.mt-3.color-fg-muted.text-small
 github.com##.p-responsive.color-fg-muted
 github.com##.px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
@@ -427,6 +432,7 @@ litres.ru##.MainPromoBanner_wrapper__26kyB
 litres.ru##.Search_banner__qqTDK
 lk.bcnn.ru##.site-footer
 lk.mts.ru##.mts-lk-footer__wrapper
+login.mts.ru##.iMXcpm
 losst.pro###extapp-feedback-container
 lurkmore.me###siteNotice
 m.aliexpress.com##._1MfQC
@@ -442,6 +448,7 @@ m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 mail.google.com##.aeU
+mail.ru##.mkopfmf__115rr7i.footer
 mail.yandex.ru##.Badge
 mail.yandex.ru##.button2_type_link.button2_theme_action.button2_size_m.button2_tone_default.button2_view_classic.button2.control
 mail.yandex.ru##.DisableAdsButton__root--dCJnD
@@ -730,30 +737,13 @@ rambler.ru##._1VtI
 rambler.ru##._2jmA > div > ._11dr
 rambler.ru##.IIVK > div > ._11dr
 rambler.ru##.rc__sv690
+randomus.ru##.mt-6.py-5.footer
 reddit.com###multireddits_section
 reddit.com##._24UNt1hkbrZxLzs5vkvuDh
 reddit.com##.justify-end.flex-col
 reddit.com##.m\:block.hidden > .contents.nd\:visible > .hello-world.contents.nd\:visible > .inline-flex.button.justify-center.items-center.icon.button-plain.px-\[var\(--rem8\)\].button-medium
-reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > faceplate-expandable-section-helper:nth-of-type(1) > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > hr.border-neutral-border-weak.my-sm.w-100
-reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##body > div
-reddit.com##faceplate-tracker.contents:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker.contents:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker.contents:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(1) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(10)
-reddit.com##faceplate-tracker:nth-of-type(11)
-reddit.com##faceplate-tracker:nth-of-type(12)
-reddit.com##faceplate-tracker:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(5) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##faceplate-tracker:nth-of-type(6) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
 reddit.com##hr.border-0.bg-neutral-border-weak.w-100.h-px
 reddit.com##left-nav-create-community-button
-reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
 reddit.com##xpromo-untagged-content-blocking-modal
 repack-igruha.net##.site-desc
 repack-igruha.net##.vw100.ai-center.d-flex.footer
@@ -879,18 +869,22 @@ store.epicgames.com##.epic_games
 studio.rutube.ru##.vl-navigation__bottom-links
 studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
+tabler.io##.banner
 tankionline.com##.cookies-int
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
 terabox.com##.capacity-expansion
 terabox.com##.coupon-Popup-box
 terabox.com##.dialog-extra-del
+terabox.com##.footer
 terabox.com##.membership-entry
 terabox.com##.premium
 terabox.com##.premium-btn
 terabox.com##.premium-tip
 terabox.com##a.header-btn:nth-of-type(3)
+terabox.com##a.header-btn:nth-of-type(4)
 terabox.com##a.header-btn:nth-of-type(5)
 terabox.com##a.header-btn:nth-of-type(6)
+terabox.com##div.bottom-box
 terabox.com##div.bottom-box:nth-of-type(23)
 thecommunity.ru##.footer
 thejavasea.me##[href^="https://dnsproxy.org/"]
@@ -902,6 +896,7 @@ thelastgames.ru##.text-center.section.footer
 theporndude.com##.footer
 theporndude.com##.top-text
 theporndude.com##.with-bg
+tilda.ru##.td-trial
 timeweb.com##.cm-banner-popup-small
 tl.rulate.ru###down
 tl.rulate.ru###up
@@ -986,7 +981,6 @@ xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"
 xda-developers.com##.panel-target-highlight
 xda-developers.com##[href="https://xda-developers.com/newsletter-signup/"]
 xda-developers.com##[href="https://xda-developers.com/the-team/"]
-xda-developers.com##[href="https://xda-developers.com/the-team/"] > font > font
 xda-developers.com##nav.panel-section:nth-of-type(3)
 xda-developers.com##nav.panel-section:nth-of-type(4)
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row

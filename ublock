@@ -1120,3 +1120,48 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||yastatic.net/disk/_/_7DY8j-4H0ACfz079fm9wN1eeYSx.svg$image
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
+##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
+lenta.ru##._header.b-topic__socials > .b-socials
+lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .b-socials__favorite > .b-favorite_loaded.js-favorite.b-favorite > .js-favorite__button.b-favorite__button.b-favorite__item
+lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .js-sharing.b-socials__sharing
+lenta.ru##.social-snippet
+motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
+motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
+news.rambler.ru##._1rS67
+news.rambler.ru##._21bQB > div > div > ._1ErId > .LTCoz
+news.rambler.ru##._2jhTq
+news.rambler.ru##._32R9Z
+news.rambler.ru##._3RcjC._3KA8W
+vc.ru##.l-island-round.l-pv-20.events_widget
+vc.ru##.l-island-round.vacancies_widget
+vk.com##.videoplayer_share_action_goods
+vk.com##.wcommunity_wrap
+www.championat.com##.footer
+www.championat.com##.js-loyalty-article-end.article-footer__row
+www.championat.com##div.footer__block:nth-of-type(2)
+www.gazeta.ru###article_header > .borderdown.pd10.pu10
+www.gazeta.ru##.borderdown.borderup.pd10.pu10
+www.gazeta.ru##.header20-body-banner > .b_telegram
+www.gazeta.ru##div.item > .b_telegram
+www.rambler.ru##._1VtI
+www.rambler.ru##._2jmA > div > ._11dr
+www.rambler.ru##.IIVK > div > ._11dr
+www.rambler.ru##.rc__sv690
+www.sport-express.ru##.footerinfo__about
+www.sport-express.ru##.footerinfo__about
+www.sport-express.ru##.js-share-container-wrap.share-container
+www.sport-express.ru##.mb_20.mt_15.specButtons
+www.sport-express.ru##.se19-new-newspaper > .se19-title--section.se19-title
+www.sport-express.ru##.se19-new-newspaper__info
+www.sport-express.ru##.se19-new-newspaper__number
+www.sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(17)
+www.sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(4)
+www.sports.ru##.blog-post__header-social
+www.sports.ru##.is-show.js-active.webpush
+www.sports.ru##.main-footer__top-position
+www.sports.ru##.material-item__social-line > .social-share.floated
+www.sports.ru##.material-item__social-line > .subscribe-feed.subscribe.js-active > .subscribe__unsubscribed.subscribe__form > .data-track-click.subscribe__button
+www.sports.ru##.poll-share
+www.sports.ru##.social-links
+yandex.ru##.serp-item_card-metadoc
+||static.gazeta.ru/nm2015/i/finam_logo.svg$image

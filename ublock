@@ -7,6 +7,7 @@
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
 !
+##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 360.yandex.ru##.BottomText_1MZvpwoqJh90izwgKe36i
 360.yandex.ru##.SocialMediaBlock_1QNz3-nDTdBBNpNEdDpbQT
 3dnews.ru###btwLabel
@@ -62,9 +63,11 @@ agent.yandex-team.ru##.LedKMg.UplHKi.VGYIBn.uXSUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PG
 agent.yandex-team.ru##.LedKMg.UplHKi.ymYIBn.RtTUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
+aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
 aliexpress.com##.footer-copywrite
 aliexpress.com##.order-block.order-recommend
 aliexpress.com##.site-footer
+aliexpress.com##div.page-menu-item:nth-of-type(11)
 aliexpress.ru###ae-ru-privacy-banner__container
 aliexpress.ru##._3KrBP
 aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
@@ -112,14 +115,24 @@ author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.advert-serp-block-wrapper-KtgxK
 avito.ru##.alert-design-warning-lSCAn
 avito.ru##.apps-banner-apps-banner-BKOwv
+avito.ru##.col-12
 avito.ru##.create-promocode-banner-create-promocode-banner-_XHN2
+avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
+avito.ru##.index-content-SaGyO > div
 avito.ru##.index-innerPosition-sNjFT
+avito.ru##.index-miniMenu-pZSYw
 avito.ru##.index-module-nav-stRnY
+avito.ru##.index-module-root-FJ4jT
+avito.ru##.index-module-root_23-_oWcy
 avito.ru##.index-nav-r2kHM
+avito.ru##.index-outerPosition_main-C2CVT
 avito.ru##.index-root-auOiW
 avito.ru##.js-apps-banner-banner
 avito.ru##.js-seller-safety-banner
+avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
 avito.ru##.navbar-root-H9tUO
+avito.ru##.personal-discount-adaptive-original-banner-Ohtse
+avito.ru##.profile-sidebar-navigation-tag-fatJg
 avito.ru##.services-root-hgyuF
 avito.ru##.shortVideosWitcher-section-NHx6w
 avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
@@ -127,7 +140,21 @@ avito.ru##.styles-module-root_withPaddings-_crED
 avito.ru##.uxs-1ii9xhp
 avito.ru##.uxs-unilch
 avito.ru##div.styles-adv-D1naz.advert-mimicry-block-wrapper-_Fmsp
+avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
+avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
 backit.me##.onboarding-modal.el-dialog__wrapper
+banki.ru###newsContentContainer
+banki.ru###newsTabsContainer
+banki.ru##.bg-white
+banki.ru##.dbvVqF
+banki.ru##.gwYWXA0fQvaucbKOcDjd
+banki.ru##.l62f85681
+banki.ru##.l69f93a0b
+banki.ru##.lazy-widget--loaded.l9accb175
+banki.ru##.lfd489732.seo-block
+banki.ru##.page-section__header > [href="/news/"]
+banki.ru##.seo-block
 beatsage.com##.beat-sage-socials
 beatsage.com##.footer
 blog.csdn.net##.false.passport-login-tip-container
@@ -137,6 +164,9 @@ byruthub.org##.br_stat
 byruthub.org##.footer
 byruthub.org##div.block-right:nth-of-type(4)
 calendar.yandex.ru##.AsideFooter__wrap--zQe-n
+championat.com##.footer
+championat.com##.js-loyalty-article-end.article-footer__row
+championat.com##div.footer__block:nth-of-type(2)
 chitai-gorod.ru##.footer
 citilink.ru##.e14s7mmi0
 citilink.ru##.eowcxv00
@@ -156,6 +186,7 @@ crowdin.com##div.dropdown-divider:nth-of-type(3)
 crowdin.com##div.dropdown-divider:nth-of-type(4)
 denuvo.store##.altumcode-informational-wrapper
 derpibooru.org###footer
+deviantart.com##._2hxRR
 deviantart.com##.srMYi
 deviantart.com##.uNMof._3WH5n
 diakov.net##.title_spoiler
@@ -183,6 +214,7 @@ disk.yandex.ru##.root__footer.footer
 disk.yandex.ru##.Subscription-Onboarding.Base-Onboarding
 disk.yandex.ru##.welcome.dialog.modal_has-animation_yes.modal_theme_normal.modal_visible_yes.modal_autoclosable_yes.modal_js_inited.modal
 dnevnik.statusapp.ru##.scrollable.v--modal-overlay
+dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block
 dns-shop.ru##.footer
 dns-shop.ru##.left-filters__consult-wrap
@@ -192,11 +224,15 @@ docs.yandex.ru##.Modal-Wrapper
 download.oxy.st##.footer-area
 download.oxy.st##.text-right.list-inline
 drive.google.com##.ml-Pr-kg
+dropbox.com##._inverse_1ymm9_69
+dropbox.com##._nav-link-container_1is5l_26
+dropbox.com##.account-menu-v2_quota-bar-btn-container.dig-Menu-row--interactive.dig-Menu-row
 dropbox.com##.dig-Modal-overlay
 dtf.ru##.comments__show-all-always
 dtf.ru##.layout__right-column
 dtf.ru##.lm-ph-15.l-ph-20.sidebar__footer
 dzen.ru##.mg-survey-screen__component.mg-survey-screen-rate-stars_isDesktop.mg-survey-screen-rate-stars
+e1.ru##.embedBlocked_UVzPn
 eldorado.ru##.footer
 eronrg.com###footer
 eu.iot.tuya.com##.g-iot-help-modal-fadeIn
@@ -208,6 +244,8 @@ f95zone.to###patreon_banner
 f95zone.to##.p-footer
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
+fanfiction.net##.main-content > .spacer.core-msg
+fanfiction.net##.panel_normal
 feedback.aliexpress.com##div.page-menu-item:nth-of-type(11)
 ficbook.net###main > .mx-10.d-flex.fb-ads-block
 ficbook.net##.ads-in-text
@@ -266,12 +304,17 @@ fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
+forbes.ru##._6EXjO.NS022.qlmJ1.cMH8R
 forms.yandex.ru##.clearfix.footer
 forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
 forum.xda-developers.com##.p-footer-inner
 forum.xda-developers.com##.uix_extendedFooter
 foxnews.com##.contain
 foxnews.com##.site-footer
+gazeta.ru###article_header > .borderdown.pd10.pu10
+gazeta.ru##.borderdown.borderup.pd10.pu10
+gazeta.ru##.header20-body-banner > .b_telegram
+gazeta.ru##div.item > .b_telegram
 gdeposylka.ru##.footer-copyright
 gdeposylka.ru##.splinks
 geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
@@ -282,6 +325,7 @@ genshin.hoyoverse.com##.logo-wrapper-ZqqgW2.wrapper-2i-f_o
 genshin.hoyoverse.com##.prod-logo-wrapper-zGjjx1.wrapper-2i-f_o
 genshin.hoyoverse.com##.statement-wrapper-2ufpIJ.wrapper-2i-f_o
 genshinhelper.ru##.main-ad-button.slot
+gigabyte.com##.img-ribbon
 github.blog##.mt-6.footer
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
@@ -294,6 +338,8 @@ gitverse.ru##a.hover\:underline:nth-of-type(2)
 gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
 gofile.io##.py-0.filesContentOptionReport.filesContentOption
 google.ru###swml
+google.ru##.AghGtd.KxwPGc
+google.ru##.ssOUyb.KxwPGc
 habr.com##.tm-article-comments__ufo-notice.tm-notice_info.tm-notice
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
@@ -312,6 +358,16 @@ https://[*.]yandex.ru:443
 id.sber.ru##.CookiePolicy_container__3FE8X
 if.downloadbro.fun###p_arrow
 igromania.ru##.strunmenu
+iloveimg.com##.block--black.block
+iloveimg.com##.block--grey-admin.block
+iloveimg.com##.block--white.block
+iloveimg.com##.btn--premium.btn
+iloveimg.com##.footer-main
+iloveimg.com##.footer-minimal
+iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
+iloveimg.com##[href="/ru/user/business"]
+iloveimg.com##[href="/ru/user/invoices"]
+iloveimg.com##li.sidebar__menu__subtitle:nth-of-type(6)
 involta.ru##.footer_footer__R8q5Y
 iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.react-draggable
@@ -330,6 +386,7 @@ ixbt.com##.footer-center
 ixbt.com##.js-conf-block.b-lined-title.b-block__conflist.b-block
 ixbt.com##.mini_quiz
 ixbt.com##.recommend_item-container
+ixbt.com##.social_links.menu__right
 ixbt.com##.topline__left
 ixbt.com##.video-slider-block.b-lined-title.b-block__conflist.b-block
 ixbt.com##div.b-lined-title.b-block__newslistdefault.b-block:nth-of-type(5)
@@ -343,19 +400,31 @@ kemono.su##.global-footer
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom
 kemono.su##[href="/fanboximports"] > div
+kinopoisk.ru##.ReactModalPortal
+kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
+kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
 knowyourmeme.com###global-message
 knowyourmeme.com###sub_network_footer_wrapper
 knowyourmeme.com##body > .ad-unit-wrapper
 knowyourmeme.com##div.ad-unit-wrapper
 kuplinov-play.games##div.cols:nth-of-type(3)
+lastpass.com##.lp-page-end
+lastpass.com##.slim-footer__sub-footer
+lastpass.com##.social.section
 leafletjs.com###dialog
 leafletjs.com##.iframe-container
 leafletjs.com##.leaflet-right
+lenta.ru##._header.b-topic__socials > .b-socials
+lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .b-socials__favorite > .b-favorite_loaded.js-favorite.b-favorite > .js-favorite__button.b-favorite__button.b-favorite__item
+lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .js-sharing.b-socials__sharing
+lenta.ru##.social-snippet
 lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
 liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
 liteapks.com##div.text-center:nth-of-type(5)
 liteapks.com##p:nth-of-type(2)
+litres.ru##.MainPromoBanner_wrapper__26kyB
+litres.ru##.Search_banner__qqTDK
 lk.bcnn.ru##.site-footer
 lk.mts.ru##.mts-lk-footer__wrapper
 losst.pro###extapp-feedback-container
@@ -396,7 +465,47 @@ mail.yandex.ru##.smartBannerToast-text
 mail.yandex.ru##.tooltip__description
 mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item
 mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item > .leftPanelItem-text
-
+market.yandex.ru###banner-streamer
+market.yandex.ru##.-GPMv
+market.yandex.ru##._169PI._381y5 > li > .cia-cs
+market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1._2E1Bb._2PMgL
+market.yandex.ru##._1bCJz._1MOwX._1pIA_
+market.yandex.ru##._1bCJz._1MOwX.b2CVt._1nuzB
+market.yandex.ru##._1bCJz._1MOwX.searchIncut
+market.yandex.ru##._1nHQg._1bCJz._1MOwX._3LfRU._1FEQF._1T2Sz._1jupA._33ORp
+market.yandex.ru##._1q2Ef
+market.yandex.ru##._25zTL
+market.yandex.ru##._2fGgw
+market.yandex.ru##._2MOII._2H8Pe
+market.yandex.ru##._2MOII._3eAaC
+market.yandex.ru##._2Pqm5 > div
+market.yandex.ru##._2q2DD
+market.yandex.ru##._2qLdU
+market.yandex.ru##._2vwG9._2AXg-
+market.yandex.ru##._2xwXT._1vlnY
+market.yandex.ru##._2yAEt > ._2LuiL
+market.yandex.ru##._31mNV
+market.yandex.ru##._352qm
+market.yandex.ru##._3ECBO._2qTMc._2et7a
+market.yandex.ru##._3RoU0 > .cia-cs
+market.yandex.ru##._3sgU6
+market.yandex.ru##._3VhdE
+market.yandex.ru##._3WotU > div > .cia-cs
+market.yandex.ru##._3WotU > div > div > .cia-cs
+market.yandex.ru##._3YrPh._1n5Sp
+market.yandex.ru##.amhEY
+market.yandex.ru##.At4Zq
+market.yandex.ru##.cia-cs.cia-vs.worJS
+market.yandex.ru##.cMlhN
+market.yandex.ru##.cq9mG.side-menu-item_help
+market.yandex.ru##.side-menu-item_vacancies
+market.yandex.ru##.slide-visible.slider-slide > div > ._1ldoY._3W9o_._2sH6r > ._2UdGA > div > .cia-cs.cia-vs > .cia-cs.cia-vs.worJS > .r_nt5._1sg27._2wiey > ._3d4X7.shape-rectangle._23SNJ.RbJt5._2ZNDF > .ePF3F
+market.yandex.ru##div._19b7r:nth-of-type(2)
+market.yandex.ru##div._1kLnL:nth-of-type(4)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6) > .SMANJ
+market.yandex.ru##li._22s-P:nth-of-type(2) > ._2r6Pq.kd7GA._2z53c > .fq7oS._2isCm._2l7HV._3qD7N._26ned
+market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
+market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
 mega.nz##.almost-full.fm-notification-block
 mega.nz##.almost-full.storage-dialog
@@ -409,11 +518,15 @@ megamarket.ru##.promo-product-list
 megamarket.ru##nav.footer-menu:nth-of-type(3)
 message.aliexpress.com##.footer-copywrite
 message.aliexpress.com##.site-footer
+minitool.com##.article-author-infos
+minitool.com##.footer-copyright-wrapper
 mm.ru##.center-content.banner
 mm.ru##.component.content
 mmoreigr.org##.footer
 mmoreigr.org##[src="https://mmoreigr.org/uploads/mfd.png"]
 monocle.ru##.subscr_info
+motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
+motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
 music.mts.ru##.hUZfug
 music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
 music.mts.ru##.svelte-1rnzvbl.hr-line
@@ -456,9 +569,25 @@ newgrounds.com##.header-deck
 newgrounds.com##.inhousepromo
 newgrounds.com##div.blackout
 newgrounds.com##div.blackout-hover
+news.rambler.ru##._1rS67
+news.rambler.ru##._21bQB > div > div > ._1ErId > .LTCoz
+news.rambler.ru##._2jhTq
+news.rambler.ru##._32R9Z
+news.rambler.ru##._3RcjC._3KA8W
 news.rambler.ru##.EU6Dl
 news.rambler.ru##.rc__sv690
 nexusmods.com###rj-footer
+nexusmods.com##.background-2.premium-block--upgrade
+nexusmods.com##.container.premium-banner
+nexusmods.com##.donation-form
+nexusmods.com##.hr
+nexusmods.com##.mfp-ready
+nexusmods.com##.mfp-s-ready
+nexusmods.com##.rj-btn-full.rj-btn-standard
+nexusmods.com##.subheader
+nexusmods.com##.user-profile-menu-upgrade
+nexusmods.com##tbody
+nexusmods.com##thead > tr
 nitroflare.com###bottomAlerts
 nitroflare.com###footer
 nitroflare.com###footerCredits
@@ -477,7 +606,11 @@ nnov.ticketland.ru###tab_premium > .menu__item--premium
 nnov.ticketland.ru##.copyright
 nnov.ticketland.ru##.feedback_popup
 nnov.ticketland.ru##.promo
+noob-club.ru##.support-nc.bottomleft
+nvidia.com###footer-container
 nvidia.com##.footer
+nvidia.com##a.bannerTracking
+nvidia.com##li.header-emotion-cache-md7zz7
 ok.ru##.auth-login-banner__e19f0
 one.google.com##.bIfCgf
 one.google.com##.jiw3Ff.hJGsQe
@@ -485,12 +618,57 @@ online-audio-converter.com##.footer
 online-audio-converter.com##.like_row_conv.like_row
 online-audio-converter.com##.one-col
 online.sberbank.ru##.zPjJrC1waEJ29GEB4xzA
+onlinetrade.ru##.footer__countersline
+onlinetrade.ru##.footer__infoline
 openvpn.net##.site-copyright
 oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
 oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 oxy.st##.footer-area
+ozon.ru##.b21-a6.b21-a0.i7o_22
+ozon.ru##.c2y
+ozon.ru##.c3y
 ozon.ru##.c7t
+ozon.ru##.cy3
+ozon.ru##.cy7_9.a305-a2
+ozon.ru##.d3f
+ozon.ru##.df0
+ozon.ru##.df1
+ozon.ru##.df5
+ozon.ru##.df6
+ozon.ru##.df7_9
+ozon.ru##.e1n_10.tsHeadline600Medium
+ozon.ru##.e8d
+ozon.ru##.ee6
+ozon.ru##.eh9_10
+ozon.ru##.f6d_9
+ozon.ru##.f8d_9
+ozon.ru##.f9d_9
+ozon.ru##.j5
+ozon.ru##.ko7
+ozon.ru##.m5d
+ozon.ru##.o3d_22_9.tsBodyControl300XSmall
+ozon.ru##.om_18_b2
+ozon.ru##.om_7_b4
+ozon.ru##.om_7_b5
+ozon.ru##.rd9
+ozon.ru##.y6c_9
+ozon.ru##.yc2
+ozon.ru##div.fd7:nth-of-type(1)
+ozon.ru##div.fd7:nth-of-type(2)
+ozon.ru##div.fd7:nth-of-type(3)
+ozon.ru##div.g0d_9:nth-of-type(2)
+ozon.ru##div.g0d_9:nth-of-type(3)
+ozon.ru##div.om_7_a:nth-of-type(5)
+ozon.ru##div.y0f:nth-of-type(3)
+ozon.ru##div:nth-of-type(7) > .ne1_10
+ozon.ru##g
+ozon.ru##li.hd4_9:nth-of-type(10)
+ozon.ru##li.hd4_9:nth-of-type(9)
+ozon.ru##li.s4d_9:nth-of-type(1)
+ozon.ru##li.s4d_9:nth-of-type(2)
+ozon.ru##li.s4d_9:nth-of-type(3)
+ozon.ru##li.s4d_9:nth-of-type(4)
 ozon.ru##li.sd8 > .d4155-a
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
@@ -501,9 +679,12 @@ pentest-tools.com##.min-\[1800px\]\:p-12
 pentest-tools.com##.py-4.px-2
 pentest-tools.com##.sm\:mx-0.-mx-4
 pepper.ru##.cept-banner-id-1.cept-banner
+pepper.ru##.cept-banner-id-25
+pepper.ru##.cept-banner-id-26.cept-banner
 pepper.ru##.cept-banner-id-6
 pepper.ru##.footer
 pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
+pepper.ru##div:nth-of-type(2) > div > .card--responsive.aGrid.listLayout-box.card--type-vertical.card
 photos.google.com##.JJpMec
 pikabu.ru##.bell_profile-menu
 pikabu.ru##.community-info-block__rules
@@ -531,11 +712,13 @@ pikabu.ru##div.sidebar-block-links
 pikabu.ru##div.sidebar-block_border.sidebar-block:nth-of-type(1)
 pikabu.ru##section.stories-feed__message:nth-of-type(2)
 pixeldrain.com##strong
+pixiv.net##.cugra.sc-4nj1pr-4
 platform.tuya.com##.iot-rc-ai-assistant-entry-main.ant-row-middle.ant-row
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
 pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
 pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
+pochta.ru##.portal-footer.CZEWq.Footerstyles__FooterMain-j1ecjx-1
 pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
 portal-shop.com###popup_iframe_wrapper
@@ -543,7 +726,35 @@ portal-shop.com##.TOP_HEADER
 products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
 q32.pw##div#\$_v_banner
+rambler.ru##._1VtI
+rambler.ru##._2jmA > div > ._11dr
+rambler.ru##.IIVK > div > ._11dr
+rambler.ru##.rc__sv690
+reddit.com###multireddits_section
 reddit.com##._24UNt1hkbrZxLzs5vkvuDh
+reddit.com##.justify-end.flex-col
+reddit.com##.m\:block.hidden > .contents.nd\:visible > .hello-world.contents.nd\:visible > .inline-flex.button.justify-center.items-center.icon.button-plain.px-\[var\(--rem8\)\].button-medium
+reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > faceplate-expandable-section-helper:nth-of-type(1) > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > hr.border-neutral-border-weak.my-sm.w-100
+reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##body > div
+reddit.com##faceplate-tracker.contents:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker.contents:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker.contents:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(1) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(10)
+reddit.com##faceplate-tracker:nth-of-type(11)
+reddit.com##faceplate-tracker:nth-of-type(12)
+reddit.com##faceplate-tracker:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(5) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##faceplate-tracker:nth-of-type(6) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##hr.border-0.bg-neutral-border-weak.w-100.h-px
+reddit.com##left-nav-create-community-button
+reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
+reddit.com##xpromo-untagged-content-blocking-modal
 repack-igruha.net##.site-desc
 repack-igruha.net##.vw100.ai-center.d-flex.footer
 riccardotramma.com###footer-bottom
@@ -583,6 +794,13 @@ rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
 rule34.xxx##small
 rule34video.com##.footer
 rule34video.com##.thumb.spot-thumb
+rustore.ru##._copyRight_1h8ee_45
+rustore.ru##._qrCodeBlock_1h8ee_22
+rustore.ru##._socialLinks_1h8ee_59
+rustore.ru##div._section_12qot_1:nth-of-type(3)
+rustore.ru##div._section_12qot_1:nth-of-type(3) > div
+rustore.ru##div._section_12qot_1:nth-of-type(5)
+rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
 rutor.org##h2:nth-of-type(1)
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
@@ -614,6 +832,7 @@ sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
 servernews.ru###copyright
 servernews.ru##.typo-hint
 servernews.ru##body > .right
+shecodes.io##.promotion-banner--bootcamp
 shoppingcart.aliexpress.ru###\32
 shoppingcart.aliexpress.ru###\32  > .snow-ali-kit_Tab__title__jai3av.snow-ali-kit_Typography__base__1shggo
 shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
@@ -632,6 +851,21 @@ spiskin.ru###is_reclame
 spiskin.ru###is_reclame-layer
 spiskin.ru##.footer
 split.yandex.ru##.AccountPage-module__promos__p0DX
+sport-express.ru##.footerinfo__about
+sport-express.ru##.js-share-container-wrap.share-container
+sport-express.ru##.mb_20.mt_15.specButtons
+sport-express.ru##.se19-new-newspaper > .se19-title--section.se19-title
+sport-express.ru##.se19-new-newspaper__info
+sport-express.ru##.se19-new-newspaper__number
+sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(17)
+sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(4)
+sports.ru##.blog-post__header-social
+sports.ru##.is-show.js-active.webpush
+sports.ru##.main-footer__top-position
+sports.ru##.material-item__social-line > .social-share.floated
+sports.ru##.material-item__social-line > .subscribe-feed.subscribe.js-active > .subscribe__unsubscribed.subscribe__form > .data-track-click.subscribe__button
+sports.ru##.poll-share
+sports.ru##.social-links
 sprut.ai##.col-12.col-md-4
 stoigr.org##.abusemessage
 stoigr.org##.footer
@@ -642,7 +876,10 @@ tankionline.com##.cookies-int
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
 terabox.com##.capacity-expansion
 terabox.com##.coupon-Popup-box
+terabox.com##.dialog-extra-del
 terabox.com##.membership-entry
+terabox.com##.premium
+terabox.com##.premium-btn
 terabox.com##.premium-tip
 terabox.com##a.header-btn:nth-of-type(3)
 terabox.com##a.header-btn:nth-of-type(5)
@@ -687,11 +924,15 @@ turbobi.pw##td.speed-img.no-border:nth-of-type(3)
 tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
 twitter.com##a.r-1loqt21.r-1ny4l3l.r-1mkv55d.r-13qz1uu.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
 unite4buy.ru##.footer-wrapper
+upload.ee##body > table > tbody > tr > td > div
+urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
 valid.x86.fr###hhbblrlrba-728-1-blocked
 valid.x86.fr###main__legals
 valid.x86.fr##.block_33
 valid.x86.fr##.widget-advert-728
 valid.x86.fr##.widget-advert-970
+vc.ru##.l-island-round.l-pv-20.events_widget
+vc.ru##.l-island-round.vacancies_widget
 vk.com###box_layer_bg
 vk.com###feed_filters
 vk.com###groups_donut_module
@@ -709,190 +950,28 @@ vk.com##.Post--redesign.deep_active.closed_comments.mailru-visibility-check
 vk.com##.shown.submit_post_box_with_sitposting
 vk.com##.stories_feed_not_nav_buttons.stories_feed_with_thumb.clear_fix.stories_feed_wrap.page_block
 vk.com##.submit_post_box_with_sitposting
+vk.com##.videoplayer_share_action_goods
+vk.com##.wcommunity_wrap
 vkplay.ru##.ph-footer-wrapper
 vkplay.ru##.ph-footer__bottom
 vkplay.ru##.wrapper___2COVA
+vremyan.ru##.ajaxload
+vremyan.ru##.ok-link
 vrtor.ru###adv_fon
+washingtonpost.com##.wpds-c-dLxPQL
+washingtonpost.com##.wpds-c-oBYiy
 wifigid.ru##.site-footer
 wifigid.ru##.wifigid-test-block
 wifigid.ru##.wp-image-49583
 wifigid.ru##div.decoration-none
 wiki.merionet.ru##.discountBanner
 wiki.merionet.ru##.header
+wildberries.ru##.banner.main-page__banner
+wildberries.ru##.footer__add-info
+wildberries.ru##.footer__inner-wrap
+wildberries.ru##.footer__list-wrap--social
+wildberries.ru##.footer__social-wrap
 workspace.ru##._brif--new
-www.aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
-www.aliexpress.com##div.page-menu-item:nth-of-type(11)
-www.avito.ru##.col-12
-www.avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
-www.avito.ru##.index-content-SaGyO > div
-www.avito.ru##.index-miniMenu-pZSYw
-www.avito.ru##.index-module-root-FJ4jT
-www.avito.ru##.index-module-root_23-_oWcy
-www.avito.ru##.index-outerPosition_main-C2CVT
-www.avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
-www.avito.ru##.personal-discount-adaptive-original-banner-Ohtse
-www.avito.ru##.profile-sidebar-navigation-tag-fatJg
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
-www.avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
-www.banki.ru###newsContentContainer
-www.banki.ru###newsTabsContainer
-www.banki.ru##.bg-white
-www.banki.ru##.dbvVqF
-www.banki.ru##.gwYWXA0fQvaucbKOcDjd
-www.banki.ru##.l62f85681
-www.banki.ru##.l69f93a0b
-www.banki.ru##.lazy-widget--loaded.l9accb175
-www.banki.ru##.lfd489732.seo-block
-www.banki.ru##.page-section__header > [href="/news/"]
-www.banki.ru##.seo-block
-www.deviantart.com##._2hxRR
-www.dns-shop.ru###base-footer
-www.dropbox.com##._nav-link-container_1is5l_26
-www.dropbox.com##.account-menu-v2_quota-bar-btn-container.dig-Menu-row--interactive.dig-Menu-row
-www.e1.ru##.embedBlocked_UVzPn
-www.fanfiction.net##.main-content > .spacer.core-msg
-www.fanfiction.net##.panel_normal
-www.forbes.ru##._6EXjO.NS022.qlmJ1.cMH8R
-www.gigabyte.com##.img-ribbon
-www.google.ru##.AghGtd.KxwPGc
-www.google.ru##.ssOUyb.KxwPGc
-www.iloveimg.com##.block--black.block
-www.iloveimg.com##.block--grey-admin.block
-www.iloveimg.com##.block--white.block
-www.iloveimg.com##.btn--premium.btn
-www.iloveimg.com##.footer-main
-www.iloveimg.com##.footer-minimal
-www.iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
-www.iloveimg.com##[href="/ru/user/business"]
-www.iloveimg.com##[href="/ru/user/invoices"]
-www.iloveimg.com##li.sidebar__menu__subtitle:nth-of-type(6)
-www.ixbt.com##.social_links.menu__right
-www.kinopoisk.ru##.ReactModalPortal
-www.kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
-www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
-www.lastpass.com##.lp-page-end
-www.lastpass.com##.slim-footer__sub-footer
-www.lastpass.com##.social.section
-www.litres.ru##.MainPromoBanner_wrapper__26kyB
-www.litres.ru##.Search_banner__qqTDK
-www.minitool.com##.article-author-infos
-www.minitool.com##.footer-copyright-wrapper
-www.nexusmods.com##.background-2.premium-block--upgrade
-www.nexusmods.com##.container.premium-banner
-www.nexusmods.com##.donation-form
-www.nexusmods.com##.hr
-www.nexusmods.com##.mfp-ready
-www.nexusmods.com##.mfp-s-ready
-www.nexusmods.com##.rj-btn-full.rj-btn-standard
-www.nexusmods.com##.subheader
-www.nexusmods.com##.user-profile-menu-upgrade
-www.nexusmods.com##tbody
-www.nexusmods.com##thead > tr
-www.noob-club.ru##.support-nc.bottomleft
-www.nvidia.com###footer-container
-www.nvidia.com##a.bannerTracking
-www.nvidia.com##li.header-emotion-cache-md7zz7
-www.onlinetrade.ru##.footer__countersline
-www.onlinetrade.ru##.footer__infoline
-www.ozon.ru##.b21-a6.b21-a0.i7o_22
-www.ozon.ru##.c2y
-www.ozon.ru##.c3y
-www.ozon.ru##.cy3
-www.ozon.ru##.cy7_9.a305-a2
-www.ozon.ru##.d3f
-www.ozon.ru##.df0
-www.ozon.ru##.df1
-www.ozon.ru##.df5
-www.ozon.ru##.df6
-www.ozon.ru##.df7_9
-www.ozon.ru##.e1n_10.tsHeadline600Medium
-www.ozon.ru##.e8d
-www.ozon.ru##.ee6
-www.ozon.ru##.eh9_10
-www.ozon.ru##.f6d_9
-www.ozon.ru##.f8d_9
-www.ozon.ru##.f9d_9
-www.ozon.ru##.j5
-www.ozon.ru##.ko7
-www.ozon.ru##.m5d
-www.ozon.ru##.o3d_22_9.tsBodyControl300XSmall
-www.ozon.ru##.om_18_b2
-www.ozon.ru##.om_7_b4
-www.ozon.ru##.om_7_b5
-www.ozon.ru##.rd9
-www.ozon.ru##.y6c_9
-www.ozon.ru##.yc2
-www.ozon.ru##div.fd7:nth-of-type(1)
-www.ozon.ru##div.fd7:nth-of-type(2)
-www.ozon.ru##div.fd7:nth-of-type(3)
-www.ozon.ru##div.g0d_9:nth-of-type(2)
-www.ozon.ru##div.g0d_9:nth-of-type(3)
-www.ozon.ru##div.om_7_a:nth-of-type(5)
-www.ozon.ru##div.y0f:nth-of-type(3)
-www.ozon.ru##div:nth-of-type(7) > .ne1_10
-www.ozon.ru##g
-www.ozon.ru##li.hd4_9:nth-of-type(10)
-www.ozon.ru##li.hd4_9:nth-of-type(9)
-www.ozon.ru##li.s4d_9:nth-of-type(1)
-www.ozon.ru##li.s4d_9:nth-of-type(2)
-www.ozon.ru##li.s4d_9:nth-of-type(3)
-www.ozon.ru##li.s4d_9:nth-of-type(4)
-www.pepper.ru##.cept-banner-id-25
-www.pepper.ru##.cept-banner-id-26.cept-banner
-www.pepper.ru##div:nth-of-type(2) > div > .card--responsive.aGrid.listLayout-box.card--type-vertical.card
-www.pixiv.net##.cugra.sc-4nj1pr-4
-www.pochta.ru##.portal-footer.CZEWq.Footerstyles__FooterMain-j1ecjx-1
-www.reddit.com###multireddits_section
-www.reddit.com##.justify-end.flex-col
-www.reddit.com##.m\:block.hidden > .contents.nd\:visible > .hello-world.contents.nd\:visible > .inline-flex.button.justify-center.items-center.icon.button-plain.px-\[var\(--rem8\)\].button-medium
-www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > faceplate-expandable-section-helper:nth-of-type(1) > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > hr.border-neutral-border-weak.my-sm.w-100
-www.reddit.com##.select-none.min-h-screen-without-header.w-full.s\:shrink.shrink-0.mb-0.mt-0.flex-col.flex.box-border.z-\[2\] > nav > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0 > .font-normal > faceplate-tracker > .mt-0.list-none.relative > .s\:rounded-\[8px\].bg-transparent.-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##body > div
-www.reddit.com##faceplate-tracker.contents:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker.contents:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker.contents:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(1) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(10)
-www.reddit.com##faceplate-tracker:nth-of-type(11)
-www.reddit.com##faceplate-tracker:nth-of-type(12)
-www.reddit.com##faceplate-tracker:nth-of-type(2) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(3) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(4) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(5) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##faceplate-tracker:nth-of-type(6) > .mt-0.list-none.relative > .no-underline.bg-transparent.s\:rounded-\[8px\].-outline-offset-1.py-2xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##hr.border-0.bg-neutral-border-weak.w-100.h-px
-www.reddit.com##left-nav-create-community-button
-www.reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0.list-none.relative > .no-underline.-outline-offset-1.py-xs.cursor-pointer.hover\:no-underline.hover\:bg-neutral-background-hover.active\:bg-interactive-pressed.hover\:text-secondary-hover.text-secondary.gap-\[0\.5rem\].px-md.relative.justify-between.flex
-www.reddit.com##xpromo-untagged-content-blocking-modal
-www.rustore.ru##._copyRight_1h8ee_45
-www.rustore.ru##._qrCodeBlock_1h8ee_22
-www.rustore.ru##._socialLinks_1h8ee_59
-www.rustore.ru##div._section_12qot_1:nth-of-type(3)
-www.rustore.ru##div._section_12qot_1:nth-of-type(3) > div
-www.rustore.ru##div._section_12qot_1:nth-of-type(5)
-www.rustore.ru##div._section_12qot_1:nth-of-type(5) > div
-www.shecodes.io##.promotion-banner--bootcamp
-www.terabox.com##.dialog-extra-del
-www.terabox.com##.premium
-www.terabox.com##.premium-btn
-www.upload.ee##body > table > tbody > tr > td > div
-www.urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
-www.vremyan.ru##.ajaxload
-www.vremyan.ru##.ok-link
-www.washingtonpost.com##.wpds-c-dLxPQL
-www.washingtonpost.com##.wpds-c-oBYiy
-www.wildberries.ru##.banner.main-page__banner
-www.wildberries.ru##.footer__add-info
-www.wildberries.ru##.footer__inner-wrap
-www.wildberries.ru##.footer__list-wrap--social
-www.wildberries.ru##.footer__social-wrap
-www.youtube.com###dismissed
-www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
-www.youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:nth-of-type(3)
-www.youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 xakep.ru##.default
 xatab-repack.rip###content > div:nth-of-type(3) > div:nth-of-type(1)
 xda-developers.com###footer
@@ -997,6 +1076,7 @@ yandex.ru##.SearchPrevention.Prevention
 yandex.ru##.SearchResultsHeader
 yandex.ru##.serp-footer__mob-app
 yandex.ru##.serp-footer__right
+yandex.ru##.serp-item_card-metadoc
 yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
 yandex.ru##.SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup
 yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
@@ -1022,11 +1102,13 @@ youtube.com###categoryPill
 youtube.com###chat
 youtube.com###content > .ytd-rich-section-renderer.style-scope
 youtube.com###copyright
+youtube.com###dismissed
 youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 youtube.com###guide-links-primary
 youtube.com###guide-links-secondary
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
@@ -1052,6 +1134,7 @@ youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-ti
 youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
 youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
@@ -1059,6 +1142,7 @@ youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-description-content-renderer.style-scope
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
@@ -1073,6 +1157,7 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||ru.gecid.com/data/adbn/1024_90.png$image
 ||rule34.xxx/blacklisted.png$image
 ||static.fimfiction.net/images/icons/subscribe-star.png$image
+||static.gazeta.ru/nm2015/i/finam_logo.svg$image
 ||static.pepper.ru/srennab/raw/large_horizontal*/22_*/re/1*w/qt/80/22_*.png$image
 ||vkplay.live/app/embed/random$subdocument
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
@@ -1081,48 +1166,3 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||yastatic.net/disk/_/_7DY8j-4H0ACfz079fm9wN1eeYSx.svg$image
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
-##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
-lenta.ru##._header.b-topic__socials > .b-socials
-lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .b-socials__favorite > .b-favorite_loaded.js-favorite.b-favorite > .js-favorite__button.b-favorite__button.b-favorite__item
-lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .js-sharing.b-socials__sharing
-lenta.ru##.social-snippet
-motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
-motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
-news.rambler.ru##._1rS67
-news.rambler.ru##._21bQB > div > div > ._1ErId > .LTCoz
-news.rambler.ru##._2jhTq
-news.rambler.ru##._32R9Z
-news.rambler.ru##._3RcjC._3KA8W
-vc.ru##.l-island-round.l-pv-20.events_widget
-vc.ru##.l-island-round.vacancies_widget
-vk.com##.videoplayer_share_action_goods
-vk.com##.wcommunity_wrap
-www.championat.com##.footer
-www.championat.com##.js-loyalty-article-end.article-footer__row
-www.championat.com##div.footer__block:nth-of-type(2)
-www.gazeta.ru###article_header > .borderdown.pd10.pu10
-www.gazeta.ru##.borderdown.borderup.pd10.pu10
-www.gazeta.ru##.header20-body-banner > .b_telegram
-www.gazeta.ru##div.item > .b_telegram
-www.rambler.ru##._1VtI
-www.rambler.ru##._2jmA > div > ._11dr
-www.rambler.ru##.IIVK > div > ._11dr
-www.rambler.ru##.rc__sv690
-www.sport-express.ru##.footerinfo__about
-www.sport-express.ru##.footerinfo__about
-www.sport-express.ru##.js-share-container-wrap.share-container
-www.sport-express.ru##.mb_20.mt_15.specButtons
-www.sport-express.ru##.se19-new-newspaper > .se19-title--section.se19-title
-www.sport-express.ru##.se19-new-newspaper__info
-www.sport-express.ru##.se19-new-newspaper__number
-www.sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(17)
-www.sport-express.ru##li.se19-news-feed__item-buttons.se19-news-feed__item:nth-of-type(4)
-www.sports.ru##.blog-post__header-social
-www.sports.ru##.is-show.js-active.webpush
-www.sports.ru##.main-footer__top-position
-www.sports.ru##.material-item__social-line > .social-share.floated
-www.sports.ru##.material-item__social-line > .subscribe-feed.subscribe.js-active > .subscribe__unsubscribed.subscribe__form > .data-track-click.subscribe__button
-www.sports.ru##.poll-share
-www.sports.ru##.social-links
-yandex.ru##.serp-item_card-metadoc
-||static.gazeta.ru/nm2015/i/finam_logo.svg$image

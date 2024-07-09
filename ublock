@@ -65,7 +65,10 @@ aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite
 aliexpress.com##.order-block.order-recommend
 aliexpress.com##.site-footer
+aliexpress.ru###ae-ru-privacy-banner__container
+aliexpress.ru##._3KrBP
 aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
+aliexpress.ru##.next-dialog-body > div
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
 aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
@@ -157,14 +160,28 @@ deviantart.com##.srMYi
 deviantart.com##.uNMof._3WH5n
 diakov.net##.title_spoiler
 diakov.net##.zvcwers .quote
+disk.yandex.ru##.dialog__wrap
+disk.yandex.ru##.discount-promo__buy-button.button2_theme_action.button2_size_n.button2_view_classic.button2.control
 disk.yandex.ru##.footer
 disk.yandex.ru##.InfoSpace_expanded.InfoSpace_notanimation.InfoSpace_discount.InfoSpace.Link
+disk.yandex.ru##.js-prevent-mouse-selection.app-promo-banner
+disk.yandex.ru##.js-prevent-mouse-selection.prevent-custom-context-menu.mail360-banner.promo-banner
 disk.yandex.ru##.LeftColumn__InnerWrapperBottom
+disk.yandex.ru##.mail360-banner__comp
+disk.yandex.ru##.mail360-banner__icons
+disk.yandex.ru##.mailpro-onboarding.dialog.modal_has-animation_yes.modal_theme_normal.modal_visible_yes.modal_autoclosable_yes.modal_js_inited.modal
+disk.yandex.ru##.message-box__backdrop
+disk.yandex.ru##.message-box__content
+disk.yandex.ru##.MessageBox-Content
+disk.yandex.ru##.MessageBox-Tail > svg
 disk.yandex.ru##.Modal-Overlay
 disk.yandex.ru##.Modal-Wrapper
+disk.yandex.ru##.modal__cell
+disk.yandex.ru##.modal__table
 disk.yandex.ru##.NewYearSpecial
 disk.yandex.ru##.root__footer.footer
 disk.yandex.ru##.Subscription-Onboarding.Base-Onboarding
+disk.yandex.ru##.welcome.dialog.modal_has-animation_yes.modal_theme_normal.modal_visible_yes.modal_autoclosable_yes.modal_js_inited.modal
 dnevnik.statusapp.ru##.scrollable.v--modal-overlay
 dns-shop.ru##.banner-slider-block
 dns-shop.ru##.footer
@@ -284,6 +301,11 @@ habr.com##[href^="https://selectel.ru/blog/courses/"]
 habr.com##a[href^="https://vdsina.ru/cloud-servers"]
 hd.kinopoisk.ru##.Footer_copyrights__o1hzh
 hd.kinopoisk.ru##.Footer_social-networks__TvM1S
+hitfile.net##.footer
+hitfile.net##.max-speed-time
+hitfile.net##.ok-cell
+hitfile.net##.premium-link-holder
+hitfile.net##th.download-button.no-border:nth-of-type(3)
 hoff.ru##.banner-container
 home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
 https://[*.]yandex.ru:443
@@ -352,33 +374,47 @@ m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-t
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 mail.google.com##.aeU
 mail.yandex.ru##.Badge
+mail.yandex.ru##.button2_type_link.button2_theme_action.button2_size_m.button2_tone_default.button2_view_classic.button2.control
 mail.yandex.ru##.DisableAdsButton__root--dCJnD
 mail.yandex.ru##.Drawer-DragObserver
 mail.yandex.ru##.InboxGPTOnboarding__modal--n2gzf
 mail.yandex.ru##.legouser__menu-item_action_hiring.legouser__menu-item.count-me.menu__item_type_link.menu__item
 mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
 mail.yandex.ru##.mail-SubscriptionsPopup
+mail.yandex.ru##.mail-Wizard.modal_has-animation_yes.modal_js_inited.modal_theme_normal.modal_visible_yes.modal
 mail.yandex.ru##.Modal-Overlay
 mail.yandex.ru##.Modal-Wrapper
+mail.yandex.ru##.modal__cell
+mail.yandex.ru##.modal__table
 mail.yandex.ru##.Popup_modal_24TLt
+mail.yandex.ru##.Promozavr
 mail.yandex.ru##.PSHeader-ServiceList-MainService_collapsible_n3.PSHeader-ServiceList-MainService.promozavr-anchor-servicePremiumButton.PSHeaderService_theme_dark.PSHeaderService
 mail.yandex.ru##.qa-LeftColumn-Footer
 mail.yandex.ru##.sidebarPromo.promoPanel.promoPanel_noClose
 mail.yandex.ru##.smartBannerToast-container
 mail.yandex.ru##.smartBannerToast-text
+mail.yandex.ru##.tooltip__description
 mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item
 mail.yandex.ru##div:nth-of-type(2) > .leftPanel-group > a.leftPanelItem-link:nth-of-type(4) > .leftPanel-item > .leftPanelItem-text
 market.yandex.ru###\/content\/page\/fancyPage\/cms\/4\/SearchSerp-SearchSerp\/serpSearch\/content\/lazyGenerator\/initialContent\/serpLayoutItem_17175496077019353206327001_746660f
 market.yandex.ru###banner-streamer
 market.yandex.ru##.-GPMv
 market.yandex.ru##._169PI._381y5 > li > .cia-cs
+market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1._2E1Bb._2PMgL
 market.yandex.ru##._1bCJz._1MOwX._1pIA_
+market.yandex.ru##._1bCJz._1MOwX.b2CVt._1nuzB
 market.yandex.ru##._1bCJz._1MOwX.searchIncut
+market.yandex.ru##._1nHQg._1bCJz._1MOwX._3LfRU._1FEQF._1T2Sz._1jupA._33ORp
 market.yandex.ru##._1q2Ef
+market.yandex.ru##._25zTL
+market.yandex.ru##._2fGgw
 market.yandex.ru##._2MOII._2H8Pe
 market.yandex.ru##._2MOII._3eAaC
+market.yandex.ru##._2Pqm5 > div
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
+market.yandex.ru##._2vwG9._2AXg-
+market.yandex.ru##._2xwXT._1vlnY
 market.yandex.ru##._2yAEt > ._2LuiL
 market.yandex.ru##._31mNV
 market.yandex.ru##._352qm
@@ -388,6 +424,7 @@ market.yandex.ru##._3sgU6
 market.yandex.ru##._3VhdE
 market.yandex.ru##._3WotU > div > .cia-cs
 market.yandex.ru##._3WotU > div > div > .cia-cs
+market.yandex.ru##._3YrPh._1n5Sp
 market.yandex.ru##.amhEY
 market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs.worJS
@@ -395,6 +432,8 @@ market.yandex.ru##.cq9mG.side-menu-item_help
 market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##.slide-visible.slider-slide > div > ._1ldoY._3W9o_._2sH6r > ._2UdGA > div > .cia-cs.cia-vs > .cia-cs.cia-vs.worJS > .r_nt5._1sg27._2wiey > ._3d4X7.shape-rectangle._23SNJ.RbJt5._2ZNDF > .ePF3F
 market.yandex.ru##div._19b7r:nth-of-type(2)
+market.yandex.ru##div._1kLnL:nth-of-type(4)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6) > .SMANJ
 market.yandex.ru##li._22s-P:nth-of-type(2) > ._2r6Pq.kd7GA._2z53c > .fq7oS._2isCm._2l7HV._3qD7N._26ned
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2)
 media.vkplay.ru##.aside__sticky
@@ -421,6 +460,7 @@ music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
 music.yandex.ru##.auto-playlists__item_editorial
 music.yandex.ru##.auto-playlists__item_podcasts
 music.yandex.ru##.auto-playlists__item_recentTracks
+music.yandex.ru##.bar-below__auth
 music.yandex.ru##.d-icon_hq.d-icon
 music.yandex.ru##.deco-player-controls__button.player-controls__btn.hq__icon
 music.yandex.ru##.footer
@@ -446,6 +486,7 @@ music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(2)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3)
 mvideo.ru##.ng-star-inserted.insider-banner
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
+nahjob.top##.node_tg
 nauchniestati.ru##.eduChat
 new.dtf.ru##.live
 new.dtf.ru##.sidebar__footer
@@ -479,6 +520,9 @@ nvidia.com##.footer
 ok.ru##.auth-login-banner__e19f0
 one.google.com##.bIfCgf
 one.google.com##.jiw3Ff.hJGsQe
+online-audio-converter.com##.footer
+online-audio-converter.com##.like_row_conv.like_row
+online-audio-converter.com##.one-col
 online.sberbank.ru##.zPjJrC1waEJ29GEB4xzA
 openvpn.net##.site-copyright
 oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
@@ -487,6 +531,7 @@ oterraria.ru##noindex
 oxy.st##.footer-area
 ozon.ru##.c7t
 ozon.ru##li.sd8 > .d4155-a
+passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
 pentest-tools.com##.lg\:py-6.lg\:px-8
@@ -534,6 +579,7 @@ pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
 portal-shop.com###popup_iframe_wrapper
 portal-shop.com##.TOP_HEADER
+products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
 q32.pw##div#\$_v_banner
 reddit.com##._24UNt1hkbrZxLzs5vkvuDh
@@ -712,6 +758,7 @@ wifigid.ru##.wp-image-49583
 wifigid.ru##div.decoration-none
 wiki.merionet.ru##.discountBanner
 wiki.merionet.ru##.header
+workspace.ru##._brif--new
 www.aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
 www.aliexpress.com##div.page-menu-item:nth-of-type(11)
 www.avito.ru##.col-12
@@ -747,6 +794,8 @@ www.fanfiction.net##.main-content > .spacer.core-msg
 www.fanfiction.net##.panel_normal
 www.forbes.ru##._6EXjO.NS022.qlmJ1.cMH8R
 www.gigabyte.com##.img-ribbon
+www.google.ru##.AghGtd.KxwPGc
+www.google.ru##.ssOUyb.KxwPGc
 www.iloveimg.com##.block--black.block
 www.iloveimg.com##.block--grey-admin.block
 www.iloveimg.com##.block--white.block
@@ -759,6 +808,7 @@ www.iloveimg.com##[href="/ru/user/invoices"]
 www.iloveimg.com##li.sidebar__menu__subtitle:nth-of-type(6)
 www.ixbt.com##.social_links.menu__right
 www.kinopoisk.ru##.ReactModalPortal
+www.kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
 www.kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
 www.lastpass.com##.lp-page-end
 www.lastpass.com##.slim-footer__sub-footer
@@ -782,6 +832,8 @@ www.noob-club.ru##.support-nc.bottomleft
 www.nvidia.com###footer-container
 www.nvidia.com##a.bannerTracking
 www.nvidia.com##li.header-emotion-cache-md7zz7
+www.onlinetrade.ru##.footer__countersline
+www.onlinetrade.ru##.footer__infoline
 www.ozon.ru##.b21-a6.b21-a0.i7o_22
 www.ozon.ru##.c2y
 www.ozon.ru##.c3y
@@ -792,10 +844,12 @@ www.ozon.ru##.df0
 www.ozon.ru##.df1
 www.ozon.ru##.df5
 www.ozon.ru##.df6
+www.ozon.ru##.df7_9
 www.ozon.ru##.e1n_10.tsHeadline600Medium
 www.ozon.ru##.e8d
 www.ozon.ru##.ee6
 www.ozon.ru##.eh9_10
+www.ozon.ru##.f6d_9
 www.ozon.ru##.f8d_9
 www.ozon.ru##.f9d_9
 www.ozon.ru##.j5
@@ -863,6 +917,7 @@ www.shecodes.io##.promotion-banner--bootcamp
 www.terabox.com##.dialog-extra-del
 www.terabox.com##.premium
 www.terabox.com##.premium-btn
+www.upload.ee##body > table > tbody > tr > td > div
 www.urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
 www.vremyan.ru##.ajaxload
 www.vremyan.ru##.ok-link
@@ -898,56 +953,95 @@ ya.ru##.AdvOffers-Wrapper
 ya.ru##.AdvPremium
 ya.ru##.AdvRsyaCrossPage
 ya.ru##.AppAdvancedSearch-LikeTooltip
+ya.ru##.click
 ya.ru##.dialog__overlay
 ya.ru##.dialog__wrapper
 ya.ru##.dialog_visibility_visible.dialog_js_inited.dialog_type_fast-access-popup.dialog_top-popup_yes.i-mini-bem.dialog
 ya.ru##.dist-overlay__content_button-theme_light
 ya.ru##.EntityFeedbackFooter
+ya.ru##.FactHeader_with-hint
+ya.ru##.GenAnswer_view_fact
+ya.ru##.images-viewer-content2__behavioral-direct
 ya.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
 ya.ru##.message-promo_js_inited
 ya.ru##.MessageBox-Content
 ya.ru##.Organic-Warning
+ya.ru##.qCL95UxY1cgVKkmc-BlockInner
+ya.ru##.qDL1zZgsGbQVTg3ytow
+ya.ru##.qDL1zZgsGbQVTg3ytow_smaller-font
 ya.ru##.RequestMeta_view_minified
 ya.ru##.RknWarningFeature
 ya.ru##.RoundedButton_view_primary.RoundedButton.Button2_pin_circle-circle.Button2
 ya.ru##.search3__doodle-link.home-link2
 ya.ru##.SearchPrevention
+ya.ru##.SearchResultsHeader
 ya.ru##.SerpFooter-LinksGroup_type_feedback
 ya.ru##.SerpFooter-LinksGroup_type_morda
 ya.ru##.SerpFooter-LinksGroup_type_recommendations
 ya.ru##.simple-popup__overlay_shown
 ya.ru##.survey__content
+ya.ru##.Typo_line_s.Typo_text_m.Typo.organic.bno.Bno.Organic > .organic__content-wrapper.Organic-ContentWrapper
 ya.ru##.usermenu-redesign__after-footer
+ya.ru##.Video-Footer.VideoFooter_warning
 ya.ru##.ya-search-promo
 ya.ru##div.JustifierRowLayout-Incut
+ya.ru##div.qCL95UxY1cgVKkmc-Pane
+ya.ru##div.react-component_js_inited.i-bem.tiled-images__per-line-ycX68nSE
 yandex.ru###rsya-guarantee
+yandex.ru##._123YEkBGS2 > ._3ID5a6RPim
+yandex.ru##._2LKGHmmBhw._1Ulq2YCIbM
 yandex.ru##._view_small.tooltip-content-view
 yandex.ru##.AdvMastHead
 yandex.ru##.AdvRsyaCrossPage
 yandex.ru##.AliceFabPromo_shown.AliceFabPromo
 yandex.ru##.Branding_with-hint
+yandex.ru##.business-card-view__gray-section
+yandex.ru##.card-footer-view__disclaimer-info
+yandex.ru##.card-footer-view__social-links
 yandex.ru##.content__right_cols_12
 yandex.ru##.copyright-tech
 yandex.ru##.DarkThemePromo
+yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_icon-align_left.desk-notif-card_bg_default.desk-notif-card_animated_yes.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_no.desk-notif-card_covid_chart.desk-notif-card
+yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_icon-align_left.desk-notif-card_bg_default.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_messenger_yes.desk-notif-card
+yandex.ru##.desk-notif-card_js_inited.i-bem.desk-notif-card_icon-align_left.desk-notif-card_bg_default.desk-notif-card_minified_yes.desk-notif-card_actions_yes.desk-notif-card_details_no.desk-notif-card_icon_yes.desk-notif-card_plus-wallet_yes.desk-notif-card
 yandex.ru##.distr-nav
+yandex.ru##.distr-popup__content.popup2__content
 yandex.ru##.DistributionDrawer.Drawer_view_default
 yandex.ru##.DistributionSplashScreenModal-CloseButtonOuter
+yandex.ru##.favorites-icon
 yandex.ru##.footer__end
+yandex.ru##.FullscreenIOS2023
 yandex.ru##.GenAnswer_view_fact
 yandex.ru##.h6g2e8ot8G0O6hN2wk5oa-FooterContent
 yandex.ru##.HeaderPhoneActions-Alice
+yandex.ru##.headline.container > .row
+yandex.ru##.i-bem.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent
+yandex.ru##.i-bem.yaplus_available_yes.yaplus
+yandex.ru##.i-bem.yaplus_text.yaplus_old-icon.yaplus_available_yes.yaplus
+yandex.ru##.i-zalogin-cookie_js_inited.i-bem.i-zalogin-cookie.zalogin-smart
 yandex.ru##.ImagesViewer-SidebarAdv
+yandex.ru##.link_js_inited.i-bem.header-favorites-button__link.link
+yandex.ru##.link_js_inited.i-bem.header-favorites-button__link.link_theme_normal.link
 yandex.ru##.link_js_inited.rxKYBpR8.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
 yandex.ru##.link_js_inited.zplDw7uo.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
+yandex.ru##.media-grid__media-content
+yandex.ru##.media-infinity-footer__content-inner
+yandex.ru##.notifier__box
+yandex.ru##.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2
 yandex.ru##.RelatedBottom
 yandex.ru##.RequestMeta-Level_type_antispam
 yandex.ru##.RequestMeta-Level_type_level
+yandex.ru##.search-collapsed-card-view__advert-offer-banner
 yandex.ru##.SearchPrevention.Prevention
 yandex.ru##.SearchResultsHeader
+yandex.ru##.serp-footer__mob-app
+yandex.ru##.serp-footer__right
 yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
 yandex.ru##.SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup
 yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
 yandex.ru##.SerpFooterLinksGroup_type_feedback.SerpFooterLinksGroup
+yandex.ru##.services-new__content
+yandex.ru##.services-new__list
 yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
 yandex.ru##.SplashscreenDefault
 yandex.ru##.tCK00N4A.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
@@ -955,11 +1049,13 @@ yandex.ru##.top-root
 yandex.ru##.user-menu-view__plus
 yandex.ru##.x_HfV_E4u5
 yandex.ru##a.user-menu-item-view:nth-of-type(1)
+yandex.ru##div.card-dropdown-view:nth-of-type(4) > div > .card-footer-view__dropdown._no-icon._interactive._size_small._view_normal.card-feature-view
 yandex.ru##div.links-section:nth-of-type(1)
 yandex.ru##div.links-section:nth-of-type(2) > .links-section__list > a.zplDw7uo.links-section__link.link_theme_normal.link:nth-of-type(1)
 yandex.ru##div.links-section:nth-of-type(4)
 yandex.ru##div.serp-list__card.serp-item:nth-of-type(5)
 yougame.biz##.yg_first_post
+youla.ru##.kWdwfm.gpQJHO.sc-hNfygx.sc-jOiSOi > .itDyay.bsyfyD.sc-bCfvAP.sc-cUEOzv.sc-eeMvmM
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill
 youtube.com###chat
@@ -1006,6 +1102,10 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-rendere
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 ||4pda.to/s/PXtiacOWGWRz2Yqx3HC4YTf52H1z2A.jpg$image
+||ae01.alicdn.com/kf/H041dfe5a6cd64105b709cc0e0adad3f5f.gif$image
+||ae01.alicdn.com/kf/H173f53e5c0a541ef9bcaa46d4e18c714Z.gif$image
+||ae01.alicdn.com/kf/Hdc2aef821ddc4efba51a85b361985267K.jpg_Q90.jpg_.webp$image
+||aliexpress.ru/$image
 ||avatars.mds.yandex.net/get-adfox-content
 ||oterraria.ru/wp-content/uploads/2022/09/fon-genshindrop.jpg$image
 ||raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-single.svg$image
@@ -1017,37 +1117,6 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome.jpg$image
-
-#
-mail.yandex.ru##.Promozavr
-market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1._2E1Bb._2PMgL
-market.yandex.ru##._1bCJz._1MOwX.b2CVt._1nuzB
-market.yandex.ru##._1nHQg._1bCJz._1MOwX._3LfRU._1FEQF._1T2Sz._1jupA._33ORp
-market.yandex.ru##._25zTL
-market.yandex.ru##._2fGgw
-market.yandex.ru##._2Pqm5 > div
-market.yandex.ru##._2vwG9._2AXg-
-market.yandex.ru##._2xwXT._1vlnY
-market.yandex.ru##._3YrPh._1n5Sp
-market.yandex.ru##div._1kLnL:nth-of-type(4)
-market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6) > .SMANJ
-nahjob.top##.node_tg
-workspace.ru##._brif--new
-www.google.ru##.AghGtd.KxwPGc
-www.google.ru##.ssOUyb.KxwPGc
-www.onlinetrade.ru##.footer__countersline
-www.onlinetrade.ru##.footer__infoline
-ya.ru##.images-viewer-content2__behavioral-direct
-ya.ru##div.react-component_js_inited.i-bem.tiled-images__per-line-ycX68nSE
-yandex.ru##.FullscreenIOS2023
-youla.ru##.kWdwfm.gpQJHO.sc-hNfygx.sc-jOiSOi > .itDyay.bsyfyD.sc-bCfvAP.sc-cUEOzv.sc-eeMvmM
-www.kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
-ya.ru##.qCL95UxY1cgVKkmc-BlockInner
-ya.ru##.qDL1zZgsGbQVTg3ytow
-ya.ru##.qDL1zZgsGbQVTg3ytow_smaller-font
-ya.ru##div.qCL95UxY1cgVKkmc-Pane
-yandex.ru##.business-card-view__gray-section
-yandex.ru##.card-footer-view__disclaimer-info
-yandex.ru##.card-footer-view__social-links
-yandex.ru##.search-collapsed-card-view__advert-offer-banner
-yandex.ru##div.card-dropdown-view:nth-of-type(4) > div > .card-footer-view__dropdown._no-icon._interactive._size_small._view_normal.card-feature-view
+||yastatic.net/disk/_/_7DY8j-4H0ACfz079fm9wN1eeYSx.svg$image
+||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
+||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image

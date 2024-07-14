@@ -8,6 +8,26 @@
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
 !
+!
+! Кастомный список фильтров AdFck
+! Лицензия GPL-3.0: https://www.gnu.org/licenses/gpl-3.0.html
+! Проект создан пользователем LordArrin, и нацелен на блокировку 
+! различных раздражающих элементов на наиболее популярных сайтах.
+!==============================================================================
+Дисклеймер/Disclaimer
+!==============================================================================
+! Я не отвечаю за сломанные сайты, умершие устройства, термоядерную войну 
+! или ваше психическое здоровье из-за сбоя вашего любимого сайта. 
+! Пожалуйста, имейте в виду, что вы устанавливаете этот фильтр на ваш собственный риск! 
+! ВЫ сами решили внести эти изменения, и если вы решите винить меня за то, 
+! что я испортил ваш день, я буду смеяться над вами.
+!==============================================================================
+! I am not responsible for broken sites, dead devices, thermonuclear war
+! or your mental health because your favorite website crashes.
+! Please keep in mind that you install this filter at your own risk!
+! YOU decided to make these changes, and if you decide to blame me for it,
+! that I ruined your day, I will laugh at you.
+!
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 360.yandex.ru##.BottomText_1MZvpwoqJh90izwgKe36i
 360.yandex.ru##.SocialMediaBlock_1QNz3-nDTdBBNpNEdDpbQT
@@ -156,8 +176,6 @@ avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(1) > .profile-si
 avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6)
 avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-sidebar-navigation-group-list-_1_AX > li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK:nth-of-type(6) > .js-sidebar-menu-list-item-link.profile-sidebar-navigation-link-uOT5i
 backit.me##.onboarding-modal.el-dialog__wrapper
-www.banki.ru##.layout-wrapper.footer
-www.banki.ru##.lazy-widget--loaded.l9accb175.lazy-widget
 banki.ru##.lfd489732.seo-block
 banki.ru##.seo-block
 beatsage.com##.beat-sage-socials
@@ -1102,6 +1120,10 @@ wildberries.ru##.footer__inner-wrap
 wildberries.ru##.footer__list-wrap--social
 wildberries.ru##.footer__social-wrap
 workspace.ru##._brif--new
+www.banki.ru##.IPEJPbpA4b_njz7Q_czp
+www.banki.ru##.layout-wrapper.footer
+www.banki.ru##.lazy-widget--loaded
+www.banki.ru##.lazy-widget--loaded.l9accb175.lazy-widget
 xakep.ru##.default
 xatab-repack.rip###content > div:nth-of-type(3) > div:nth-of-type(1)
 xda-developers.com###footer

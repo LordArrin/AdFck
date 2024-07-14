@@ -7,6 +7,26 @@
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.36
 !
+!
+! Кастомный список DNS фильтров AdFck
+! Лицензия GPL-3.0: https://www.gnu.org/licenses/gpl-3.0.html
+! Проект создан пользователем LordArrin, и нацелен на блокировку 
+! различных раздражающих элементов на наиболее популярных сайтах.
+!==============================================================================
+Дисклеймер/Disclaimer
+!==============================================================================
+! Я не отвечаю за сломанные сайты, умершие устройства, термоядерную войну 
+! или ваше психическое здоровье из-за сбоя вашего любимого сайта. 
+! Пожалуйста, имейте в виду, что вы устанавливаете этот фильтр на ваш собственный риск! 
+! ВЫ сами решили внести эти изменения, и если вы решите винить меня за то, 
+! что я испортил ваш день, я буду смеяться над вами.
+!==============================================================================
+! I am not responsible for broken sites, dead devices, thermonuclear war
+! or your mental health because your favorite website crashes.
+! Please keep in mind that you install this filter at your own risk!
+! YOU decided to make these changes, and if you decide to blame me for it,
+! that I ruined your day, I will laugh at you.
+!
 # Genshin Impact
 @@||autopatchhk.yuanshen.com^
 @@||blooming-shelf-2016.herokuapp.com^

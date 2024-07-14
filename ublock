@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 Jule 2024 23:14
+! Last modified: 14 Jule 2024 23:42
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -158,14 +158,7 @@ avito.ru##li.profile-sidebar-navigation-group-A_Xpk:nth-of-type(3) > .profile-si
 backit.me##.onboarding-modal.el-dialog__wrapper
 banki.ru###newsContentContainer
 banki.ru###newsTabsContainer
-banki.ru##.bg-white
-banki.ru##.dbvVqF
-banki.ru##.gwYWXA0fQvaucbKOcDjd
-banki.ru##.l62f85681
-banki.ru##.l69f93a0b
-banki.ru##.lazy-widget--loaded.l9accb175
 banki.ru##.lfd489732.seo-block
-banki.ru##.page-section__header > [href="/news/"]
 banki.ru##.seo-block
 beatsage.com##.beat-sage-socials
 beatsage.com##.footer

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 Jule 2024 17:58
+! Last modified: 15 Jule 2024 23:33
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1351,3 +1351,29 @@ nn.bestmebelshop.ru##.bottom_block_foot
 ozon.ru##.ed0_9
 terabox.com##.v-modal
 terabox.com##.vip-wrap
+account.proton.me###credits
+account.proton.me###invoices
+account.proton.me###payment-methods
+account.proton.me##.border-strong.panel.lg\:order-0.order-1
+account.proton.me##.button-promotion--icon-gradient
+account.proton.me##.interactive--no-background.interactive-pseudo-protrude
+account.proton.me##.rounded.relative.bg-promotion
+account.proton.me##li.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(3) > .navigation-link
+calendar.proton.me##.button-promotion--icon-gradient
+calendar.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
+drive.proton.me##.button-promotion--icon-gradient
+drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
+drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
+drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
+mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
+megamarket.ru##.header-entry-point__app
+my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
+rule34video.com##.popup.popup-view.popup-holder > .popup-adv
+audio2edit.com##.queue-complete.priority-item > p
+audio2edit.com##.w-50.bg-warning.queue-btn.btn
+terabox.com##.is-round.u-button--medium.u-button--primary.nd-btn-fix-size-middle.u-button
+zvyki.com###footer
+zvyki.com##.onesongblock-btns > div
+zvyki.com##.onesongblock-end
+zvyki.com##.rbt-card
+zvyki.com##.rbt-list.no-ajaxy

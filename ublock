@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 Jule 2024 19:50
+! Last modified: 19 Jule 2024 00:59
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -29,6 +29,8 @@
 ! that I ruined your day, I will laugh at you.
 !
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
+123.ru###news
+123.ru##.footer-result
 360.yandex.ru##.BottomText_1MZvpwoqJh90izwgKe36i
 360.yandex.ru##.SocialMediaBlock_1QNz3-nDTdBBNpNEdDpbQT
 3dnews.ru###btwLabel
@@ -87,6 +89,14 @@
 @@||vk.*/vkpay
 account.microsoft.com##.content-303
 account.microsoft.com##.root-302
+account.proton.me###credits
+account.proton.me###invoices
+account.proton.me###payment-methods
+account.proton.me##.border-strong.panel.lg\:order-0.order-1
+account.proton.me##.button-promotion--icon-gradient
+account.proton.me##.interactive--no-background.interactive-pseudo-protrude
+account.proton.me##.rounded.relative.bg-promotion
+account.proton.me##li.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(3) > .navigation-link
 agent.yandex-team.ru##.gvzFpc.nmPBkh.GexFPl.RPrICl.UAknfl
 agent.yandex-team.ru##.LedKMg.UplHKi.VGYIBn.uXSUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
 agent.yandex-team.ru##.LedKMg.UplHKi.ymYIBn.RtTUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
@@ -131,6 +141,8 @@ asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
 audio-extractor.net###allapps-extension-popup
 audio-extractor.net##.copyright
 audio-extractor.net##.menu
+audio2edit.com##.queue-complete.priority-item > p
+audio2edit.com##.w-50.bg-warning.queue-btn.btn
 author.today###banner\.at-col-07\.23
 author.today##.col-xs-3 > .panel-default.panel
 author.today##.footer
@@ -182,15 +194,19 @@ beatsage.com##.beat-sage-socials
 beatsage.com##.footer
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
+boosty.to##.Footer_block_SJoX4
 byruthub.org##.br_stat
 byruthub.org##.footer
 byruthub.org##div.block-right:nth-of-type(4)
+calendar.proton.me##.button-promotion--icon-gradient
+calendar.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 calendar.yandex.ru##.AsideFooter__wrap--zQe-n
 championat.com##.footer
 championat.com##.js-loyalty-article-end.article-footer__row
 championat.com##div.footer__block:nth-of-type(2)
 chitai-gorod.ru##.footer
 citilink.ru##.e14s7mmi0
+citilink.ru##.ebgozyb0
 citilink.ru##.eowcxv00
 citilink.ru##.Footer__copyright
 citilink.ru##.js--Subscribe.Subscribe
@@ -246,6 +262,10 @@ docs.yandex.ru##.Modal-Wrapper
 download.oxy.st##.footer-area
 download.oxy.st##.text-right.list-inline
 drive.google.com##.ml-Pr-kg
+drive.proton.me##.button-promotion--icon-gradient
+drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
+drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
+drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
 dropbox.com##._inverse_1ymm9_69
 dropbox.com##._nav-link-container_1is5l_26
 dropbox.com##.account-menu-v2_quota-bar-btn-container.dig-Menu-row--interactive.dig-Menu-row
@@ -349,6 +369,7 @@ genshin.hoyoverse.com##.prod-logo-wrapper-zGjjx1.wrapper-2i-f_o
 genshin.hoyoverse.com##.statement-wrapper-2ufpIJ.wrapper-2i-f_o
 genshinhelper.ru##.main-ad-button.slot
 gigabyte.com##.img-ribbon
+gismeteo.ru##.footer
 github.blog##.mt-6.footer
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
@@ -484,6 +505,7 @@ m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 mail.google.com##.aeU
+mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 mail.ru##.mkopfmf__115rr7i.footer
 mail.yandex.ru##.Badge
 mail.yandex.ru##.button2_type_link.button2_theme_action.button2_size_m.button2_tone_default.button2_view_classic.button2.control
@@ -554,6 +576,7 @@ media.vkplay.ru##.aside__sticky
 mega.nz##.almost-full.fm-notification-block
 mega.nz##.almost-full.storage-dialog
 mega.nz##.anouncement.banner.mega-component
+megamarket.ru##.header-entry-point__app
 megamarket.ru##.item_dark.item.header-entry-point__item
 megamarket.ru##.page-footer__middle
 megamarket.ru##.page-footer__top > .page-footer-container > .copyright-block
@@ -579,6 +602,7 @@ music.yandex.ru##.auto-playlists__item_editorial
 music.yandex.ru##.auto-playlists__item_podcasts
 music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.bar-below__auth
+music.yandex.ru##.current.nav-kids__tab_is-notified.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab > .playlist-notification
 music.yandex.ru##.d-icon_hq.d-icon
 music.yandex.ru##.deco-player-controls__button.player-controls__btn.hq__icon
 music.yandex.ru##.footer
@@ -604,6 +628,7 @@ music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(2)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3)
 mvideo.ru##.ng-star-inserted.insider-banner
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
+my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
 nahjob.top##.node_tg
 nauchniestati.ru##.eduChat
 new.dtf.ru##.live
@@ -641,6 +666,7 @@ nitroflare.com##[src="img/swf/HighSpeedMeter.png"]
 nitroflare.com##body > div:nth-of-type(2)
 nitroflare.com##div > .bootstrapButton
 nitroflare.com##li:nth-of-type(3)
+nn.bestmebelshop.ru##.bottom_block_foot
 nn.dom.ru##.hwiRgm
 nn.dom.ru##.idFEKv
 nn.dom.ru##.nlAIa
@@ -674,6 +700,8 @@ oterraria.ru##noindex
 overclockers.ru##.active.tab.bottom.ui > .with-blog.mixed-material-wrap.items.divided.ui > div.mainlist-inline-an.grid.ui > .tag-trend
 overclockers.ru##.footer.vertical
 oxy.st##.footer-area
+ozon.ru##.b6 > .du8_9 > div > .c.container > .ld8_9
+ozon.ru##.ed0_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -780,8 +808,11 @@ rule34.xxx##[src="https://rule34.xxx/static/icame.png"]
 rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(4)
 rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
 rule34.xxx##small
+rule34comic.party##.footer
 rule34video.com##.footer
+rule34video.com##.popup.popup-view.popup-holder > .popup-adv
 rule34video.com##.thumb.spot-thumb
+rule34video.com##ul.mobile-list:nth-of-type(2) > li > .rule34comic.button_fav
 rustore.ru##._copyRight_1h8ee_45
 rustore.ru##._qrCodeBlock_1h8ee_22
 rustore.ru##._socialLinks_1h8ee_59
@@ -874,10 +905,13 @@ terabox.com##.capacity-expansion
 terabox.com##.coupon-Popup-box
 terabox.com##.dialog-extra-del
 terabox.com##.footer
+terabox.com##.is-round.u-button--medium.u-button--primary.nd-btn-fix-size-middle.u-button
 terabox.com##.membership-entry
 terabox.com##.premium
 terabox.com##.premium-btn
 terabox.com##.premium-tip
+terabox.com##.v-modal
+terabox.com##.vip-wrap
 terabox.com##a.header-btn:nth-of-type(3)
 terabox.com##a.header-btn:nth-of-type(4)
 terabox.com##a.header-btn:nth-of-type(5)
@@ -1219,6 +1253,7 @@ yandex.ru##.media-grid__media-content
 yandex.ru##.media-infinity-footer__content-inner
 yandex.ru##.notifier__box
 yandex.ru##.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2
+yandex.ru##.PreventionFeature
 yandex.ru##.RelatedBottom
 yandex.ru##.RequestMeta-Level_type_antispam
 yandex.ru##.RequestMeta-Level_type_level
@@ -1239,6 +1274,7 @@ yandex.ru##.SplashscreenDefault
 yandex.ru##.tCK00N4A.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
 yandex.ru##.top-root
 yandex.ru##.user-menu-view__plus
+yandex.ru##.VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.x_HfV_E4u5
 yandex.ru##a.user-menu-item-view:nth-of-type(1)
 yandex.ru##div.card-dropdown-view:nth-of-type(4) > div > .card-footer-view__dropdown._no-icon._interactive._size_small._view_normal.card-feature-view
@@ -1297,6 +1333,11 @@ youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-des
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+zvyki.com###footer
+zvyki.com##.onesongblock-btns > div
+zvyki.com##.onesongblock-end
+zvyki.com##.rbt-card
+zvyki.com##.rbt-list.no-ajaxy
 ||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||4pda.to/s/PXtiacOWGWRz2Yqx3HC4YTf52H1z2A.jpg$image
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
@@ -1341,44 +1382,3 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
 ~vk.*##div[id^="vk_ads_"]
-
-#
-music.yandex.ru##.current.nav-kids__tab_is-notified.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab > .playlist-notification
-123.ru###news
-123.ru##.footer-result
-nn.bestmebelshop.ru##.bottom_block_foot
-ozon.ru##.ed0_9
-terabox.com##.v-modal
-terabox.com##.vip-wrap
-account.proton.me###credits
-account.proton.me###invoices
-account.proton.me###payment-methods
-account.proton.me##.border-strong.panel.lg\:order-0.order-1
-account.proton.me##.button-promotion--icon-gradient
-account.proton.me##.interactive--no-background.interactive-pseudo-protrude
-account.proton.me##.rounded.relative.bg-promotion
-account.proton.me##li.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(3) > .navigation-link
-calendar.proton.me##.button-promotion--icon-gradient
-calendar.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
-drive.proton.me##.button-promotion--icon-gradient
-drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
-drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
-drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
-mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
-megamarket.ru##.header-entry-point__app
-my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
-rule34video.com##.popup.popup-view.popup-holder > .popup-adv
-audio2edit.com##.queue-complete.priority-item > p
-audio2edit.com##.w-50.bg-warning.queue-btn.btn
-terabox.com##.is-round.u-button--medium.u-button--primary.nd-btn-fix-size-middle.u-button
-zvyki.com###footer
-zvyki.com##.onesongblock-btns > div
-zvyki.com##.onesongblock-end
-zvyki.com##.rbt-card
-zvyki.com##.rbt-list.no-ajaxy
-boosty.to##.Footer_block_SJoX4
-rule34comic.party##.footer
-rule34video.com##ul.mobile-list:nth-of-type(2) > li > .rule34comic.button_fav
-ozon.ru##.b6 > .du8_9 > div > .c.container > .ld8_9
-yandex.ru##.PreventionFeature
-yandex.ru##.VideoPlayerMetaInfo-RknPrevention

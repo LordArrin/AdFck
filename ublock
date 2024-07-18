@@ -1259,7 +1259,6 @@ youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.styl
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next
 youtube.com###guide-links-primary
 youtube.com###guide-links-secondary
-youtube.com###header > .ytd-rich-grid-renderer.style-scope
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

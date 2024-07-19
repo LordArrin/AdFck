@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 19 Jule 2024 00:59
+! Last modified: 19 Jule 2024 05:48
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1382,3 +1382,39 @@ zvyki.com##.rbt-list.no-ajaxy
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
 ~vk.*##div[id^="vk_ads_"]
+
+#
+comss.ru##.footer
+m.avito.ru##.kqCm6
+m.avito.ru##.LauOH
+m.avito.ru##.mav-ckkd6
+m.avito.ru##.OTtKE
+m.avito.ru##.p7vg1
+m.avito.ru##div.mav-1i1c8ng
+ozon.ru##.dd3_9
+ozon.ru##.dd5_9
+terabox.com##.bottom-tip-wrap
+terabox.com##.card-premium-icon
+terabox.com##.card-premium-statetxt
+terabox.com##.loading-carousel-box
+terabox.com##.popup
+terabox.com##.premium-equity-box
+terabox.com##.premium-equity-title
+terabox.com##.share-extra
+terabox.com##.vjs-full-menu-badge
+terabox.com##.vjs-menu-item-badge
+terabox.com##.vjs-menu-title
+terabox.com##.vjs-modal-pay-guid.vjs-modal-dialog.vjs-modal-display
+terabox.com##li.vjs-menu-item:nth-of-type(2)
+terabox.com##li.vjs-menu-item:nth-of-type(3)
+yandex.ru##.AdvOffers-Wrapper
+yandex.ru##.AppAdvancedSearch-LikeTooltip
+yandex.ru##.b-line__footer
+yandex.ru##.card-footer-view__bold
+yandex.ru##.CommercialCropTouch-Button
+yandex.ru##.EntityFeedbackFooter-Wrapper
+yandex.ru##.Footer
+yandex.ru##.Prbb6dcf86-Footer
+yandex.ru##.RknPrevention_smaller-font
+yandex.ru##.rsyKLTefjajnssb8arA_smaller-font
+yandex.ru##div.rtyCBePrQ5Tn1oKQ-Pane

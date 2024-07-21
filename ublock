@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 19 Jule 2024 05:48
+! Last modified: 21 Jule 2024 05:41
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -71,6 +71,9 @@
 4pda.to##.wide-2
 4pda.to##.wide-3
 4pda.to##.wRFsbaFk.hwRFsbaFk
+4pda.to##.YjUXqtV1Yz2
+4pda.to##.YrkRby
+4pda.to##.z2cLn50h1U35Mvz2t9fVZs
 4pda.to##article.iUz2VrOjotdohZul
 4pda.to##article.rnd-replace-sidebar-all
 4pda.to##article.ud2DA3bn3ktLoer
@@ -111,6 +114,7 @@ aliexpress.ru###ae-ru-privacy-banner__container
 aliexpress.ru##._3KrBP
 aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
 aliexpress.ru##.next-dialog-body > div
+aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
 aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
@@ -123,6 +127,8 @@ aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > di
 aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__title__1i7x1.red-ali-kit_Label__medium__1ydbpm.red-ali-kit_Label__M__1ydbpm.red-ali-kit_Typography__medium__16fy3h.red-ali-kit_Typography__base__16fy3h
 aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(2)
 aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(3)
+allrepack.ru###footer-bottom
+allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
 apkpure.com##.footer_new
 apkpure.net##.download.telegram-btn.mt-large
@@ -214,6 +220,7 @@ cloud.mail.ru###topBanner > .b-react-component
 club.dns-shop.ru##.club-sidebar__footer
 club.dns-shop.ru##.club-sidebar__footer-navigation-list
 community.cloudflare.com##.modal-container
+comss.ru##.footer
 crowdin.com##.dropdown-menu-right.dropdown-menu.user-menu-dropdown > a.dropdown-item:nth-of-type(3)
 crowdin.com##.mb-2.progress
 crowdin.com##.text-center.bg-gray.p-3.questionary-header
@@ -400,6 +407,7 @@ hitfile.net##th.download-button.no-border:nth-of-type(3)
 hoff.ru##.banner-container
 home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
 https://[*.]yandex.ru:443
+i2hard.ru##.footer__copyright
 id.sber.ru###illustation-container
 id.sber.ru##.CookiePolicy_container__3FE8X
 id.sber.ru##.e1h2zndv2.css-120awmp
@@ -483,6 +491,12 @@ m.aliexpress.com##._1MfQC
 m.aliexpress.com##div.page-menu-item:nth-of-type(11)
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
+m.avito.ru##.kqCm6
+m.avito.ru##.LauOH
+m.avito.ru##.mav-ckkd6
+m.avito.ru##.OTtKE
+m.avito.ru##.p7vg1
+m.avito.ru##div.mav-1i1c8ng
 m.fanfiction.net##form > div
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
@@ -500,7 +514,10 @@ m.vk.com##.vkuiInternalGroupCard.Group-module__groupModeCard--CUTB8.Group-module
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+m.youtube.com##ytm-multi-page-menu-section-renderer:nth-of-type(2) > ytm-compact-link-renderer:nth-of-type(1) > .compact-link-endpoint
+m.youtube.com##ytm-multi-page-menu-section-renderer:nth-of-type(5)
 m.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+m.youtube.com##ytm-privacy-tos-footer-renderer
 m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
@@ -698,9 +715,13 @@ oterraria.ru###custom_html-14 > .custom-html-widget.textwidget
 oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.active.tab.bottom.ui > .with-blog.mixed-material-wrap.items.divided.ui > div.mainlist-inline-an.grid.ui > .tag-trend
+overclockers.ru##.aligned.center.column.wide.four
+overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
 oxy.st##.footer-area
 ozon.ru##.b6 > .du8_9 > div > .c.container > .ld8_9
+ozon.ru##.dd3_9
+ozon.ru##.dd5_9
 ozon.ru##.ed0_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
@@ -763,6 +784,7 @@ rambler.ru##._1VtI
 rambler.ru##._2jmA > div > ._11dr
 rambler.ru##.IIVK > div > ._11dr
 rambler.ru##.rc__sv690
+randomus.ru##.container > .mt-2
 randomus.ru##.mt-6.py-5.footer
 reddit.com###multireddits_section
 reddit.com##._24UNt1hkbrZxLzs5vkvuDh
@@ -900,24 +922,38 @@ studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
 tabler.io##.banner
 tankionline.com##.cookies-int
+terabox.com##.bottom-tip-wrap
 terabox.com##.bottom-tip-wrap-part.bottom-tip-wrap
 terabox.com##.capacity-expansion
+terabox.com##.card-premium-icon
+terabox.com##.card-premium-statetxt
 terabox.com##.coupon-Popup-box
 terabox.com##.dialog-extra-del
 terabox.com##.footer
 terabox.com##.is-round.u-button--medium.u-button--primary.nd-btn-fix-size-middle.u-button
+terabox.com##.loading-carousel-box
 terabox.com##.membership-entry
+terabox.com##.popup
 terabox.com##.premium
 terabox.com##.premium-btn
+terabox.com##.premium-equity-box
+terabox.com##.premium-equity-title
 terabox.com##.premium-tip
+terabox.com##.share-extra
 terabox.com##.v-modal
 terabox.com##.vip-wrap
+terabox.com##.vjs-full-menu-badge
+terabox.com##.vjs-menu-item-badge
+terabox.com##.vjs-menu-title
+terabox.com##.vjs-modal-pay-guid.vjs-modal-dialog.vjs-modal-display
 terabox.com##a.header-btn:nth-of-type(3)
 terabox.com##a.header-btn:nth-of-type(4)
 terabox.com##a.header-btn:nth-of-type(5)
 terabox.com##a.header-btn:nth-of-type(6)
 terabox.com##div.bottom-box
 terabox.com##div.bottom-box:nth-of-type(23)
+terabox.com##li.vjs-menu-item:nth-of-type(2)
+terabox.com##li.vjs-menu-item:nth-of-type(3)
 thecommunity.ru##.footer
 thejavasea.me##[href^="https://dnsproxy.org/"]
 thejavasea.me##[href^="https://lunaproxy.com/"]
@@ -1191,6 +1227,7 @@ ya.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
 ya.ru##.message-promo_js_inited
 ya.ru##.MessageBox-Content
 ya.ru##.Organic-Warning
+ya.ru##.Promo_withoutBlur
 ya.ru##.qCL95UxY1cgVKkmc-BlockInner
 ya.ru##.qDL1zZgsGbQVTg3ytow
 ya.ru##.qDL1zZgsGbQVTg3ytow_smaller-font
@@ -1217,12 +1254,17 @@ yandex.ru##._123YEkBGS2 > ._3ID5a6RPim
 yandex.ru##._2LKGHmmBhw._1Ulq2YCIbM
 yandex.ru##._view_small.tooltip-content-view
 yandex.ru##.AdvMastHead
+yandex.ru##.AdvOffers-Wrapper
 yandex.ru##.AdvRsyaCrossPage
 yandex.ru##.AliceFabPromo_shown.AliceFabPromo
+yandex.ru##.AppAdvancedSearch-LikeTooltip
+yandex.ru##.b-line__footer
 yandex.ru##.Branding_with-hint
 yandex.ru##.business-card-view__gray-section
+yandex.ru##.card-footer-view__bold
 yandex.ru##.card-footer-view__disclaimer-info
 yandex.ru##.card-footer-view__social-links
+yandex.ru##.CommercialCropTouch-Button
 yandex.ru##.content__right_cols_12
 yandex.ru##.copyright-tech
 yandex.ru##.DarkThemePromo
@@ -1233,7 +1275,9 @@ yandex.ru##.distr-nav
 yandex.ru##.distr-popup__content.popup2__content
 yandex.ru##.DistributionDrawer.Drawer_view_default
 yandex.ru##.DistributionSplashScreenModal-CloseButtonOuter
+yandex.ru##.EntityFeedbackFooter-Wrapper
 yandex.ru##.favorites-icon
+yandex.ru##.Footer
 yandex.ru##.footer__end
 yandex.ru##.FullscreenIOS2023
 yandex.ru##.GenAnswer_view_fact
@@ -1253,10 +1297,14 @@ yandex.ru##.media-grid__media-content
 yandex.ru##.media-infinity-footer__content-inner
 yandex.ru##.notifier__box
 yandex.ru##.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2
+yandex.ru##.Prbb6dcf86-Footer
 yandex.ru##.PreventionFeature
+yandex.ru##.Promo_withoutBlur
 yandex.ru##.RelatedBottom
 yandex.ru##.RequestMeta-Level_type_antispam
 yandex.ru##.RequestMeta-Level_type_level
+yandex.ru##.RknPrevention_smaller-font
+yandex.ru##.rsyKLTefjajnssb8arA_smaller-font
 yandex.ru##.search-collapsed-card-view__advert-offer-banner
 yandex.ru##.SearchPrevention.Prevention
 yandex.ru##.SearchResultsHeader
@@ -1281,6 +1329,7 @@ yandex.ru##div.card-dropdown-view:nth-of-type(4) > div > .card-footer-view__drop
 yandex.ru##div.links-section:nth-of-type(1)
 yandex.ru##div.links-section:nth-of-type(2) > .links-section__list > a.zplDw7uo.links-section__link.link_theme_normal.link:nth-of-type(1)
 yandex.ru##div.links-section:nth-of-type(4)
+yandex.ru##div.rtyCBePrQ5Tn1oKQ-Pane
 yandex.ru##div.serp-list__card.serp-item:nth-of-type(5)
 yougame.biz##.yg_first_post
 youla.ru##.kWdwfm.gpQJHO.sc-hNfygx.sc-jOiSOi > .itDyay.bsyfyD.sc-bCfvAP.sc-cUEOzv.sc-eeMvmM
@@ -1339,6 +1388,8 @@ zvyki.com##.onesongblock-end
 zvyki.com##.rbt-card
 zvyki.com##.rbt-list.no-ajaxy
 ||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
+||4pda.to/s/*.jpg$image
+||4pda.to/s/*.jpg?$image
 ||4pda.to/s/PXtiacOWGWRz2Yqx3HC4YTf52H1z2A.jpg$image
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru/vp/*&duration=domain=vk.com|vk.ru|m.vk.com|m.vk.ru
@@ -1363,6 +1414,7 @@ zvyki.com##.rbt-list.no-ajaxy
 ||stats.vk-portal.net^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||tns-counter.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||top-fwz1.mail.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
+||totalbox-frontend.taxi.yandex-team.ru/wizard$subdocument
 ||vk.*/ads_rotate^$domain=important
 ||vk.*/al_audio.php?act=need_show_promo^
 ||vk.*/al_feed.php?ads_section^
@@ -1382,42 +1434,3 @@ zvyki.com##.rbt-list.no-ajaxy
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
 ~vk.*##div[id^="vk_ads_"]
-
-#
-comss.ru##.footer
-m.avito.ru##.kqCm6
-m.avito.ru##.LauOH
-m.avito.ru##.mav-ckkd6
-m.avito.ru##.OTtKE
-m.avito.ru##.p7vg1
-m.avito.ru##div.mav-1i1c8ng
-ozon.ru##.dd3_9
-ozon.ru##.dd5_9
-terabox.com##.bottom-tip-wrap
-terabox.com##.card-premium-icon
-terabox.com##.card-premium-statetxt
-terabox.com##.loading-carousel-box
-terabox.com##.popup
-terabox.com##.premium-equity-box
-terabox.com##.premium-equity-title
-terabox.com##.share-extra
-terabox.com##.vjs-full-menu-badge
-terabox.com##.vjs-menu-item-badge
-terabox.com##.vjs-menu-title
-terabox.com##.vjs-modal-pay-guid.vjs-modal-dialog.vjs-modal-display
-terabox.com##li.vjs-menu-item:nth-of-type(2)
-terabox.com##li.vjs-menu-item:nth-of-type(3)
-yandex.ru##.AdvOffers-Wrapper
-yandex.ru##.AppAdvancedSearch-LikeTooltip
-yandex.ru##.b-line__footer
-yandex.ru##.card-footer-view__bold
-yandex.ru##.CommercialCropTouch-Button
-yandex.ru##.EntityFeedbackFooter-Wrapper
-yandex.ru##.Footer
-yandex.ru##.Prbb6dcf86-Footer
-yandex.ru##.RknPrevention_smaller-font
-yandex.ru##.rsyKLTefjajnssb8arA_smaller-font
-yandex.ru##div.rtyCBePrQ5Tn1oKQ-Pane
-
-||totalbox-frontend.taxi.yandex-team.ru/wizard$subdocument
-randomus.ru##.container > .mt-2

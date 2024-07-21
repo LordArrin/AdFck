@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 Jule 2024 05:41
+! Last modified: 22 Jule 2024 00:48
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -198,6 +198,7 @@ banki.ru##.lfd489732.seo-block
 banki.ru##.seo-block
 beatsage.com##.beat-sage-socials
 beatsage.com##.footer
+bgremover.vanceai.com##.tip > div > .btn-container
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
 boosty.to##.Footer_block_SJoX4
@@ -408,6 +409,14 @@ hoff.ru##.banner-container
 home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
 https://[*.]yandex.ru:443
 i2hard.ru##.footer__copyright
+icons8.ru##.addon-carbon.carbon-card-ad
+icons8.ru##.addon-shutterstock
+icons8.ru##.app-support
+icons8.ru##.by-sell-ads-large
+icons8.ru##.carbon-card-ad__loader
+icons8.ru##.dim__footer-download > .i8-link
+icons8.ru##.fdm__footer
+icons8.ru##.grid-icons__seo
 id.sber.ru###illustation-container
 id.sber.ru##.CookiePolicy_container__3FE8X
 id.sber.ru##.e1h2zndv2.css-120awmp
@@ -486,6 +495,7 @@ lk.bcnn.ru##.site-footer
 lk.mts.ru##.mts-lk-footer__wrapper
 login.mts.ru##.iMXcpm
 losst.pro###extapp-feedback-container
+lumpics.ru##.tgchat
 lurkmore.me###siteNotice
 m.aliexpress.com##._1MfQC
 m.aliexpress.com##div.page-menu-item:nth-of-type(11)
@@ -766,8 +776,11 @@ pikabu.ru##div.sidebar-block_border.sidebar-block:nth-of-type(1)
 pikabu.ru##section.stories-feed__message:nth-of-type(2)
 pixeldrain.com##strong
 pixiv.net##.cugra.sc-4nj1pr-4
+platform.tuya.com##.Help_videoContent__27Ha8
+platform.tuya.com##.Home_right__2Ki1J
 platform.tuya.com##.iot-rc-ai-assistant
 platform.tuya.com##.iot-rc-ai-assistant-entry-main.ant-row-middle.ant-row
+platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
 pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
@@ -884,6 +897,7 @@ shoppingcart.aliexpress.ru###\32
 shoppingcart.aliexpress.ru###\32  > .snow-ali-kit_Tab__title__jai3av.snow-ali-kit_Typography__base__1shggo
 shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
 shoppingcart.aliexpress.ru##.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__showButton__igu0o.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__wrapButton__igu0o
+shutterstock.com##.mui-1nyrg0n
 skillbox.ru##.bannerTop
 skillbox.ru##.container--setka.container > .js-article-banner
 skillbox.ru##.container.footer__underline
@@ -920,6 +934,7 @@ store.epicgames.com##.epic_games
 studio.rutube.ru##.vl-navigation__bottom-links
 studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
+supchat.taxi.yandex-team.ru##.amber-select_remove-selected
 tabler.io##.banner
 tankionline.com##.cookies-int
 terabox.com##.bottom-tip-wrap
@@ -1224,6 +1239,7 @@ ya.ru##.FactHeader_with-hint
 ya.ru##.GenAnswer_view_fact
 ya.ru##.images-viewer-content2__behavioral-direct
 ya.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
+ya.ru##.kV3bz0Aa8AWPV_card-metadoc
 ya.ru##.message-promo_js_inited
 ya.ru##.MessageBox-Content
 ya.ru##.Organic-Warning
@@ -1295,6 +1311,7 @@ yandex.ru##.link_js_inited.rxKYBpR8.header-b2b__link-instead-of-sighup.header-b2
 yandex.ru##.link_js_inited.zplDw7uo.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accent.header-b2b__menu-item.link
 yandex.ru##.media-grid__media-content
 yandex.ru##.media-infinity-footer__content-inner
+yandex.ru##.Metadoc
 yandex.ru##.notifier__box
 yandex.ru##.popup2_visible_yes.popup2_direction_bottom-right.popup2_js_inited.i-bem.serp-user__promo-popup.popup2_view_classic.popup2_hiding_yes.popup2_autoclosable_yes.popup2_target_anchor.popup2_theme_normal.popup2
 yandex.ru##.Prbb6dcf86-Footer

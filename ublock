@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 Jule 2024 17:46
+! Last modified: 31 Jule 2024 07:30
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1503,7 +1503,21 @@ sponsr.ru##.for-whom
 sponsr.ru##.what-is
 sponsr.ru##footer
 ticket.rzd.ru##.app-footer
-www.blackbox.ai##.bg-background.shadow-none.py-2.px-4.h-8.hover\:text-accent-foreground.hover\:bg-accent.border-input.border.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-offset-2.focus-visible\:ring-ring.focus-visible\:ring-2.focus-visible\:outline-none.transition-colors.ring-offset-background.font-medium.text-sm.rounded-md.justify-center.items-center.inline-flex
+blackbox.ai##.bg-background.shadow-none.py-2.px-4.h-8.hover\:text-accent-foreground.hover\:bg-accent.border-input.border.disabled\:opacity-50.disabled\:pointer-events-none.focus-visible\:ring-offset-2.focus-visible\:ring-ring.focus-visible\:ring-2.focus-visible\:outline-none.transition-colors.ring-offset-background.font-medium.text-sm.rounded-md.justify-center.items-center.inline-flex
 yandex.ru##.EFiltersOnboarding
 yandex.ru##.EFiltersOverlay_visible
 yandex.ru##.ProductFiltersAtop_outlined
+banggood.com##.exclick.main-keyword
+banggood.com##.main-sellingPoint
+banggood.com##.wrap.footer-authitem
+bank.yandex.ru##.PromoWidget-module__desktopQR__OasY
+blackbox.ai##.landing-center.pt-10.p-8.rounded-lg.gap-2.items-center.flex-col.flex > .items-center.flex
+extract-audio-online.com###ouibounce-modal
+extract-audio-online.com##.floating-widget
+extract-audio-online.com##.modal-content
+habr.com##[href^="http://ruvds.com/ru-rub"]
+m.banggood.com##.footer
+pixiv.net##.-ml-8.flex
+shoppingcart.aliexpress.ru##.SnowCartHotProductList_Header__bannerNew__1257n
+sourceforge.net###main-nav-badge
+||cowaii.club/banner1.webp$image

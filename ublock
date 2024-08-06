@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 August 2024 01:04
+! Last modified: 06 August 2024 06:14
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1543,3 +1543,24 @@ zvyki.com##.rbt-list.no-ajaxy
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
 ~vk.*##div[id^="vk_ads_"]
+
+#
+flaticon.com###pack-lincense
+flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
+flaticon.com##.autopromo-coupon-container
+flaticon.com##.copyright
+flaticon.com##.footer__buttons.push-right
+flaticon.com##.footer__projects
+flaticon.com##.link-pricing
+flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
+flaticon.com##.mg-top-lv3.font-xs.footer__legal
+nutaku.net##.flx-column.seo-box
+nutaku.net##.fnt-small-2
+nutaku.net##.game-play-footer
+nutaku.net##.home-masthead
+pikabu.ru##.stories-feed__container > div > div
+studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
+superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
+superuser.com##.site-footer--container
+x.com##.r-3pj75a.r-1w6e6rj
+yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card

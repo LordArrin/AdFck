@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 06 August 2024 06:14
+! Last modified: 12 August 2024 05:41
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1562,5 +1562,46 @@ pikabu.ru##.stories-feed__container > div > div
 studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
 superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
 superuser.com##.site-footer--container
+x.com##.r-3pj75a.r-1w6e6rj
+yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
+aliexpress.ru##.red-typography-utils_style__caption_m_medium__yl5jcn.red-snippet_RedSnippet__p4pElement__1fdd9h.red-typography-utils_style__caption_s_medium__yl5jcn.red-snippet_Element__container__1nwok2
+brattysis.com##.hover-join
+brattysis.com##.mx-2.btn-lg.btn-cta.btn
+brattysis.com##.py-3.footer-container
+brattysis.com##.watch-page-video-container > .container-fluid
+dns-shop.ru##.survey-button-widget_filter
+flaticon.com###button_panel
+flaticon.com###pack-lincense
+flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
+flaticon.com##.autopromo-coupon-container
+flaticon.com##.btn-warning.bj-button.btn.btn-svg
+flaticon.com##.copyright
+flaticon.com##.footer__buttons.push-right
+flaticon.com##.footer__projects
+flaticon.com##.link-pricing
+flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
+flaticon.com##.mg-top-lv3.font-xs.footer__legal
+github.com##.overflow-hidden.js-notice-dismiss
+market.yandex.ru##.cia-cs.cia-vs.HBydy
+nutaku.net##.flx-column.seo-box
+nutaku.net##.fnt-small-2
+nutaku.net##.game-play-footer
+nutaku.net##.home-masthead
+pikabu.ru##.stories-feed__container > div > div
+pikabu.ru##.story-block_type_fundraising.story-block
+pikabu.ru##.story__title-comstories_hot.hint
+pochta.ru##.optimize-banner-p14n
+pugetsystems.com##.interrupt-banner-style-1
+ru.xhamster.com##.footer-wrapper
+ru.xhamster.com##.IM-sezxpremium-n-overlay
+ru.xhamster.com##.search-page-suggestions-wrapper-sticky
+ru.xhamster.com##div.container-64b3c:nth-of-type(9) > .link-64b3c.primary-48288.root-48288
+store.steampowered.com###footer
+studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
+superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
+superuser.com##.site-footer--container
+theporndude.com##.--show.coo-widget
+theporndude.com##.copyright-message
+theporndude.com##.quotes
 x.com##.r-3pj75a.r-1w6e6rj
 yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card

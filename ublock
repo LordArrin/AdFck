@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 August 2024 05:41
+! Last modified: 18 August 2024 17:10
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -115,6 +115,7 @@ aliexpress.ru##._3KrBP
 aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
 aliexpress.ru##.next-dialog-body > div
 aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
+aliexpress.ru##.red-typography-utils_style__caption_m_medium__yl5jcn.red-snippet_RedSnippet__p4pElement__1fdd9h.red-typography-utils_style__caption_s_medium__yl5jcn.red-snippet_Element__container__1nwok2
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
 aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
@@ -168,6 +169,7 @@ avito.ru##.create-promocode-banner-create-promocode-banner-_XHN2
 avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 avito.ru##.index-content-SaGyO > div
 avito.ru##.index-innerPosition-sNjFT
+avito.ru##.index-innerPosition_main-I64Is
 avito.ru##.index-miniMenu-pZSYw
 avito.ru##.index-module-content-IpbCP > div
 avito.ru##.index-module-nav-stRnY
@@ -180,12 +182,15 @@ avito.ru##.index-root-auOiW
 avito.ru##.js-apps-banner-banner
 avito.ru##.js-seller-safety-banner
 avito.ru##.js-side-menu-list-item-professionals.profile-sidebar-navigation-item-_oLvK
+avito.ru##.navbar-root-A3Ik4
 avito.ru##.navbar-root-H9tUO
 avito.ru##.personal-discount-adaptive-original-banner-Ohtse
 avito.ru##.profile-sidebar-navigation-tag-fatJg
+avito.ru##.services-root-ANSRR
 avito.ru##.services-root-hgyuF
 avito.ru##.shortVideosWitcher-section-NHx6w
 avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
+avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
 avito.ru##.styles-module-root_withPaddings-_crED
 avito.ru##.uxs-1ii9xhp
 avito.ru##.uxs-unilch
@@ -215,6 +220,10 @@ blackbox.ai##.sm\:block.hidden.text-muted-foreground
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
 boosty.to##.Footer_block_SJoX4
+brattysis.com##.hover-join
+brattysis.com##.mx-2.btn-lg.btn-cta.btn
+brattysis.com##.py-3.footer-container
+brattysis.com##.watch-page-video-container > .container-fluid
 byruthub.org##.br_stat
 byruthub.org##.footer
 byruthub.org##div.block-right:nth-of-type(4)
@@ -278,6 +287,7 @@ dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block
 dns-shop.ru##.footer
 dns-shop.ru##.left-filters__consult-wrap
+dns-shop.ru##.survey-button-widget_filter
 dns-shop.ru##div.products-list__banner
 docs.yandex.ru##.Modal-Overlay
 docs.yandex.ru##.Modal-Wrapper
@@ -372,11 +382,22 @@ fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
+flaticon.com###button_panel
+flaticon.com###pack-lincense
 flaticon.com##.active.modal-attribution-detail
+flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
+flaticon.com##.autopromo-coupon-container
 flaticon.com##.banner-craft
 flaticon.com##.block.mg-bottom-lv3
 flaticon.com##.bn-detail.bn-space-gads
+flaticon.com##.btn-warning.bj-button.btn.btn-svg
 flaticon.com##.btn-warning.bj-button.mg-none.col.btn.btn-svg
+flaticon.com##.copyright
+flaticon.com##.footer__buttons.push-right
+flaticon.com##.footer__projects
+flaticon.com##.link-pricing
+flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
+flaticon.com##.mg-top-lv3.font-xs.footer__legal
 flaticon.com##.modal-icon.track
 flaticon.com##.tooltip--bottom.tooltip.detail__copysvg.btn-copy
 flaticon.com##p.mg-bottom-lv1
@@ -420,6 +441,7 @@ github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
 github.com##.mb-2.mt-md-2.mt-3.color-fg-muted.text-small
+github.com##.overflow-hidden.js-notice-dismiss
 github.com##.p-responsive.color-fg-muted
 github.com##.px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
@@ -636,6 +658,7 @@ market.yandex.ru##._3WotU > div > div > .cia-vs > .r_nt5.QPlRO._2wiey > ._2KJEt
 market.yandex.ru##._3YrPh._1n5Sp
 market.yandex.ru##.amhEY
 market.yandex.ru##.At4Zq
+market.yandex.ru##.cia-cs.cia-vs.HBydy
 market.yandex.ru##.cia-cs.cia-vs.worJS
 market.yandex.ru##.cMlhN
 market.yandex.ru##.cq9mG.side-menu-item_help
@@ -761,6 +784,11 @@ nnov.ticketland.ru##.copyright
 nnov.ticketland.ru##.feedback_popup
 nnov.ticketland.ru##.promo
 noob-club.ru##.support-nc.bottomleft
+nutaku.net##.flx-column.seo-box
+nutaku.net##.fnt-small-2
+nutaku.net##.fnt-small-2www.avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
+nutaku.net##.game-play-footer
+nutaku.net##.home-masthead
 nvidia.com###footer-container
 nvidia.com##.footer
 nvidia.com##a.bannerTracking
@@ -785,11 +813,6 @@ overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
 overclockers.ru##.over-pay
 oxy.st##.footer-area
-ozon.ru##.b6 > .du8_9 > div > .c.container > .ld8_9
-ozon.ru##.dd3_9
-ozon.ru##.dd5_9
-ozon.ru##.e9d_9
-ozon.ru##.ed0_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -826,7 +849,10 @@ pikabu.ru##.sidebar-menu__item_notification-dot
 pikabu.ru##.sidebar-menu__new-badge_green
 pikabu.ru##.sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##.sidebar-public-ratings
+pikabu.ru##.stories-feed__container > div > div
+pikabu.ru##.story-block_type_fundraising.story-block
 pikabu.ru##.story__donate_new
+pikabu.ru##.story__title-comstories_hot.hint
 pikabu.ru##.thematic-campaign
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
@@ -845,6 +871,7 @@ plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.cuUGNt.Box-sc-7ax6ia-0
 pochta.ru##.eQmwIF.Footerstyles__FooterCompactPart-ks6h4k-4
 pochta.ru##.jXhJLU.Footerstyles__FooterCompactPart-ks6h4k-2
+pochta.ru##.optimize-banner-p14n
 pochta.ru##.portal-footer.CZEWq.Footerstyles__FooterMain-j1ecjx-1
 pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
@@ -852,6 +879,7 @@ portal-shop.com###popup_iframe_wrapper
 portal-shop.com##.TOP_HEADER
 products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
+pugetsystems.com##.interrupt-banner-style-1
 q32.pw##div#\$_v_banner
 rambler.ru##._1VtI
 rambler.ru##._2jmA > div > ._11dr
@@ -903,6 +931,10 @@ rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(11)
 ru.anyquestion.info##.z-10.relative
 ru.wikipedia.org###footer > .noprint
 ru.wikipedia.org###footer-places
+ru.xhamster.com##.footer-wrapper
+ru.xhamster.com##.IM-sezxpremium-n-overlay
+ru.xhamster.com##.search-page-suggestions-wrapper-sticky
+ru.xhamster.com##div.container-64b3c:nth-of-type(9) > .link-64b3c.primary-48288.root-48288
 rule34.us##div:nth-of-type(2)
 rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
@@ -1012,12 +1044,16 @@ sprut.ai##.col-12.col-md-4
 stoigr.org##.abusemessage
 stoigr.org##.footer
 store.epicgames.com##.epic_games
+store.steampowered.com###footer
 studio.rutube.ru##.vl-navigation__bottom-links
 studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
+studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
 supchat.taxi.yandex-team.ru##.amber-select_remove-selected
 supchat.taxi.yandex-team.ru##.NLuIkIlck0vTaKeHqZTS.g-card_size_l.g-card_type_container.g-card_view_outlined.g-card_theme_normal.g-card.g-box
 supchat.taxi.yandex-team.ru##.NLuIkIlck0vTaKeHqZTS.g-card_size_l.g-card_type_container.g-card_view_outlined.g-card_theme_normal.g-card.g-box > .NH85XCHX6Dh6JQ9kIwRe.g9HKQDslpIGoiFr7yz2S.g-flex.g-box
+superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
+superuser.com##.site-footer--container
 tabler.io##.banner
 tankionline.com##.cookies-int
 terabox.com##.bottom-tip-wrap
@@ -1059,7 +1095,10 @@ thelastdb.games##.footer
 thelastgame.org###footer
 thelastgame.ru###footer
 thelastgames.ru##.text-center.section.footer
+theporndude.com##.--show.coo-widget
+theporndude.com##.copyright-message
 theporndude.com##.footer
+theporndude.com##.quotes
 theporndude.com##.top-text
 theporndude.com##.with-bg
 ticket.rzd.ru##.app-footer
@@ -1294,6 +1333,10 @@ wildberries.ru##.footer__inner-wrap
 wildberries.ru##.footer__list-wrap--social
 wildberries.ru##.footer__social-wrap
 workspace.ru##._brif--new
+www.avito.ru##.index-innerPosition_main-I64Is
+www.avito.ru##.navbar-root-A3Ik4
+www.avito.ru##.services-root-ANSRR
+x.com##.r-3pj75a.r-1w6e6rj
 x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
 x.com##div.css-175oi2r:nth-of-type(3) > .r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1mmae3n.r-16x9es5.r-1wtj0ep.css-175oi2r
 xakep.ru##.default
@@ -1394,6 +1437,7 @@ yandex.ru##.i-bem.header-b2b__link-instead-of-sighup.header-b2b__menu-item_accen
 yandex.ru##.i-bem.yaplus_available_yes.yaplus
 yandex.ru##.i-bem.yaplus_text.yaplus_old-icon.yaplus_available_yes.yaplus
 yandex.ru##.i-zalogin-cookie_js_inited.i-bem.i-zalogin-cookie.zalogin-smart
+yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
 yandex.ru##.ImagesViewer-SidebarAdv
 yandex.ru##.link_js_inited.i-bem.header-favorites-button__link.link
 yandex.ru##.link_js_inited.i-bem.header-favorites-button__link.link_theme_normal.link
@@ -1543,65 +1587,3 @@ zvyki.com##.rbt-list.no-ajaxy
 ||yastatic.net/s3/fiji-static/_/r95nuUSHVhpegrRReqHiRXI3hCY.svg$image
 ||yastatic.net/s3/liza/_/07925f62121f0acfdab7c49dbc97edde-bg.svg$image
 ~vk.*##div[id^="vk_ads_"]
-
-#
-flaticon.com###pack-lincense
-flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
-flaticon.com##.autopromo-coupon-container
-flaticon.com##.copyright
-flaticon.com##.footer__buttons.push-right
-flaticon.com##.footer__projects
-flaticon.com##.link-pricing
-flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
-flaticon.com##.mg-top-lv3.font-xs.footer__legal
-nutaku.net##.flx-column.seo-box
-nutaku.net##.fnt-small-2
-nutaku.net##.game-play-footer
-nutaku.net##.home-masthead
-pikabu.ru##.stories-feed__container > div > div
-studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
-superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
-superuser.com##.site-footer--container
-x.com##.r-3pj75a.r-1w6e6rj
-yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
-aliexpress.ru##.red-typography-utils_style__caption_m_medium__yl5jcn.red-snippet_RedSnippet__p4pElement__1fdd9h.red-typography-utils_style__caption_s_medium__yl5jcn.red-snippet_Element__container__1nwok2
-brattysis.com##.hover-join
-brattysis.com##.mx-2.btn-lg.btn-cta.btn
-brattysis.com##.py-3.footer-container
-brattysis.com##.watch-page-video-container > .container-fluid
-dns-shop.ru##.survey-button-widget_filter
-flaticon.com###button_panel
-flaticon.com###pack-lincense
-flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
-flaticon.com##.autopromo-coupon-container
-flaticon.com##.btn-warning.bj-button.btn.btn-svg
-flaticon.com##.copyright
-flaticon.com##.footer__buttons.push-right
-flaticon.com##.footer__projects
-flaticon.com##.link-pricing
-flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
-flaticon.com##.mg-top-lv3.font-xs.footer__legal
-github.com##.overflow-hidden.js-notice-dismiss
-market.yandex.ru##.cia-cs.cia-vs.HBydy
-nutaku.net##.flx-column.seo-box
-nutaku.net##.fnt-small-2
-nutaku.net##.game-play-footer
-nutaku.net##.home-masthead
-pikabu.ru##.stories-feed__container > div > div
-pikabu.ru##.story-block_type_fundraising.story-block
-pikabu.ru##.story__title-comstories_hot.hint
-pochta.ru##.optimize-banner-p14n
-pugetsystems.com##.interrupt-banner-style-1
-ru.xhamster.com##.footer-wrapper
-ru.xhamster.com##.IM-sezxpremium-n-overlay
-ru.xhamster.com##.search-page-suggestions-wrapper-sticky
-ru.xhamster.com##div.container-64b3c:nth-of-type(9) > .link-64b3c.primary-48288.root-48288
-store.steampowered.com###footer
-studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
-superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
-superuser.com##.site-footer--container
-theporndude.com##.--show.coo-widget
-theporndude.com##.copyright-message
-theporndude.com##.quotes
-x.com##.r-3pj75a.r-1w6e6rj
-yandex.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card

@@ -3,9 +3,10 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
+! Last modified: 19 August 2024 12:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
-! Syntax: AdGuard Home v0.107.36
+! Syntax: AdGuard Home v0.107.46
 !
 !
 ! Кастомный список DNS фильтров AdFck
@@ -27,6 +28,23 @@
 ! YOU decided to make these changes, and if you decide to blame me for it,
 ! that I ruined your day, I will laugh at you.
 !
+#pork
+||*.gay*^
+||*.ua*^
+||*leafletjs*^
+||*lurkmore*^
+# Acronis
+||*acronis.*^
+# VRDesktop
+||*vrdesktop.*^
+# 2GIS
+||*advisor.api.2gis.ru^
+||*binario-delivery.api.2gis.ru^
+||*datafeedback.api.2gis.ru^
+||*goods-backend.api.2gis.ru^
+||*tips.api.2gis.ru^
+||*bonuses.api.2gis.ru^
+||*discounts.api.2gis*^
 # Genshin Impact
 @@||autopatchhk.yuanshen.com^
 @@||blooming-shelf-2016.herokuapp.com^
@@ -39,6 +57,7 @@
 # Other whitelist
 @@||*connectivitycheck*^
 @@||*ntp.*^
+@@||*yandex-team*^
 # Nvidia
 ||*accounts.nvgs.nvidia*^
 ||*crashlytics*^
@@ -47,65 +66,22 @@
 ||*lightstep.kaizen.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn^
-# Google Play
-@@||*gvt1.com^
-@@||*gvt2.com^
-@@||*gvt3.com^
 #
-@@||*yandex-team.ru^
-#pork
-||*.gay*^
-||*.ua*^
-||*leafletjs*^
-||*lurkmore*^
-# Acronis
-||*acronis.*^
-# VRDesktop
-||*vrdesktop.*^
-#
-||*androidattestationvalidation-pa.googleapis.*^
+@@||*adguard.com*^
+@@||*download.lineageos*^
+@@||*my.adguard.info*^
+||*.ots.io.mi*^
+||*adguard*^
+||*androidattestationvalidation-pa*^
 ||*api-hprof.odkl.*^
+||*api.ocbase*^
 ||*api.paradox-interactive*^
+||*api.recommendedsw*^
+||*asb.sts.openvpn*^
 ||*bdurl*^
 ||*bytedance*^
 ||*cackle.*^
 ||*cbphe*^
-||*cust-service*^
-||*daisy.ubuntu*^
-||*devices.sberbank.*^
-||*dler.org*^
-||*dzeninfra*^
-||*inovelli*^
-||*jethrojeff*^
-||*kmsd.online*^
-||*ledvance*^
-||*lfstrm*^
-||*lineageos.org*^
-@@||*download.lineageos*^
-||*miui.*^
-||*odkl.*^
-||*ot.io.mi.*^
-||*salusconnect*^
-||*sbdv.*^
-||*sberdevices*^
-||*sc.omtrdc.*^
-||*services.paradoxplaza*^
-||*telemetry.mozilla*^
-||*twilio.*^
-||*unchecky*^
-||*user-geo-data.wildberries*^
-||*uxfeedback*^
-||*vertigo-games*^
-||*xiaomi*^
-||*ycxrl*^
-||*fpsmon.com*^
-||*asb.sts.openvpn*^
-||*api.ocbase*^
-||*firmwarespro.*^
-||*sg-public-api-static.hoyoverse*^
-||*vkpns.rustore*^
-# Unchecky
-||*api.recommendedsw*^
 ||*cdn.appround*^
 ||*cdn.bigspeedpro*^
 ||*cdn.bispd*^
@@ -129,40 +105,51 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*cust-service*^
 ||*d3oxtn1x3b8d7i.cloudfront*^
+||*daisy.ubuntu*^
+||*dc-api-v2.adobe*^
+||*devices.sberbank*^
+||*dler.*^
+||*dzeninfra*^
+||*federatedcompute-pa*^
+||*feedbacks*.wb*^
+||*firmwarespro.*^
+||*fpsmon.com*^
 ||*inno.bisrv*^
+||*inovelli*^
 ||*installer.betterinstaller*^
 ||*installer.filebulldog*^
 ||*izatcloud*^
+||*jethrojeff*^
+||*kmsd.online*^
+||*ledvance*^
+||*lfstrm*^
+||*lineageos.org*^
+||*miui.*^
 ||*nsis.bisrv*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
-||*lfstrm*^
+||*ot.io.mi.*^
 ||*ots.io.mi*^
-||*lfstrm*^
-||*.ots.io.mi*^
-||*send-asr.acrobat*^
-||*dc-api-v2.adobe*^
-||*federatedcompute-pa.googleapis*^
-||*stats.rustore*^
-||*feedbacks*.wb*^
-||*webcamxp*^
-||*xtrapath*^
-||*izatcloud*^
 ||*qcomgeo*^
+||*salusconnect*^
+||*sbdv.*^
+||*sberdevices*^
+||*sc.omtrdc*^
+||*send-asr.acrobat*^
+||*services.paradoxplaza*^
+||*sg-public-api-static.hoyoverse*^
+||*stats.rustore*^
+||*telemetry.mozilla*^
+||*twilio*^
+||*unchecky*^
+||*user-geo-data.wildberries*^
+||*uxfeedback*^
+||*vertigo-games*^
+||*vkpns.rustore*^
+||*webcamxp*^
+||*xiaomi*^
+||*xtrapath*^
 ||*xtratime*^
-# 2GIS
-||*advisor.api.2gis.ru^
-||*binario-delivery.api.2gis.ru^
-||*datafeedback.api.2gis.ru^
-||*disk.2gis.com^
-||*glp.api.2gis.com^
-||*goods-backend.api.2gis.ru^
-||*tips.api.2gis.ru^
-||*tugc.2gis.com^
-||*zond.api.2gis.ru^
-||*bonuses.api.2gis.ru^
-||*discounts.api.2gis*^
-||*hybrid.api.2gis*^
-||*casino-atlas-cdn.api.2gis*^
-#
+||*ycxrl*^

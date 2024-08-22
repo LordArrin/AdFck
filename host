@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 August 2024 09:01
+! Last modified: 22 August 2024 12:43
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -14,7 +14,7 @@
 ! Проект создан пользователем LordArrin, и нацелен на блокировку 
 ! различных раздражающих элементов на наиболее популярных сайтах.
 !==============================================================================
-Дисклеймер/Disclaimer
+! Дисклеймер/Disclaimer
 !==============================================================================
 ! Я не отвечаю за сломанные сайты, умершие устройства, термоядерную войну 
 ! или ваше психическое здоровье из-за сбоя вашего любимого сайта. 
@@ -40,11 +40,11 @@
 # 2GIS
 ||*advisor.api.2gis*^
 ||*binario-delivery.api.2gis*^
+||*bonuses.api.2gis*^
 ||*datafeedback.api.2gis*^
+||*discounts.api.2gis*^
 ||*goods-backend.api.2gis*^
 ||*tips.api.2gis*^
-||*bonuses.api.2gis*^
-||*discounts.api.2gis*^
 # Genshin Impact
 @@||autopatchhk.yuanshen.com*^
 @@||blooming-shelf-2016.herokuapp.com*^
@@ -56,6 +56,7 @@
 @@||ys-log-upload-os.hoyoverse.com*^
 # Other whitelist
 @@||*connectivitycheck*^
+@@||*download.lineageos*^
 @@||*ntp.*^
 @@||*yandex-team*^
 # Nvidia
@@ -67,7 +68,6 @@
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn^
 #
-@@||*download.lineageos*^
 ||*.ots.io.mi*^
 ||*amazon-adsystem*^
 ||*analytics*^
@@ -115,6 +115,8 @@
 ||*federatedcompute-pa*^
 ||*feedbacks*.wb*^
 ||*firebaseinstallations*^
+||*firebaselogging-pa*^
+||*firebaseremoteconfig*^
 ||*firmwarespro.*^
 ||*fpsmon.com*^
 ||*inno.bisrv*^
@@ -127,6 +129,7 @@
 ||*ledvance*^
 ||*lfstrm*^
 ||*lineageos.org*^
+||*mediatek*^
 ||*miui.*^
 ||*nsis.bisrv*^
 ||*opencandy*^
@@ -134,7 +137,6 @@
 ||*ot.io.mi.*^
 ||*ots.io.mi*^
 ||*qcomgeo*^
-||*mediatek*^
 ||*salusconnect*^
 ||*sbdv.*^
 ||*sberdevices*^
@@ -152,7 +154,7 @@
 ||*vkpns.rustore*^
 ||*webcamxp*^
 ||*xiaomi*^
-||*xtrapath*^
 ||*xtracloud*^
+||*xtrapath*^
 ||*xtratime*^
 ||*ycxrl*^

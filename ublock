@@ -261,6 +261,61 @@ fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg
 fanfiction.net##.panel_normal
 feedback.aliexpress.com##div.page-menu-item:nth-of-type(11)
+ficbook.net###main > .mx-10.d-flex.fb-ads-block
+ficbook.net##.ads-in-text
+ficbook.net##.bd-ribbon
+ficbook.net##.btn-primary.btn-sm.btn
+ficbook.net##.copyright
+ficbook.net##.desktop-ad-stick-to-left.d-flex.fb-ads-block
+ficbook.net##.disclaimer
+ficbook.net##.disclaimer
+ficbook.net##.disclamer
+ficbook.net##.discount-sticky-container
+ficbook.net##.fanfic-promo
+ficbook.net##.ficfan-banner
+ficbook.net##.ficfan-top-link
+ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
+ficbook.net##.help-box
+ficbook.net##.hidden-xs.btn-on-book-background--premium
+ficbook.net##.hidden-xs.btn-on-book-background--premium
+ficbook.net##.hidden-xs.mx-10.d-flex.fb-ads-block
+ficbook.net##.home-promo
+ficbook.net##.hot-fanfic
+ficbook.net##.hot-request
+ficbook.net##.if-you-were-premium
+ficbook.net##.important-link
+ficbook.net##.js-fanfic-promo-carousel
+ficbook.net##.jsVueComponent.dropdown.vs--searchable.vs--single.v-select
+ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
+ficbook.net##.justify-content-between
+ficbook.net##.justify-content-center.align-items-center
+ficbook.net##.list-inline
+ficbook.net##.main-discount-desktop
+ficbook.net##.main-discount-mobile
+ficbook.net##.main-holder > .mb-10
+ficbook.net##.mb-15 > .primary-box
+ficbook.net##.mb-15 > .section-title
+ficbook.net##.mb-15 > .text-muted
+ficbook.net##.mb-30.d-flex.fb-ads-block
+ficbook.net##.page-footer
+ficbook.net##.page-footer
+ficbook.net##.premium-button
+ficbook.net##.request-area
+ficbook.net##.sticky-bottom-block
+ficbook.net##.text-right.mb-30
+ficbook.net##.top-notifications
+ficbook.net##.visible-xs.main-discount-mobile
+ficbook.net##[href="/authors/845367/blog#content"]
+ficbook.net##[href="/home/premium/coins"]
+ficbook.net##[href="/randomfic"]
+ficbook.net##[href^="/home/money"]
+ficbook.net##a.mb-5
+ficbook.net##article.fanfic-block-disliked
+ficbook.net##article.fanfic-inline-hot
+ficbook.net##article.fanfic-inline-hot
+ficbook.net##div.d-flex.fb-ads-block
+ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
+ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
 fimfiction.net##.advert.right
 fimfiction.net##.footer
 fimfiction.net##.sponsor-reminder
@@ -384,6 +439,7 @@ iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
 iloveimg.com##[href="/ru/user/business"]
 iloveimg.com##[href="/ru/user/invoices"]
 iloveimg.com##li.sidebar__menu__subtitle:nth-of-type(6)
+intel.com##.component.theme-light-2.brand-lighter-gray.solid.blade.global
 involta.ru##.footer_footer__R8q5Y
 iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.react-draggable
@@ -392,6 +448,8 @@ itorrents-igruha.net##.content-left-column > div > span
 itorrents-igruha.net##.footer-bg1
 itorrents-igruha.net##.footer-bg2
 itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
+ixbt.com##.relative.max-md\:px-5
+ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
 jsonbeautifier.org##.py-3.text-center.footer-copyright
 katfile.com##footer > .container-fluid
 katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
@@ -410,6 +468,7 @@ knowyourmeme.com###global-message
 knowyourmeme.com###sub_network_footer_wrapper
 knowyourmeme.com##body > .ad-unit-wrapper
 knowyourmeme.com##div.ad-unit-wrapper
+komix.thefatxxx1.com##.footer
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end
 lastpass.com##.slim-footer__sub-footer
@@ -472,6 +531,27 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-cont
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 mail.ru##.mkopfmf__115rr7i.footer
+mail.yandex.ru##.Badge-Dot
+mail.yandex.ru##.qa-LeftColumn-Footer-Advertising
+mail.yandex.ru##.qa-LeftColumn-Footer-Android
+mail.yandex.ru##.qa-LeftColumn-Footer-Career
+mail.yandex.ru##.qa-LeftColumn-Footer-iOS
+mail.yandex.ru##.qa-LeftColumn-Footer-RecommendationRules
+market.yandex.ru##._169PI
+market.yandex.ru##._1_CjL
+market.yandex.ru##._1oM_u
+market.yandex.ru##._1s4-s
+market.yandex.ru##._2bkra
+market.yandex.ru##._2Gvx2
+market.yandex.ru##._2q2DD
+market.yandex.ru##._2qLdU
+market.yandex.ru##._3sgU6
+market.yandex.ru##._3VhdE
+market.yandex.ru##.At4Zq
+market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
+market.yandex.ru##.cq9mG
+market.yandex.ru##.side-menu-item_vacancies
+market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
 mega.nz##.almost-full.fm-notification-block
 mega.nz##.almost-full.storage-dialog
@@ -495,6 +575,13 @@ music.mts.ru##.hUZfug
 music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
 music.mts.ru##.svelte-1rnzvbl.hr-line
 music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
+music.yandex.ru##.footer
+music.yandex.ru##.page-line_chart
+music.yandex.ru##.page-line_podcasts
+music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
 nahjob.top##.node_tg
@@ -577,6 +664,7 @@ overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
 overclockers.ru##.over-pay
 oxy.st##.footer-area
+ozon.ru##.de9_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -626,6 +714,8 @@ platform.tuya.com##.iot-rc-ai-assistant
 platform.tuya.com##.iot-rc-ai-assistant-entry-main.ant-row-middle.ant-row
 platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
+plvideo.ru##.list_css_stretched_scznajt
+plvideo.ru##div.index_css_Box_bcixxkz.mocked-styled-55:nth-of-type(1) > .index_css_root_rbchjxl > div.index_css_section_sgc556o:nth-of-type(1) > .index_css_list_l152piis > a.index_css_link_lxojdhh:nth-of-type(2)
 pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
 portal-shop.com###popup_iframe_wrapper
@@ -697,6 +787,10 @@ rustore.ru##div._section_12qot_1:nth-of-type(5)
 rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
 rutor.org##h2:nth-of-type(1)
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
+rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
+rutube.ru##.menu-social-module__list
 s1.byrutorg.com##.brapr
 s1.byrutorg.com##.flex.center.footer
 safe.cnews.ru##.event_list
@@ -1043,6 +1137,7 @@ wikihow.com###step-id-05 > .al_grey.w_label.wh_ad_inner
 wikihow.com##.fluid
 wikihow.com##.house-promo
 wildberries.ru##.banner.main-page__banner
+wildberries.ru##.footer--padding
 wildberries.ru##.footer__add-info
 wildberries.ru##.footer__inner-wrap
 wildberries.ru##.footer__list-wrap--social
@@ -1120,6 +1215,8 @@ yandex.ru##.footer__end
 yandex.ru##.GenAnswer_view_fact
 yandex.ru##.HeaderPhoneActions-Alice
 yandex.ru##.headline.container > .row
+yandex.ru##.ImagesTouchViewer-Products
+yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv
 yandex.ru##.PreventionFeature
 yandex.ru##.ProductFiltersAtop_outlined
@@ -1130,6 +1227,7 @@ yandex.ru##.RequestMeta-Level_type_level
 yandex.ru##.RknPrevention_smaller-font
 yandex.ru##.search-collapsed-card-view__advert-offer-banner
 yandex.ru##.SearchPrevention
+yandex.ru##.SearchRelatedGallery
 yandex.ru##.SearchResultsHeader
 yandex.ru##.serp-footer__mob-app
 yandex.ru##.serp-footer__right
@@ -1143,6 +1241,7 @@ yandex.ru##.services-new__list
 yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
 yandex.ru##.SplashscreenDefault
 yandex.ru##.user-menu-view__plus
+yandex.ru##.VideoPlayerMetaInfo-mJk6JwHedfcWrbw35tg
 yandex.ru##.VideoPlayerMetaInfo-RknPrevention
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

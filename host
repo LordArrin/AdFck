@@ -60,7 +60,6 @@
 @@||*ntp.*^
 @@||*yandex-team*^
 # Nvidia
-||*accounts.nvgs.nvidia*^
 ||*crashlytics*^
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 18 August 2024 17:10
+! Last modified: 23 August 2024 08:47
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -268,7 +268,6 @@ ficbook.net##.btn-primary.btn-sm.btn
 ficbook.net##.copyright
 ficbook.net##.desktop-ad-stick-to-left.d-flex.fb-ads-block
 ficbook.net##.disclaimer
-ficbook.net##.disclaimer
 ficbook.net##.disclamer
 ficbook.net##.discount-sticky-container
 ficbook.net##.fanfic-promo
@@ -276,7 +275,6 @@ ficbook.net##.ficfan-banner
 ficbook.net##.ficfan-top-link
 ficbook.net##.flex-wrap.align-items-center.justify-content-center.d-flex.mb-0.text-center.alert.alert-news
 ficbook.net##.help-box
-ficbook.net##.hidden-xs.btn-on-book-background--premium
 ficbook.net##.hidden-xs.btn-on-book-background--premium
 ficbook.net##.hidden-xs.mx-10.d-flex.fb-ads-block
 ficbook.net##.home-promo
@@ -298,7 +296,6 @@ ficbook.net##.mb-15 > .section-title
 ficbook.net##.mb-15 > .text-muted
 ficbook.net##.mb-30.d-flex.fb-ads-block
 ficbook.net##.page-footer
-ficbook.net##.page-footer
 ficbook.net##.premium-button
 ficbook.net##.request-area
 ficbook.net##.sticky-bottom-block
@@ -311,7 +308,6 @@ ficbook.net##[href="/randomfic"]
 ficbook.net##[href^="/home/money"]
 ficbook.net##a.mb-5
 ficbook.net##article.fanfic-block-disliked
-ficbook.net##article.fanfic-inline-hot
 ficbook.net##article.fanfic-inline-hot
 ficbook.net##div.d-flex.fb-ads-block
 ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
@@ -575,12 +571,15 @@ music.mts.ru##.hUZfug
 music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
 music.mts.ru##.svelte-1rnzvbl.hr-line
 music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
+music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer
 music.yandex.ru##.page-line_chart
 music.yandex.ru##.page-line_podcasts
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav
+music.yandex.ru##.sidebar-rup__special-station-section
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
+music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
@@ -679,6 +678,7 @@ pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
 pikabu.ru##.bell_profile-menu
 pikabu.ru##.community-info-block__rules
 pikabu.ru##.emotions
+pikabu.ru##.feed-separator.section-hr
 pikabu.ru##.footer
 pikabu.ru##.header-menu__item_notification-dot
 pikabu.ru##.menu_promo-sidebar

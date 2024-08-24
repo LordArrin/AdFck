@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 August 2024 08:47
+! Last modified: 24 August 2024 15:09
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -39,6 +39,7 @@
 3dnews.ru###projects
 3dnews.ru###right-sidebar
 3dnews.ru###stripe
+3dnews.ru##.caption
 3dnews.ru##.comment-warn
 3dnews.ru##.denyOrgsWARN-footer
 3dnews.ru##.footer-sub
@@ -144,6 +145,9 @@ archiveofourown.org###add_comment_placeholder
 archiveofourown.org###footer
 archiveofourown.org###kudos
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
+askubuntu.com##.fc-medium.fs-fine
+askubuntu.com##.js-footer
+askubuntu.com##.mb8.mt32.ps-relative
 asus.com##.footerExternal
 asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
 audio-extractor.net###allapps-extension-popup
@@ -161,6 +165,27 @@ author.today##[href="/discussions"]
 author.today##aside-widget > .panel
 author.today##li.accordion-item:nth-of-type(5)
 author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
+avito.ru##.col-12.layout-internal.js-footer-app
+avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
+avito.ru##.index-innerPosition_main-ZP_26
+avito.ru##.index-module-nav-stRnY
+avito.ru##.index-module-root-cedSM
+avito.ru##.index-module-root-FJ4jT
+avito.ru##.index-module-root_23-_oWcy
+avito.ru##.js-side-menu-list-item-promotions.profile-sidebar-navigation-item-_oLvK > .profile-sidebar-navigation-tag-fatJg
+avito.ru##.navbar-root-H9tUO
+avito.ru##.sale-sale-_39Lo
+avito.ru##.services-root-hgyuF
+avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
+avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
+avito.ru##.styles-module-root_noVisited-qJP5D.styles-module-root-iSkj3 > .desktop-t36goo
+avito.ru##.styles-title-MUl23
+avito.ru##.styles-title-UgMQ7
+avito.ru##div.styles-module-margin-bottom_none-FnZvf.styles-module-margin-top_none-yYTpc.styles-module-root-hbGhb > .desktop-t36goo
+avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag
+avito.ru##li.index-module-nav-item-queVi:nth-of-type(2) > .index-module-nav-link-YtJag
+avito.ru##li.index-module-nav-item-queVi:nth-of-type(5) > .index-module-nav-link-YtJag
+avito.ru##li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK > .profile-sidebar-navigation-tag-fatJg
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.exclick.main-keyword
@@ -222,12 +247,15 @@ deviantart.com##.srMYi
 deviantart.com##.uNMof._3WH5n
 diakov.net##.title_spoiler
 diakov.net##.zvcwers .quote
+discord.com##.colorDefault_be03aa.notice_be03aa
+disk.yandex.ru##.root__footer
 dnevnik.statusapp.ru##.scrollable.v--modal-overlay
 dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block
 dns-shop.ru##.footer
 dns-shop.ru##.left-filters__consult-wrap
 dns-shop.ru##.survey-button-widget_filter
+dns-shop.ru##.survey-button-wrap
 dns-shop.ru##div.products-list__banner
 docs.yandex.ru##.Modal-Overlay
 docs.yandex.ru##.Modal-Wrapper
@@ -444,8 +472,14 @@ itorrents-igruha.net##.content-left-column > div > span
 itorrents-igruha.net##.footer-bg1
 itorrents-igruha.net##.footer-bg2
 itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
+ixbt.com##.bg-travel-500
+ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-0.mb-2.pb-1.rounded-2xl
+ixbt.com##.my-4.sm\:mx-0.mx-4.rounded-2xl.text-white.flex-col.flex.bg-video-500
+ixbt.com##.px-3.leading-5.dark\:text-gray-300.text-gray-500.mt-2.text-sm
 ixbt.com##.relative.max-md\:px-5
+ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .relative
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
+ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
 jsonbeautifier.org##.py-3.text-center.footer-copyright
 katfile.com##footer > .container-fluid
 katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
@@ -493,12 +527,19 @@ m.aliexpress.com##._1MfQC
 m.aliexpress.com##div.page-menu-item:nth-of-type(11)
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
 m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
+m.avito.ru##._5w8L
+m.avito.ru##.CXv2E
 m.avito.ru##.kqCm6
 m.avito.ru##.LauOH
+m.avito.ru##.mav-1a1vtua
 m.avito.ru##.mav-ckkd6
 m.avito.ru##.OTtKE
 m.avito.ru##.p7vg1
+m.avito.ru##.rNDN9
+m.avito.ru##.Ti31R
+m.avito.ru##.zLfY7
 m.avito.ru##div.mav-1i1c8ng
+m.avito.ru##div.SZDsk
 m.banggood.com##.footer
 m.fanfiction.net##form > div
 m.vk.*##.feedAssistancePromoButtonInstallApp
@@ -539,6 +580,7 @@ market.yandex.ru##._1oM_u
 market.yandex.ru##._1s4-s
 market.yandex.ru##._2bkra
 market.yandex.ru##._2Gvx2
+market.yandex.ru##._2jVXp
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
 market.yandex.ru##._3sgU6
@@ -546,6 +588,7 @@ market.yandex.ru##._3VhdE
 market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
 market.yandex.ru##.cq9mG
+market.yandex.ru##.MqvoK
 market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
@@ -581,6 +624,8 @@ music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-o
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
 music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(5)
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(6)
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
 nahjob.top##.node_tg
@@ -735,6 +780,7 @@ repack-igruha.net##.vw100.ai-center.d-flex.footer
 riccardotramma.com###footer-bottom
 rog-forum.asus.com###cookie-policy-info
 rsload.net##.bundle-descr
+rsload.net##.footer
 rsload.net##.link-block > div > div
 rsload.net##.prfl
 rsload.net##.tgwrap
@@ -908,6 +954,8 @@ thelastdb.games##.footer
 thelastgame.org###footer
 thelastgame.ru###footer
 thelastgames.ru##.text-center.section.footer
+theporndude.com###mobile_menu_header > .socials > li.socials-item > .blog-link.socials-link
+theporndude.com###mobile_menu_header > .socials > li.socials-item > .shop-link
 theporndude.com##.--show.coo-widget
 theporndude.com##.copyright-message
 theporndude.com##.footer
@@ -1177,7 +1225,7 @@ ya.ru##.FactHeader_with-hint
 ya.ru##.Footer
 ya.ru##.GenAnswer_view_fact
 ya.ru##.images-viewer-content2__behavioral-direct
-ya.ru##.ImagesTouchViewer-Card_behavioralDirect.ImagesTouchViewer-Card
+ya.ru##.ImagesTouchViewer-Card_behavioralDirect
 ya.ru##.message-promo_js_inited
 ya.ru##.MessageBox-Content
 ya.ru##.Organic-Warning
@@ -1210,11 +1258,15 @@ yandex.ru##.copyright-tech
 yandex.ru##.DarkThemePromo
 yandex.ru##.distr-nav
 yandex.ru##.distr-popup__content.popup2__content
+yandex.ru##.EntityFeedbackFooter
+yandex.ru##.ExtraMore.Button2
+yandex.ru##.Feedback.FactFeedback
 yandex.ru##.Footer
 yandex.ru##.footer__end
 yandex.ru##.GenAnswer_view_fact
 yandex.ru##.HeaderPhoneActions-Alice
 yandex.ru##.headline.container > .row
+yandex.ru##.ImagesTouchViewer-Card_products
 yandex.ru##.ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv
@@ -1311,6 +1363,7 @@ zvyki.com##.rbt-list.no-ajaxy
 ||aliexpress.ru/$image
 ||an.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||avatars.mds.yandex.net/get-adfox-content
+||cdn.sstatic.net/Sites/askubuntu/img/site-background-image.png$image
 ||cowaii.club/banner1.webp$image
 ||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

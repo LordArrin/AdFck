@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 24 August 2024 15:09
+! Last modified: 25 August 2024 18:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -29,6 +29,7 @@
 ! that I ruined your day, I will laugh at you.
 !
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
+#vk.*###page_wall_posts > div.Post--copyright - bug
 123.ru###news
 123.ru##.footer-result
 360.yandex.ru##.BottomText_1MZvpwoqJh90izwgKe36i
@@ -498,6 +499,8 @@ knowyourmeme.com###global-message
 knowyourmeme.com###sub_network_footer_wrapper
 knowyourmeme.com##body > .ad-unit-wrapper
 knowyourmeme.com##div.ad-unit-wrapper
+kod.ru##.Layout_footerWrapper
+kod.ru##.NewsDetail_banner__783R0
 komix.thefatxxx1.com##.footer
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end
@@ -583,6 +586,7 @@ market.yandex.ru##._2Gvx2
 market.yandex.ru##._2jVXp
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
+market.yandex.ru##._3KfA2
 market.yandex.ru##._3sgU6
 market.yandex.ru##._3VhdE
 market.yandex.ru##.At4Zq
@@ -1034,7 +1038,6 @@ vk.*###groups_list_right_blocks_root
 vk.*###mailru-visibility-check
 vk.*###page_block.FeedVideosForYou
 vk.*###page_block.ShortVideoFeedBlock
-vk.*###page_wall_posts > div.Post--copyright
 vk.*###page_wall_posts > div.post[data-ad-block-uid]
 vk.*###page_wall_posts > div.post_marked_as_ads
 vk.*###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.FeedVideosForYou']

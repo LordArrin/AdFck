@@ -490,6 +490,7 @@ kemono.su##.global-footer
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom
 kemono.su##[href="/fanboximports"] > div
+kinopoisk.ru##.OApvCKFDMSZ53Fy6G8ED
 kinopoisk.ru##.ReactModalPortal
 kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
 kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
@@ -578,6 +579,8 @@ mail.yandex.ru##.qa-LeftColumn-Footer-iOS
 mail.yandex.ru##.qa-LeftColumn-Footer-RecommendationRules
 market.yandex.ru##._169PI
 market.yandex.ru##._1_CjL
+market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1
+market.yandex.ru##._1nHQg
 market.yandex.ru##._1oM_u
 market.yandex.ru##._1s4-s
 market.yandex.ru##._2bkra
@@ -585,6 +588,7 @@ market.yandex.ru##._2Gvx2
 market.yandex.ru##._2jVXp
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
+market.yandex.ru##._2xwXT
 market.yandex.ru##._3KfA2
 market.yandex.ru##._3sgU6
 market.yandex.ru##._3VhdE
@@ -593,6 +597,9 @@ market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
 market.yandex.ru##.cq9mG
 market.yandex.ru##.MqvoK
 market.yandex.ru##.side-menu-item_vacancies
+market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
+market.yandex.ru##div._1kLnL:nth-of-type(4)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
 mega.nz##.almost-full.fm-notification-block
@@ -1037,6 +1044,7 @@ vk.*###groups_list_right_blocks_root
 vk.*###mailru-visibility-check
 vk.*###page_block.FeedVideosForYou
 vk.*###page_block.ShortVideoFeedBlock
+vk.*###page_wall_posts > div.Post--copyright
 vk.*###page_wall_posts > div.post[data-ad-block-uid]
 vk.*###page_wall_posts > div.post_marked_as_ads
 vk.*###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.FeedVideosForYou']
@@ -1137,7 +1145,6 @@ vk.*#?##feed_rows > div[class="feed_row "]:has(.ui_actions_menu_item[data-task-c
 vk.*#?##feed_rows > div[class="feed_row "]:has(.ui_actions_menu_item[href*="ad_info.php"])
 vk.*#?##feed_rows > div[id^="feed_row "]:-abp-has(.ui_actions_menu_item[data-task-click="AdsLight/copy_marker_id"])
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.block_aliexpress-recommendations-carousel)
-vk.*###page_wall_posts > div.Post--copyright
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.FeedVideosForYou)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.MarketItemsFeedBlock)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.Post__copyright)

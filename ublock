@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 27 August 2024 16:48
+! Last modified: 29 August 2024 02:09
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -41,6 +41,7 @@
 3dnews.ru###stripe
 3dnews.ru##.caption
 3dnews.ru##.comment-warn
+3dnews.ru##.content-block-header.entry-meta
 3dnews.ru##.denyOrgsWARN-footer
 3dnews.ru##.footer-sub
 3dnews.ru##.rbxglob.relatedbox.content-block
@@ -220,11 +221,15 @@ calendar.yandex.ru##.AsideFooter__wrap--zQe-n
 championat.com##.footer
 championat.com##.js-loyalty-article-end.article-footer__row
 championat.com##div.footer__block:nth-of-type(2)
+chatgpt.com##.md\:px-\[60px\].empty\:hidden.text-token-text-secondary.text-xs.text-center.py-2.px-2.w-full.relative
 chitai-gorod.ru##.footer
 citilink.ru##.e14s7mmi0
+citilink.ru##.e3mou100
+citilink.ru##.e3mou100
 citilink.ru##.ebgozyb0
 citilink.ru##.eowcxv00
 citilink.ru##.Footer__copyright
+citilink.ru##.js--MainLayout__footer
 citilink.ru##.js--Subscribe.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
 club.dns-shop.ru##.club-sidebar__footer
@@ -416,6 +421,7 @@ gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:tr
 gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
 gitverse.ru##a.hover\:underline:nth-of-type(2)
 gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
+gofile.io##.linkOrange.mt-2
 gofile.io##.py-0.filesContentOptionReport.filesContentOption
 google.ru###swml
 google.ru##.AghGtd.KxwPGc
@@ -502,6 +508,7 @@ knowyourmeme.com##div.ad-unit-wrapper
 kod.ru##.Layout_footerWrapper
 kod.ru##.NewsDetail_banner__783R0
 komix.thefatxxx1.com##.footer
+kuper.ru##.Footer_footer__upUTB
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end
 lastpass.com##.slim-footer__sub-footer
@@ -584,14 +591,18 @@ market.yandex.ru##._1nHQg
 market.yandex.ru##._1oM_u
 market.yandex.ru##._1s4-s
 market.yandex.ru##._2bkra
+market.yandex.ru##._2eMnU._1MOwX._3QKzI
 market.yandex.ru##._2Gvx2
 market.yandex.ru##._2jVXp
+market.yandex.ru##._2PP6q
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
 market.yandex.ru##._2xwXT
 market.yandex.ru##._3KfA2
 market.yandex.ru##._3sgU6
 market.yandex.ru##._3VhdE
+market.yandex.ru##._9BBZp
+market.yandex.ru##.ajocN
 market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
 market.yandex.ru##.cq9mG
@@ -599,6 +610,7 @@ market.yandex.ru##.MqvoK
 market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
 market.yandex.ru##div._1kLnL:nth-of-type(4)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(2) > .cia-cs > .r_nt5._2wiey > .ePSUN
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
@@ -617,6 +629,8 @@ mm.ru##.center-content.banner
 mm.ru##.component.content
 mmoreigr.org##.footer
 mmoreigr.org##[src="https://mmoreigr.org/uploads/mfd.png"]
+modsfire.com##.footer
+modsfire.com##.inf-down
 monocle.ru##.subscr_info
 motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
 motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
@@ -636,6 +650,9 @@ music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(5)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(6)
+mvideo.ru##.footer__grid
+mvideo.ru##.ng-star-inserted.insider-banner
+mvideo.ru##.ng-star-inserted.sticky-btn
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
 nahjob.top##.node_tg
@@ -653,6 +670,7 @@ news.rambler.ru##._2jhTq
 news.rambler.ru##._32R9Z
 news.rambler.ru##._3RcjC._3KA8W
 news.rambler.ru##.EU6Dl
+news.rambler.ru##.footer
 news.rambler.ru##.rc__sv690
 nexusmods.com###rj-footer
 nexusmods.com##.background-2.premium-block--upgrade
@@ -679,6 +697,16 @@ nn.bestmebelshop.ru##.bottom_block_foot
 nn.dom.ru##.hwiRgm
 nn.dom.ru##.idFEKv
 nn.dom.ru##.nlAIa
+nn.hh.ru###a11y-main-content > div.banner-place-wrapper_show-on-l
+nn.hh.ru##.announcement
+nn.hh.ru##.applicant-resumes-promo
+nn.hh.ru##.applicant-services-slider
+nn.hh.ru##.applicant-services-slider-wrapper
+nn.hh.ru##.banner-substrate
+nn.hh.ru##.bloko-column_l-11.bloko-column_m-8.bloko-column_xs-4.bloko-column_container.bloko-column > .bloko-v-spacing_base-6.bloko-v-spacing
+nn.hh.ru##.footer--AGgS1QnFH5Vv6tYWS4_F
+nn.hh.ru##.links--LbLH5v1Z0idxNOmJbaqg
+nn.hh.ru##div.applicant-resumes-recommendations-button_wrapped.applicant-resumes-recommendations-button:nth-of-type(3) > .bloko-button_appearance-outlined.bloko-button_stretched.bloko-button_scale-small.bloko-button_kind-primary.bloko-button
 nnov.mts.ru##.footer__app
 nnov.mts.ru##.footer__bottom
 nnov.mts.ru##.footer__content-left-grid
@@ -718,6 +746,8 @@ overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
 overclockers.ru##.over-pay
 oxy.st##.footer-area
+ozon.ru##.b6 > div > div > .e4
+ozon.ru##.d9e_9
 ozon.ru##.de9_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
@@ -771,6 +801,8 @@ platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 plvideo.ru##.list_css_stretched_scznajt
 plvideo.ru##div.index_css_Box_bcixxkz.mocked-styled-55:nth-of-type(1) > .index_css_root_rbchjxl > div.index_css_section_sgc556o:nth-of-type(1) > .index_css_list_l152piis > a.index_css_link_lxojdhh:nth-of-type(2)
+poe.com##.Banner_info__OWUd0
+poe.com##.SidebarFooter_footer__3egHX
 pornado.co###page_container > .rta_cont
 pornolab.net##.hide-for-print
 portal-shop.com###popup_iframe_wrapper
@@ -787,6 +819,9 @@ randomus.ru##.container > .mt-2
 randomus.ru##.mt-6.py-5.footer
 repack-igruha.net##.site-desc
 repack-igruha.net##.vw100.ai-center.d-flex.footer
+resizepixel.com##.ad-container
+resizepixel.com##.align-items-center.justify-content-end.flex-column.d-md-flex.d-none
+resizepixel.com##.me-2.align-items-center.flex-column.d-lg-flex.d-none
 riccardotramma.com###footer-bottom
 rog-forum.asus.com###cookie-policy-info
 rsload.net##.bundle-descr
@@ -830,6 +865,7 @@ rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(4)
 rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
 rule34.xxx##small
 rule34comic.party##.footer
+rule34vault.com##.page-container--side-padding.footer
 rule34video.com##.footer
 rule34video.com##.popup.popup-view.popup-holder > .popup-adv
 rule34video.com##.thumb.spot-thumb

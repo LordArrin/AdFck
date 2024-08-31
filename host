@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 August 2024 21:09
+! Last modified: 31 August 2024 03:48
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -60,12 +60,13 @@
 @@||*ntp.*^
 @@||*yandex-team*^
 # Nvidia
-||*crashlytics*^
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
+||*kaizen.nvidia.com*^
 ||*lightstep.kaizen.nvidia*^
 ||*ls.dtrace.nvidia*^
-||*nvidia.cn^
+||*nvidia.cn*^
+||*ops.gx.nvidia.com*^
 #
 ||*.ots.io.mi*^
 ||*amazon-adsystem*^
@@ -77,6 +78,7 @@
 ||*api.recommendedsw*^
 ||*api.teslacoilapps*^
 ||*asb.sts.openvpn*^
+||*bandicam.*^
 ||*bdurl*^
 ||*bytedance*^
 ||*cackle.*^
@@ -104,6 +106,7 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*crashlytics*^
 ||*cust-service*^
 ||*d3oxtn1x3b8d7i.cloudfront*^
 ||*daisy.ubuntu*^
@@ -125,6 +128,7 @@
 ||*izatcloud*^
 ||*jethrojeff*^
 ||*kmsd.online*^
+||*lawfilter.ertelecom*^
 ||*ledvance*^
 ||*lfstrm*^
 ||*lineageos.org*^

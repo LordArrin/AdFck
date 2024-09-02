@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 August 2024 02:09
+! Last modified: 2 September 2024 03:51
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -134,7 +134,20 @@ aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMen
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
+apkmody.com##.entry-block.entry-content
+apkmody.com##.padding-top-30
+apkpure.com###top-slide-banner
+apkpure.com##.app-store
+apkpure.com##.apple-store-btn
+apkpure.com##.detail-safe-btn
+apkpure.com##.dt-faq
+apkpure.com##.fast-download-start-btn
 apkpure.com##.footer_new
+apkpure.com##.has-pubg-entry
+apkpure.com##.hot-search-games-24h
+apkpure.com##.list-margin.sa-all-div.list
+apkpure.com##.mb.search-telegram
+apkpure.com##.search-telegram-side
 apkpure.net##.download.telegram-btn.mt-large
 apkpure.net##.dt-faq.faq.module
 apkpure.net##.dt-nav-parent.dt_nav_button.nav-p
@@ -607,6 +620,7 @@ market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
 market.yandex.ru##.cq9mG
 market.yandex.ru##.MqvoK
+market.yandex.ru##.premiumIncutDesktop
 market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
 market.yandex.ru##div._1kLnL:nth-of-type(4)
@@ -643,6 +657,7 @@ music.yandex.ru##.footer
 music.yandex.ru##.page-line_chart
 music.yandex.ru##.page-line_podcasts
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav
+music.yandex.ru##.playlist-notification__point_ready
 music.yandex.ru##.sidebar-rup__special-station-section
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)

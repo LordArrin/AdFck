@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 2 September 2024 03:51
+! Last modified: 08 September 2024 09:55
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -64,6 +64,7 @@
 4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
+4pda.to##.Of0IQANfz0j1ncPbz1
 4pda.to##.pTcWKkPpPgxwDeA32ucm
 4pda.to##.QhXeG6pWTz1lBDcdSz1ldWXg
 4pda.to##.QStbvbvDUWOYLIndSD58
@@ -84,6 +85,11 @@
 4pda.to##div.BRbtWw2wvz1b > .side-item
 4pda.to##div:nth-of-type(18)
 4pda.to##div:nth-of-type(20)
+7sep.zetflix-online.top##.fx-row.footer
+7sep.zetflix-online.top##.site-desc
+7sep.zetflix-online.top##[href="https://t.me/+VIIFsf9wbiU1YWMy"]
+7sep.zetflix-online.top##[href="https://vk.com/zetfliks"]
+7sep.zetflix-online.top##noindex
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
 @@api_url=http://api.vk.*/api.php
@@ -192,9 +198,12 @@ avito.ru##.sale-sale-_39Lo
 avito.ru##.services-root-hgyuF
 avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
 avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
+avito.ru##.styles-module-root_fullWidth-VOAls
 avito.ru##.styles-module-root_noVisited-qJP5D.styles-module-root-iSkj3 > .desktop-t36goo
 avito.ru##.styles-title-MUl23
 avito.ru##.styles-title-UgMQ7
+avito.ru##.styles-warning-UseR7
+avito.ru##.styles-wrapper-lJbTj
 avito.ru##div.styles-module-margin-bottom_none-FnZvf.styles-module-margin-top_none-yYTpc.styles-module-root-hbGhb > .desktop-t36goo
 avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag
 avito.ru##li.index-module-nav-item-queVi:nth-of-type(2) > .index-module-nav-link-YtJag
@@ -247,6 +256,7 @@ citilink.ru##.js--Subscribe.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
 club.dns-shop.ru##.club-sidebar__footer
 club.dns-shop.ru##.club-sidebar__footer-navigation-list
+club.dns-shop.ru##.on-air__container
 cnews.ru##footer
 community.cloudflare.com##.modal-container
 comss.ru##.footer
@@ -422,6 +432,9 @@ genshin.hoyoverse.com##.statement-wrapper-2ufpIJ.wrapper-2i-f_o
 genshinhelper.ru##.main-ad-button.slot
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
+gitee.com###git-footer-main > .container.ui
+gitee.com##.d-flex.partner.column.wide.seven
+gitee.com##.z-\[106\].bottom-\[4\.5px\].left-0.fixed
 github.blog##.mt-6.footer
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
@@ -439,6 +452,8 @@ gofile.io##.py-0.filesContentOptionReport.filesContentOption
 google.ru###swml
 google.ru##.AghGtd.KxwPGc
 google.ru##.ssOUyb.KxwPGc
+graviton.ru##.footer__bottom
+graviton.ru##.main-promo
 habr.com##.tm-article-comments__ufo-notice.tm-notice_info.tm-notice
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
@@ -493,6 +508,7 @@ itorrents-igruha.net##.footer-bg2
 itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
 ixbt.com##.bg-travel-500
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-0.mb-2.pb-1.rounded-2xl
+ixbt.com##.flex-col.lg\:flex.hidden.basis-\[340px\]
 ixbt.com##.my-4.sm\:mx-0.mx-4.rounded-2xl.text-white.flex-col.flex.bg-video-500
 ixbt.com##.px-3.leading-5.dark\:text-gray-300.text-gray-500.mt-2.text-sm
 ixbt.com##.relative.max-md\:px-5
@@ -618,6 +634,7 @@ market.yandex.ru##._9BBZp
 market.yandex.ru##.ajocN
 market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
+market.yandex.ru##.cia-cs.cia-vs.HBydy
 market.yandex.ru##.cq9mG
 market.yandex.ru##.MqvoK
 market.yandex.ru##.premiumIncutDesktop
@@ -816,6 +833,7 @@ platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 plvideo.ru##.list_css_stretched_scznajt
 plvideo.ru##div.index_css_Box_bcixxkz.mocked-styled-55:nth-of-type(1) > .index_css_root_rbchjxl > div.index_css_section_sgc556o:nth-of-type(1) > .index_css_list_l152piis > a.index_css_link_lxojdhh:nth-of-type(2)
+pochta.ru##.optimize-banner-p14n
 poe.com##.Banner_info__OWUd0
 poe.com##.SidebarFooter_footer__3egHX
 pornado.co###page_container > .rta_cont
@@ -862,6 +880,8 @@ rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(11)
 ru.anyquestion.info##.z-10.relative
 ru.wikipedia.org###footer > .noprint
 ru.wikipedia.org###footer-places
+ru.xhamster.com##.Chry-nwhQaright-rectangle--plug-img
+ru.xhamster.com##.exp_b
 ru.xhamster.com##.footer-wrapper
 ru.xhamster.com##.IM-sezxpremium-n-overlay
 ru.xhamster.com##.search-page-suggestions-wrapper-sticky
@@ -898,6 +918,8 @@ rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-con
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
 rutube.ru##.menu-social-module__list
+rutube.ru##.wdp-card-video-options-module__ageLimit
+rutube.ru##section.menu-section-container-module__wrapper:nth-of-type(7)
 s1.byrutorg.com##.brapr
 s1.byrutorg.com##.flex.center.footer
 safe.cnews.ru##.event_list
@@ -1030,6 +1052,7 @@ tl.rulate.ru###down
 tl.rulate.ru###up
 tl.rulate.ru##.alert-success.alert
 tl.rulate.ru##footer
+tolknews.ru##.b-footer
 torrent-soft.pro##.pa-wrapper
 torrent-stop.org##.footer
 torrentleech.org##.vpn-msg-placeholder

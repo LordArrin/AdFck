@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 09 September 2024 06:35
+! Last modified: 09 September 2024 20:19
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1333,7 +1333,6 @@ ya.ru##.usermenu-redesign__after-footer
 ya.ru##.Video-Footer.VideoFooter_warning
 ya.ru##.ya-search-promo
 yandex.ru###rsya-guarantee
-yandex.ru###search-result > div
 yandex.ru##.AdvMastHead
 yandex.ru##.AdvOffers-Wrapper
 yandex.ru##.AdvRsyaCrossPage

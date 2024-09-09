@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 08 September 2024 09:55
+! Last modified: 09 September 2024 06:35
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -124,6 +124,7 @@ aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
 aliexpress.ru##.next-dialog-body > div
 aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
 aliexpress.ru##.red-typography-utils_style__caption_m_medium__yl5jcn.red-snippet_RedSnippet__p4pElement__1fdd9h.red-typography-utils_style__caption_s_medium__yl5jcn.red-snippet_Element__container__1nwok2
+aliexpress.ru##.RedEntryPoints_RedEntryPoints__outer__5gjjc
 aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
 aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
 aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
@@ -240,13 +241,13 @@ byruthub.org##div.block-right:nth-of-type(4)
 calendar.proton.me##.button-promotion--icon-gradient
 calendar.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 calendar.yandex.ru##.AsideFooter__wrap--zQe-n
+cdek.shopping##.app-footer__copyright
 championat.com##.footer
 championat.com##.js-loyalty-article-end.article-footer__row
 championat.com##div.footer__block:nth-of-type(2)
 chatgpt.com##.md\:px-\[60px\].empty\:hidden.text-token-text-secondary.text-xs.text-center.py-2.px-2.w-full.relative
 chitai-gorod.ru##.footer
 citilink.ru##.e14s7mmi0
-citilink.ru##.e3mou100
 citilink.ru##.e3mou100
 citilink.ru##.ebgozyb0
 citilink.ru##.eowcxv00
@@ -623,6 +624,7 @@ market.yandex.ru##._2bkra
 market.yandex.ru##._2eMnU._1MOwX._3QKzI
 market.yandex.ru##._2Gvx2
 market.yandex.ru##._2jVXp
+market.yandex.ru##._2LfUk
 market.yandex.ru##._2PP6q
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
@@ -850,6 +852,8 @@ rambler.ru##.IIVK > div > ._11dr
 rambler.ru##.rc__sv690
 randomus.ru##.container > .mt-2
 randomus.ru##.mt-6.py-5.footer
+reactor.cc###usertop_week_content
+reactor.cc##.avatars.sidebarContent
 repack-igruha.net##.site-desc
 repack-igruha.net##.vw100.ai-center.d-flex.footer
 resizepixel.com##.ad-container
@@ -878,6 +882,8 @@ rt.pornhub.com##a.updatedLinks.js-menuAnalytics.menuLink:nth-of-type(3)
 rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(10)
 rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(11)
 ru.anyquestion.info##.z-10.relative
+ru.spankbang.com##.channels_scroll_list
+ru.spankbang.com##.go
 ru.wikipedia.org###footer > .noprint
 ru.wikipedia.org###footer-places
 ru.xhamster.com##.Chry-nwhQaright-rectangle--plug-img
@@ -1327,6 +1333,7 @@ ya.ru##.usermenu-redesign__after-footer
 ya.ru##.Video-Footer.VideoFooter_warning
 ya.ru##.ya-search-promo
 yandex.ru###rsya-guarantee
+yandex.ru###search-result > div
 yandex.ru##.AdvMastHead
 yandex.ru##.AdvOffers-Wrapper
 yandex.ru##.AdvRsyaCrossPage
@@ -1344,6 +1351,7 @@ yandex.ru##.distr-nav
 yandex.ru##.distr-popup__content.popup2__content
 yandex.ru##.EntityFeedbackFooter
 yandex.ru##.ExtraMore.Button2
+yandex.ru##.Fact_answerGap_l
 yandex.ru##.Feedback.FactFeedback
 yandex.ru##.Footer
 yandex.ru##.footer__end

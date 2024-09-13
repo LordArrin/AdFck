@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 09 September 2024 20:19
+! Last modified: 13 September 2024 07:45
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -108,6 +108,7 @@ account.proton.me##.button-promotion--icon-gradient
 account.proton.me##.interactive--no-background.interactive-pseudo-protrude
 account.proton.me##.rounded.relative.bg-promotion
 account.proton.me##li.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(3) > .navigation-link
+accounts.google.com###footer-list
 agent.yandex-team.ru##.gvzFpc.nmPBkh.GexFPl.RPrICl.UAknfl
 agent.yandex-team.ru##.LedKMg.UplHKi.VGYIBn.uXSUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
 agent.yandex-team.ru##.LedKMg.UplHKi.ymYIBn.RtTUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
@@ -147,19 +148,36 @@ apkpure.com###top-slide-banner
 apkpure.com##.app-store
 apkpure.com##.apple-store-btn
 apkpure.com##.detail-safe-btn
+apkpure.com##.download.telegram-btn.mt-large
 apkpure.com##.dt-faq
+apkpure.com##.dt-faq.faq.module
+apkpure.com##.dt-nav-parent.dt_nav_button.nav-p
 apkpure.com##.fast-download-start-btn
 apkpure.com##.footer_new
 apkpure.com##.has-pubg-entry
 apkpure.com##.hot-search-games-24h
 apkpure.com##.list-margin.sa-all-div.list
 apkpure.com##.mb.search-telegram
+apkpure.com##.module.aegon-card
 apkpure.com##.search-telegram-side
+apkpure.com##.searching-hide.nav_tv.item
+apkpure.com##div.searching-hide.many.item:nth-of-type(7)
+apkpure.net###top-slide-banner
+apkpure.net##.app-store
+apkpure.net##.apple-store-btn
+apkpure.net##.detail-safe-btn
 apkpure.net##.download.telegram-btn.mt-large
+apkpure.net##.dt-faq
 apkpure.net##.dt-faq.faq.module
 apkpure.net##.dt-nav-parent.dt_nav_button.nav-p
+apkpure.net##.fast-download-start-btn
 apkpure.net##.footer_new
+apkpure.net##.has-pubg-entry
+apkpure.net##.hot-search-games-24h
+apkpure.net##.list-margin.sa-all-div.list
+apkpure.net##.mb.search-telegram
 apkpure.net##.module.aegon-card
+apkpure.net##.search-telegram-side
 apkpure.net##.searching-hide.nav_tv.item
 apkpure.net##div.searching-hide.many.item:nth-of-type(7)
 archiveofourown.org###add_comment_placeholder
@@ -205,6 +223,7 @@ avito.ru##.styles-title-MUl23
 avito.ru##.styles-title-UgMQ7
 avito.ru##.styles-warning-UseR7
 avito.ru##.styles-wrapper-lJbTj
+avito.ru##div.css-1t6inbd > div > .styles-module-root_noVisited-Q8BUi.styles-module-root-sEiJE
 avito.ru##div.styles-module-margin-bottom_none-FnZvf.styles-module-margin-top_none-yYTpc.styles-module-root-hbGhb > .desktop-t36goo
 avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag
 avito.ru##li.index-module-nav-item-queVi:nth-of-type(2) > .index-module-nav-link-YtJag
@@ -235,6 +254,9 @@ brattysis.com##.hover-join
 brattysis.com##.mx-2.btn-lg.btn-cta.btn
 brattysis.com##.py-3.footer-container
 brattysis.com##.watch-page-video-container > .container-fluid
+buhgalteria.ru###default-2DJmFo
+buhgalteria.ru##.hidden-ld
+bunkr.black##.catflix
 byruthub.org##.br_stat
 byruthub.org##.footer
 byruthub.org##div.block-right:nth-of-type(4)
@@ -594,7 +616,12 @@ m.vk.*##[class^="_ads_block_data_w"]
 m.vk.*#?#.wall_item:has(> div.wi_body > a.copyright_label)
 m.vk.*#?#.wall_item:has(> div.wi_body > div.ads_mark)
 m.vk.com##._preventMenuOpen.StoriesFeedBlock
+m.vk.com##.MiniAppsServicesBarScroll
+m.vk.com##.Pad__content
+m.vk.com##.Row.Pad__header
 m.vk.com##.vkuiInternalGroupCard.Group-module__groupModeCard--CUTB8.Group-module__groupPaddingM--xZXgw.Group-module__group--CCYwC.vkuiGroup--padding-m.vkuiInternalGroup--mode-card
+m.vk.com##a.SliderTabs__tab.al_feed_tab:nth-of-type(2)
+m.vk.com##div.Separator
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-browse ytm-rich-item-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
@@ -607,6 +634,7 @@ m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-t
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
+mail.proton.me##.spotlight--no-side-radius
 mail.ru##.mkopfmf__115rr7i.footer
 mail.yandex.ru##.Badge-Dot
 mail.yandex.ru##.qa-LeftColumn-Footer-Advertising
@@ -794,6 +822,9 @@ pentest-tools.com##.sm\:mx-0.-mx-4
 pepper.ru##.footer
 pepper.ru##.js-threadList.listLayout-main > .listLayout-scrollBox.card--type-horizontal.card
 pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
+photos.google.com##.JJpMec
+photos.google.com##.Li8WFe
+photos.google.com##div.SHMIQd > a.oUj9s > .U1Qaj > .JgkFac
 pikabu.ru##.bell_profile-menu
 pikabu.ru##.community-info-block__rules
 pikabu.ru##.emotions
@@ -1080,6 +1111,11 @@ tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
 twitter.com##a.r-1loqt21.r-1ny4l3l.r-1mkv55d.r-13qz1uu.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
 unite4buy.ru##.footer-wrapper
 upload.ee##body > table > tbody > tr > td > div
+uploadhaven.com##.text-center.mt-3.mb-0.d-block
+uploadhaven.com##.text-center.premium-row
+uploadhaven.com##.text-muted.text-center
+uploadhaven.com##td.text-center:nth-of-type(3)
+uploadhaven.com##th:nth-of-type(3)
 urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
 valid.x86.fr###hhbblrlrba-728-1-blocked
 valid.x86.fr###main__legals
@@ -1281,6 +1317,7 @@ wildberries.ru##.footer__inner-wrap
 wildberries.ru##.footer__list-wrap--social
 wildberries.ru##.footer__social-wrap
 workspace.ru##._brif--new
+workupload.com###footer
 www.avito.ru##.index-innerPosition_main-I64Is
 www.avito.ru##.navbar-root-A3Ik4
 www.avito.ru##.services-root-ANSRR
@@ -1320,6 +1357,7 @@ ya.ru##.message-promo_js_inited
 ya.ru##.MessageBox-Content
 ya.ru##.Organic-Warning
 ya.ru##.Promo_withoutBlur
+ya.ru##.RelatedBottom.VanillaReact
 ya.ru##.RequestMeta_view_minified
 ya.ru##.RknWarningFeature
 ya.ru##.search3__doodle-link.home-link2
@@ -1332,6 +1370,7 @@ ya.ru##.survey__content
 ya.ru##.usermenu-redesign__after-footer
 ya.ru##.Video-Footer.VideoFooter_warning
 ya.ru##.ya-search-promo
+yandex.ru###a11y-ecommerce-offers
 yandex.ru###rsya-guarantee
 yandex.ru##.AdvMastHead
 yandex.ru##.AdvOffers-Wrapper

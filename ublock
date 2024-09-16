@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 13 September 2024 07:45
+! Last modified: 16 September 2024 08:16
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -143,42 +143,83 @@ allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
 apkmody.com##.entry-block.entry-content
+apkmody.com##.margin-top-15.has-text-align-left.has-background.has-light-green-cyan-background-color.wp-block-group
+apkmody.com##.margin-top-15.is-style-pill-shape.has-visible-labels.has-normal-icon-size.social-links
 apkmody.com##.padding-top-30
+apkmody.com##.truncate
 apkpure.com###top-slide-banner
 apkpure.com##.app-store
 apkpure.com##.apple-store-btn
 apkpure.com##.detail-safe-btn
+apkpure.com##.discover.module
 apkpure.com##.download.telegram-btn.mt-large
 apkpure.com##.dt-faq
 apkpure.com##.dt-faq.faq.module
 apkpure.com##.dt-nav-parent.dt_nav_button.nav-p
+apkpure.com##.editor-choice
 apkpure.com##.fast-download-start-btn
 apkpure.com##.footer_new
+apkpure.com##.game-on-sale
+apkpure.com##.google-anno-skip.available-box
+apkpure.com##.google-anno-skip.discover
+apkpure.com##.google-anno-skip.dt-news-article-list
+apkpure.com##.google-anno-skip.hot-apk
 apkpure.com##.has-pubg-entry
+apkpure.com##.hot-apps
+apkpure.com##.hot-games
 apkpure.com##.hot-search-games-24h
+apkpure.com##.hot_list.list_box.dt-app-hot
+apkpure.com##.latest-update-apps
+apkpure.com##.latest-update-games
 apkpure.com##.list-margin.sa-all-div.list
+apkpure.com##.list_box.dt-discover
 apkpure.com##.mb.search-telegram
 apkpure.com##.module.aegon-card
+apkpure.com##.popular-apps
+apkpure.com##.popular-games
+apkpure.com##.ranking-apk
+apkpure.com##.right_apkpure.module
 apkpure.com##.search-telegram-side
 apkpure.com##.searching-hide.nav_tv.item
+apkpure.com##.shan
+apkpure.com##.top-news-app
+apkpure.com##.top-news-game
 apkpure.com##div.searching-hide.many.item:nth-of-type(7)
 apkpure.net###top-slide-banner
 apkpure.net##.app-store
 apkpure.net##.apple-store-btn
+apkpure.net##.available-platform
 apkpure.net##.detail-safe-btn
+apkpure.net##.discover.dt-discover
+apkpure.net##.discover.module
 apkpure.net##.download.telegram-btn.mt-large
 apkpure.net##.dt-faq
 apkpure.net##.dt-faq.faq.module
 apkpure.net##.dt-nav-parent.dt_nav_button.nav-p
+apkpure.net##.editor-choice
 apkpure.net##.fast-download-start-btn
 apkpure.net##.footer_new
+apkpure.net##.game-on-sale
 apkpure.net##.has-pubg-entry
+apkpure.net##.hot-apk
+apkpure.net##.hot-apps
+apkpure.net##.hot-games
 apkpure.net##.hot-search-games-24h
+apkpure.net##.hot_list.list_box.dt-app-hot
+apkpure.net##.latest-news
+apkpure.net##.latest-update-apps
+apkpure.net##.latest-update-games
 apkpure.net##.list-margin.sa-all-div.list
+apkpure.net##.list_box.dt-discover
 apkpure.net##.mb.search-telegram
 apkpure.net##.module.aegon-card
+apkpure.net##.popular-apps
+apkpure.net##.popular-games
+apkpure.net##.related-articles
+apkpure.net##.right_apkpure.module
 apkpure.net##.search-telegram-side
 apkpure.net##.searching-hide.nav_tv.item
+apkpure.net##.shan
 apkpure.net##div.searching-hide.many.item:nth-of-type(7)
 archiveofourown.org###add_comment_placeholder
 archiveofourown.org###footer
@@ -533,11 +574,13 @@ ixbt.com##.bg-travel-500
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-0.mb-2.pb-1.rounded-2xl
 ixbt.com##.flex-col.lg\:flex.hidden.basis-\[340px\]
 ixbt.com##.my-4.sm\:mx-0.mx-4.rounded-2xl.text-white.flex-col.flex.bg-video-500
+ixbt.com##.preview-source
 ixbt.com##.px-3.leading-5.dark\:text-gray-300.text-gray-500.mt-2.text-sm
 ixbt.com##.relative.max-md\:px-5
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .relative
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
 ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
+ixbt.com##figure.editor-js-image div
 jsonbeautifier.org##.py-3.text-center.footer-copyright
 katfile.com##footer > .container-fluid
 katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
@@ -657,6 +700,7 @@ market.yandex.ru##._2PP6q
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
 market.yandex.ru##._2xwXT
+market.yandex.ru##._3gPhe._3nSjc
 market.yandex.ru##._3KfA2
 market.yandex.ru##._3sgU6
 market.yandex.ru##._3VhdE
@@ -811,6 +855,7 @@ oxy.st##.footer-area
 ozon.ru##.b6 > div > div > .e4
 ozon.ru##.d9e_9
 ozon.ru##.de9_9
+ozon.ru##.f4d_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -951,11 +996,15 @@ rustore.ru##div._section_12qot_1:nth-of-type(5)
 rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
 rutor.org##h2:nth-of-type(1)
+rutube.ru##.footer-fixed-components-module__footerFixed
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
+rutube.ru##.menu-guide-module__wrapper
 rutube.ru##.menu-social-module__list
 rutube.ru##.wdp-card-video-options-module__ageLimit
+rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
+rutube.ru##section.menu-info-module__wrapper
 rutube.ru##section.menu-section-container-module__wrapper:nth-of-type(7)
 s1.byrutorg.com##.brapr
 s1.byrutorg.com##.flex.center.footer
@@ -1024,6 +1073,7 @@ stoigr.org##.abusemessage
 stoigr.org##.footer
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
+studio.rutube.ru##.qr-banner-module__wrapper___Z6ofD
 studio.rutube.ru##.vl-navigation__bottom-links
 studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
@@ -1289,6 +1339,7 @@ vk.com##.shown.submit_post_box_with_sitposting
 vk.com##.stories_feed_not_nav_buttons.stories_feed_with_thumb.clear_fix.stories_feed_wrap.page_block
 vk.com##.StoryFeedBlockWrapper
 vk.com##.submit_post_box_with_sitposting
+vk.com##.UxpollsBlock
 vk.com##.videoplayer_share_action_goods
 vk.com##.wcommunity_wrap
 vkplay.ru##.ph-footer-wrapper

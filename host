@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 03 September 2024 16:43
+! Last modified: 16 September 2024 08:19
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -62,11 +62,14 @@
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
+||*gfwsl.geforce*^
+||*gx-target-experiments-frontend-api.gx.nvidia*^
 ||*kaizen.nvidia.com*^
 ||*lightstep.kaizen.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
 ||*ops.gx.nvidia.com*^
+||*public.games.geforce*^
 #
 ||*.ots.io.mi*^
 ||*amazon-adsystem*^
@@ -80,6 +83,7 @@
 ||*asb.sts.openvpn*^
 ||*bandicam.*^
 ||*bdurl*^
+||*bugsnag*^
 ||*bugsnag*^
 ||*bytedance*^
 ||*cackle.*^
@@ -122,6 +126,7 @@
 ||*firebaseremoteconfig*^
 ||*firmwarespro.*^
 ||*fpsmon.com*^
+||*googletagmanager*^
 ||*inno.bisrv*^
 ||*inovelli*^
 ||*installer.betterinstaller*^
@@ -136,11 +141,13 @@
 ||*mediatek*^
 ||*miui.*^
 ||*nsis.bisrv*^
+||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
-||*ot.io.mi.*^
+||*ot.io.mi*^
 ||*ots.io.mi*^
 ||*qcomgeo*^
+||*safebrowsing.googleapis*^
 ||*salusconnect*^
 ||*sbdv.*^
 ||*sberdevices*^
@@ -149,6 +156,7 @@
 ||*services.paradoxplaza*^
 ||*stats.rustore*^
 ||*telemetry.mozilla*^
+||*trics.ubuntu*^
 ||*twilio*^
 ||*unchecky*^
 ||*user-geo-data.wildberries*^

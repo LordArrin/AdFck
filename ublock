@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 September 2024 08:16
+! Last modified: 23 September 2024 11:54
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -246,8 +246,10 @@ author.today##aside-widget > .panel
 author.today##li.accordion-item:nth-of-type(5)
 author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.col-12.layout-internal.js-footer-app
+avito.ru##.desktop-1ni85sv
 avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 avito.ru##.index-innerPosition_main-ZP_26
+avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.index-module-nav-stRnY
 avito.ru##.index-module-root-cedSM
 avito.ru##.index-module-root-FJ4jT
@@ -349,6 +351,7 @@ dns-shop.ru##.left-filters__consult-wrap
 dns-shop.ru##.survey-button-widget_filter
 dns-shop.ru##.survey-button-wrap
 dns-shop.ru##div.products-list__banner
+docs.portainer.io##.dark\:bg-dark.dark\:ring-light\/2.sm\:left-auto.text-balance.max-w-md.left-16.right-4.bottom-4.pr-8.p-4.shadow-1xs.ring-dark\/2.ring-1.straight-corners\:rounded-none.rounded.bg-white.z-10.fixed
 docs.yandex.ru##.Modal-Overlay
 docs.yandex.ru##.Modal-Wrapper
 download.oxy.st##.footer-area
@@ -403,6 +406,7 @@ ficbook.net##.hot-request
 ficbook.net##.if-you-were-premium
 ficbook.net##.important-link
 ficbook.net##.js-fanfic-promo-carousel
+ficbook.net##.js-reset-filter-group.link-button
 ficbook.net##.jsVueComponent.dropdown.vs--searchable.vs--single.v-select
 ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
 ficbook.net##.justify-content-between
@@ -432,6 +436,8 @@ ficbook.net##article.fanfic-inline-hot
 ficbook.net##div.d-flex.fb-ads-block
 ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
 ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
+ficbook.net##ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"]
+ficbook.net##ul.search-dropdown-list.list-unstyled:nth-of-type(3)
 fimfiction.net##.advert.right
 fimfiction.net##.footer
 fimfiction.net##.sponsor-reminder
@@ -500,6 +506,7 @@ gitee.com###git-footer-main > .container.ui
 gitee.com##.d-flex.partner.column.wide.seven
 gitee.com##.z-\[106\].bottom-\[4\.5px\].left-0.fixed
 github.blog##.mt-6.footer
+github.blog##.pt-6.footer > .color-bg-subtle
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
@@ -518,6 +525,7 @@ google.ru##.AghGtd.KxwPGc
 google.ru##.ssOUyb.KxwPGc
 graviton.ru##.footer__bottom
 graviton.ru##.main-promo
+habr.com###news_block_1
 habr.com##.tm-article-comments__ufo-notice.tm-notice_info.tm-notice
 habr.com##.tm-block_spacing-around.block.tm-block
 habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
@@ -581,6 +589,7 @@ ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
 ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
 ixbt.com##figure.editor-js-image div
+jellyfin.org##.text--center.footer__bottom
 jsonbeautifier.org##.py-3.text-center.footer-copyright
 katfile.com##footer > .container-fluid
 katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
@@ -685,9 +694,11 @@ mail.yandex.ru##.qa-LeftColumn-Footer-Android
 mail.yandex.ru##.qa-LeftColumn-Footer-Career
 mail.yandex.ru##.qa-LeftColumn-Footer-iOS
 mail.yandex.ru##.qa-LeftColumn-Footer-RecommendationRules
+market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
 market.yandex.ru##._169PI
 market.yandex.ru##._1_CjL
 market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1
+market.yandex.ru##._1bCJz._1MOwX._1nuzB._23eB3
 market.yandex.ru##._1nHQg
 market.yandex.ru##._1oM_u
 market.yandex.ru##._1s4-s
@@ -710,6 +721,7 @@ market.yandex.ru##.At4Zq
 market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
 market.yandex.ru##.cia-cs.cia-vs.HBydy
 market.yandex.ru##.cq9mG
+market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
 market.yandex.ru##.MqvoK
 market.yandex.ru##.premiumIncutDesktop
 market.yandex.ru##.side-menu-item_vacancies
@@ -736,6 +748,8 @@ mmoreigr.org##.footer
 mmoreigr.org##[src="https://mmoreigr.org/uploads/mfd.png"]
 modsfire.com##.footer
 modsfire.com##.inf-down
+modzoco.com##.mb-3.pb-1.text-center.rounded > .mb-3.text-center
+modzoco.com##.site-footer
 monocle.ru##.subscr_info
 motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
 motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
@@ -762,7 +776,11 @@ mvideo.ru##.ng-star-inserted.sticky-btn
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
 nahjob.top##.node_tg
+nanoreview.net##.footer-bottom
+nanoreview.net##.mb.apf-act-btn
 nauchniestati.ru##.eduChat
+naughtymachinima.com##.footer-container
+navidrome.org##.d-print-none.row.py-5.bg-dark
 new.dtf.ru##.live
 new.dtf.ru##.sidebar__footer
 newgrounds.com##.blackout-inner
@@ -800,6 +818,7 @@ nitroflare.com##body > div:nth-of-type(2)
 nitroflare.com##div > .bootstrapButton
 nitroflare.com##li:nth-of-type(3)
 nn.bestmebelshop.ru##.bottom_block_foot
+nn.dom.ru###hat
 nn.dom.ru##.hwiRgm
 nn.dom.ru##.idFEKv
 nn.dom.ru##.nlAIa
@@ -903,6 +922,8 @@ pikabu.ru##section.stories-feed__message:nth-of-type(2)
 pixeldrain.com##strong
 pixiv.net##.-ml-8.flex
 pixiv.net##.cugra.sc-4nj1pr-4
+pixiv.net##.dXgbIP
+pixiv.net##.jKNKMn
 platform.tuya.com##.Help_videoContent__27Ha8
 platform.tuya.com##.Home_right__2Ki1J
 platform.tuya.com##.iot-rc-ai-assistant
@@ -1003,6 +1024,7 @@ rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-con
 rutube.ru##.menu-guide-module__wrapper
 rutube.ru##.menu-social-module__list
 rutube.ru##.wdp-card-video-options-module__ageLimit
+rutube.ru##.wdp-card-video-options-module__ageRating
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
 rutube.ru##section.menu-info-module__wrapper
 rutube.ru##section.menu-section-container-module__wrapper:nth-of-type(7)
@@ -1327,6 +1349,7 @@ vk.com###groups_donut_module
 vk.com###l_ads
 vk.com###l_vkfest2023
 vk.com###page_wall_donut
+vk.com###ui_rmenu_recommended
 vk.com##.CallHistoryScreenLanding--header
 vk.com##.CallHistoryScreenLanding--list
 vk.com##.CallHistoryScreenLanding--subheader
@@ -1444,6 +1467,8 @@ yandex.ru##.Fact_answerGap_l
 yandex.ru##.Feedback.FactFeedback
 yandex.ru##.Footer
 yandex.ru##.footer__end
+yandex.ru##.FuturisSearch_gen_offline
+yandex.ru##.FuturisSearchCard_gen
 yandex.ru##.GenAnswer_view_fact
 yandex.ru##.HeaderPhoneActions-Alice
 yandex.ru##.headline.container > .row
@@ -1451,6 +1476,7 @@ yandex.ru##.ImagesTouchViewer-Card_products
 yandex.ru##.ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv
+yandex.ru##.Metadoc
 yandex.ru##.PreventionFeature
 yandex.ru##.ProductFiltersAtop_outlined
 yandex.ru##.Promo_withoutBlur
@@ -1458,6 +1484,7 @@ yandex.ru##.RelatedBottom
 yandex.ru##.RequestMeta-Level_type_antispam
 yandex.ru##.RequestMeta-Level_type_level
 yandex.ru##.RknPrevention_smaller-font
+yandex.ru##.Root_inited.FuturisSearch_gen
 yandex.ru##.search-collapsed-card-view__advert-offer-banner
 yandex.ru##.SearchPrevention
 yandex.ru##.SearchRelatedGallery

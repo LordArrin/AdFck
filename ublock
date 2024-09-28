@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 September 2024 11:54
+! Last modified: 28 September 2024 06:06
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -90,6 +90,8 @@
 7sep.zetflix-online.top##[href="https://t.me/+VIIFsf9wbiU1YWMy"]
 7sep.zetflix-online.top##[href="https://vk.com/zetfliks"]
 7sep.zetflix-online.top##noindex
+9xbuddy.online##.left-0
+9xbuddy.online##.uppercase.items-center.justify-between
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
 @@api_url=http://api.vk.*/api.php
@@ -235,6 +237,7 @@ audio-extractor.net##.copyright
 audio-extractor.net##.menu
 audio2edit.com##.queue-complete.priority-item > p
 audio2edit.com##.w-50.bg-warning.queue-btn.btn
+auth.tuya.com##.left_2jog-44270
 author.today###banner\.at-col-07\.23
 author.today##.col-xs-3 > .panel-default.panel
 author.today##.footer
@@ -248,6 +251,7 @@ author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.col-12.layout-internal.js-footer-app
 avito.ru##.desktop-1ni85sv
 avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
+avito.ru##.index-innerPosition_main-I64Is
 avito.ru##.index-innerPosition_main-ZP_26
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.index-module-nav-stRnY
@@ -255,8 +259,10 @@ avito.ru##.index-module-root-cedSM
 avito.ru##.index-module-root-FJ4jT
 avito.ru##.index-module-root_23-_oWcy
 avito.ru##.js-side-menu-list-item-promotions.profile-sidebar-navigation-item-_oLvK > .profile-sidebar-navigation-tag-fatJg
+avito.ru##.navbar-root-A3Ik4
 avito.ru##.navbar-root-H9tUO
 avito.ru##.sale-sale-_39Lo
+avito.ru##.services-root-ANSRR
 avito.ru##.services-root-hgyuF
 avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
 avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
@@ -306,6 +312,7 @@ byruthub.org##div.block-right:nth-of-type(4)
 calendar.proton.me##.button-promotion--icon-gradient
 calendar.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 calendar.yandex.ru##.AsideFooter__wrap--zQe-n
+castlepeak.ru###disclaimer
 cdek.shopping##.app-footer__copyright
 championat.com##.footer
 championat.com##.js-loyalty-article-end.article-footer__row
@@ -326,6 +333,9 @@ club.dns-shop.ru##.on-air__container
 cnews.ru##footer
 community.cloudflare.com##.modal-container
 comss.ru##.footer
+crdroid.net###dl-ads
+crdroid.net##.footerbg
+crdroid.net##.section-title
 crowdin.com##.dropdown-menu-right.dropdown-menu.user-menu-dropdown > a.dropdown-item:nth-of-type(3)
 crowdin.com##.mb-2.progress
 crowdin.com##.text-center.bg-gray.p-3.questionary-header
@@ -371,6 +381,8 @@ eronrg.com###footer
 eu.iot.tuya.com##.g-iot-help-modal-fadeIn
 eu.iot.tuya.com##.react-draggable.g-iot-help-modal-entry
 eu.platform.tuya.com##.react-draggable.iot-rc-ai-assistant-fadeIn.iot-rc-ai-assistant-rnd.iot-rc-ai-assistant-animated
+eu.platform.tuya.com##.smart_menu_purchase
+eu.platform.tuya.com##.smart_menu_serviceMarket
 expresslrs.org##.md-consent
 expresslrs.org##.md-consent__overlay
 extract-audio-online.com###ouibounce-modal
@@ -751,9 +763,6 @@ modsfire.com##.inf-down
 modzoco.com##.mb-3.pb-1.text-center.rounded > .mb-3.text-center
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
-motor.ru##._3yMskpan._3AWI_0TS.LZ8QijVi.block.jsx-342425262 > ._2upSGvRj > ._3AWI_0TS.LZ8QijVi.block.jsx-4194374637 > .wrapper.jsx-3203627433.jsx-3601644236 > .rambler-share
-motor.ru##.wrapper.jsx-3203627433.jsx-3601644236
-music.mts.ru##.hUZfug
 music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
 music.mts.ru##.svelte-1rnzvbl.hr-line
 music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
@@ -788,14 +797,6 @@ newgrounds.com##.header-deck
 newgrounds.com##.inhousepromo
 newgrounds.com##div.blackout
 newgrounds.com##div.blackout-hover
-news.rambler.ru##._1rS67
-news.rambler.ru##._21bQB > div > div > ._1ErId > .LTCoz
-news.rambler.ru##._2jhTq
-news.rambler.ru##._32R9Z
-news.rambler.ru##._3RcjC._3KA8W
-news.rambler.ru##.EU6Dl
-news.rambler.ru##.footer
-news.rambler.ru##.rc__sv690
 nexusmods.com###rj-footer
 nexusmods.com##.background-2.premium-block--upgrade
 nexusmods.com##.container.premium-banner
@@ -829,8 +830,6 @@ nn.hh.ru##.applicant-services-slider
 nn.hh.ru##.applicant-services-slider-wrapper
 nn.hh.ru##.banner-substrate
 nn.hh.ru##.bloko-column_l-11.bloko-column_m-8.bloko-column_xs-4.bloko-column_container.bloko-column > .bloko-v-spacing_base-6.bloko-v-spacing
-nn.hh.ru##.footer--AGgS1QnFH5Vv6tYWS4_F
-nn.hh.ru##.links--LbLH5v1Z0idxNOmJbaqg
 nn.hh.ru##div.applicant-resumes-recommendations-button_wrapped.applicant-resumes-recommendations-button:nth-of-type(3) > .bloko-button_appearance-outlined.bloko-button_stretched.bloko-button_scale-small.bloko-button_kind-primary.bloko-button
 nnov.mts.ru##.footer__app
 nnov.mts.ru##.footer__bottom
@@ -850,11 +849,8 @@ nutaku.net##.home-masthead
 nvidia.com###footer-container
 nvidia.com##.footer
 nvidia.com##a.bannerTracking
-nvidia.com##li.header-emotion-cache-md7zz7
 ok.ru###footer
 ok.ru##.auth-login-banner__e19f0
-one.google.com##.bIfCgf
-one.google.com##.jiw3Ff.hJGsQe
 online-audio-converter.com##.footer
 online-audio-converter.com##.like_row_conv.like_row
 online-audio-converter.com##.one-col
@@ -871,10 +867,6 @@ overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
 overclockers.ru##.over-pay
 oxy.st##.footer-area
-ozon.ru##.b6 > div > div > .e4
-ozon.ru##.d9e_9
-ozon.ru##.de9_9
-ozon.ru##.f4d_9
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -917,8 +909,6 @@ pikabu.ru##.thematic-campaign
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links
-pikabu.ru##div.sidebar-block_border.sidebar-block:nth-of-type(1)
-pikabu.ru##section.stories-feed__message:nth-of-type(2)
 pixeldrain.com##strong
 pixiv.net##.-ml-8.flex
 pixiv.net##.cugra.sc-4nj1pr-4
@@ -927,11 +917,10 @@ pixiv.net##.jKNKMn
 platform.tuya.com##.Help_videoContent__27Ha8
 platform.tuya.com##.Home_right__2Ki1J
 platform.tuya.com##.iot-rc-ai-assistant
-platform.tuya.com##.iot-rc-ai-assistant-entry-main.ant-row-middle.ant-row
+platform.tuya.com##.iot-rc-ai-assistant-entry-main
 platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 plvideo.ru##.list_css_stretched_scznajt
-plvideo.ru##div.index_css_Box_bcixxkz.mocked-styled-55:nth-of-type(1) > .index_css_root_rbchjxl > div.index_css_section_sgc556o:nth-of-type(1) > .index_css_list_l152piis > a.index_css_link_lxojdhh:nth-of-type(2)
 pochta.ru##.optimize-banner-p14n
 poe.com##.Banner_info__OWUd0
 poe.com##.SidebarFooter_footer__3egHX
@@ -943,10 +932,6 @@ products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
 pugetsystems.com##.interrupt-banner-style-1
 q32.pw##div#\$_v_banner
-rambler.ru##._1VtI
-rambler.ru##._2jmA > div > ._11dr
-rambler.ru##.IIVK > div > ._11dr
-rambler.ru##.rc__sv690
 randomus.ru##.container > .mt-2
 randomus.ru##.mt-6.py-5.footer
 reactor.cc###usertop_week_content
@@ -973,11 +958,8 @@ rt.pornhub.com##.networkBarWrapper
 rt.pornhub.com##.noPadding.js-menuAnalytics
 rt.pornhub.com##.removeAdLink
 rt.pornhub.com##.sectionWrapper > div.sectionWrapper > .sectionTitle
-rt.pornhub.com##a.js-menuAnalytics.halfWidth.menuLink
-rt.pornhub.com##a.js-menuAnalytics.leftItem.halfWidth.menuLink
-rt.pornhub.com##a.updatedLinks.js-menuAnalytics.menuLink:nth-of-type(3)
-rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(10)
-rt.pornhub.com##div.halfWidth.menuLink:nth-of-type(11)
+rt.pornhub.com##a.js-menuAnalytics
+rt.pornhub.com##a.updatedLinks.js-menuAnalytics
 ru.anyquestion.info##.z-10.relative
 ru.spankbang.com##.channels_scroll_list
 ru.spankbang.com##.go
@@ -988,8 +970,6 @@ ru.xhamster.com##.exp_b
 ru.xhamster.com##.footer-wrapper
 ru.xhamster.com##.IM-sezxpremium-n-overlay
 ru.xhamster.com##.search-page-suggestions-wrapper-sticky
-ru.xhamster.com##div.container-64b3c:nth-of-type(9) > .link-64b3c.primary-48288.root-48288
-rule34.us##div:nth-of-type(2)
 rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
 rule34.xxx##.leftside.dp
@@ -1051,10 +1031,7 @@ servernews.ru##.typo-hint
 servernews.ru##body > .right
 shecodes.io##.promotion-banner--bootcamp
 shoppingcart.aliexpress.ru###\32
-shoppingcart.aliexpress.ru###\32  > .snow-ali-kit_Tab__title__jai3av.snow-ali-kit_Typography__base__1shggo
 shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
-shoppingcart.aliexpress.ru##.SnowCartHotProductList_Header__bannerNew__1257n
-shoppingcart.aliexpress.ru##.SnowCartHotProductList_Header__bannerNew__uum03
 shoppingcart.aliexpress.ru##.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__showButton__igu0o.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__wrapButton__igu0o
 shutterstock.com##.mui-1nyrg0n
 skillbox.ru##.bannerTop
@@ -1102,7 +1079,6 @@ studio.rutube.ru##.vl-navigation__info-block
 studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
 supchat.taxi.yandex-team.ru##.amber-select_remove-selected
 supchat.taxi.yandex-team.ru##.NLuIkIlck0vTaKeHqZTS.g-card_size_l.g-card_type_container.g-card_view_outlined.g-card_theme_normal.g-card.g-box
-supchat.taxi.yandex-team.ru##.NLuIkIlck0vTaKeHqZTS.g-card_size_l.g-card_type_container.g-card_view_outlined.g-card_theme_normal.g-card.g-box > .NH85XCHX6Dh6JQ9kIwRe.g9HKQDslpIGoiFr7yz2S.g-flex.g-box
 superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
 superuser.com##.site-footer--container
 tabler.io##.banner
@@ -1392,14 +1368,9 @@ wildberries.ru##.footer__list-wrap--social
 wildberries.ru##.footer__social-wrap
 workspace.ru##._brif--new
 workupload.com###footer
-www.avito.ru##.index-innerPosition_main-I64Is
-www.avito.ru##.navbar-root-A3Ik4
-www.avito.ru##.services-root-ANSRR
-x.com##.r-3pj75a.r-1w6e6rj
-x.com##a.r-1loqt21.r-1ny4l3l.r-13qz1uu.r-cnw61z.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(8)
-x.com##div.css-175oi2r:nth-of-type(3) > .r-1loqt21.r-1ny4l3l.r-6416eg.r-o7ynqc.r-1mmae3n.r-16x9es5.r-1wtj0ep.css-175oi2r
+xakep.ru###current_issue_box
+xakep.ru###sticker
 xakep.ru##.default
-xatab-repack.rip###content > div:nth-of-type(3) > div:nth-of-type(1)
 xda-developers.com###footer
 xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"]
 xda-developers.com##.panel-target-highlight
@@ -1414,6 +1385,8 @@ xhamstervideo.net##.cookie-announce
 xhamstervideo.net##.no-ts-initiailize
 xhamstervideo.net##.no-update
 xhamstervideo.net##.top-video-block
+xv-ru.com###footer
+xv-ru.com##.premium-results-line
 ya.ru##.AdvOffers-Wrapper
 ya.ru##.AdvPremium
 ya.ru##.AdvRsyaCrossPage
@@ -1449,7 +1422,7 @@ yandex.ru###rsya-guarantee
 yandex.ru##.AdvMastHead
 yandex.ru##.AdvOffers-Wrapper
 yandex.ru##.AdvRsyaCrossPage
-yandex.ru##.AliceFabPromo_shown.AliceFabPromo
+yandex.ru##.AliceFabPromo_shown
 yandex.ru##.AppAdvancedSearch-LikeTooltip
 yandex.ru##.Branding_with-hint
 yandex.ru##.business-card-view__gray-section
@@ -1461,6 +1434,7 @@ yandex.ru##.copyright-tech
 yandex.ru##.DarkThemePromo
 yandex.ru##.distr-nav
 yandex.ru##.distr-popup__content.popup2__content
+yandex.ru##.EntityCardRichText-Branding
 yandex.ru##.EntityFeedbackFooter
 yandex.ru##.ExtraMore.Button2
 yandex.ru##.Fact_answerGap_l
@@ -1476,6 +1450,7 @@ yandex.ru##.ImagesTouchViewer-Card_products
 yandex.ru##.ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv
+yandex.ru##.main__carousel-item_type_entity_carousel
 yandex.ru##.Metadoc
 yandex.ru##.PreventionFeature
 yandex.ru##.ProductFiltersAtop_outlined

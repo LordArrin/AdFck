@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 28 September 2024 06:06
+! Last modified: 29 September 2024 06:38
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -232,6 +232,7 @@ askubuntu.com##.js-footer
 askubuntu.com##.mb8.mt32.ps-relative
 asus.com##.footerExternal
 asus.com##.ProductSupportFooter__productSupportFooterContainer__1CZZJ
+auchan.ru##.seoText
 audio-extractor.net###allapps-extension-popup
 audio-extractor.net##.copyright
 audio-extractor.net##.menu
@@ -250,6 +251,7 @@ author.today##li.accordion-item:nth-of-type(5)
 author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.col-12.layout-internal.js-footer-app
 avito.ru##.desktop-1ni85sv
+avito.ru##.desktop-t36goo
 avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
 avito.ru##.index-innerPosition_main-I64Is
 avito.ru##.index-innerPosition_main-ZP_26
@@ -272,6 +274,7 @@ avito.ru##.styles-title-MUl23
 avito.ru##.styles-title-UgMQ7
 avito.ru##.styles-warning-UseR7
 avito.ru##.styles-wrapper-lJbTj
+avito.ru##.visual-rubricator-grid-s6aQm
 avito.ru##div.css-1t6inbd > div > .styles-module-root_noVisited-Q8BUi.styles-module-root-sEiJE
 avito.ru##div.styles-module-margin-bottom_none-FnZvf.styles-module-margin-top_none-yYTpc.styles-module-root-hbGhb > .desktop-t36goo
 avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag
@@ -460,6 +463,8 @@ fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
+fix-price.com##.download-app-banner
+fix-price.com##.subscription-form
 flaticon.com###button_panel
 flaticon.com###pack-lincense
 flaticon.com##.active.modal-attribution-detail
@@ -519,12 +524,14 @@ gitee.com##.d-flex.partner.column.wide.seven
 gitee.com##.z-\[106\].bottom-\[4\.5px\].left-0.fixed
 github.blog##.mt-6.footer
 github.blog##.pt-6.footer > .color-bg-subtle
+github.com###\:rr\:
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
 github.com##.mb-2.mt-md-2.mt-3.color-fg-muted.text-small
 github.com##.overflow-hidden.js-notice-dismiss
 github.com##.p-responsive.color-fg-muted
+github.com##.px-2.flex-column.d-flex.Overlay-body > .px-2
 github.com##.px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
 gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
@@ -769,6 +776,9 @@ music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
 music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer
 music.yandex.ru##.page-line_chart
+music.yandex.ru##.page-line_clips
+music.yandex.ru##.page-line_new-playlists
+music.yandex.ru##.page-line_new-releases
 music.yandex.ru##.page-line_podcasts
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav
 music.yandex.ru##.playlist-notification__point_ready
@@ -784,6 +794,11 @@ mvideo.ru##.ng-star-inserted.insider-banner
 mvideo.ru##.ng-star-inserted.sticky-btn
 my.kaspersky.com##.ng-star-inserted.site-footer__bottom-section
 my.mail.ru##.l-music__bottom-informer.l-music__content-body.b-music__main__resident-wizard--small
+myspar.ru##.card-present
+myspar.ru##.footer__bottom
+myspar.ru##.footer__main
+myspar.ru##.js-popup-note
+myspar.ru##.seo-block
 nahjob.top##.node_tg
 nanoreview.net##.footer-bottom
 nanoreview.net##.mb.apf-act-btn
@@ -865,8 +880,12 @@ overclockers.ru##.active.tab.bottom.ui > .with-blog.mixed-material-wrap.items.di
 overclockers.ru##.aligned.center.column.wide.four
 overclockers.ru##.aligned.middle.column.wide.two
 overclockers.ru##.footer.vertical
+overclockers.ru##.hide-tablet.hide-minitablet.hide-desktop.overpay-top-menu
 overclockers.ru##.over-pay
+overclockers.ru##.top-an-underlogo
 oxy.st##.footer-area
+ozon.ru##.can1_47
+ozon.ru##.om_18_a
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -878,6 +897,9 @@ pentest-tools.com##.sm\:mx-0.-mx-4
 pepper.ru##.footer
 pepper.ru##.js-threadList.listLayout-main > .listLayout-scrollBox.card--type-horizontal.card
 pepper.ru##.thread-clickRoot.threadGrid.thread-fullMode
+perekrestok.ru##.dmQoQs
+perekrestok.ru##.faJIEj
+perekrestok.ru##.footer-copyright
 photos.google.com##.JJpMec
 photos.google.com##.Li8WFe
 photos.google.com##div.SHMIQd > a.oUj9s > .U1Qaj > .JgkFac
@@ -921,7 +943,10 @@ platform.tuya.com##.iot-rc-ai-assistant-entry-main
 platform.tuya.com##.slick-current.slick-active.slick-slide
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 plvideo.ru##.list_css_stretched_scznajt
+pochta.ru##.cuUGNt
+pochta.ru##.laiOZg
 pochta.ru##.optimize-banner-p14n
+pochta.ru##.swiper-container-pointer-events
 poe.com##.Banner_info__OWUd0
 poe.com##.SidebarFooter_footer__3egHX
 pornado.co###page_container > .rta_cont
@@ -976,6 +1001,7 @@ rule34.xxx##.leftside.dp
 rule34.xxx##.rightside.dp
 rule34.xxx##[href="https://discord.gg/rule34xxx"]
 rule34.xxx##[href="https://kanako.store"]
+rule34.xxx##[href^="http://waifu2x.booru.pics/Home/fromlink"]
 rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
 rule34.xxx##[src="https://rule34.xxx//images/r34chibi.png"]
 rule34.xxx##[src="https://rule34.xxx/static/icame.png"]
@@ -1032,6 +1058,7 @@ servernews.ru##body > .right
 shecodes.io##.promotion-banner--bootcamp
 shoppingcart.aliexpress.ru###\32
 shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
+shoppingcart.aliexpress.ru##.SnowCartHotListHeader_Header__bannerNew__b9cvx
 shoppingcart.aliexpress.ru##.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__showButton__igu0o.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__wrapButton__igu0o
 shutterstock.com##.mui-1nyrg0n
 skillbox.ru##.bannerTop
@@ -1451,6 +1478,7 @@ yandex.ru##.ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv
 yandex.ru##.main__carousel-item_type_entity_carousel
+yandex.ru##.MessageBox-Content
 yandex.ru##.Metadoc
 yandex.ru##.PreventionFeature
 yandex.ru##.ProductFiltersAtop_outlined
@@ -1475,7 +1503,9 @@ yandex.ru##.services-new__content
 yandex.ru##.services-new__list
 yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
 yandex.ru##.SplashscreenDefault
+yandex.ru##.Stocks
 yandex.ru##.user-menu-view__plus
+yandex.ru##.VideoNohostFilter_type_apply
 yandex.ru##.VideoPlayerMetaInfo-mJk6JwHedfcWrbw35tg
 yandex.ru##.VideoPlayerMetaInfo-RknPrevention
 yougame.biz##.yg_first_post
@@ -1548,6 +1578,7 @@ zvyki.com##.rbt-list.no-ajaxy
 ||avatars.mds.yandex.net/get-adfox-content
 ||cdn.sstatic.net/Sites/askubuntu/img/site-background-image.png$image
 ||cowaii.club/banner1.webp$image
+||genshin.ru/wp-content/uploads/2024/03/bg$image
 ||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

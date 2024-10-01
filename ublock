@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 September 2024 06:38
+! Last modified: 01 October 2024 17:47
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -302,13 +302,16 @@ blackbox.ai##.sm\:block.hidden.text-muted-foreground
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
 boosty.to##.Footer_block_SJoX4
+brattysis.com##.below-nav-banner
 brattysis.com##.hover-join
 brattysis.com##.mx-2.btn-lg.btn-cta.btn
 brattysis.com##.py-3.footer-container
 brattysis.com##.watch-page-video-container > .container-fluid
 buhgalteria.ru###default-2DJmFo
 buhgalteria.ru##.hidden-ld
+bunkr.ax##.catflix
 bunkr.black##.catflix
+bunkr.pk##.catflix
 byruthub.org##.br_stat
 byruthub.org##.footer
 byruthub.org##div.block-right:nth-of-type(4)
@@ -398,6 +401,9 @@ fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg
 fanfiction.net##.panel_normal
+fboom.me###footer
+fboom.me##.premium-advantages
+fboom.me##.premium-options
 feedback.aliexpress.com##div.page-menu-item:nth-of-type(11)
 ficbook.net###main > .mx-10.d-flex.fb-ads-block
 ficbook.net##.ads-in-text
@@ -517,6 +523,7 @@ genshin.hoyoverse.com##.logo-wrapper-ZqqgW2.wrapper-2i-f_o
 genshin.hoyoverse.com##.prod-logo-wrapper-zGjjx1.wrapper-2i-f_o
 genshin.hoyoverse.com##.statement-wrapper-2ufpIJ.wrapper-2i-f_o
 genshinhelper.ru##.main-ad-button.slot
+get.bunkrr.su##.careful
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
 gitee.com###git-footer-main > .container.ui
@@ -631,6 +638,8 @@ knowyourmeme.com##div.ad-unit-wrapper
 kod.ru##.Layout_footerWrapper
 kod.ru##.NewsDetail_banner__783R0
 komix.thefatxxx1.com##.footer
+krakenfiles.com###faqs
+krakenfiles.com##.bg-lighter.nk-footer-fluid
 kuper.ru##.Footer_footer__upUTB
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end
@@ -885,7 +894,11 @@ overclockers.ru##.over-pay
 overclockers.ru##.top-an-underlogo
 oxy.st##.footer-area
 ozon.ru##.can1_47
+ozon.ru##.d4g_9
 ozon.ru##.om_18_a
+ozon.ru##.re_10
+ozon.ru##.v1t_29
+ozon.ru##.x2>.tsBodyControl300XSmall
 passport.yandex.ru##.presentation__wrapper
 paypal.com##.css-lm4xxy-elevation_level1
 paypal.com##.footer
@@ -986,8 +999,11 @@ rt.pornhub.com##.sectionWrapper > div.sectionWrapper > .sectionTitle
 rt.pornhub.com##a.js-menuAnalytics
 rt.pornhub.com##a.updatedLinks.js-menuAnalytics
 ru.anyquestion.info##.z-10.relative
+ru.spankbang.com##.ad_button
 ru.spankbang.com##.channels_scroll_list
 ru.spankbang.com##.go
+ru.spankbang.com##.related_keywords
+ru.spankbang.com##footer
 ru.wikipedia.org###footer > .noprint
 ru.wikipedia.org###footer-places
 ru.xhamster.com##.Chry-nwhQaright-rectangle--plug-img
@@ -1067,6 +1083,7 @@ skillbox.ru##.container.footer__underline
 skillbox.ru##.flex-row-rev.row > .col-author.col-lg-4.col-xl-3
 sky.pro##.sg-popup-content
 sky.pro##.sgpb-popup-overlay
+smarthomebeginner.com##blockquote
 softdroids.com##.fx-row.footer
 softdroids.com##.sect-recl
 softdroids.com##.tabs-box
@@ -1118,6 +1135,7 @@ terabox.com##.card-premium-statetxt
 terabox.com##.coupon-Popup-box
 terabox.com##.dialog-extra-del
 terabox.com##.footer
+terabox.com##.header-btn-text
 terabox.com##.is-round.u-button--medium.u-button--primary.nd-btn-fix-size-middle.u-button
 terabox.com##.loading-carousel-box
 terabox.com##.membership-entry
@@ -1160,6 +1178,7 @@ theporndude.com##.with-bg
 ticket.rzd.ru##.app-footer
 tilda.ru##.td-trial
 timeweb.com##.cm-banner-popup-small
+timeweb.com##.tw-domains-list-banner
 tl.rulate.ru###down
 tl.rulate.ru###up
 tl.rulate.ru##.alert-success.alert
@@ -1463,11 +1482,13 @@ yandex.ru##.distr-nav
 yandex.ru##.distr-popup__content.popup2__content
 yandex.ru##.EntityCardRichText-Branding
 yandex.ru##.EntityFeedbackFooter
+yandex.ru##.EntityOffersOrganic
 yandex.ru##.ExtraMore.Button2
 yandex.ru##.Fact_answerGap_l
 yandex.ru##.Feedback.FactFeedback
 yandex.ru##.Footer
 yandex.ru##.footer__end
+yandex.ru##.FuturisProductsChat
 yandex.ru##.FuturisSearch_gen_offline
 yandex.ru##.FuturisSearchCard_gen
 yandex.ru##.GenAnswer_view_fact

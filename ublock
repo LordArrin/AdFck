@@ -33,58 +33,20 @@
 123.ru##.footer-result
 360.yandex.ru##.BottomText_1MZvpwoqJh90izwgKe36i
 360.yandex.ru##.SocialMediaBlock_1QNz3-nDTdBBNpNEdDpbQT
-3dnews.ru###btwLabel
-3dnews.ru###currencyTicker
-3dnews.ru###footer
-3dnews.ru###projects
-3dnews.ru###right-sidebar
-3dnews.ru###stripe
-3dnews.ru##.caption
-3dnews.ru##.comment-warn
-3dnews.ru##.content-block-header.entry-meta
-3dnews.ru##.denyOrgsWARN-footer
-3dnews.ru##.footer-sub
-3dnews.ru##.rbxglob.relatedbox.content-block
-3dnews.ru##.typo-hint
-3dnews.ru##[href="/competitions"]
-3dnews.ru##[href="/job"]
-3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29)
-3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
+3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint
+3dnews.ru##.footer, .footer-sub, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
+3dnews.ru##.rbxglob.relatedbox.content-block, .denyOrgsWARN-footer
+3dnews.ru##[href="/competitions"], [href="/job"]
+3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.to###fo_-1
 4pda.to###go_1
-4pda.to##.CBtf8EVz1FRMLEuKoIc3B
 4pda.to##.copyright
-4pda.to##.daRohrHmjZz14SuGDBqgP
-4pda.to##.dz0PiQx0
 4pda.to##.f-holder
 4pda.to##.globalmesscontent
-4pda.to##.j3AjTL2ulhO98KuD00Ie4
-4pda.to##.j3z13EwC1B69wiUQ6d6Uc8fulg
-4pda.to##.l5ohJYJW2FH
 4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
-4pda.to##.n8rAc8KPz13QgqiQ90ktFtpn0vp
-4pda.to##.Of0IQANfz0j1ncPbz1
-4pda.to##.pTcWKkPpPgxwDeA32ucm
-4pda.to##.QhXeG6pWTz1lBDcdSz1ldWXg
-4pda.to##.QStbvbvDUWOYLIndSD58
 4pda.to##.rnd-replace-revive_zone-type
 4pda.to##.second-menu
-4pda.to##.wide-1
-4pda.to##.wide-2
-4pda.to##.wide-3
-4pda.to##.wRFsbaFk.hwRFsbaFk
-4pda.to##.YjUXqtV1Yz2
-4pda.to##.YrkRby
-4pda.to##.z2cLn50h1U35Mvz2t9fVZs
-4pda.to##article.iUz2VrOjotdohZul
-4pda.to##article.rnd-replace-sidebar-all
-4pda.to##article.ud2DA3bn3ktLoer
-4pda.to##article.WbCEasV0mEC7NlI
-4pda.to##cwdk > .cz2SbCW4QkbbYQUyz0yQ
-4pda.to##div.BRbtWw2wvz1b > .side-item
-4pda.to##div:nth-of-type(18)
-4pda.to##div:nth-of-type(20)
 7sep.zetflix-online.top##.fx-row.footer
 7sep.zetflix-online.top##.site-desc
 7sep.zetflix-online.top##[href="https://t.me/+VIIFsf9wbiU1YWMy"]
@@ -111,39 +73,26 @@ account.proton.me##.interactive--no-background.interactive-pseudo-protrude
 account.proton.me##.rounded.relative.bg-promotion
 account.proton.me##li.mb-0\.5.px-3.w-full.navigation-item:nth-of-type(3) > .navigation-link
 accounts.google.com###footer-list
-agent.yandex-team.ru##.gvzFpc.nmPBkh.GexFPl.RPrICl.UAknfl
-agent.yandex-team.ru##.LedKMg.UplHKi.VGYIBn.uXSUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
-agent.yandex-team.ru##.LedKMg.UplHKi.ymYIBn.RtTUbh.fDKXHe.uXsvef.fiFBp.YlkQVi.PGdtvc.iQidFm.LNtiid.gwqcWf.XMQOAc.pvXyBg.Aulvph.Gpbecc.UAknfl.wrAtHm.yRxAF.AtXTul.quKiSg
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
-aliexpress.com##.down-load-app--simpleMenuItem--griCxPc
 aliexpress.com##.footer-copywrite
 aliexpress.com##.order-block.order-recommend
 aliexpress.com##.site-footer
-aliexpress.com##div.page-menu-item:nth-of-type(11)
 aliexpress.ru###ae-ru-privacy-banner__container
-aliexpress.ru##._3KrBP
-aliexpress.ru##.ModuleBanner_ModuleBanner__outer-wrapper__100x6
-aliexpress.ru##.next-dialog-body > div
-aliexpress.ru##.PseudoSmartBanner_NewBanner__wrapper__1bwen
-aliexpress.ru##.red-typography-utils_style__caption_m_medium__yl5jcn.red-snippet_RedSnippet__p4pElement__1fdd9h.red-typography-utils_style__caption_s_medium__yl5jcn.red-snippet_Element__container__1nwok2
-aliexpress.ru##.RedEntryPoints_RedEntryPoints__outer__5gjjc
-aliexpress.ru##.RedFooter_FooterBottom__wrapper__is8x4
-aliexpress.ru##.RedFooter_FooterTop__wrapper__1vhcw
-aliexpress.ru##.RedModuleBanner_RedModuleBanner__container__97w8b
-aliexpress.ru##.SnowSearchRecommendations_SnowSearchRecommendations__red__1h25u
-aliexpress.ru##.undefined.RecommendationFeedV2_Grid__redChoiceBanner__q3iy2
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(1) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__subContent__1i7x1
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(1) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__title__1i7x1.red-ali-kit_Label__medium__1ydbpm.red-ali-kit_Label__M__1ydbpm.red-ali-kit_Typography__medium__16fy3h.red-ali-kit_Typography__base__16fy3h
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(1)
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(1) > .RedFooter_UserHelper__subContent__1i7x1
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__subContent__1i7x1
-aliexpress.ru##div.RedFooter_UserHelper__subContainer__1i7x1:nth-of-type(2) > div.RedFooter_UserHelper__section__1i7x1:nth-of-type(2) > .RedFooter_UserHelper__title__1i7x1.red-ali-kit_Label__medium__1ydbpm.red-ali-kit_Label__M__1ydbpm.red-ali-kit_Typography__medium__16fy3h.red-ali-kit_Typography__base__16fy3h
-aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(2)
-aliexpress.ru##div.SnowMenu_MenuBlock__wrapper__2tijg:nth-of-type(5) > a.SnowMenu_ListElement__wrapper__1c8zw:nth-of-type(3)
+aliexpress.ru##.OnboardingContextWidget_Overlay__overlay__nvr14
+aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
+aliexpress.ru##[class^="ModuleBanner_ModuleBanner__outer-wrapper__"]
+aliexpress.ru##[class^="PseudoSmartBanner_NewBanner__wrapper__"]
+aliexpress.ru##[class^="RedEntryPoints_RedEntryPoints__outer__"]
+aliexpress.ru##[class^="RedFooter_FooterBottom__wrapper__"]
+aliexpress.ru##[class^="RedFooter_FooterTop__wrapper__"]
+aliexpress.ru##[class^="RedModuleBanner_RedModuleBanner__container__"]
+aliexpress.ru##[class^="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
+aliexpress.ru##[class^="down-load-app--simpleMenuItem-"]
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
+apkmody.com##.alignfull.cover
 apkmody.com##.entry-block.entry-content
 apkmody.com##.margin-top-15.has-text-align-left.has-background.has-light-green-cyan-background-color.wp-block-group
 apkmody.com##.margin-top-15.is-style-pill-shape.has-visible-labels.has-normal-icon-size.social-links
@@ -240,46 +189,29 @@ audio2edit.com##.queue-complete.priority-item > p
 audio2edit.com##.w-50.bg-warning.queue-btn.btn
 auth.tuya.com##.left_2jog-44270
 author.today###banner\.at-col-07\.23
-author.today##.col-xs-3 > .panel-default.panel
-author.today##.footer
-author.today##.genre-s-footer
-author.today##.pb-lg.pr.pl.genre-s-footer
+author.today##.aside-banner
+author.today##.col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer
 author.today##.slick-slider.slick-initialized.section-f-books.slick-container
 author.today##[href="/discussions"]
 author.today##aside-widget > .panel
-author.today##li.accordion-item:nth-of-type(5)
-author.today##li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
+author.today##li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.col-12.layout-internal.js-footer-app
-avito.ru##.desktop-1ni85sv
-avito.ru##.desktop-t36goo
+avito.ru##.desktop-1ni85sv, .desktop-t36goo
 avito.ru##.header-clearfix-kI6fL.header-nav-wQVeb
-avito.ru##.index-innerPosition_main-I64Is
-avito.ru##.index-innerPosition_main-ZP_26
-avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA
-avito.ru##.index-module-nav-stRnY
-avito.ru##.index-module-root-cedSM
-avito.ru##.index-module-root-FJ4jT
-avito.ru##.index-module-root_23-_oWcy
+avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26
+avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY
+avito.ru##.index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy
 avito.ru##.js-side-menu-list-item-promotions.profile-sidebar-navigation-item-_oLvK > .profile-sidebar-navigation-tag-fatJg
-avito.ru##.navbar-root-A3Ik4
-avito.ru##.navbar-root-H9tUO
-avito.ru##.sale-sale-_39Lo
-avito.ru##.services-root-ANSRR
-avito.ru##.services-root-hgyuF
-avito.ru##.story-previewer-storyPreviewer_circle-ieyvg
-avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
+avito.ru##.navbar-root-A3Ik4, .navbar-root-H9tUO
+avito.ru##.sale-sale-_39Lo, .services-root-ANSRR, .services-root-hgyuF
+avito.ru##.story-previewer-storyPreviewer_circle-ieyvg, .story-previewer-storyPreviewer_circle-wQTW7
 avito.ru##.styles-module-root_fullWidth-VOAls
 avito.ru##.styles-module-root_noVisited-qJP5D.styles-module-root-iSkj3 > .desktop-t36goo
-avito.ru##.styles-title-MUl23
-avito.ru##.styles-title-UgMQ7
-avito.ru##.styles-warning-UseR7
-avito.ru##.styles-wrapper-lJbTj
+avito.ru##.styles-title-MUl23, .styles-title-UgMQ7, .styles-warning-UseR7, .styles-wrapper-lJbTj
 avito.ru##.visual-rubricator-grid-s6aQm
 avito.ru##div.css-1t6inbd > div > .styles-module-root_noVisited-Q8BUi.styles-module-root-sEiJE
 avito.ru##div.styles-module-margin-bottom_none-FnZvf.styles-module-margin-top_none-yYTpc.styles-module-root-hbGhb > .desktop-t36goo
-avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag
-avito.ru##li.index-module-nav-item-queVi:nth-of-type(2) > .index-module-nav-link-YtJag
-avito.ru##li.index-module-nav-item-queVi:nth-of-type(5) > .index-module-nav-link-YtJag
+avito.ru##li.index-module-nav-item-queVi:nth-of-type(1) > .index-module-nav-link-YtJag, li.index-module-nav-item-queVi:nth-of-type(2) > .index-module-nav-link-YtJag, li.index-module-nav-item-queVi:nth-of-type(5) > .index-module-nav-link-YtJag
 avito.ru##li.js-side-menu-list-item-undefined.profile-sidebar-navigation-item-_oLvK > .profile-sidebar-navigation-tag-fatJg
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
@@ -287,11 +219,8 @@ banggood.com##.exclick.main-keyword
 banggood.com##.main-sellingPoint
 banggood.com##.wrap.footer-authitem
 bank.yandex.ru##.PromoWidget-module__desktopQR__OasY
-banki.ru##.IPEJPbpA4b_njz7Q_czp
 banki.ru##.layout-wrapper.footer
 banki.ru##.lazy-widget--loaded
-banki.ru##.lazy-widget--loaded.l9accb175.lazy-widget
-banki.ru##.lfd489732.seo-block
 banki.ru##.seo-block
 beatsage.com##.beat-sage-socials
 beatsage.com##.footer
@@ -411,8 +340,7 @@ ficbook.net##.bd-ribbon
 ficbook.net##.btn-primary.btn-sm.btn
 ficbook.net##.copyright
 ficbook.net##.desktop-ad-stick-to-left.d-flex.fb-ads-block
-ficbook.net##.disclaimer
-ficbook.net##.disclamer
+ficbook.net##.disclaimer, .disclamer
 ficbook.net##.discount-sticky-container
 ficbook.net##.fanfic-promo
 ficbook.net##.ficfan-banner
@@ -490,16 +418,6 @@ flaticon.com##.mg-top-lv3.font-xs.footer__legal
 flaticon.com##.modal-icon.track
 flaticon.com##.tooltip--bottom.tooltip.detail__copysvg.btn-copy
 flaticon.com##p.mg-bottom-lv1
-fleet.yandex-team.ru###sub-menu-link-users
-fleet.yandex-team.ru##.AtXTul.VYqufc.ToNwbc.wKlttf > .BcWlAh > .shlKBl.uikJoc.WrNoSc.pOovWi.EGWSnd.NSmUEf.JJEUJm.eohKQl.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.ymUhCn
-fleet.yandex-team.ru##.xYJURg.bWtVAl.CrNchn.jXFjNl.gvzFpc.nmPBkh.GexFPl.RPrICl.Ywutvj.BcWlAh.gohOdf.ddhnld.Kcmtjf.NBsFio.ikvCPk.ebLvKl > .cQimAh
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(2) > .TuFcji.RPrufc.TCWXJ.JJEUJm.eohKQl.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.PHsbXl.BcWlAh > li.eltgej:nth-of-type(3) > .VVITwm.shlKBl.knoQFk.PptQdl.Ofboel.MAdouh.mjscWf.qwPOAc.qJYyBg.Aulvph.Gpbecc.wrAtHm.VpdJBn.wVMUbh.fmNXHe.wVmvef.lJMAIm.eSxXLd.htCchn.OOXjNl.lYRHWg.ibeiqd.VMcoRf.AOYnjj.REsbCk.BcWlAh
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(3) > .AtXTul.gHkdvh.mjscWf.qwPOAc.pvXyBg.Aulvph.Gpbecc.VpdJBn.wVMUbh.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.REsbCk.BcWlAh.xBcMNl
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(3) > .TuFcji.RPrufc.TCWXJ.JJEUJm.eohKQl.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.PHsbXl.BcWlAh > li.eltgej:nth-of-type(1) > .VVITwm.shlKBl.knoQFk.PptQdl.Ofboel.MAdouh.mjscWf.qwPOAc.qJYyBg.Aulvph.Gpbecc.wrAtHm.VpdJBn.wVMUbh.fmNXHe.wVmvef.lJMAIm.eSxXLd.htCchn.OOXjNl.lYRHWg.ibeiqd.VMcoRf.AOYnjj.REsbCk.BcWlAh
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(3) > .TuFcji.RPrufc.TCWXJ.JJEUJm.eohKQl.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.PHsbXl.BcWlAh > li.eltgej:nth-of-type(2) > .VVITwm.shlKBl.knoQFk.PptQdl.Ofboel.MAdouh.mjscWf.qwPOAc.qJYyBg.Aulvph.Gpbecc.wrAtHm.VpdJBn.wVMUbh.fmNXHe.wVmvef.lJMAIm.eSxXLd.htCchn.OOXjNl.lYRHWg.ibeiqd.VMcoRf.AOYnjj.REsbCk.BcWlAh
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(3) > .TuFcji.RPrufc.TCWXJ.JJEUJm.eohKQl.XofGvm.mkRYWc.APwJTj.Dmxgvi.cnKsTd.bINQmj.PHsbXl.BcWlAh > li.eltgej:nth-of-type(3) > .VVITwm.shlKBl.knoQFk.PptQdl.Ofboel.MAdouh.mjscWf.qwPOAc.qJYyBg.Aulvph.Gpbecc.wrAtHm.VpdJBn.wVMUbh.fmNXHe.wVmvef.lJMAIm.eSxXLd.htCchn.OOXjNl.lYRHWg.ibeiqd.VMcoRf.AOYnjj.REsbCk.BcWlAh
-fleet.yandex-team.ru##div.YqLSu:nth-of-type(4)
-fleet.yandex-team.ru##li.eltgej:nth-of-type(4) > .VVITwm.shlKBl.knoQFk.PptQdl.Ofboel.MAdouh.mjscWf.qwPOAc.qJYyBg.Aulvph.Gpbecc.wrAtHm.VpdJBn.wVMUbh.fmNXHe.wVmvef.lJMAIm.eSxXLd.htCchn.OOXjNl.lYRHWg.ibeiqd.VMcoRf.AOYnjj.REsbCk.BcWlAh
 forbes.ru##._6EXjO.NS022.qlmJ1.cMH8R
 forms.yandex-team.ru##.Footer
 forms.yandex-team.ru##.Promo
@@ -867,7 +785,6 @@ nnov.ticketland.ru##.promo
 noob-club.ru##.support-nc.bottomleft
 nutaku.net##.flx-column.seo-box
 nutaku.net##.fnt-small-2
-nutaku.net##.fnt-small-2www.avito.ru##.story-previewer-storyPreviewer_circle-wQTW7
 nutaku.net##.game-play-footer
 nutaku.net##.home-masthead
 nvidia.com###footer-container
@@ -1433,102 +1350,30 @@ xhamstervideo.net##.no-update
 xhamstervideo.net##.top-video-block
 xv-ru.com###footer
 xv-ru.com##.premium-results-line
-ya.ru##.AdvOffers-Wrapper
-ya.ru##.AdvPremium
-ya.ru##.AdvRsyaCrossPage
-ya.ru##.AppAdvancedSearch-LikeTooltip
-ya.ru##.click
-ya.ru##.dialog__overlay
-ya.ru##.dialog__wrapper
-ya.ru##.EntityFeedbackFooter
-ya.ru##.FactHeader_with-hint
-ya.ru##.Footer
-ya.ru##.GenAnswer_view_fact
-ya.ru##.images-viewer-content2__behavioral-direct
-ya.ru##.ImagesTouchViewer-Card_behavioralDirect
-ya.ru##.message-promo_js_inited
-ya.ru##.MessageBox-Content
-ya.ru##.Organic-Warning
-ya.ru##.Promo_withoutBlur
-ya.ru##.RelatedBottom.VanillaReact
-ya.ru##.RequestMeta_view_minified
-ya.ru##.RknWarningFeature
-ya.ru##.search3__doodle-link.home-link2
-ya.ru##.SearchPrevention
-ya.ru##.SearchResultsHeader
-ya.ru##.SerpFooter-LinksGroup_type_feedback
-ya.ru##.SerpFooter-LinksGroup_type_morda
-ya.ru##.SerpFooter-LinksGroup_type_recommendations
-ya.ru##.survey__content
-ya.ru##.usermenu-redesign__after-footer
-ya.ru##.Video-Footer.VideoFooter_warning
-ya.ru##.ya-search-promo
-yandex.ru###a11y-ecommerce-offers
-yandex.ru###rsya-guarantee
-yandex.ru##.AdvMastHead
-yandex.ru##.AdvOffers-Wrapper
-yandex.ru##.AdvRsyaCrossPage
-yandex.ru##.AliceFabPromo_shown
-yandex.ru##.AppAdvancedSearch-LikeTooltip
-yandex.ru##.Branding_with-hint
-yandex.ru##.business-card-view__gray-section
-yandex.ru##.card-footer-view__bold
-yandex.ru##.card-footer-view__disclaimer-info
-yandex.ru##.card-footer-view__social-links
-yandex.ru##.CommercialCropTouch-Button
-yandex.ru##.copyright-tech
-yandex.ru##.DarkThemePromo
-yandex.ru##.distr-nav
-yandex.ru##.distr-popup__content.popup2__content
-yandex.ru##.EntityCardRichText-Branding
-yandex.ru##.EntityFeedbackFooter
-yandex.ru##.EntityOffersOrganic
-yandex.ru##.ExtraMore.Button2
-yandex.ru##.Fact_answerGap_l
-yandex.ru##.Feedback.FactFeedback
-yandex.ru##.Footer
-yandex.ru##.footer__end
-yandex.ru##.FuturisProductsChat
-yandex.ru##.FuturisSearch_gen_offline
-yandex.ru##.FuturisSearchCard_gen
-yandex.ru##.GenAnswer_view_fact
-yandex.ru##.HeaderPhoneActions-Alice
-yandex.ru##.headline.container > .row
-yandex.ru##.ImagesTouchViewer-Card_products
-yandex.ru##.ImagesTouchViewer-Products
+ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click
+ya.ru##.dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer
+ya.ru##.EntityOffersOrganic_united
+ya.ru##.GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect
+ya.ru##.message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur
+ya.ru##.RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2
+ya.ru##.SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations
+ya.ru##.survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo
+yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
+yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint
+yandex.ru##.business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button
+yandex.ru##.copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content
+yandex.ru##.EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback
+yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact
+yandex.ru##.HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
-yandex.ru##.ImagesViewer-SidebarAdv
-yandex.ru##.main__carousel-item_type_entity_carousel
-yandex.ru##.MessageBox-Content
-yandex.ru##.Metadoc
-yandex.ru##.PreventionFeature
-yandex.ru##.ProductFiltersAtop_outlined
-yandex.ru##.Promo_withoutBlur
-yandex.ru##.RelatedBottom
-yandex.ru##.RequestMeta-Level_type_antispam
-yandex.ru##.RequestMeta-Level_type_level
-yandex.ru##.RknPrevention_smaller-font
-yandex.ru##.Root_inited.FuturisSearch_gen
-yandex.ru##.search-collapsed-card-view__advert-offer-banner
-yandex.ru##.SearchPrevention
-yandex.ru##.SearchRelatedGallery
-yandex.ru##.SearchResultsHeader
-yandex.ru##.serp-footer__mob-app
-yandex.ru##.serp-footer__right
-yandex.ru##.serp-item_card-metadoc
-yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup
-yandex.ru##.SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup
-yandex.ru##.SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
+yandex.ru##.ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined
+yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font
+yandex.ru##.Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader
+yandex.ru##.serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc
+yandex.ru##.SerpFooter-LinksGroup_type_feedback.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup
 yandex.ru##.SerpFooterLinksGroup_type_feedback.SerpFooterLinksGroup
-yandex.ru##.services-new__content
-yandex.ru##.services-new__list
-yandex.ru##.SettingsToolbarShortFiltersButton_unsupported
-yandex.ru##.SplashscreenDefault
-yandex.ru##.Stocks
-yandex.ru##.user-menu-view__plus
-yandex.ru##.VideoNohostFilter_type_apply
-yandex.ru##.VideoPlayerMetaInfo-mJk6JwHedfcWrbw35tg
-yandex.ru##.VideoPlayerMetaInfo-RknPrevention
+yandex.ru##.services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks
+yandex.ru##.user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-mJk6JwHedfcWrbw35tg, .VideoPlayerMetaInfo-RknPrevention
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill
@@ -1591,9 +1436,6 @@ zvyki.com##.rbt-list.no-ajaxy
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru/vp/*&duration=domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||ae01.alicdn.com/kf/H041dfe5a6cd64105b709cc0e0adad3f5f.gif$image
-||ae01.alicdn.com/kf/H173f53e5c0a541ef9bcaa46d4e18c714Z.gif$image
-||ae01.alicdn.com/kf/Hdc2aef821ddc4efba51a85b361985267K.jpg_Q90.jpg_.webp$image
 ||aliexpress.ru/$image
 ||an.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||avatars.mds.yandex.net/get-adfox-content

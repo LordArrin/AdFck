@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 October 2024 17:18
+! Last modified: 02 October 2024 18:04
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -174,6 +174,8 @@ club.dns-shop.ru##.on-air__container
 club.dns-shop.ru##[class*="club-sidebar__footer"]
 cnews.ru##footer
 community.cloudflare.com##.modal-container
+compare.embedika.ru##.cdk-overlay-container
+compare.embedika.ru##.header-banner
 comss.ru##.footer
 cowaii.club##.anim1
 crdroid.net###dl-ads
@@ -691,7 +693,6 @@ reactor.cc##.avatars.sidebarContent
 repack-igruha.net##.footer
 repack-igruha.net##.site-desc
 resizepixel.com##.ad-container
-riccardotramma.com###footer-bottom
 rog-forum.asus.com###cookie-policy-info
 rsload.net##.bundle-descr
 rsload.net##.footer
@@ -725,15 +726,14 @@ rustore.ru##div._section_12qot_1:nth-of-type(3) > div
 rustore.ru##div._section_12qot_1:nth-of-type(5)
 rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
-rutube.ru##.footer-fixed-components-module__footerFixed
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
 rutube.ru##.menu-guide-module__wrapper
 rutube.ru##.menu-social-module__list
-rutube.ru##.wdp-card-video-options-module__ageLimit
-rutube.ru##.wdp-card-video-options-module__ageRating
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
+rutube.ru##[class*="footer-"]
+rutube.ru##[class*="wdp-card-video-options-module__age"]
 rutube.ru##section.menu-info-module__wrapper
 rutube.ru##section.menu-section-container-module__wrapper:nth-of-type(7)
 samlib.ru##td > table
@@ -770,11 +770,8 @@ spankbang.com##.related_keywords
 spankbang.com##.tag_list
 spankbang.com##footer
 speedtest.net##.footer
-spiskin.ru###is_reclame
-spiskin.ru###is_reclame-layer
-spiskin.ru###reclame-block
 spiskin.ru##.footer
-split.yandex.ru##.AccountPage-module__promos__p0DX
+spiskin.ru##[class*="reclame"]
 sponsr.ru##.for-whom
 sponsr.ru##.what-is
 sponsr.ru##footer
@@ -825,7 +822,6 @@ terabox.com##a.header-btn:nth-of-type(4)
 terabox.com##a.header-btn:nth-of-type(5)
 terabox.com##a.header-btn:nth-of-type(6)
 terabox.com##div.bottom-box
-terabox.com##div.bottom-box:nth-of-type(23)
 terabox.com##li.vjs-menu-item:nth-of-type(2)
 terabox.com##li.vjs-menu-item:nth-of-type(3)
 thecommunity.ru##.footer
@@ -862,8 +858,6 @@ torrentleech.org##.topMenuAds
 torrentleech.org##.vpn-msg-placeholder
 torrentscity.net##.footer
 torrentscity.net##.pmovie__caption
-track.aliexpress.*##.footer-copywrite, .site-footer
-trade.aliexpress.*##.footer-copywrite, .site-footer
 turbobi.pw##.footer
 turbobi.pw##.main-menu-links > [href^="/turbo"]
 turbobi.pw##.max-speed-time
@@ -965,15 +959,11 @@ vk.*##.post[data-ad]
 vk.*##.Post__copyright
 vk.*##.post_suggest._post_suggest
 vk.*##.profile_rate_warning
-vk.*##.RecommendedNarrativesBlock
-vk.*##.RecommendedNarrativesBlockBase
 vk.*##.ReplyBoxDonut
 vk.*##.settings_vkpay_promo_banner_link_a
 vk.*##.ShortVideoFeedBlock
 vk.*##.ShortVideoStub
 vk.*##.shown.submit_post_box_with_sitposting
-vk.*##.stories_feed_not_nav_buttons.stories_feed_with_thumb.clear_fix.stories_feed_wrap.page_block
-vk.*##.stories_feed_preview_item.story_feed_new_item.story_feed_new_item_promo
 vk.*##.StoryFeedBlockWrapper
 vk.*##.submit_post_box_with_sitposting
 vk.*##.trg-b-banner-block
@@ -996,6 +986,8 @@ vk.*##[class*="ads_ad_"]
 vk.*##[class*="apps_feedRightAppsBlock"]
 vk.*##[class*="feed_friends_recomm"]
 vk.*##[class*="feed_groups_recomm"]
+vk.*##[class*="RecommendedNarratives"]
+vk.*##[class*="stories_feed_"]
 vk.*##aside[aria-label="Актуальные новости"]
 vk.*##body:style(position:static!important)
 vk.*##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest

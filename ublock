@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 October 2024 16:00
+! Last modified: 02 October 2024 17:18
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -48,8 +48,7 @@
 4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.to##.rnd-replace-revive_zone-type
 4pda.to##.second-menu
-9xbuddy.*##.left-0
-9xbuddy.*##.uppercase.items-center.justify-between
+9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
 @@api_url=http://api.vk.*/api.php
@@ -70,17 +69,18 @@ aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer
 aliexpress.com##.order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
+aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
+aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
+aliexpress.ru##[class*="OnboardingContextWidget_Overlay__overlay_"]
+aliexpress.ru##[class*="PseudoSmartBanner_"]
+aliexpress.ru##[class*="PseudoSmartBanner_NewBanner__wrapper__"]
 aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
-aliexpress.ru##[class^="down-load-app--simpleMenuItem-"]
-aliexpress.ru##[class^="ModuleBanner_ModuleBanner__outer-wrapper__"]
-aliexpress.ru##[class^="OnboardingContextWidget_Overlay__overlay_"]
-aliexpress.ru##[class^="PseudoSmartBanner_NewBanner__wrapper__"]
-aliexpress.ru##[class^="RedEntryPoints_RedEntryPoints__outer__"]
-aliexpress.ru##[class^="RedFooter_FooterBottom__wrapper__"]
-aliexpress.ru##[class^="RedFooter_FooterTop__wrapper__"]
-aliexpress.ru##[class^="RedModuleBanner_RedModuleBanner__container__"]
-aliexpress.ru##[class^="SnowCartHotListHeader_Header__bannerNew_"]
-aliexpress.ru##[class^="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
+aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
+aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
+aliexpress.ru##[class*="RedFooter_FooterTop__wrapper__"]
+aliexpress.ru##[class*="RedModuleBanner_RedModuleBanner__container__"]
+aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
+aliexpress.ru##[class*="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
@@ -96,7 +96,7 @@ archiveofourown.org###add_comment_placeholder, #footer, #kudos
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
 asus.com##.footerExternal
-asus.com##[class^="ProductSupportFooter_"]
+asus.com##[class*="ProductSupportFooter_"]
 auchan.ru##.seoText
 audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.content-breaker
@@ -131,6 +131,7 @@ backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry
 banggood.com##.exclick.main-keyword
+banggood.com##.footer
 banggood.com##.product-service
 banggood.com##.related-title
 banggood.com##[class*="exclick main-keyword"]
@@ -140,13 +141,14 @@ bank.yandex.ru##[class*="Qr-module_"]
 banki.ru##[class*="layout-wrapper footer"]
 banki.ru##[class*="lazy-widget--loaded"]
 banki.ru##[class*="seo-block"]
+bcnn.ru##.site-footer
 beatsage.com##[class*="-socials"]
 beatsage.com##[class*="footer"]
 blackbox.ai##.mt-2
 blackbox.ai##.pt-2
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
-boosty.to##[class^="Footer_block_"]
+boosty.to##[class*="Footer_block_"]
 brattysis.com##.below-nav-banner
 brattysis.com##.footer-container
 brattysis.com##.front-page-slider
@@ -204,13 +206,7 @@ dtf.ru##.layout__right-column
 dtf.ru##.live
 dtf.ru##.sidebar__footer
 eldorado.ru##.footer
-eronrg.com###footer
 estmebelshop.ru##.bottom_block_foot
-eu.iot.tuya.com##.g-iot-help-modal-fadeIn
-eu.iot.tuya.com##.react-draggable.g-iot-help-modal-entry
-eu.platform.tuya.com##.iot-rc-ai-assistant-animated
-eu.platform.tuya.com##.smart_menu_purchase
-eu.platform.tuya.com##.smart_menu_serviceMarket
 extract-audio-online.com###ouibounce-modal
 extract-audio-online.com##.floating-widget
 extract-audio-online.com##.modal-content
@@ -294,8 +290,6 @@ flaticon.com##.body-footer
 flaticon.com##.btn-warning.bj-button.btn.btn-svg
 flaticon.com##.btn-warning.bj-button.mg-none.col.btn.btn-svg
 flaticon.com##.copyright
-flaticon.com##.footer__buttons.push-right
-flaticon.com##.footer__projects
 flaticon.com##.link-pricing
 flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
 flaticon.com##.mg-top-lv3.font-xs.footer__legal
@@ -312,19 +306,16 @@ forum.xda-developers.com##.uix_extendedFooter
 foxnews.com##.contain
 foxnews.com##.site-footer
 gazeta.ru###article_header > .borderdown.pd10.pu10
+gazeta.ru##.b_telegram
 gazeta.ru##.borderdown.borderup.pd10.pu10
-gazeta.ru##.header20-body-banner > .b_telegram
-gazeta.ru##div.item > .b_telegram
 gdeposylka.ru##.footer-copyright
 gdeposylka.ru##.splinks
-geekrewind.com##.is-position-sticky.wp-container-3.wp-block-group-is-layout-flow.is-layout-flow.wp-block-group
 geekrewind.com##.swg-dialog
-gelbooru.com###static-index > div:nth-of-type(3)
-genshin.hoyoverse.com##.copyright-wrapper-MHmh6B.wrapper-2i-f_o
-genshin.hoyoverse.com##.logo-wrapper-ZqqgW2.wrapper-2i-f_o
-genshin.hoyoverse.com##.prod-logo-wrapper-zGjjx1.wrapper-2i-f_o
-genshin.hoyoverse.com##.statement-wrapper-2ufpIJ.wrapper-2i-f_o
-genshinhelper.ru##.main-ad-button.slot
+genshin.hoyoverse.com##.footer
+genshin.hoyoverse.com##[class*="*logo-wrapper-"]
+genshin.hoyoverse.com##[class*="copyright-"]
+genshin.hoyoverse.com##[class*="statement-wrapper-"]
+genshinhelper.ru##.main-ad-button
 get.bunkrr.su##.careful
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
@@ -346,72 +337,55 @@ gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:tr
 gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
 gitverse.ru##a.hover\:underline:nth-of-type(2)
 gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
+gofile.io##.filesContentOption
 gofile.io##.linkOrange.mt-2
-gofile.io##.py-0.filesContentOptionReport.filesContentOption
 google.ru###swml
-google.ru##.AghGtd.KxwPGc
-google.ru##.ssOUyb.KxwPGc
 graviton.ru##.footer__bottom
 graviton.ru##.main-promo
 habr.com###news_block_1
-habr.com##.tm-article-comments__ufo-notice.tm-notice_info.tm-notice
-habr.com##.tm-block_spacing-around.block.tm-block
-habr.com##.tm-block_spacing-around.tm-stories-block.tm-block
+habr.com##.tm-block_spacing-around
+habr.com##.tm-notice
 habr.com##[href^="http://ruvds.com/ru-rub"]
 habr.com##[href^="https://selectel.ru/blog/courses/"]
-habr.com##a[href^="https://vdsina.ru/cloud-servers"]
-hd.kinopoisk.ru##.Footer_copyrights__o1hzh
-hd.kinopoisk.ru##.Footer_social-networks__TvM1S
+habr.com##[href^="https://vdsina.ru/cloud-servers"]
 hh.ru##.announcement
-hh.ru##.applicant-resumes-promo
-hh.ru##.applicant-services-slider
-hh.ru##.applicant-services-slider-wrapper
 hh.ru##.banner-substrate
+hh.ru##[class*="applicant-"]
 hitfile.net##.footer
 hitfile.net##.max-speed-time
 hitfile.net##.ok-cell
 hitfile.net##.premium-link-holder
-hitfile.net##th.download-button.no-border:nth-of-type(3)
 hoff.ru##.banner-container
-home.aliexpress.ru##.SnowFooter_SnowFooter__footer__79kvj
-https://[*.]yandex.ru:443
-i2hard.ru##.footer__copyright
-icons8.ru##.addon-carbon.carbon-card-ad
+i2hard.ru##.content__col-right
+i2hard.ru##.footer
+i2hard.ru##[class*="*footer_"]
+icons8.ru###app-footer
+icons8.ru##.addon-carbon
 icons8.ru##.addon-shutterstock
 icons8.ru##.app-support
 icons8.ru##.by-sell-ads-large
 icons8.ru##.carbon-card-ad__loader
-icons8.ru##.dim__footer-download > .i8-link
-icons8.ru##.fdm
-icons8.ru##.fdm__footer
 icons8.ru##.grid-icons__seo
+icons8.ru##[class*="fdm"]
 id.sber.ru###illustation-container
-id.sber.ru##.CookiePolicy_container__3FE8X
-id.sber.ru##.e1h2zndv2.css-120awmp
-id.sber.ru##.e8y4yns0.css-1pr5awc
-id.sber.ru##.ezgdgft2.css-1optnd4
 if.downloadbro.fun###p_arrow
 igromania.ru##.strunmenu
-iloveimg.com##.block--black.block
-iloveimg.com##.block--grey-admin.block
+iloveimg.com##.block--black
+iloveimg.com##.block--grey-admin
 iloveimg.com##.block--white.block
-iloveimg.com##.btn--premium.btn
-iloveimg.com##.footer-main
-iloveimg.com##.footer-minimal
+iloveimg.com##.btn--premium
 iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
+iloveimg.com##[class*="*footer-"]
 iloveimg.com##[href="/ru/user/business"]
 iloveimg.com##[href="/ru/user/invoices"]
-iloveimg.com##li.sidebar__menu__subtitle:nth-of-type(6)
-intel.com##.component.theme-light-2.brand-lighter-gray.solid.blade.global
-involta.ru##.footer_footer__R8q5Y
+iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.react-draggable
+iot.tuya.com##.react-draggable.g-iot-help-modal-entry
 itorrents-igruha.net##.comment-style-bg2
 itorrents-igruha.net##.content-left-column > div > span
-itorrents-igruha.net##.footer-bg1
-itorrents-igruha.net##.footer-bg2
 itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
-ixbt.com##.bg-travel-500
+itorrents-igruha.net##[class*="footer-"]
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-0.mb-2.pb-1.rounded-2xl
 ixbt.com##.flex-col.lg\:flex.hidden.basis-\[340px\]
 ixbt.com##.my-4.sm\:mx-0.mx-4.rounded-2xl.text-white.flex-col.flex.bg-video-500
@@ -421,12 +395,12 @@ ixbt.com##.relative.max-md\:px-5
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .relative
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
 ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
+ixbt.com##[class*="bg-travel-"]
 ixbt.com##figure.editor-js-image div
-jellyfin.org##.text--center.footer__bottom
-jsonbeautifier.org##.py-3.text-center.footer-copyright
+jellyfin.org##[class*="footer_"]
+jsonbeautifier.org##.footer-copyright
 kaspersky.*##footer
-katfile.com##footer > .container-fluid
-katfile.com##li:nth-of-type(1) > [href^="http://katfile.com/"]
+katfile.com##footer
 kemono.party##.footer
 kemono.party##.jumbo
 kemono.party##.stuck-bottom.global-sidebar-entry
@@ -434,49 +408,39 @@ kemono.su##.global-footer
 kemono.su##.shifted.content-wrapper > [href]
 kemono.su##.stuck-bottom
 kemono.su##[href="/fanboximports"] > div
-kinopoisk.ru##.OApvCKFDMSZ53Fy6G8ED
 kinopoisk.ru##.ReactModalPortal
-kinopoisk.ru##.styles_bottomSectionSmall__MzUjU
-kinopoisk.ru##.styles_plusBadgeCounter__RQLCE
-kinopoisk.ru##.styles_withPromotionBlock__Q9wG_
+kinopoisk.ru##[class*="Footer_"]
+kinopoisk.ru##[class*="styles_plusBadgeCounter_"]
+kinopoisk.ru##[class*="styles_withPromotionBlock_"]
 knowyourmeme.com###global-message
 knowyourmeme.com###sub_network_footer_wrapper
 knowyourmeme.com##body > .ad-unit-wrapper
 knowyourmeme.com##div.ad-unit-wrapper
-kod.ru##.Layout_footerWrapper
-kod.ru##.NewsDetail_banner__783R0
-komix.thefatxxx1.com##.footer
+kod.ru##[class*="Layout_footerWrapper"]
+kod.ru##[class*="NewsDetail_banner_"]
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid
-kuper.ru##.Footer_footer__upUTB
+kuper.ru##[class*="Footer_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end
-lastpass.com##.slim-footer__sub-footer
-lastpass.com##.social.section
+lastpass.com##.social
+lastpass.com##.top-banner
+lastpass.com##[class*="slim-footer_"]
 leafletjs.com###dialog
 leafletjs.com##.iframe-container
 leafletjs.com##.leaflet-right
-lenta.ru##._header.b-topic__socials > .b-socials
-lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .b-socials__favorite > .b-favorite_loaded.js-favorite.b-favorite > .js-favorite__button.b-favorite__button.b-favorite__item
-lenta.ru##.js-topic__socials._footer.b-topic__socials > .b-socials > .js-sharing.b-socials__sharing
 lenta.ru##.social-snippet
 lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
 liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
-liteapks.com##div.text-center:nth-of-type(5)
-liteapks.com##p:nth-of-type(2)
-litres.ru##.MainPromoBanner_wrapper__26kyB
-litres.ru##.Search_banner__qqTDK
-lk.bcnn.ru##.site-footer
+litres.ru##[class*="Footer_"]
+litres.ru##[class*="MainPromoBanner_"]
+litres.ru##[class*="Search_banner_"]
 lk.mts.ru##.mts-lk-footer__wrapper
 login.mts.ru##.iMXcpm
 losst.pro###extapp-feedback-container
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
-m.aliexpress.com##._1MfQC
-m.aliexpress.com##div.page-menu-item:nth-of-type(11)
-m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__fhdqe
-m.aliexpress.ru##.PseudoSmartBanner_PseudoSmartBanner__container__tslr4
 m.avito.ru##._5w8L
 m.avito.ru##.CXv2E
 m.avito.ru##.kqCm6
@@ -490,8 +454,6 @@ m.avito.ru##.Ti31R
 m.avito.ru##.zLfY7
 m.avito.ru##div.mav-1i1c8ng
 m.avito.ru##div.SZDsk
-m.banggood.com##.footer
-m.fanfiction.net##form > div
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -500,14 +462,14 @@ m.vk.*##.wall_item.feedAssistance.GroupsRecommendedSlider
 m.vk.*##.wall_item.post_exploreBait
 m.vk.*##.wall_item.post_withExtraHeader
 m.vk.*##.wall_item[data-ad-view]
-m.vk.*##[class^="_ads_block_data_w"]
+m.vk.*##[class*="_ads_block_data_w"]
 m.vk.*#?#.wall_item:has(> div.wi_body > a.copyright_label)
 m.vk.*#?#.wall_item:has(> div.wi_body > div.ads_mark)
 m.vk.com##._preventMenuOpen.StoriesFeedBlock
 m.vk.com##.MiniAppsServicesBarScroll
 m.vk.com##.Pad__content
 m.vk.com##.Row.Pad__header
-m.vk.com##.vkuiInternalGroupCard.Group-module__groupModeCard--CUTB8.Group-module__groupPaddingM--xZXgw.Group-module__group--CCYwC.vkuiGroup--padding-m.vkuiInternalGroup--mode-card
+m.vk.com##.vkuiInternalGroup--mode-card
 m.vk.com##a.SliderTabs__tab.al_feed_tab:nth-of-type(2)
 m.vk.com##div.Separator
 m.youtube.com##ytm-browse ytm-item-section-renderer ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
@@ -523,13 +485,10 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-cont
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 mail.proton.me##.spotlight--no-side-radius
-mail.ru##.mkopfmf__115rr7i.footer
+mail.ru##.footer
 mail.yandex.ru##.Badge-Dot
-mail.yandex.ru##.qa-LeftColumn-Footer-Advertising
-mail.yandex.ru##.qa-LeftColumn-Footer-Android
-mail.yandex.ru##.qa-LeftColumn-Footer-Career
-mail.yandex.ru##.qa-LeftColumn-Footer-iOS
-mail.yandex.ru##.qa-LeftColumn-Footer-RecommendationRules
+mail.yandex.ru##[class*="Banner-"]
+mail.yandex.ru##[class*="qa-LeftColumn-Footer-"]
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
 market.yandex.ru##._169PI
 market.yandex.ru##._1_CjL
@@ -584,13 +543,12 @@ mmoreigr.org##.footer
 mmoreigr.org##[src="https://mmoreigr.org/uploads/mfd.png"]
 modsfire.com##.footer
 modsfire.com##.inf-down
-modzoco.com##.mb-3.pb-1.text-center.rounded > .mb-3.text-center
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
-mts.ru##[class^="footer_"]
-music.mts.ru##.svelte-1ozilmc.prp-profile-menu-item
-music.mts.ru##.svelte-1rnzvbl.hr-line
-music.mts.ru##.svelte-3rnsnv.prp-profile-menu-premium
+mts.ru##[class*="footer_"]
+music.mts.ru##.prp-profile-menu-premium
+music.mts.ru##[class*="base-system-banner_"]
+music.mts.ru##[class*="footer_"]
 music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer
 music.yandex.ru##.page-line_chart
@@ -613,7 +571,7 @@ mvideo.ru##.ng-star-inserted.sticky-btn
 myspar.ru##.card-present
 myspar.ru##.js-popup-note
 myspar.ru##.seo-block
-myspar.ru##[class^="footer_"]
+myspar.ru##[class*="footer_"]
 nahjob.top##.node_tg
 nanoreview.net##.apf-act-btn
 nanoreview.net##.footer-bottom
@@ -626,14 +584,11 @@ newgrounds.com##.inhousepromo
 newgrounds.com##div.blackout, div.blackout-hover
 nexusmods.com###opening
 nexusmods.com###rj-footer
-nexusmods.com##.ad
-nexusmods.com##.ad-unit
+nexusmods.com##.ad, .ad-unit
 nexusmods.com##.donation-form, .hr, .mfp-ready, .mfp-s-ready
-nexusmods.com##.flex.mt-auto
 nexusmods.com##.subheader
 nexusmods.com##.user-profile-menu-upgrade
-nexusmods.com##[class^="premium-"]
-nexusmods.com##tbody, thead > tr
+nexusmods.com##[class*="premium-"]
 nitroflare.com###bottomAlerts
 nitroflare.com###footer
 nitroflare.com###footerCredits
@@ -652,7 +607,7 @@ nvidia.com###footer-container
 nvidia.com##.bannerTracking
 nvidia.com##.footer
 ok.ru###footer
-ok.ru##[class^="banner_"]
+ok.ru##[class*="banner_"]
 online-audio-converter.com##.footer
 online-audio-converter.com##.like_row_conv
 online-audio-converter.com##.one-col
@@ -669,7 +624,6 @@ overclockers.ru##.overpay-top-menu
 overclockers.ru##.tag-trend
 overclockers.ru##.top-an-underlogo
 oxy.st##.footer-area
-passport.yandex.ru##.presentation__wrapper
 paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
@@ -703,15 +657,18 @@ pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counte
 pikabu.ru##div.sidebar-block-links
 pixeldrain.com##strong
 platform.tuya.com##.iot-rc-ai-assistant
+platform.tuya.com##.iot-rc-ai-assistant-animated
 platform.tuya.com##.iot-rc-ai-assistant-entry-main
 platform.tuya.com##.slick-current.slick-active.slick-slide
-platform.tuya.com##[class^="Help_videoContent_"]
-platform.tuya.com##[class^="Home_right_"]
+platform.tuya.com##.smart_menu_purchase
+platform.tuya.com##.smart_menu_serviceMarket
+platform.tuya.com##[class*="Help_videoContent_"]
+platform.tuya.com##[class*="Home_right_"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.swiper-container-pointer-events
-pochta.ru##[class^="banner-"]
-poe.com##[class^="Banner_"]
-poe.com##[class^="SidebarFooter_"]
+pochta.ru##[class*="banner-"]
+poe.com##[class*="Banner_"]
+poe.com##[class*="SidebarFooter_"]
 pornhub.com###js-networkBar
 pornhub.com###onboardingInformation
 pornhub.com##.clearfix.search-video-thumbs.videos
@@ -727,8 +684,7 @@ portal-shop.com##.TOP_HEADER
 products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
 pugetsystems.com##.site-footer
-pugetsystems.com##[class^="banner-"]
-q32.pw##div#\$_v_banner
+pugetsystems.com##[class*="banner-"]
 randomus.ru##.footer
 reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
@@ -760,16 +716,15 @@ rule34video.com##.footer
 rule34video.com##.popup-adv
 rule34video.com##.rule34comic.button_fav
 rule34video.com##.thumb.spot-thumb
-rustore.ru##[class^="copyRight_"]
-rustore.ru##[class^="Footer_"]
-rustore.ru##[class^="qrCodeBlock_"]
-rustore.ru##[class^="socialLinks_"]
+rustore.ru##[class*="copyRight_"]
+rustore.ru##[class*="Footer_"]
+rustore.ru##[class*="qrCodeBlock_"]
+rustore.ru##[class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div
 rustore.ru##div._section_12qot_1:nth-of-type(5)
 rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
-rutor.org##h2:nth-of-type(1)
 rutube.ru##.footer-fixed-components-module__footerFixed
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
@@ -788,27 +743,17 @@ savetwitter.net##.alert-gr.alert-warning.alert
 savetwitter.net##.container-main > .container
 savetwitter.net##.extension-header
 savetwitter.net##footer
-sbermarket.ru##.Footer_legalLinks__C6GJ4
-sbermarket.ru##.Footer_second__XfZz_.Footer_row__9_sQs
-sbermarket.ru##.ShowJsPlacement_leafCardBanner___2Qyp
-sbermarket.ru##.styles_b2bBanner__IifH4
-sdgfsdgyuise3.duckdns.org###sidebar > .pt-3
-sdgfsdgyuise3.duckdns.org##.footer__copyright
-sdgfsdgyuise3.duckdns.org##.mt-4.footer
-sdgfsdgyuise3.duckdns.org##div.text-justify.section:nth-of-type(7)
+sber.ru##[class*="CookiePolicy_"]
+sbermarket.ru##[class*="Footer_"]
+sbermarket.ru##[class*="ShowJsPlacement_"]
+sbermarket.ru##[class*="styles_b2bBanner_"]
 servernews.ru###copyright
 servernews.ru##.typo-hint
 servernews.ru##body > .right
-shecodes.io##.promotion-banner--bootcamp
-shoppingcart.aliexpress.ru###\32
-shoppingcart.aliexpress.ru##.RedFooter_RedFooter__root__obhtq
-shoppingcart.aliexpress.ru##.SnowCartHotListHeader_Header__bannerNew__b9cvx
-shoppingcart.aliexpress.ru##.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__showButton__igu0o.SnowShoppingcartRecommendWrapper_SnowShoppingcartRecommendWrapper__wrapButton__igu0o
 shutterstock.com##.mui-1nyrg0n
+shutterstock.com##.mui-zdzpbd-root
 skillbox.ru##.bannerTop
-skillbox.ru##.container--setka.container > .js-article-banner
-skillbox.ru##.container.footer__underline
-skillbox.ru##.flex-row-rev.row > .col-author.col-lg-4.col-xl-3
+skillbox.ru##.footer__underline
 sky.pro##.sg-popup-content
 sky.pro##.sgpb-popup-overlay
 smarthomebeginner.com##blockquote
@@ -836,14 +781,13 @@ sponsr.ru##footer
 sport-express.ru##.footerinfo__about
 sport-express.ru##.js-share-container-wrap.share-container
 sport-express.ru##.mb_20.mt_15.specButtons
-sport-express.ru##.se19-new-newspaper > .se19-title--section.se19-title
-sport-express.ru##.se19-new-newspaper__info
-sport-express.ru##.se19-new-newspaper__number
+sport-express.ru##.se-footer
+sport-express.ru##[class*="se19-new-"]
+sports.ru###footer-ssi-mount-point
 sports.ru##.blog-post__header-social
 sports.ru##.is-show.js-active.webpush
 sports.ru##.main-footer__top-position
-sports.ru##.material-item__social-line > .social-share.floated
-sports.ru##.material-item__social-line > .subscribe-feed.subscribe.js-active > .subscribe__unsubscribed.subscribe__form > .data-track-click.subscribe__button
+sports.ru##.material-item__social-line
 sports.ru##.poll-share
 sports.ru##.social-links
 sprut.ai##.col-12.col-md-4
@@ -851,33 +795,21 @@ stoigr.org##.abusemessage
 stoigr.org##.footer
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
-studio.rutube.ru##.qr-banner-module__wrapper___Z6ofD
 studio.rutube.ru##.vl-navigation__bottom-links
 studio.rutube.ru##.vl-navigation__copyright
 studio.rutube.ru##.vl-navigation__info-block
-studio.rutube.ru##.vl-notification-module__containerWrapper_show___haapd
-supchat.taxi.yandex-team.ru##.amber-select_remove-selected
-supchat.taxi.yandex-team.ru##.NLuIkIlck0vTaKeHqZTS.g-card_size_l.g-card_type_container.g-card_view_outlined.g-card_theme_normal.g-card.g-box
-superuser.com##.overflow-hidden.fc-medium.mb12.pb4.pt12.px12
+studio.rutube.ru##[class*="qr-banner-module_"]
+studio.rutube.ru##[class*="vl-notification-module_"]
 superuser.com##.site-footer--container
 tabler.io##.banner
 tankionline.com##.cookies-int
-terabox.com##.bottom-tip-wrap
-terabox.com##.bottom-tip-wrap-part
 terabox.com##.capacity-expansion
-terabox.com##.card-premium-icon
-terabox.com##.card-premium-statetxt
 terabox.com##.coupon-Popup-box
 terabox.com##.footer
 terabox.com##.header-btn-text
 terabox.com##.loading-carousel-box
 terabox.com##.membership-entry
 terabox.com##.popup
-terabox.com##.premium
-terabox.com##.premium-btn
-terabox.com##.premium-equity-box
-terabox.com##.premium-equity-title
-terabox.com##.premium-tip
 terabox.com##.share-popup-bg
 terabox.com##.v-modal
 terabox.com##.vip-wrap
@@ -885,6 +817,9 @@ terabox.com##.vjs-full-menu-badge
 terabox.com##.vjs-menu-item-badge
 terabox.com##.vjs-menu-title
 terabox.com##.vjs-modal-pay-guid
+terabox.com##[class*="bottom-tip-"]
+terabox.com##[class*="card-premium-"]
+terabox.com##[class*="premium"]
 terabox.com##a.header-btn:nth-of-type(3)
 terabox.com##a.header-btn:nth-of-type(4)
 terabox.com##a.header-btn:nth-of-type(5)
@@ -897,9 +832,8 @@ thecommunity.ru##.footer
 thejavasea.me##[href^="https://dnsproxy.org/"]
 thejavasea.me##[href^="https://lunaproxy.com/"]
 thelastdb.games##.footer
-thelastgame.org###footer
-thelastgame.ru###footer
-thelastgames.ru##.footer
+thelastgame.*###footer
+thelastgames.*##.footer
 theporndude.com###mobile_menu_header > .socials
 theporndude.com##.--show.coo-widget
 theporndude.com##.copyright-message
@@ -912,11 +846,11 @@ ticketland.ru###personal_show_rek
 ticketland.ru###tab_premium
 ticketland.ru##.copyright
 ticketland.ru##.feedback_popup
-ticketland.ru##.footer__block--text-gray
 ticketland.ru##.promo
+ticketland.ru##[class*="footer_"]
 tilda.ru##.td-trial
 timeweb.com##.tw-domains-list-banner
-timeweb.com##[class^="-banner"]
+timeweb.com##[class*="-banner"]
 tl.rulate.ru###down
 tl.rulate.ru###up
 tl.rulate.ru##.alert-success.alert
@@ -938,16 +872,13 @@ turbobi.pw##td.minus-ok-cell:nth-of-type(3)
 turbobi.pw##td.speed-img.no-border:nth-of-type(2)
 turbobi.pw##td.speed-img.no-border:nth-of-type(3)
 tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
-twitter.com##a.r-1loqt21.r-1ny4l3l.r-1mkv55d.r-13qz1uu.r-1habvwh.r-16y2uox.r-eqz5dr.r-6koalj.css-175oi2r:nth-of-type(6)
 unite4buy.ru##.footer-wrapper
 uploadhaven.com##.apply-section
 uploadhaven.com##.premium-row
 uploadhaven.com##footer
-urbandictionary.com##.lg\:px-0.lg\:mt-0.px-1.mt-3.text-light-charcoal.text-center.text-sm
 valid.x86.*###main__legals
-valid.x86.*##[class^="widget-advert-"]
-vc.ru##.l-island-round.l-pv-20.events_widget
-vc.ru##.l-island-round.vacancies_widget
+valid.x86.*##[class*="widget-advert-"]
+vc.ru##.l-island-round
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
@@ -962,21 +893,21 @@ vk.*###feed_friends_recomm:not(.similar_groups_block)
 vk.*###feed_recommends
 vk.*###feed_right_blocks_root
 vk.*###feed_rows > div[class="feed_row "] > div.Post--copyright
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="FeedVideosForYou"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="Post__copyright"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="ShortVideoFeedBlock"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_authors_rec"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_live_recommended"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_marked_as_ads"])
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="block_aliexpress-recommendations-carousel"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="FeedVideosForYou"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="MarketItemsFeedBlock"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="Post__copyright"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="ShortVideoFeedBlock"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_authors_rec"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_live_recommended"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_marked_as_ads"]']
-vk.*###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_text_name_explain_promoted_post"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="FeedVideosForYou"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="Post__copyright"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="ShortVideoFeedBlock"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="wall_authors_rec"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="wall_live_recommended"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"]:has(div[class="wall_marked_as_ads"])
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="block_aliexpress-recommendations-carousel"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="FeedVideosForYou"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="MarketItemsFeedBlock"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="Post__copyright"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="ShortVideoFeedBlock"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="wall_authors_rec"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="wall_live_recommended"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="wall_marked_as_ads"]']
+vk.*###feed_rows > div[class="feed_row "] > div[class*="feed_repost-"][-ext-has='div[class="wall_text_name_explain_promoted_post"]']
 vk.*###friends_possible_block
 vk.*###friends_right_blocks_root
 vk.*###group_recom_wrap
@@ -1012,21 +943,12 @@ vk.*###settings_vkpay_promo_big_banner_container
 vk.*###system_msg
 vk.*###ui_rmenu_recommended
 vk.*##.adsbyyottos
-vk.*##.apps_feedRightAppsBlock
-vk.*##.apps_feedRightAppsBlock__row
-vk.*##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
-vk.*##.apps_feedRightAppsBlock_new_apps
-vk.*##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
-vk.*##.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
 vk.*##.audio_promo
 vk.*##.audio_subscribe_promo__content
 vk.*##.CallHistoryScreenLanding--header
 vk.*##.CallHistoryScreenLanding--list
 vk.*##.CallHistoryScreenLanding--subheader
 vk.*##.CatalogBlock__subscription, .CatalogSection__rightColumn > .CatalogSection__stickyColumn .CatalogBlock__separator
-vk.*##.feed_friends_recomm
-vk.*##.feed_groups_recomm
-vk.*##.feed_groups_recomm_friends.js-feed_groups_recomm.feed_groups_recomm.page_block
 vk.*##.FeedBlockWrap__marginM
 vk.*##.FeedVideosForYou
 vk.*##.FriendsSuggestionsBlock
@@ -1068,21 +990,24 @@ vk.*##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > d
 vk.*##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
 vk.*##.wcommunity_wrap
 vk.*##.WideSeparator--legalRecommendationsLink
-vk.*##[class^="ads"]
-vk.*##[class^="ads_"]
-vk.*##[class^="ads_ad_"]
+vk.*##[class*="ads"]
+vk.*##[class*="ads_"]
+vk.*##[class*="ads_ad_"]
+vk.*##[class*="apps_feedRightAppsBlock"]
+vk.*##[class*="feed_friends_recomm"]
+vk.*##[class*="feed_groups_recomm"]
 vk.*##aside[aria-label="Актуальные новости"]
 vk.*##body:style(position:static!important)
 vk.*##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
 vk.*##div#content > div._audio_page_layout.audio_page_layout.audio_page_layout2 > div._audio_page_content_block_wrap.audio_page_content_block_wrap > div.page_block._audio_page_content_block > div.audio_page_sections._audio_page_sections.clear_fix > div.audio_section.audio_w_covers._audio_section._audio_section__all.audio_section__all > div.audio_page_section_layout._audio_page_section_layout.has_friends_block > div.audio_page_all_layout_columns.clear_fix > div.audio_friends_list_wrap._audio_friends_list_wrap > div.audio_friends_list_content._audio_friends_list_content > div.audio_subscribe_promo
 vk.*##div#left_ads
 vk.*##div[ads_left]
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.FeedVideosForYou)
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.Post__copyright)
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.ShortVideoFeedBlock)
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_authors_rec)
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_live_recommended)
-vk.*##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_marked_as_ads)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.FeedVideosForYou)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.Post__copyright)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.ShortVideoFeedBlock)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.wall_authors_rec)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.wall_live_recommended)
+vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.wall_marked_as_ads)
 vk.*##div[data-ad-view]
 vk.*##div[data-ad]
 vk.*##div[id^="postadsite_"]
@@ -1129,7 +1054,7 @@ wikihow.com##.wh_ad_inner, .fluid, .house-promo
 wikipedia.org###footer > .noprint
 wikipedia.org###footer-places
 wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__zones
-wildberries.ru##[class^="footer"]
+wildberries.ru##[class*="footer"]
 workspace.ru##._brif--new
 workupload.com###footer
 xakep.ru###current_issue_box
@@ -1144,9 +1069,9 @@ xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
 xdaforums.com##.p-footer
 xdaforums.com##.p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link
 xhamster.com##.exp_b
-xhamster.com##[class^="footer-"]
-xhamster.com##[class^="premium-"]
-xhamster.com##[class^="suggestions-"]
+xhamster.com##[class*="footer-"]
+xhamster.com##[class*="premium-"]
+xhamster.com##[class*="suggestions-"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer
 xv-ru.com###header-mobile-right
@@ -1176,8 +1101,8 @@ yandex.ru##.SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_mor
 yandex.ru##.SerpFooterLinksGroup_type_feedback
 yandex.ru##.services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks
 yandex.ru##.user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
-yandex.ru##[class^="RknPrevention"]
-yandex.ru##[class^="VideoPlayerMetaInfo-"]
+yandex.ru##[class*="RknPrevention"]
+yandex.ru##[class*="VideoPlayerMetaInfo-"]
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill

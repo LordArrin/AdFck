@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 October 2024 18:04
+! Last modified: 03 October 2024 12:15
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -118,6 +118,7 @@ avito.ru##.styles-module-margin-bottom_44-Qr8he
 avito.ru##[class*="items-extraImage-"]
 avito.ru##[class*="js-side-menu-list-item-promotions"]
 avito.ru##[class*="navbar-root-"]
+avito.ru##[class*="PremiumBanner-"]
 avito.ru##[class*="sale-sale-"]
 avito.ru##[class*="services-root-"]
 avito.ru##[class*="story-previewer-storyPreviewer_circle-"]
@@ -489,6 +490,7 @@ mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-pr
 mail.proton.me##.spotlight--no-side-radius
 mail.ru##.footer
 mail.yandex.ru##.Badge-Dot
+mail.yandex.ru##.promozavr-anchor-servicePremiumButton
 mail.yandex.ru##[class*="Banner-"]
 mail.yandex.ru##[class*="qa-LeftColumn-Footer-"]
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
@@ -667,6 +669,7 @@ platform.tuya.com##.smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"]
 platform.tuya.com##[class*="Home_right_"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
+pochta.ru##.cuUGNt
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"]
 poe.com##[class*="Banner_"]
@@ -704,6 +707,7 @@ rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
 rule34.xxx##.leftside.dp
 rule34.xxx##.rightside.dp
+rule34.xxx##[href="#"] > b
 rule34.xxx##[href="https://discord.gg/rule34xxx"]
 rule34.xxx##[href="https://kanako.store"]
 rule34.xxx##[href^="http://waifu2x.booru.pics/*"]
@@ -1087,6 +1091,7 @@ yandex.ru##.HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchVi
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font
+yandex.ru##.Root-FuturisSearchOuter
 yandex.ru##.Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader
 yandex.ru##.serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc
 yandex.ru##.SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 30 September 2024 12:12
+! Last modified: 04 October 2024 16:35
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -57,18 +57,15 @@
 # Other whitelist
 @@||*connectivitycheck*^
 @@||*download.lineageos*^
+@@||*models.topazlabs*^
 @@||*ntp.*^
 @@||*yandex-team*^
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
-||*gfwsl.geforce*^
 ||*gx-target-experiments-frontend-api.gx.nvidia*^
-||*kaizen.nvidia.com*^
-||*lightstep.kaizen.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
-||*ops.gx.nvidia.com*^
 ||*public.games.geforce*^
 #
 ||*.ots.io.mi*^
@@ -114,9 +111,9 @@
 ||*cdn.visualbee*^
 ||*crashlytics*^
 ||*cust-service*^
-||*d3oxtn1x3b8d7i.cloudfront*^
 ||*daisy.ubuntu*^
 ||*dc-api-v2.adobe*^
+||*deviceintegritytokens-pa.googleapis*^
 ||*devices.sberbank*^
 ||*dler.*^
 ||*ds.kaspersky*^
@@ -157,9 +154,12 @@
 ||*sberdevices*^
 ||*sc.omtrdc*^
 ||*send-asr.acrobat*^
+||*services.gfe.nvidia*^
 ||*services.paradoxplaza*^
+||*sitereview.zscaler*^
 ||*stats.rustore*^
 ||*telemetry.mozilla*^
+||*topazlabs*^
 ||*trics.ubuntu*^
 ||*twilio*^
 ||*unchecky*^

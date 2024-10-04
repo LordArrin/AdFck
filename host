@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 04 October 2024 16:35
+! Last modified: 04 October 2024 22:00
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -63,10 +63,8 @@
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
-||*gx-target-experiments-frontend-api.gx.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
-||*public.games.geforce*^
 #
 ||*.ots.io.mi*^
 ||*ads.rustore*^
@@ -78,6 +76,8 @@
 ||*api.paradox-interactive*^
 ||*api.recommendedsw*^
 ||*api.teslacoilapps*^
+||*app-measurement*^
+||*appboy*^
 ||*asb.sts.openvpn*^
 ||*bandicam.*^
 ||*bdurl*^
@@ -157,6 +157,8 @@
 ||*services.gfe.nvidia*^
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
+||*software-nas*^
+||*stats.avito*^
 ||*stats.rustore*^
 ||*telemetry.mozilla*^
 ||*topazlabs*^
@@ -167,6 +169,7 @@
 ||*uxfeedback*^
 ||*vertigo-games*^
 ||*vkpns.rustore*^
+||*voilatile-pa.googleapis*^
 ||*webcamxp*^
 ||*xiaomi*^
 ||*xtracloud*^

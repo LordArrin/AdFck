@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 03 October 2024 12:15
+! Last modified: 04 October 2024 16:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -175,6 +175,7 @@ club.dns-shop.ru##.on-air__container
 club.dns-shop.ru##[class*="club-sidebar__footer"]
 cnews.ru##footer
 community.cloudflare.com##.modal-container
+community.intel.com###skip-footer
 compare.embedika.ru##.cdk-overlay-container
 compare.embedika.ru##.header-banner
 comss.ru##.footer
@@ -1055,7 +1056,9 @@ workspace.ru##._brif--new
 workupload.com###footer
 xakep.ru###current_issue_box
 xakep.ru###sticker
+xakep.ru##.bdaia-author-box
 xakep.ru##.default
+xakep.ru##.info.panel
 xda-developers.com###footer
 xda-developers.com###website-footer
 xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"]

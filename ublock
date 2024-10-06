@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 04 October 2024 16:36
+! Last modified: 06 October 2024 10:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -878,6 +878,9 @@ uploadhaven.com##footer
 valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
 vc.ru##.l-island-round
+vds.menu##.text-center
+vds.menu##div.container > hr
+vds.menu##tr.info
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
@@ -1101,6 +1104,7 @@ yandex.ru##.SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_mor
 yandex.ru##.SerpFooterLinksGroup_type_feedback
 yandex.ru##.services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks
 yandex.ru##.user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
+yandex.ru##[class*="card-metadoc"]
 yandex.ru##[class*="RknPrevention"]
 yandex.ru##[class*="VideoPlayerMetaInfo-"]
 yougame.biz##.yg_first_post

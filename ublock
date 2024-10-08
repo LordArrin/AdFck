@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 06 October 2024 10:21
+! Last modified: 08 October 2024 12:28
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -79,6 +79,8 @@ aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
 aliexpress.ru##[class*="RedFooter_FooterTop__wrapper__"]
 aliexpress.ru##[class*="RedModuleBanner_RedModuleBanner__container__"]
+aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
+aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
 allrepack.ru###footer-bottom
@@ -115,6 +117,7 @@ avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index
 avito.ru##.index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy
 avito.ru##.js-footer-app
 avito.ru##.styles-module-margin-bottom_44-Qr8he
+avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="items-extraImage-"]
 avito.ru##[class*="js-side-menu-list-item-promotions"]
 avito.ru##[class*="navbar-root-"]
@@ -124,8 +127,6 @@ avito.ru##[class*="services-root-"]
 avito.ru##[class*="story-previewer-storyPreviewer_circle-"]
 avito.ru##[class*="styles-module-margin-bottom_none-"][class*="styles-module-margin-top_none-"] > [class*="desktop-"]
 avito.ru##[class*="styles-title-"]
-avito.ru##[class*="styles-warning-"]
-avito.ru##[class*="styles-wrapper-"]
 avito.ru##[class*="visual-rubricator-grid-"]
 avito.ru##li.js-side-menu-list-item-undefined > [class*="profile-sidebar-navigation-tag-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
@@ -382,7 +383,6 @@ iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
 iloveimg.com##[class*="*footer-"]
 iloveimg.com##[href="/ru/user/business"]
 iloveimg.com##[href="/ru/user/invoices"]
-iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.react-draggable
 iot.tuya.com##.react-draggable.g-iot-help-modal-entry
@@ -694,6 +694,11 @@ pugetsystems.com##[class*="banner-"]
 randomus.ru##.footer
 reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
+reddit.com##.py-md.visible
+reddit.com##faceplate-tracker:nth-of-type(10)
+reddit.com##faceplate-tracker:nth-of-type(11)
+reddit.com##faceplate-tracker:nth-of-type(12)
+reddit.com##hr.my-sm
 repack-igruha.net##.footer
 repack-igruha.net##.site-desc
 resizepixel.com##.ad-container

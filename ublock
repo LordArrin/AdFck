@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 08 October 2024 12:28
+! Last modified: 11 October 2024 11:42
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -27,6 +27,7 @@
 ! Please keep in mind that you install this filter at your own risk!
 ! YOU decided to make these changes, and if you decide to blame me for it,
 ! that I ruined your day, I will laugh at you.
+!
 !
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 123.ru###news
@@ -63,6 +64,7 @@ account.proton.me###payment-methods
 account.proton.me##.bg-promotion
 account.proton.me##.button-promotion--icon-gradient
 account.proton.me##.interactive-pseudo-protrude
+account.vkplay.ru###ph-footer
 accounts.google.com###footer-list
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
@@ -125,6 +127,7 @@ avito.ru##[class*="PremiumBanner-"]
 avito.ru##[class*="sale-sale-"]
 avito.ru##[class*="services-root-"]
 avito.ru##[class*="story-previewer-storyPreviewer_circle-"]
+avito.ru##[class*="style-item-view-similars-"]
 avito.ru##[class*="styles-module-margin-bottom_none-"][class*="styles-module-margin-top_none-"] > [class*="desktop-"]
 avito.ru##[class*="styles-title-"]
 avito.ru##[class*="visual-rubricator-grid-"]
@@ -329,6 +332,7 @@ gitee.com##.d-flex.partner.column.wide.seven
 gitee.com##.z-\[106\].bottom-\[4\.5px\].left-0.fixed
 github.blog##.mt-6.footer
 github.blog##.pt-6.footer > .color-bg-subtle
+github.com###\:rq\:
 github.com###\:rr\:
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
@@ -447,6 +451,8 @@ lumpics.ru##.tgchat
 lurkmore.me###siteNotice
 m.avito.ru##._5w8L
 m.avito.ru##.CXv2E
+m.avito.ru##.eLSEg
+m.avito.ru##.JOH9X
 m.avito.ru##.kqCm6
 m.avito.ru##.LauOH
 m.avito.ru##.mav-1a1vtua
@@ -538,6 +544,7 @@ mega.nz##.top-social-bl
 mega.nz##.ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon
 mega.nz##div.submenu-item
 mega.nz##div.top-menu-divider
+megamarket.ru##.header-entry-point
 message.aliexpress.com##.footer-copywrite
 message.aliexpress.com##.site-footer
 minitool.com##.article-author-infos
@@ -1041,6 +1048,8 @@ vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_authors_rec)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_live_recommended)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_text_name_explain_promoted_post)
+vk.com###box_layer_wrap
+vk.com##[class*="FullscreenBanner_"]
 vkplay.ru##.b-page-description
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom
 vremyan.ru##.ajaxload
@@ -1101,6 +1110,7 @@ yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offli
 yandex.ru##.HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined
+yandex.ru##.ProductFiltersAtop
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font
 yandex.ru##.Root-FuturisSearchOuter
 yandex.ru##.Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 06 October 2024 10:25
+! Last modified: 11 October 2024 11:43
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -144,6 +144,7 @@
 ||*miui.*^
 ||*mradx*^
 ||*nsis.bisrv*^
+||*ondevicesafety-pa.googleapis*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^

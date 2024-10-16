@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 11 October 2024 11:42
+! Last modified: 16 October 2024 10:12
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -85,6 +85,7 @@ aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
+aliexpress.ru##[class*="TryMobileApp-m_"]
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
@@ -114,6 +115,7 @@ avito.ru##.cvr-container
 avito.ru##.desktop-1ni85sv, .desktop-t36goo
 avito.ru##.header-nav-wQVeb
 avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26
+avito.ru##.index-miniMenu-pZSYw
 avito.ru##.index-module-container-_z3s1
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY
 avito.ru##.index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy
@@ -175,6 +177,7 @@ citilink.ru##.e4tmpk70
 citilink.ru##.Footer__copyright, .js--MainLayout__footer
 citilink.ru##.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
+club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.on-air__container
 club.dns-shop.ru##[class*="club-sidebar__footer"]
 cnews.ru##footer
@@ -191,6 +194,8 @@ denuvo.store##.altumcode-informational-wrapper
 derpibooru.org###footer
 diakov.net##.title_spoiler
 diakov.net##td
+disk.yandex.ru##._nb-promo-button
+disk.yandex.ru##.notifier
 disk.yandex.ru##.root__footer
 dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block
@@ -360,6 +365,7 @@ habr.com##[href^="https://vdsina.ru/cloud-servers"]
 hh.ru##.announcement
 hh.ru##.banner-substrate
 hh.ru##[class*="applicant-"]
+hi-tech.mail.ru##.b10b54c8be
 hitfile.net##.footer
 hitfile.net##.max-speed-time
 hitfile.net##.ok-cell
@@ -464,6 +470,7 @@ m.avito.ru##.Ti31R
 m.avito.ru##.zLfY7
 m.avito.ru##div.mav-1i1c8ng
 m.avito.ru##div.SZDsk
+m.fanfiction.net##div:nth-of-type(7)
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -497,6 +504,7 @@ mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-pr
 mail.proton.me##.spotlight--no-side-radius
 mail.ru##.footer
 mail.yandex.ru##.Badge-Dot
+mail.yandex.ru##.Promozavr
 mail.yandex.ru##.promozavr-anchor-servicePremiumButton
 mail.yandex.ru##[class*="Banner-"]
 mail.yandex.ru##[class*="qa-LeftColumn-Footer-"]
@@ -636,6 +644,7 @@ overclockers.ru##.overpay-top-menu
 overclockers.ru##.tag-trend
 overclockers.ru##.top-an-underlogo
 oxy.st##.footer-area
+ozon.ru##.gd2_9
 paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
@@ -815,6 +824,7 @@ studio.rutube.ru##.vl-navigation__info-block
 studio.rutube.ru##[class*="qr-banner-module_"]
 studio.rutube.ru##[class*="vl-notification-module_"]
 superuser.com##.site-footer--container
+support.avito.ru##[class*="_37DHXLmSLFs-"]
 tabler.io##.banner
 tankionline.com##.cookies-int
 terabox.com##.capacity-expansion

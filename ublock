@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 October 2024 10:12
+! Last modified: 17 October 2024 09:22
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -155,6 +155,7 @@ blackbox.ai##.mt-2
 blackbox.ai##.pt-2
 blog.csdn.net##.false.passport-login-tip-container
 blog.csdn.net##.passport-login-container
+bolshoyvopros.ru###mobile_suggest
 boosty.to##[class*="Footer_block_"]
 brattysis.com##.below-nav-banner
 brattysis.com##.footer-container
@@ -177,6 +178,7 @@ citilink.ru##.e4tmpk70
 citilink.ru##.Footer__copyright, .js--MainLayout__footer
 citilink.ru##.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
+club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.on-air__container
 club.dns-shop.ru##[class*="club-sidebar__footer"]
@@ -645,6 +647,9 @@ overclockers.ru##.tag-trend
 overclockers.ru##.top-an-underlogo
 oxy.st##.footer-area
 ozon.ru##.gd2_9
+ozon.ru##.ix3_22
+ozon.ru##.om_18_a0
+ozon.ru##.tsBodyControl300XSmall
 paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
@@ -1112,12 +1117,15 @@ ya.ru##.RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeatu
 ya.ru##.SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations
 ya.ru##.survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo
 yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
+yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint
 yandex.ru##.business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer
 yandex.ru##.copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content
 yandex.ru##.EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact
+yandex.ru##.FuturisOnboardingPopup
 yandex.ru##.HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products
+yandex.ru##.ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesTouchViewer-SlideImage.ImagesTouchViewer-ViewerItem_active.ImagesTouchViewer-ViewerItem > .ImagesTouchViewer-Card_behavioralDirect
 yandex.ru##.ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined
 yandex.ru##.ProductFiltersAtop
@@ -1178,6 +1186,7 @@ zvyki.com##.rbt-card, .rbt-list.no-ajaxy
 ||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||4pda.to/s/*.jpg$image
 ||4pda.to/s/*.jpg?$image
+||4pda.to/s/3fSV*g$image
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru/vp/*&duration=domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

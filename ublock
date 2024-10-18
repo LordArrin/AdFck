@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 17 October 2024 09:22
+! Last modified: 18 October 2024 07:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -122,6 +122,7 @@ avito.ru##.index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root
 avito.ru##.js-footer-app
 avito.ru##.styles-module-margin-bottom_44-Qr8he
 avito.ru##[class*="gallery-block-contactBarContainer-"]
+avito.ru##[class*="index-miniMenu-"]
 avito.ru##[class*="items-extraImage-"]
 avito.ru##[class*="js-side-menu-list-item-promotions"]
 avito.ru##[class*="navbar-root-"]
@@ -178,7 +179,9 @@ citilink.ru##.e4tmpk70
 citilink.ru##.Footer__copyright, .js--MainLayout__footer
 citilink.ru##.Subscribe
 cloud.mail.ru###topBanner > .b-react-component
-club.dns-shop.ru##.comments__rules
+cloud.mail.ru##.dimmed.dimmable
+cloud.mail.ru##[class*="Footer_"]
+cloud.mail.ru##[class*="WhatsNewDialog_"]
 club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.on-air__container
 club.dns-shop.ru##[class*="club-sidebar__footer"]
@@ -398,6 +401,7 @@ iloveimg.com##[href="/ru/user/invoices"]
 iot.tuya.com##.g-iot-help-modal-fadeIn
 iot.tuya.com##.react-draggable
 iot.tuya.com##.react-draggable.g-iot-help-modal-entry
+iplay.com###blockers
 itorrents-igruha.net##.comment-style-bg2
 itorrents-igruha.net##.content-left-column > div > span
 itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
@@ -411,6 +415,7 @@ ixbt.com##.relative.max-md\:px-5
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .relative
 ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
 ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
+ixbt.com##.yandex_recommend
 ixbt.com##[class*="bg-travel-"]
 ixbt.com##figure.editor-js-image div
 jellyfin.org##[class*="footer_"]

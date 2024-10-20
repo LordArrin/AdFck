@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 October 2024 11:25
+! Last modified: 20 October 2024 11:29
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -60,13 +60,18 @@
 @@||*download.lineageos*^
 @@||*models.topazlabs*^
 @@||*ntp.*^
+@@||topazlabs.com*^
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
 #
+||*2c2p.*^
+||*adobedtm*^
 ||*ads.rustore*^
+||*adspector.io*^
+||*adspend.space*^
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidattestationvalidation-pa*^
@@ -79,6 +84,7 @@
 ||*app-measurement*^
 ||*appboy*^
 ||*appboy*^
+||*appsgrowthpromo-pa.*^
 ||*asb.sts.openvpn*^
 ||*bandicam.*^
 ||*bdurl*^
@@ -113,11 +119,14 @@
 ||*crashlytics*^
 ||*cust-service*^
 ||*daisy.ubuntu*^
+||*data-abtest-api.hoyoverse*^
 ||*dc-api-v2.adobe*^
+||*default.exp-tas*^
 ||*deviceintegritytokens-pa.googleapis*^
 ||*devices.sberbank*^
 ||*dler.*^
 ||*ds.kaspersky*^
+||*egress.yandex*^
 ||*federatedcompute-pa*^
 ||*feedbacks*.wb*^
 ||*firebaseinstallations*^
@@ -125,6 +134,9 @@
 ||*firebaseremoteconfig*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
+||*geller-pa.googleapis*^
+||*geo-data.wildberries*^
+||*gmscompliance-pa.googleapis*^
 ||*googletagmanager*^
 ||*inappstory*^
 ||*inno.bisrv*^
@@ -133,8 +145,10 @@
 ||*installer.filebulldog*^
 ||*izatcloud*^
 ||*jethrojeff*^
+||*kaspersky-labs*^
 ||*kinescope.io*^
 ||*kmsd.online*^
+||*lahuashanbx*^
 ||*lawfilter.ertelecom*^
 ||*ledvance*^
 ||*lfstrm*^
@@ -164,14 +178,13 @@
 ||*stats.avito*^
 ||*stats.rustore*^
 ||*telemetry.mozilla*^
-||*topazlabs*^
 ||*trics.ubuntu*^
 ||*twilio*^
 ||*unchecky*^
-||*geo-data.wildberries*^
 ||*uxfeedback*^
 ||*vertigo-games*^
 ||*vkpns.rustore*^
+||*voilatile-pa.googleapis*^
 ||*voilatile-pa.googleapis*^
 ||*webcamxp*^
 ||*xiaomi*^

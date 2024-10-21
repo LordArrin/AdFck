@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 October 2024 06:41
+! Last modified: 21 October 2024 16:28
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -265,9 +265,12 @@ ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
 ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
 ficbook.net##ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"]
 ficbook.net##ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+fimfiction.net##.adsbygoogle
 fimfiction.net##.advert
 fimfiction.net##.branded-button-subscribe-star
 fimfiction.net##.footer
+fimfiction.net##.main-responsive
+fimfiction.net##.mobile-inline
 fimfiction.net##.sponsor-reminder
 fimfiction.net##[href="/chat"]
 fimfiction.net##li:nth-of-type(5) > [href="/faq"]
@@ -329,6 +332,8 @@ github.com###\:rr\:
 github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
 github.com##.color-fg-muted.f6.pb-6.pt-8.footer
 github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
+github.com##.hTYflC
+github.com##.jRFAHs
 github.com##.mb-2.mt-md-2.mt-3.color-fg-muted.text-small
 github.com##.overflow-hidden.js-notice-dismiss
 github.com##.p-responsive.color-fg-muted
@@ -517,6 +522,7 @@ market.yandex.ru##._2PP6q
 market.yandex.ru##._2q2DD
 market.yandex.ru##._2qLdU
 market.yandex.ru##._2xwXT
+market.yandex.ru##._3avQt
 market.yandex.ru##._3gPhe._3nSjc
 market.yandex.ru##._3KfA2
 market.yandex.ru##._3sgU6
@@ -662,6 +668,7 @@ products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
 pugetsystems.com##.site-footer
 pugetsystems.com##[class*="banner-"]
+qna.habr.com##.layout__footer
 randomus.ru##.footer
 reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
@@ -781,30 +788,10 @@ superuser.com##.site-footer--container
 support.avito.ru##[class*="_37DHXLmSLFs-"]
 tabler.io##.banner
 tankionline.com##.cookies-int
-terabox.com##.capacity-expansion
-terabox.com##.coupon-Popup-box
-terabox.com##.footer
-terabox.com##.header-btn-text
-terabox.com##.loading-carousel-box
-terabox.com##.membership-entry
-terabox.com##.popup
-terabox.com##.share-popup-bg
-terabox.com##.v-modal
-terabox.com##.vip-wrap
-terabox.com##.vjs-full-menu-badge
-terabox.com##.vjs-menu-item-badge
-terabox.com##.vjs-menu-title
-terabox.com##.vjs-modal-pay-guid
-terabox.com##[class*="bottom-tip-"]
-terabox.com##[class*="card-premium-"]
-terabox.com##[class*="premium"]
-terabox.com##a.header-btn:nth-of-type(3)
-terabox.com##a.header-btn:nth-of-type(4)
-terabox.com##a.header-btn:nth-of-type(5)
-terabox.com##a.header-btn:nth-of-type(6)
-terabox.com##div.bottom-box
-terabox.com##li.vjs-menu-item:nth-of-type(2)
-terabox.com##li.vjs-menu-item:nth-of-type(3)
+terabox.com##.capacity-expansion, .coupon-Popup-box, .footer, .header-btn-text, .loading-carousel-box, .membership-entry, .popup, .share-popup-bg, .v-modal, .vip-wrap, .vjs-full-menu-badge, .vjs-menu-item-badge, .vjs-menu-title, .vjs-modal-pay-guid
+terabox.com##[class*="bottom-tip-"], [class*="card-premium-"], [class*="premium"]
+terabox.com##a.header-btn:nth-of-type(3), a.header-btn:nth-of-type(4), a.header-btn:nth-of-type(5), a.header-btn:nth-of-type(6)
+terabox.com##div.bottom-box, li.vjs-menu-item:nth-of-type(2), li.vjs-menu-item:nth-of-type(3)
 thecommunity.ru##.footer
 thejavasea.me##[href^="https://dnsproxy.org/"]
 thejavasea.me##[href^="https://lunaproxy.com/"]
@@ -844,8 +831,7 @@ turbobita.net##td.minus-ok-cell:nth-of-type(3)
 turbobita.net##td.speed-img.no-border:nth-of-type(3)
 tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
 unite4buy.ru##.footer-wrapper
-uploadhaven.com##.apply-section, .premium-row
-uploadhaven.com##footer
+uploadhaven.com##footer, .apply-section, .premium-row
 valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
 vc.ru##.l-island-round
@@ -1011,30 +997,20 @@ vk.com###box_layer_wrap
 vk.com##[class*="FullscreenBanner_"]
 vkplay.ru##.b-page-description
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom
-vremyan.ru##.ajaxload
-vremyan.ru##.fill-bg
-vremyan.ru##.ok-link
-vremyan.ru##footer
+vremyan.ru##.ajaxload, .fill-bg, .ok-link, footer
 vrtor.ru###adv_fon
 washingtonpost.com##.wpds-c-CRbvs
-wifigid.ru##.site-footer
-wifigid.ru##.wifigid-test-block
-wifigid.ru##div.decoration-none
-wiki.merionet.ru##.discountBanner
-wiki.merionet.ru##.header
 wikihow.com###footer
 wikihow.com##.wh_ad_inner, .fluid, .house-promo
 wikipedia.org###footer > .noprint
 wikipedia.org###footer-places
 wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__zones
 wildberries.ru##[class*="footer"]
+wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
-xakep.ru###current_issue_box
-xakep.ru###sticker
-xakep.ru##.bdaia-author-box
-xakep.ru##.default
-xakep.ru##.info.panel
+xakep.ru###current_issue_box, #sticker
+xakep.ru##.bdaia-author-box, .default, .info.panel
 xda-developers.com###footer
 xda-developers.com###website-footer
 xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"]
@@ -1043,10 +1019,8 @@ xda-developers.com##[href="https://xda-developers.com/newsletter-signup/"], [hre
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
 xdaforums.com##.p-footer
 xdaforums.com##.p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link
-xhamster.com##.exp_b
-xhamster.com##[class*="footer-"]
-xhamster.com##[class*="premium-"]
-xhamster.com##[class*="suggestions-"]
+xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video
+xhamster.com##[class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer
 xv-ru.com###header-mobile-right

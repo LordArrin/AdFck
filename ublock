@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 October 2024 06:33
+! Last modified: 21 October 2024 06:41
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -40,15 +40,9 @@
 3dnews.ru##.rbxglob.relatedbox.content-block, .denyOrgsWARN-footer
 3dnews.ru##[href="/competitions"], [href="/job"]
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
-4pda.to###fo_-1
-4pda.to###go_1
-4pda.to##.copyright
-4pda.to##.f-holder
-4pda.to##.globalmesscontent
-4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"]
-4pda.to##.menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
-4pda.to##.rnd-replace-revive_zone-type
-4pda.to##.second-menu
+4pda.to###fo_-1, #go_1
+4pda.to##.copyright, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu
+4pda.to##.menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
@@ -58,12 +52,8 @@
 @@||oauth.vk.*/authorize?
 @@||oauth.vk.ru$document
 @@||vk.*/vkpay
-account.proton.me###credits
-account.proton.me###invoices
-account.proton.me###payment-methods
-account.proton.me##.bg-promotion
-account.proton.me##.button-promotion--icon-gradient
-account.proton.me##.interactive-pseudo-protrude
+account.proton.me###credits, #invoices, #payment-methods
+account.proton.me##.bg-promotion, .button-promotion--icon-gradient, .interactive-pseudo-protrude
 account.vkplay.ru###ph-footer
 accounts.google.com###footer-list
 akspic.ru##.gallery_fluid-column-block-raw_container
@@ -89,12 +79,7 @@ aliexpress.ru##[class*="TryMobileApp-m_"]
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
 apkmirror.com##.expandMargins
-apkmody.com##.alignfull.cover
-apkmody.com##.entry-block.entry-content
-apkmody.com##.padding-top-30
-apkmody.com##.social-links
-apkmody.com##.truncate
-apkmody.com##.wp-block-group
+apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
 apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles
 archiveofourown.org###add_comment_placeholder, #footer, #kudos
@@ -104,12 +89,10 @@ asus.com##.footerExternal
 asus.com##[class*="ProductSupportFooter_"]
 auchan.ru##.seoText
 audio-extractor.net###allapps-extension-popup, .copyright, .menu
-audio2edit.com##.content-breaker
-audio2edit.com##.fadeInDown.animated.alert-warning
-audio2edit.com##.footer
+audio2edit.com##.content-breaker, .fadeInDown.animated.alert-warning, .footer
 audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn
 audio2edit.com##footer
-auth.tuya.com##.left_2jog-44270
+auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.cvr-container
 avito.ru##.desktop-1ni85sv, .desktop-t36goo
@@ -137,11 +120,7 @@ avito.ru##[class*="visual-rubricator-grid-"]
 avito.ru##li.js-side-menu-list-item-undefined > [class*="profile-sidebar-navigation-tag-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
-banggood.com##.app-entry
-banggood.com##.exclick.main-keyword
-banggood.com##.footer
-banggood.com##.product-service
-banggood.com##.related-title
+banggood.com##.app-entry, .exclick.main-keyword, .footer, .product-service, .related-title
 banggood.com##[class*="exclick main-keyword"]
 banggood.com##[class*="main-sellingPoint"]
 banggood.com##[class*="wrap footer-authitem"]
@@ -658,15 +637,15 @@ paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
+pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
-pikabu.ru##[href="/experts"]
 pixeldrain.com##strong
-platform.tuya.com##[class*="iot-rc-ai-assistant"]
 platform.tuya.com##.slick-current.slick-active.slick-slide
 platform.tuya.com##.smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"]
 platform.tuya.com##[class*="Home_right_"]
+platform.tuya.com##[class*="iot-rc-ai-assistant"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.cuUGNt
 pochta.ru##.swiper-container-pointer-events

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 October 2024 16:28
+! Last modified: 21 October 2024 17:04
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -150,6 +150,7 @@ castlepeak.ru###disclaimer
 cdek.shopping##.app-footer
 cdek.shopping##.app-footer__copyright
 championat.com##.footer, .article-footer__row
+chatgpt.com##.text-right
 chatgpt.com##.text-token-text-secondary.text-xs.text-center
 chitai-gorod.ru##.footer
 citilink.ru##.e10gofov0
@@ -726,62 +727,35 @@ rutube.ru##section.menu-section-container-module__wrapper:nth-of-type(7)
 samlib.ru##td > table
 saveporn.net###itfloater_wd
 savetwitter.net###dlModal
-savetwitter.net##.alert-gr.alert-warning.alert
+savetwitter.net##.alert-gr.alert-warning.alert, extension-header
 savetwitter.net##.container-main > .container
-savetwitter.net##.extension-header
 savetwitter.net##footer
 sber.ru##[class*="CookiePolicy_"]
-sbermarket.ru##[class*="Footer_"]
-sbermarket.ru##[class*="ShowJsPlacement_"]
-sbermarket.ru##[class*="styles_b2bBanner_"]
+sbermarket.ru##[class*="Footer_"], [class*="ShowJsPlacement_"], [class*="styles_b2bBanner_"]
 servernews.ru###copyright
 servernews.ru##.typo-hint
 servernews.ru##body > .right
 shutterstock.com##.mui-1nyrg0n
 shutterstock.com##.mui-zdzpbd-root
-skillbox.ru##.bannerTop
-skillbox.ru##.footer__underline
-sky.pro##.sg-popup-content
-sky.pro##.sgpb-popup-overlay
 smarthomebeginner.com##blockquote
-softdroids.com##.fx-row.footer
-softdroids.com##.sect-recl
-softdroids.com##.tabs-box
+softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 sourceforge.net###main-nav-badge
-sourceforge.net##.as-row
-sourceforge.net##.l-nav-bottom
-spankbang.com##.ad_button
-spankbang.com##.channels_scroll_list
-spankbang.com##.go
-spankbang.com##.related_keywords
-spankbang.com##.tag_list
-spankbang.com##footer
+sourceforge.net##.as-row, .l-nav-bottom
+spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
 speedtest.net##.footer
 spiskin.ru##.footer
 spiskin.ru##[class*="reclame"]
-sponsr.ru##.for-whom
-sponsr.ru##.what-is
-sponsr.ru##footer
-sport-express.ru##.footerinfo__about
-sport-express.ru##.js-share-container-wrap.share-container
-sport-express.ru##.mb_20.mt_15.specButtons
-sport-express.ru##.se-footer
+sponsr.ru##footer, .for-whom, .what-is
+sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, .mb_20.mt_15.specButtons, .se-footer
 sport-express.ru##[class*="se19-new-"]
 sports.ru###footer-ssi-mount-point
-sports.ru##.blog-post__header-social
-sports.ru##.is-show.js-active.webpush
-sports.ru##.main-footer__top-position
-sports.ru##.material-item__social-line
-sports.ru##.poll-share
-sports.ru##.social-links
+sports.ru##.blog-post__header-social, .is-show.js-active.webpush, .main-footer__top-position, .material-item__social-line, .poll-share, .social-links
 sprut.ai##.col-12.col-md-4
 stoigr.org##.abusemessage
 stoigr.org##.footer
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
-studio.rutube.ru##.vl-navigation__bottom-links
-studio.rutube.ru##.vl-navigation__copyright
-studio.rutube.ru##.vl-navigation__info-block
+studio.rutube.ru##.vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block
 studio.rutube.ru##[class*="qr-banner-module_"]
 studio.rutube.ru##[class*="vl-notification-module_"]
 superuser.com##.site-footer--container

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 October 2024 12:38
+! Last modified: 22 October 2024 12:54
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -141,8 +141,8 @@ diakov.net##.title_spoiler
 diakov.net##td
 discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer
-dns-shop.ru###.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, div.products-list__banner
 dns-shop.ru###base-footer
+dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
 download.oxy.st##.footer-area
@@ -178,152 +178,53 @@ fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
 fix-price.com##[class*="download-app-"], [class*="subscription-"]
-flaticon.com###button_panel
-flaticon.com###pack-lincense
-flaticon.com##.active.modal-attribution-detail
-flaticon.com##.alignc.track.fullwidth.btn-warning.btn-download-pack.btn.bj-button
-flaticon.com##.autopromo-coupon-container
-flaticon.com##.banner-craft
-flaticon.com##.block.mg-bottom-lv3
-flaticon.com##.bn-detail.bn-space-gads
-flaticon.com##.body-footer
-flaticon.com##.btn-warning.bj-button.btn.btn-svg
-flaticon.com##.btn-warning.bj-button.mg-none.col.btn.btn-svg
-flaticon.com##.copyright
-flaticon.com##.link-pricing
-flaticon.com##.mg-bottom-lv2.btn-warning.bj-button.btn-svg
-flaticon.com##.mg-top-lv3.font-xs.footer__legal
-flaticon.com##.modal-icon.track
-flaticon.com##.tooltip--bottom.tooltip.detail__copysvg.btn-copy
-flaticon.com##[class*="footer_"]
-flaticon.com##p.mg-bottom-lv1
-forms.yandex-team.ru##.Footer
-forms.yandex-team.ru##.Promo
-forms.yandex.ru##.clearfix.footer
 forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
 forum.xda-developers.com##.p-footer-inner
 forum.xda-developers.com##.uix_extendedFooter
 foxnews.com##.contain
 foxnews.com##.site-footer
 frdl.to##.footer
-gazeta.ru###article_header > .borderdown.pd10.pu10
-gazeta.ru##.b_telegram
-gazeta.ru##.borderdown.borderup.pd10.pu10
-gdeposylka.ru##.footer-copyright
-gdeposylka.ru##.splinks
+gdeposylka.ru##.footer-copyright, .splinks
 geekrewind.com##.swg-dialog
-genshin.hoyoverse.com##.footer
-genshin.hoyoverse.com##[class*="*logo-wrapper-"]
-genshin.hoyoverse.com##[class*="copyright-"]
-genshin.hoyoverse.com##[class*="statement-wrapper-"]
+genshin.hoyoverse.com##.footer, [class*="*logo-wrapper-"], [class*="copyright-"], [class*="statement-wrapper-"]
 genshinhelper.ru##.main-ad-button
 get.bunkrr.su##.careful
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
-gitee.com###git-footer-main > .container.ui
-gitee.com##.d-flex.partner.column.wide.seven
-gitee.com##.z-\[106\].bottom-\[4\.5px\].left-0.fixed
-github.blog##.mt-6.footer
-github.blog##.pt-6.footer > .color-bg-subtle
-github.com###\:rq\:
-github.com###\:rr\:
-github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice
-github.com##.color-fg-muted.f6.pb-6.pt-8.footer
-github.com##.flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
-github.com##.hTYflC
-github.com##.jRFAHs
-github.com##.mb-2.mt-md-2.mt-3.color-fg-muted.text-small
-github.com##.overflow-hidden.js-notice-dismiss
-github.com##.p-responsive.color-fg-muted
-github.com##.px-2.flex-column.d-flex.Overlay-body > .px-2
-github.com##.px-md-0.px-3 > .my-2
+github.com###\:rq\:, #\:rr\:
+github.com##.border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href]
+github.com##.hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted
+github.com##.px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground
 gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
 gitverse.ru##a.hover\:underline:nth-of-type(2)
 gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
 gofile.io##.filesContentOption
-gofile.io##.linkOrange.mt-2
 google.ru###swml
-graviton.ru##.footer__bottom
-graviton.ru##.main-promo
+graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
-habr.com##.tm-block_spacing-around
-habr.com##.tm-notice
+habr.com##.tm-block_spacing-around, .tm-notice
 habr.com##[href^="http://ruvds.com/ru-rub"]
 habr.com##[href^="https://selectel.ru/blog/courses/"]
 habr.com##[href^="https://vdsina.ru/cloud-servers"]
-hh.ru##.announcement
-hh.ru##.banner-substrate
-hh.ru##[class*="applicant-"]
-hi-tech.mail.ru##.b10b54c8be
-hitfile.net##.footer
-hitfile.net##.max-speed-time
-hitfile.net##.ok-cell
-hitfile.net##.premium-link-holder
+hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
+hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
-i2hard.ru##.content__col-right
-i2hard.ru##.footer
-i2hard.ru##[class*="*footer_"]
-icons8.ru###app-footer
-icons8.ru##.addon-carbon
-icons8.ru##.addon-shutterstock
-icons8.ru##.app-support
-icons8.ru##.by-sell-ads-large
-icons8.ru##.carbon-card-ad__loader
-icons8.ru##.grid-icons__seo
-icons8.ru##[class*="fdm"]
-id.sber.ru###illustation-container
-if.downloadbro.fun###p_arrow
+i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 igromania.ru##.strunmenu
-iloveimg.com##.block--black
-iloveimg.com##.block--grey-admin
-iloveimg.com##.block--white.block
-iloveimg.com##.btn--premium
-iloveimg.com##.sidebar__menu__item--active.sidebar__menu__item
-iloveimg.com##[class*="*footer-"]
-iloveimg.com##[href="/ru/user/business"]
-iloveimg.com##[href="/ru/user/invoices"]
-iot.tuya.com##.g-iot-help-modal-fadeIn
-iot.tuya.com##.react-draggable
-iot.tuya.com##.react-draggable.g-iot-help-modal-entry
 iplay.com###blockers
-itorrents-igruha.net##.comment-style-bg2
-itorrents-igruha.net##.content-left-column > div > span
-itorrents-igruha.net##.header-menu > ul#nav:nth-of-type(7) > li > [href="/17221-premium-user.html"]
 itorrents-igruha.net##[class*="footer-"]
-ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-0.mb-2.pb-1.rounded-2xl
-ixbt.com##.flex-col.lg\:flex.hidden.basis-\[340px\]
-ixbt.com##.my-4.sm\:mx-0.mx-4.rounded-2xl.text-white.flex-col.flex.bg-video-500
-ixbt.com##.preview-source
-ixbt.com##.px-3.leading-5.dark\:text-gray-300.text-gray-500.mt-2.text-sm
-ixbt.com##.relative.max-md\:px-5
-ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .relative
-ixbt.com##.sm\:items-center.lg\:justify-around.sm\:gap-4.lg\:w-full.xl\:ml-0.sm\:ml-4.sm\:flex-row.sm\:flex.hidden > .xl\:flex.hidden
-ixbt.com##.xl\:gap-4.lg\:gap-3.md\:gap-2.sm\:gap-2.lg\:flex.items-center.hidden.ml-auto
 ixbt.com##.yandex_recommend
 ixbt.com##[class*="bg-travel-"]
-ixbt.com##figure.editor-js-image div
 jellyfin.org##[class*="footer_"]
 jsonbeautifier.org##.footer-copyright
 kaspersky.*##footer
 katfile.com##center
 katfile.com##div.col-sm-4:nth-of-type(3)
 katfile.com##footer
-kemono.party##.footer
-kemono.party##.jumbo
-kemono.party##.stuck-bottom.global-sidebar-entry
-kemono.su##.global-footer
-kemono.su##.shifted.content-wrapper > [href]
-kemono.su##.stuck-bottom
-kemono.su##[href="/fanboximports"] > div
-kinopoisk.ru##.ReactModalPortal
-kinopoisk.ru##[class*="Footer_"]
-kinopoisk.ru##[class*="styles_plusBadgeCounter_"]
-kinopoisk.ru##[class*="styles_withPromotionBlock_"]
-knowyourmeme.com###global-message
-knowyourmeme.com###sub_network_footer_wrapper
-knowyourmeme.com##body > .ad-unit-wrapper
-knowyourmeme.com##div.ad-unit-wrapper
+kinopoisk.ru##.ReactModalPortal, [class*="Footer_"], [class*="styles_plusBadgeCounter_"], [class*="styles_withPromotionBlock_"]
+knowyourmeme.com###global-message, #sub_network_footer_wrapper
+knowyourmeme.com##.ad-unit-wrapper
 kod.ru##[class*="Layout_footerWrapper"]
 kod.ru##[class*="NewsDetail_banner_"]
 krakenfiles.com###faqs

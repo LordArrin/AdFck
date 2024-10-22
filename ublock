@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 October 2024 16:02
+! Last modified: 22 October 2024 17:19
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -200,7 +200,6 @@ gitverse.ru##.hover\:underline.text-bl-60.font-semibold.cursor-pointer
 gitverse.ru##a.hover\:underline:nth-of-type(2)
 gitverse.ru##div.space-x-4.items-start.flex:nth-of-type(2)
 gofile.io##.filesContentOption
-google.ru###swml
 graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
 habr.com##.tm-block_spacing-around, .tm-notice
@@ -331,6 +330,8 @@ oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area
+ozon.ru##.g3d_9
+ozon.ru##.om_18_a
 paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright

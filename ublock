@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 October 2024 14:06
+! Last modified: 22 October 2024 16:02
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -181,10 +181,8 @@ fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
 fix-price.com##[class*="download-app-"], [class*="subscription-"]
 forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row
-forum.xda-developers.com##.p-footer-inner
-forum.xda-developers.com##.uix_extendedFooter
-foxnews.com##.contain
-foxnews.com##.site-footer
+forum.xda-developers.com##.p-footer-inner, .uix_extendedFooter
+foxnews.com##.contain, .site-footer
 frdl.to##.footer
 gdeposylka.ru##.footer-copyright, .splinks
 geekrewind.com##.swg-dialog
@@ -282,7 +280,7 @@ mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"]
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
-market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp
+market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy
 market.yandex.ru##.ajocN, .At4Zq, .cq9mG, .MqvoK
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
 market.yandex.ru##.premiumIncutDesktop, .side-menu-item_vacancies
@@ -327,18 +325,12 @@ nvidia.com##.footer, .bannerTracking
 ok.ru###footer
 ok.ru##[class*="banner_"]
 online-audio-converter.com##.footer, .like_row_conv, .one-col
-onlinetrade.ru##.footer__countersline
 onlinetrade.ru##.footer__countersline, .footer__infoline
-onlinetrade.ru##.footer__infoline
 openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area
-ozon.ru##.gd2_9
-ozon.ru##.ix3_22
-ozon.ru##.om_18_a0
-ozon.ru##.tsBodyControl300XSmall
 paypal.com##.footer
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
@@ -353,7 +345,6 @@ platform.tuya.com##[class*="Help_videoContent_"]
 platform.tuya.com##[class*="Home_right_"]
 platform.tuya.com##[class*="iot-rc-ai-assistant"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
-pochta.ru##.cuUGNt
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"]
 poe.com##[class*="Banner_"]
@@ -381,15 +372,11 @@ repack-igruha.net##.footer
 repack-igruha.net##.site-desc
 resizepixel.com##.ad-container
 rog-forum.asus.com###cookie-policy-info
-rsload.net##.bundle-descr
-rsload.net##.footer
-rsload.net##.prfl
-rsload.net##.tgwrap
+rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
 rsload.net##[href="https://rsload.net/soft/windows/"]
 rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
-rule34.xxx##.leftside.dp
-rule34.xxx##.rightside.dp
+rule34.xxx##.leftside.dp, .rightside.dp
 rule34.xxx##[href="#"] > b
 rule34.xxx##[href="https://discord.gg/rule34xxx"]
 rule34.xxx##[href="https://kanako.store"]
@@ -400,10 +387,7 @@ rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
 rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
-rule34video.com##.footer
-rule34video.com##.popup-adv
-rule34video.com##.rule34comic.button_fav
-rule34video.com##.thumb.spot-thumb
+rule34video.com##.footer, .popup-adv, .rule34comic.button_fav, .thumb.spot-thumb
 rustore.ru##[class*="copyRight_"]
 rustore.ru##[class*="Footer_"]
 rustore.ru##[class*="qrCodeBlock_"]

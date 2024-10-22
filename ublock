@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 October 2024 17:04
+! Last modified: 22 October 2024 12:38
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -61,6 +61,7 @@ aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer
 aliexpress.com##.order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
+aliexpress.ru##[class*="*adGroupBlock_"]
 aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
 aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
 aliexpress.ru##[class*="OnboardingContextWidget_Overlay__overlay_"]
@@ -73,6 +74,7 @@ aliexpress.ru##[class*="RedFooter_FooterTop__wrapper__"]
 aliexpress.ru##[class*="RedModuleBanner_RedModuleBanner__container__"]
 aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
+aliexpress.ru##[class*="SeoAllSalesHeader_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchRecommendations_SnowSearchRecommendations__red__"]
 aliexpress.ru##[class*="TryMobileApp-m_"]
@@ -94,105 +96,54 @@ audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn
 audio2edit.com##footer
 auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
-avito.ru##.cvr-container
-avito.ru##.desktop-1ni85sv, .desktop-t36goo
-avito.ru##.header-nav-wQVeb
-avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26
-avito.ru##.index-miniMenu-pZSYw
-avito.ru##.index-module-container-_z3s1
-avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY
-avito.ru##.index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy
-avito.ru##.js-footer-app
-avito.ru##.styles-module-margin-bottom_44-Qr8he
-avito.ru##[class*="gallery-block-contactBarContainer-"]
-avito.ru##[class*="index-miniMenu-"]
-avito.ru##[class*="items-extraImage-"]
-avito.ru##[class*="js-side-menu-list-item-promotions"]
-avito.ru##[class*="navbar-root-"]
-avito.ru##[class*="PremiumBanner-"]
-avito.ru##[class*="sale-sale-"]
-avito.ru##[class*="services-root-"]
-avito.ru##[class*="story-previewer-storyPreviewer_circle-"]
-avito.ru##[class*="style-item-view-similars-"]
-avito.ru##[class*="styles-module-margin-bottom_none-"][class*="styles-module-margin-top_none-"] > [class*="desktop-"]
-avito.ru##[class*="styles-title-"]
-avito.ru##[class*="visual-rubricator-grid-"]
-avito.ru##li.js-side-menu-list-item-undefined > [class*="profile-sidebar-navigation-tag-"]
+avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1
+avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
+avito.ru##.styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp
+avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"]
+avito.ru##[class*="styles-title-"], [class*="visual-rubricator-grid-"], li.js-side-menu-list-item-undefined > [class*="profile-sidebar-navigation-tag-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
-banggood.com###footer
-banggood.com##.app-entry, .exclick.main-keyword, .footer, .product-service, .related-title
-banggood.com##[class*="exclick main-keyword"]
-banggood.com##[class*="main-sellingPoint"]
-banggood.com##[class*="wrap footer-authitem"]
+banggood.com###footer, .app-entry, .exclick.main-keyword, .product-service, .related-title
+banggood.com##[class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
 bank.yandex.ru##[class*="Qr-module_"]
-banki.ru##[class*="layout-wrapper footer"]
-banki.ru##[class*="lazy-widget--loaded"]
-banki.ru##[class*="seo-block"]
+banki.ru##[class*="layout-wrapper footer"], [class*="lazy-widget--loaded"], [class*="seo-block"]
 bcnn.ru##.site-footer
-beatsage.com##[class*="-socials"]
-beatsage.com##[class*="footer"]
-blackbox.ai##.mt-2
-blackbox.ai##.pt-2
-blog.csdn.net##.false.passport-login-tip-container
-blog.csdn.net##.passport-login-container
+beatsage.com##[class*="-socials"], [class*="footer"]
 bolshoyvopros.ru###mobile_suggest
 boosty.to##[class*="Footer_block_"]
-brattysis.com##.below-nav-banner
-brattysis.com##.footer-container
-brattysis.com##.front-page-slider
-brattysis.com##.hover-join
+brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-join
 buhgalteria.ru##.hidden-ld
 bunkr.*##.catflix
 byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
 calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
-cdek.shopping##.app-footer
-cdek.shopping##.app-footer__copyright
+cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
-chatgpt.com##.text-right
-chatgpt.com##.text-token-text-secondary.text-xs.text-center
 chitai-gorod.ru##.footer
-citilink.ru##.e10gofov0
-citilink.ru##.e1asn0y0
-citilink.ru##.e4tmpk70
-citilink.ru##.Footer__copyright, .js--MainLayout__footer
-citilink.ru##.Subscribe
+citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru###topBanner > .b-react-component
 cloud.mail.ru##.dimmed.dimmable
-cloud.mail.ru##[class*="Footer_"]
-cloud.mail.ru##[class*="WhatsNewDialog_"]
-club.dns-shop.ru##.comments__rules
-club.dns-shop.ru##.on-air__container
+cloud.mail.ru##[class*="Footer_"], [class*="WhatsNewDialog_"]
+club.dns-shop.ru##.on-air__container, .comments__rules
 club.dns-shop.ru##[class*="club-sidebar__footer"]
 cnews.ru##footer
 community.cloudflare.com##.modal-container
 community.intel.com###skip-footer
-compare.embedika.ru##.cdk-overlay-container
-compare.embedika.ru##.header-banner
+compare.embedika.ru##.cdk-overlay-container, .header-banner
 comss.ru##.footer
 cowaii.club##.anim1
 crdroid.net###dl-ads
-crdroid.net##.footerbg
-crdroid.net##.section-title
+crdroid.net##.footerbg, .section-title
 dailyuploads.net##footer
 denuvo.store##.altumcode-informational-wrapper
 derpibooru.org###footer
 diakov.net##.title_spoiler
 diakov.net##td
 discord.com##.notice_be03aa
-disk.yandex.ru##._nb-promo-button
-disk.yandex.ru##.notifier
-disk.yandex.ru##.root__footer
+disk.yandex.ru##._nb-promo-button, .notifier, .root__footer
+dns-shop.ru###.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, div.products-list__banner
 dns-shop.ru###base-footer
-dns-shop.ru##.banner-slider-block
-dns-shop.ru##.footer
-dns-shop.ru##.left-filters__consult-wrap
-dns-shop.ru##.survey-button-widget_filter
-dns-shop.ru##.survey-button-wrap
-dns-shop.ru##div.products-list__banner
-docs.yandex.ru##.Modal-Overlay
-docs.yandex.ru##.Modal-Wrapper
+docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
 download.oxy.st##.footer-area
 download.oxy.st##.text-right.list-inline
@@ -201,15 +152,10 @@ drive.proton.me##.button-promotion--icon-gradient
 drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
 drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
-dtf.ru##.comments__show-all-always
-dtf.ru##.layout__right-column
-dtf.ru##.live
-dtf.ru##.sidebar__footer
+dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
-extract-audio-online.com###ouibounce-modal
-extract-audio-online.com##.floating-widget
-extract-audio-online.com##.modal-content
+extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to##.p-footer
 fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
@@ -218,69 +164,20 @@ fanfiction.net##.main-content > .spacer.core-msg
 fanfiction.net##.panel_normal
 fboom.me###footer
 fboom.me##[class*="premium-"]
-ficbook.net##.alert-news
-ficbook.net##.bd-ribbon
-ficbook.net##.btn-on-book-background--premium
-ficbook.net##.btn-primary.btn-sm.btn
-ficbook.net##.copyright
-ficbook.net##.disclaimer
-ficbook.net##.discount-sticky-container
-ficbook.net##.fanfic-promo
-ficbook.net##.help-box
-ficbook.net##.home-promo
-ficbook.net##.if-you-were-premium
-ficbook.net##.important-link
-ficbook.net##.js-fanfic-promo-carousel
-ficbook.net##.js-reset-filter-group.link-button
-ficbook.net##.jsVueComponent.dropdown.vs--searchable.vs--single.v-select
-ficbook.net##.jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
-ficbook.net##.justify-content-between
-ficbook.net##.justify-content-center.align-items-center
-ficbook.net##.list-inline
-ficbook.net##.main-holder > .mb-10
-ficbook.net##.mb-15 > .primary-box
-ficbook.net##.mb-15 > .section-title
-ficbook.net##.mb-15 > .text-muted
-ficbook.net##.mb-30.d-flex.fb-ads-block
-ficbook.net##.page-footer
-ficbook.net##.premium-button
-ficbook.net##.request-area
-ficbook.net##.sticky-bottom-block
-ficbook.net##.text-right.mb-30
-ficbook.net##.top-notifications
-ficbook.net##.visible-xs.main-discount-mobile
-ficbook.net##[class*="ads-"]
-ficbook.net##[class*="discount-"]
-ficbook.net##[class*="ficfan-"]
-ficbook.net##[class*="hot-"]
-ficbook.net##[class*="promo-"]
-ficbook.net##[href="/authors/845367/blog#content"]
-ficbook.net##[href="/home/premium/coins"]
-ficbook.net##[href="/randomfic"]
-ficbook.net##[href^="/home/money"]
-ficbook.net##a.mb-5
-ficbook.net##article.fanfic-block-disliked
-ficbook.net##article.fanfic-inline-hot
-ficbook.net##div.d-flex.fb-ads-block
-ficbook.net##div.fanfic-author-actions__column:nth-of-type(2)
-ficbook.net##div.mx-xs-5.mx-15.d-flex.fb-ads-block
-ficbook.net##ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"]
-ficbook.net##ul.search-dropdown-list.list-unstyled:nth-of-type(3)
-fimfiction.net##.adsbygoogle
-fimfiction.net##.advert
-fimfiction.net##.branded-button-subscribe-star
-fimfiction.net##.footer
-fimfiction.net##.main-responsive
-fimfiction.net##.mobile-inline
-fimfiction.net##.sponsor-reminder
-fimfiction.net##[href="/chat"]
-fimfiction.net##li:nth-of-type(5) > [href="/faq"]
+ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle
+ficbook.net##.justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile
+ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"]
+ficbook.net##[href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
+ficbook.net##a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot
+ficbook.net##div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block
+ficbook.net##ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder
+fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded-button
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
-fix-price.com##.download-app-banner
-fix-price.com##.subscription-form
+fix-price.com##[class*="download-app-"], [class*="subscription-"]
 flaticon.com###button_panel
 flaticon.com###pack-lincense
 flaticon.com##.active.modal-attribution-detail

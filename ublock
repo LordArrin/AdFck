@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 October 2024 12:54
+! Last modified: 22 October 2024 14:06
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -119,6 +119,8 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
+chatgpt.com##.md\:px-\[60px\].empty\:hidden
+chatgpt.com##.py-2.flex-col
 chitai-gorod.ru##.footer
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru###topBanner > .b-react-component
@@ -231,41 +233,20 @@ krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid
 kuper.ru##[class*="Footer_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
-lastpass.com##.lp-page-end
-lastpass.com##.social
-lastpass.com##.top-banner
-lastpass.com##[class*="slim-footer_"]
-leafletjs.com###dialog
-leafletjs.com##.iframe-container
-leafletjs.com##.leaflet-right
+lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
+leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.social-snippet
 lesta.ru##.footer_panel
 lewdninja.com##.is-warning.notification
 liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
-litres.ru##[class*="Footer_"]
-litres.ru##[class*="MainPromoBanner_"]
-litres.ru##[class*="Search_banner_"]
+litres.ru##[class*="Footer_"], [class*="MainPromoBanner_"], [class*="Search_banner_"]
 lk.mts.ru##.mts-lk-footer__wrapper
 login.mts.ru##.iMXcpm
 losst.pro###extapp-feedback-container
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
-m.avito.ru##._5w8L
-m.avito.ru##.CXv2E
-m.avito.ru##.eLSEg
-m.avito.ru##.JOH9X
-m.avito.ru##.kqCm6
-m.avito.ru##.LauOH
-m.avito.ru##.mav-1a1vtua
-m.avito.ru##.mav-ckkd6
-m.avito.ru##.OTtKE
-m.avito.ru##.p7vg1
-m.avito.ru##.rNDN9
-m.avito.ru##.Ti31R
-m.avito.ru##.zLfY7
-m.avito.ru##div.mav-1i1c8ng
-m.avito.ru##div.SZDsk
-m.fanfiction.net##div:nth-of-type(7)
+m.avito.ru##._5w8L, .CXv2E, .eLSEg, .JOH9X, .kqCm6, .LauOH, .mav-1a1vtua, .mav-ckkd6, .OTtKE, .p7vg1, .rNDN9, .Ti31R, .zLfY7
+m.avito.ru##div.mav-1i1c8ng, div.SZDsk
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -297,138 +278,58 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-cont
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 mail.proton.me##.spotlight--no-side-radius
-mail.ru##.footer
-mail.ru##.setting-promo
-mail.yandex.ru##.Badge-Dot
-mail.yandex.ru##.Promozavr
-mail.yandex.ru##.promozavr-anchor-servicePremiumButton
-mail.yandex.ru##[class*="Banner-"]
-mail.yandex.ru##[class*="qa-LeftColumn-Footer-"]
+mail.ru##.footer, .setting-promo
+mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton
+mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"]
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
-market.yandex.ru##._169PI
-market.yandex.ru##._1_CjL
-market.yandex.ru##._1A5yJ._13aK2._2ze7k._11BY1
-market.yandex.ru##._1bCJz._1MOwX._1nuzB._23eB3
-market.yandex.ru##._1nHQg
-market.yandex.ru##._1oM_u
-market.yandex.ru##._1s4-s
-market.yandex.ru##._2bkra
-market.yandex.ru##._2eMnU._1MOwX._3QKzI
-market.yandex.ru##._2Gvx2
-market.yandex.ru##._2jVXp
-market.yandex.ru##._2LfUk
-market.yandex.ru##._2PP6q
-market.yandex.ru##._2q2DD
-market.yandex.ru##._2qLdU
-market.yandex.ru##._2xwXT
-market.yandex.ru##._3avQt
-market.yandex.ru##._3gPhe._3nSjc
-market.yandex.ru##._3KfA2
-market.yandex.ru##._3sgU6
-market.yandex.ru##._3VhdE
-market.yandex.ru##._9BBZp
-market.yandex.ru##.ajocN
-market.yandex.ru##.At4Zq
-market.yandex.ru##.cia-cs.cia-vs > div > .cia-vs > .r_nt5
-market.yandex.ru##.cia-cs.cia-vs.HBydy
-market.yandex.ru##.cq9mG
+market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp
+market.yandex.ru##.ajocN, .At4Zq, .cq9mG, .MqvoK
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
-market.yandex.ru##.MqvoK
-market.yandex.ru##.premiumIncutDesktop
-market.yandex.ru##.side-menu-item_vacancies
+market.yandex.ru##.premiumIncutDesktop, .side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
 market.yandex.ru##div._1kLnL:nth-of-type(4)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(2) > .cia-cs > .r_nt5._2wiey > .ePSUN
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
-mega.nz##.almost-full.fm-notification-block
-mega.nz##.almost-full.storage-dialog
-mega.nz##.anouncement.banner.mega-component
-mega.nz##.top-social-bl
-mega.nz##.ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon
-mega.nz##div.submenu-item
-mega.nz##div.top-menu-divider
+mega.nz##.almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon
+mega.nz##div.submenu-item, div.top-menu-divider
 megamarket.ru##.header-entry-point
-message.aliexpress.com##.footer-copywrite
-message.aliexpress.com##.site-footer
-minitool.com##.article-author-infos
-minitool.com##.footer-copyright-wrapper
-mm.ru##.center-content.banner
-mm.ru##.component.content
+message.aliexpress.com##.footer-copywrite, .site-footer
 mmoreigr.org##.footer
-mmoreigr.org##[src="https://mmoreigr.org/uploads/mfd.png"]
-modsfire.com##.footer
-modsfire.com##.inf-down
+mmoreigr.org##.maindescrip
+modsfire.com##.footer, .inf-down
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium
-music.mts.ru##[class*="base-system-banner_"]
-music.mts.ru##[class*="footer_"]
-music.yandex.ru##.auto-playlists__item_recentTracks
-music.yandex.ru##.footer
-music.yandex.ru##.page-line_chart
-music.yandex.ru##.page-line_clips
-music.yandex.ru##.page-line_new-playlists
-music.yandex.ru##.page-line_new-releases
-music.yandex.ru##.page-line_podcasts
-music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav
-music.yandex.ru##.playlist-notification__point_ready
-music.yandex.ru##.sidebar-rup__special-station-section
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
+music.mts.ru##[class*="base-system-banner_"], [class*="footer_"]
+music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts
+music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
 music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
-music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
-music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(5)
-music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(6)
-mvideo.ru##.footer__grid
-mvideo.ru##.ng-star-inserted.insider-banner
-mvideo.ru##.ng-star-inserted.sticky-btn
-myspar.ru##.card-present
-myspar.ru##.js-popup-note
-myspar.ru##.seo-block
+mvideo.ru##[class*="footer__grid"]
+myspar.ru##.card-present, .seo-block, .js-popup-note
 myspar.ru##[class*="footer_"]
 nahjob.top##.node_tg
-nanoreview.net##.apf-act-btn
-nanoreview.net##.footer-bottom
+nanoreview.net##.footer-bottom, .apf-act-btn
 nauchniestati.ru##.eduChat
 naughtymachinima.com##.footer-container
-navidrome.org##.d-print-none.row.py-5.bg-dark
-newgrounds.com##.blackout-inner
-newgrounds.com##.header-deck
-newgrounds.com##.inhousepromo
-newgrounds.com##div.blackout, div.blackout-hover
-nexusmods.com###opening
-nexusmods.com###rj-footer
-nexusmods.com##.ad, .ad-unit
-nexusmods.com##.donation-form, .hr, .mfp-ready, .mfp-s-ready
-nexusmods.com##.subheader
-nexusmods.com##.user-profile-menu-upgrade
+newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.blackout-hover
+nexusmods.com###opening, ###rj-footer, .ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade
 nexusmods.com##[class*="premium-"]
-nitroflare.com###bottomAlerts
-nitroflare.com###footer
-nitroflare.com###footerCredits
-nitroflare.com###menu [href="payment"]
-nitroflare.com##.good.table2
-nitroflare.com##[src="img/swf/HighSpeedMeter.png"]
-nitroflare.com##body > div:nth-of-type(2)
-nitroflare.com##div > .bootstrapButton
-nitroflare.com##li:nth-of-type(3)
+nitroflare.com###bottomAlerts, ###footer, ###footerCredits, ###menu [href="payment"], .good.table2
+nitroflare.com##[src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), div > .bootstrapButton, li:nth-of-type(3)
 noob-club.ru##.support-nc.bottomleft
-nutaku.net##.flx-column.seo-box
-nutaku.net##.fnt-small-2
-nutaku.net##.game-play-footer
-nutaku.net##.home-masthead
+nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com###footer-container
-nvidia.com##.bannerTracking
-nvidia.com##.footer
+nvidia.com##.footer, .bannerTracking
 ok.ru###footer
 ok.ru##[class*="banner_"]
-online-audio-converter.com##.footer
-online-audio-converter.com##.like_row_conv
-online-audio-converter.com##.one-col
+online-audio-converter.com##.footer, .like_row_conv, .one-col
+onlinetrade.ru##.footer__countersline
 onlinetrade.ru##.footer__countersline, .footer__infoline
+onlinetrade.ru##.footer__infoline
 openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
@@ -896,6 +797,7 @@ zvyki.com##.rbt-card, .rbt-list.no-ajaxy
 ||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
+||mmoreigr.org/templates/TronTheme/images/bg_*.jpg$image
 ||rule34.xxx//images/r34chibi.png$image
 ||rule34.xxx/blacklisted.png$image
 ||rule34.xxx/static/icame.png$image

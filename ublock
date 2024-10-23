@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 October 2024 17:19
+! Last modified: 23 October 2024 08:31
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -301,10 +301,13 @@ monocle.ru##.subscr_info
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium
 music.mts.ru##[class*="base-system-banner_"], [class*="footer_"]
+music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
 music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav
+music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(6) > .d-tabs__link.typo-nav
 mvideo.ru##[class*="footer__grid"]
 myspar.ru##.card-present, .seo-block, .js-popup-note
 myspar.ru##[class*="footer_"]
@@ -333,8 +336,12 @@ oxy.st##.footer-area
 ozon.ru##.g3d_9
 ozon.ru##.om_18_a
 paypal.com##.footer
+pepper.ru###footer-content
+pepper.ru##.fixed.px-2.form-secondary-button
 pepper.ru##.footer
 perekrestok.ru##.footer-copyright
+photos.google.com##.GIj5nd
+photos.google.com##.JJpMec
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
@@ -728,6 +735,7 @@ youtube.com###chat
 youtube.com###content > .ytd-rich-section-renderer.style-scope
 youtube.com###copyright
 youtube.com###dismissed
+youtube.com###flexible-item-buttons > yt-button-view-model
 youtube.com###flexible-item-buttons > yt-button-view-model.ytd-menu-renderer.style-scope
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading

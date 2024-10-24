@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 October 2024 08:31
+! Last modified: 24 October 2024 08:39
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -304,6 +304,8 @@ music.mts.ru##[class*="base-system-banner_"], [class*="footer_"]
 music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
+music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
 music.yandex.ru##button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3)
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav
 music.yandex.ru##div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav
@@ -320,6 +322,8 @@ nexusmods.com###opening, ###rj-footer, .ad, .ad-unit, .donation-form, .hr, .mfp-
 nexusmods.com##[class*="premium-"]
 nitroflare.com###bottomAlerts, ###footer, ###footerCredits, ###menu [href="payment"], .good.table2
 nitroflare.com##[src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), div > .bootstrapButton, li:nth-of-type(3)
+nn.hh.ru##.bloko-notification
+nn.hh.ru##.serp-special
 noob-club.ru##.support-nc.bottomleft
 nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com###footer-container
@@ -692,6 +696,7 @@ xv-ru.com###header-mobile-right
 xv-ru.com###premium-info-frame
 xv-ru.com##.premium-results-line
 ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click
+ya.ru##.cbir-page-layout__neuro-input
 ya.ru##.dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer
 ya.ru##.EntityOffersOrganic_united
 ya.ru##.GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect
@@ -703,6 +708,7 @@ yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
 yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint
 yandex.ru##.business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer
+yandex.ru##.cbir-page-layout__neuro-input
 yandex.ru##.copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content
 yandex.ru##.EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback
 yandex.ru##.EntityCardRichText-FuturisContainer

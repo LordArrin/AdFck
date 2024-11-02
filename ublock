@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 October 2024 09:16
+! Last modified: 02 November 2024 03:50
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -146,10 +146,14 @@ diakov.net##.title_spoiler
 diakov.net##td
 discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer
+disk.yandex.ru##.AppLink
+dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
+down-load.lanrar.com###go
+down-load.lanrar.com###sub2
 download.oxy.st##.footer-area
 download.oxy.st##.text-right.list-inline
 drive.google.com##.ml-Pr-kg
@@ -161,6 +165,7 @@ dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__foot
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
+f95zone.to###topNotice
 f95zone.to##.p-footer
 fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
@@ -221,6 +226,9 @@ i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 igromania.ru##.strunmenu
 iplay.com###blockers
 itorrents-igruha.net##[class*="footer-"]
+ixbt.com##.bg-ixbt-200
+ixbt.com##.space-x-2
+ixbt.com##.text-slate
 ixbt.com##.yandex_recommend
 ixbt.com##[class*="bg-travel-"]
 ixbt.com##[class*="bg-video-"]
@@ -286,8 +294,16 @@ mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-pr
 mail.proton.me##.spotlight--no-side-radius
 mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton
+mail.yandex.ru##.Modal-Cell
+mail.yandex.ru##.Modal-Overlay
+mail.yandex.ru##.Modal-Wrapper
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"]
+mail.yandex.ru##[class*="InboxGPT-"]
+mail.yandex.ru##[class*="InboxGPTOnboarding_"]
+market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
+market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
+market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy
 market.yandex.ru##.ajocN, .At4Zq, .cq9mG, .MqvoK
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
@@ -329,9 +345,11 @@ nanoreview.net##.footer-bottom, .apf-act-btn
 nauchniestati.ru##.eduChat
 naughtymachinima.com##.footer-container
 newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.blackout-hover
-nexusmods.com###opening, ###rj-footer, .ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade
+nexusmods.com###opening, #rj-footer
+nexusmods.com##.ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade
 nexusmods.com##[class*="premium-"]
 nitroflare.com###bottomAlerts, ###footer, ###footerCredits, ###menu [href="payment"], .good.table2
+nitroflare.com##[href="payment"], .good.table2
 nitroflare.com##[src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), div > .bootstrapButton, li:nth-of-type(3)
 nn.hh.ru##.bloko-notification
 nn.hh.ru##.serp-special
@@ -709,9 +727,7 @@ xdaforums.com##.p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-lin
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video
 xhamster.com##[class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
-xv-ru.com###footer
-xv-ru.com###header-mobile-right
-xv-ru.com###premium-info-frame
+xv-ru.com###footer, #header-mobile-right, #premium-info-frame
 xv-ru.com##.premium-results-line
 ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect
 ya.ru##.message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo
@@ -724,6 +740,8 @@ yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offli
 yandex.ru##.ImagesOnboarding
 yandex.ru##.ImagesOverlay
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
+yandex.ru##.zen__list-scroller
+yandex.ru##.zen__title
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"]
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 November 2024 03:50
+! Last modified: 02 November 2024 03:51
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -348,7 +348,7 @@ newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.
 nexusmods.com###opening, #rj-footer
 nexusmods.com##.ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade
 nexusmods.com##[class*="premium-"]
-nitroflare.com###bottomAlerts, ###footer, ###footerCredits, ###menu [href="payment"], .good.table2
+nitroflare.com###bottomAlerts, #footer, #footerCredits, #menu
 nitroflare.com##[href="payment"], .good.table2
 nitroflare.com##[src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), div > .bootstrapButton, li:nth-of-type(3)
 nn.hh.ru##.bloko-notification

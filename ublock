@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 November 2024 03:51
+! Last modified: 03 November 2024 18:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -226,6 +226,7 @@ i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 igromania.ru##.strunmenu
 iplay.com###blockers
 itorrents-igruha.net##[class*="footer-"]
+ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-3.lg\:inline-flex
 ixbt.com##.bg-ixbt-200
 ixbt.com##.space-x-2
 ixbt.com##.text-slate
@@ -366,15 +367,12 @@ oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area
-ozon.ru##.g3d_9
-ozon.ru##.om_18_a
+ozon.ru##.g3d_9, .gd5_9, om_18_a
 paypal.com##.footer
 pepper.ru###footer-content
-pepper.ru##.fixed.px-2.form-secondary-button
-pepper.ru##.footer
+pepper.ru##.footer, .fixed.px-2.form-secondary-button
 perekrestok.ru##.footer-copyright
-photos.google.com##.GIj5nd
-photos.google.com##.JJpMec
+photos.google.com##.GIj5nd, .JJpMec
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
@@ -382,14 +380,11 @@ pikabu.ru##div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sideb
 pixeldrain.com##strong
 platform.tuya.com##.slick-current.slick-active.slick-slide
 platform.tuya.com##.smart_menu_purchase, .smart_menu_serviceMarket
-platform.tuya.com##[class*="Help_videoContent_"]
-platform.tuya.com##[class*="Home_right_"]
-platform.tuya.com##[class*="iot-rc-ai-assistant"]
+platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"]
-poe.com##[class*="Banner_"]
-poe.com##[class*="SidebarFooter_"]
+poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
 pornhub.com###js-networkBar
 pornhub.com###onboardingInformation
 pornhub.com##.footerContentWrapper, .js-menuAnalytics, .menuLinkDiv, .networkBarWrapper, .removeAdLink
@@ -409,8 +404,7 @@ reddit.com##faceplate-tracker:nth-of-type(10)
 reddit.com##faceplate-tracker:nth-of-type(11)
 reddit.com##faceplate-tracker:nth-of-type(12)
 reddit.com##hr.my-sm
-repack-igruha.net##.footer
-repack-igruha.net##.site-desc
+repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
 rog-forum.asus.com###cookie-policy-info
 rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
@@ -429,10 +423,7 @@ rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
 rule34video.com##.footer, .popup-adv, .rule34comic.button_fav, .thumb.spot-thumb
-rustore.ru##[class*="copyRight_"]
-rustore.ru##[class*="Footer_"]
-rustore.ru##[class*="qrCodeBlock_"]
-rustore.ru##[class*="socialLinks_"]
+rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div
 rustore.ru##div._section_12qot_1:nth-of-type(5)
@@ -477,13 +468,11 @@ sports.ru##.blog-post__header-social, .is-show.js-active.webpush, .main-footer__
 sprut.ai##.col-12.col-md-4
 sravni.ru##[class*="Sponsor_"]
 stoigr.org###Mdms2
-stoigr.org##.abusemessage
-stoigr.org##.footer
+stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
 studio.rutube.ru##.vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block
-studio.rutube.ru##[class*="qr-banner-module_"]
-studio.rutube.ru##[class*="vl-notification-module_"]
+studio.rutube.ru##[class*="qr-banner-module_"], [class*="vl-notification-module_"]
 superuser.com##.site-footer--container
 support.avito.ru##[class*="_37DHXLmSLFs-"]
 tabler.io##.banner
@@ -513,10 +502,10 @@ tl.rulate.ru###up
 tl.rulate.ru##.alert-success.alert
 tl.rulate.ru##footer
 tolknews.ru##.b-footer
-torrent-soft.pro##.pa-wrapper
-torrent-stop.org##.footer
-torrentleech.org##.topMenuAds, .vpn-msg-placeholder
-torrentscity.net##.footer, .pmovie__caption
+torrent-soft.*##.pa-wrapper
+torrent-stop.*##.footer
+torrentleech.*##.topMenuAds, .vpn-msg-placeholder
+torrentscity.*##.footer, .pmovie__caption
 turbobi.pw##.footer
 turbobi.pw##.main-menu-links > [href^="/turbo"]
 turbobi.pw##.max-speed-time
@@ -811,6 +800,7 @@ zvyki.com##.rbt-card, .rbt-list.no-ajaxy
 ||rule34.xxx/static/icame.png$image
 ||scorecardresearch.com^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||static.fimfiction.net/images/icons/subscribe-star.png$image
+||static.rutube.ru/static/img/svg/adult-stub.svg$image
 ||stats.vk-portal.net^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||thelastgame.ru/wp-content/uploads/*/*/games_of_*.jpg$image
 ||tns-counter.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

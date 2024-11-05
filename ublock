@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 03 November 2024 18:26
+! Last modified: 05 November 2024 18:41
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -101,6 +101,9 @@ avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, 
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"]
+avito.ru##[class*="index-miniMenu-W"]
+avito.ru##[class*="index-module-root-S"]
+avito.ru##[class*="styles-module-root_size_s-C"]
 avito.ru##[class*="styles-title-"], [class*="visual-rubricator-grid-"], li.js-side-menu-list-item-undefined > [class*="profile-sidebar-navigation-tag-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer, .app-entry, .exclick.main-keyword, .product-service, .related-title
@@ -246,6 +249,8 @@ kod.ru##[class*="Layout_footerWrapper"]
 kod.ru##[class*="NewsDetail_banner_"]
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid
+krakenfiles.com##.home-help-block
+krakenfiles.com##.support-topic-react
 kuper.ru##[class*="Footer_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
@@ -303,6 +308,8 @@ mail.yandex.ru##[class*="InboxGPT-"]
 mail.yandex.ru##[class*="InboxGPTOnboarding_"]
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
+market.yandex.ru###\/MarketNodeProfileMenu42\/fortuneWheelMenuItem
+market.yandex.ru###\/MarketNodeProfileMenu42\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy
@@ -371,6 +378,7 @@ ozon.ru##.g3d_9, .gd5_9, om_18_a
 paypal.com##.footer
 pepper.ru###footer-content
 pepper.ru##.footer, .fixed.px-2.form-secondary-button
+pepper.ru##.shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
 photos.google.com##.GIj5nd, .JJpMec
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
@@ -404,6 +412,7 @@ reddit.com##faceplate-tracker:nth-of-type(10)
 reddit.com##faceplate-tracker:nth-of-type(11)
 reddit.com##faceplate-tracker:nth-of-type(12)
 reddit.com##hr.my-sm
+remontka.pro##.tm-footer
 repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
 rog-forum.asus.com###cookie-policy-info
@@ -729,6 +738,7 @@ yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offli
 yandex.ru##.ImagesOnboarding
 yandex.ru##.ImagesOverlay
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
+yandex.ru##.Video
 yandex.ru##.zen__list-scroller
 yandex.ru##.zen__title
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"]

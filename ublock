@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 07 November 2024 07:07
+! Last modified: 12 November 2024 05:13
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -71,6 +71,7 @@ aliexpress.ru##[class*="product-snippet_ProductSnippet__rightTags_"]
 aliexpress.ru##[class*="PseudoSmartBanner_"]
 aliexpress.ru##[class*="PseudoSmartBanner_NewBanner__wrapper__"]
 aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
+aliexpress.ru##[class*="RedCrosslinks_RedCrosslinks__wrap_"]
 aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
 aliexpress.ru##[class*="RedFooter_FooterTop__wrapper__"]
@@ -101,6 +102,7 @@ auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
+avito.ru##.index-module-root-l7fqu
 avito.ru##.styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"]
 avito.ru##[class*="index-miniMenu-W"]
@@ -131,9 +133,6 @@ chatgptchatapp.com##.chat-form-footer
 chatgptchatapp.com##.footer.px-2
 chitai-gorod.ru##.footer
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
-cloud.mail.ru###topBanner > .b-react-component
-cloud.mail.ru##.dimmed.dimmable
-cloud.mail.ru##[class*="Footer_"], [class*="WhatsNewDialog_"]
 club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.on-air__container, .comments__rules
 club.dns-shop.ru##[class*="club-sidebar__footer"]
@@ -187,6 +186,7 @@ ficbook.net##[href="/authors/845367/blog#content"], [href="/home/premium/coins"]
 ficbook.net##a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot
 ficbook.net##div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block
 ficbook.net##ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+files.fm###onboard_survey_form
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder
 fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list .branded-button-subscribe-star.branded-button
@@ -224,6 +224,7 @@ hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com###ad-header
+hovatek.com##.alert-warning
 hovatek.com##.copyright-area, .icon-bar, .hovatek_bannner
 hovatek.com##.text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1)
 hovatek.com##.text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
@@ -236,6 +237,14 @@ ixbt.com##.bg-ixbt-200, .space-x-2, .text-slate, .yandex_recommend
 ixbt.com##[class*="bg-travel-"], [class*="bg-video-"]
 jellyfin.org##[class*="footer_"]
 jsonbeautifier.org##.footer-copyright
+k2s.cc###footer
+k2s.cc##.download-box-button-premium
+k2s.cc##.help-block
+k2s.cc##.omni-email-widget
+k2s.cc##.section-question
+k2s.cc##[class*="e1d1y0"]
+k2s.cc##[class*="e1ice"]
+k2s.cc##[class*="e7y6g"]
 kaspersky.*##footer
 katfile.com##center
 katfile.com##div.col-sm-4:nth-of-type(3)
@@ -309,6 +318,7 @@ market.yandex.ru###\/MarketNodeProfileMenu42\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy
+market.yandex.ru##._31uwh
 market.yandex.ru##.ajocN, .At4Zq, .cq9mG, .MqvoK
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
 market.yandex.ru##.kbu78
@@ -732,6 +742,8 @@ yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHead
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.zen__list-scroller, .zen__title
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
+yandex.ru##div > .serp-item_card.serp-item > .Typo_line_m
+yandex.ru##div > .serp-item_card.serp-item > .Typo_line_s
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 November 2024 07:43
+! Last modified: 19 November 2024 10:32
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -131,9 +131,7 @@ chatgptchatapp.com##.chat-form-footer
 chatgptchatapp.com##.footer.px-2
 chitai-gorod.ru##.footer
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
-cloud.mail.ru##[class*="_footer_"]
-cloud.mail.ru##[class*="Footer_"]
-cloud.mail.ru##[class*="Page-desktop__footer-"]
+cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 club.dns-shop.ru##.comments__rules
 club.dns-shop.ru##.on-air__container, .comments__rules
 club.dns-shop.ru##[class*="club-sidebar__footer"]
@@ -168,6 +166,8 @@ drive.proton.me##.button-promotion--icon-gradient
 drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
 drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
+dropbox.com##.campaign-format-modal
+dropbox.com##.ReactModal__Overlay
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
@@ -315,11 +315,8 @@ market.yandex.ru###\/MarketNodeProfileMenu42\/fortuneWheelMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu42\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
-market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy
-market.yandex.ru##._31uwh
-market.yandex.ru##.ajocN, .At4Zq, .cq9mG, .MqvoK
+market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy, ._1DISo, ._31uwh, .ajocN, .At4Zq, .cq9mG, .MqvoK, .kbu78
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
-market.yandex.ru##.kbu78
 market.yandex.ru##.premiumIncutDesktop, .side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
 market.yandex.ru##div._1kLnL:nth-of-type(4)
@@ -341,6 +338,7 @@ music.mts.ru##.prp-profile-menu-premium
 music.mts.ru##[class*="base-system-banner_"], [class*="footer_"]
 music.yandex.ru##.auto-playlists__item_recentTracks
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons
+music.yandex.ru##.page-line_mixes
 music.yandex.ru##.page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2)
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3)
@@ -376,9 +374,6 @@ oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area
-ozon.ru##.e8i_10
-ozon.ru##.g3d_9, .gd5_9
-ozon.ru##.g8d_9
 ozon.ru##[class*="om_18_"]
 paypal.com##.footer
 pepper.ru###footer-content
@@ -408,8 +403,7 @@ portal-shop.com###popup_iframe_wrapper
 portal-shop.com##.TOP_HEADER
 products.aspose.app###DynabicMenuFooter
 promotion.aliexpress.ru##.ae-ru-footer
-pugetsystems.com##.site-footer
-pugetsystems.com##[class*="banner-"]
+pugetsystems.com##.site-footer, [class*="banner-"]
 qmodapks.com##.site-footer
 qna.habr.com##.layout__footer
 randomus.ru##.footer
@@ -739,6 +733,7 @@ yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer, .cbir-page-layout__neuro-input, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .Organic_withLabel
+yandex.ru##.OrgmnColumn-Footer
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.zen__list-scroller, .zen__title
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
@@ -757,6 +752,7 @@ youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.styl
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
 youtube.com###guide-links-primary
 youtube.com###guide-links-secondary
+youtube.com###teaser-carousel
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

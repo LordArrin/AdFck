@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 November 2024 17:38
+! Last modified: 29 November 2024 02:10
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -104,6 +104,8 @@ auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1, .index-module-root-l7fqu
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
+avito.ru##.personal-items-glc3f
+avito.ru##.profile-sidebar-navigation-tag-fatJg
 avito.ru##.styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"], [class*="DynamicPromoBlock-legal-"], [class*="index-miniMenu-W"], [class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="styles-title-"], [class*="visual-rubricator-grid-"]
@@ -118,6 +120,7 @@ bolshoyvopros.ru###mobile_suggest
 boosty.to##[class*="Footer_block_"]
 brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-join
 buhgalteria.ru##.hidden-ld
+buickcafe.com##.overlay
 bunkr.*##.catflix
 byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
@@ -230,6 +233,7 @@ hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com###ad-header
+hovatek.com###ad-header.noinline
 hovatek.com##.alert-warning
 hovatek.com##.copyright-area, .icon-bar, .hovatek_bannner
 hovatek.com##.text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1)
@@ -471,6 +475,7 @@ smarthomebeginner.com##blockquote
 softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 sourceforge.net###main-nav-badge
 sourceforge.net##.as-row, .l-nav-bottom
+sourceforge.net##.main-nav-link
 spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
 speedtest.net##.footer
 spiskin.ru##.footer
@@ -496,6 +501,7 @@ terabox.com##.capacity-expansion, .coupon-Popup-box, .footer, .header-btn-text, 
 terabox.com##[class*="bottom-tip-"], [class*="card-premium-"], [class*="premium"]
 terabox.com##a.header-btn:nth-of-type(3), a.header-btn:nth-of-type(4), a.header-btn:nth-of-type(5), a.header-btn:nth-of-type(6)
 terabox.com##div.bottom-box, li.vjs-menu-item:nth-of-type(2), li.vjs-menu-item:nth-of-type(3)
+terastream.fun##.video-background
 thecommunity.ru##.footer
 thejavasea.me##[href^="https://dnsproxy.org/"]
 thejavasea.me##[href^="https://lunaproxy.com/"]
@@ -702,9 +708,11 @@ vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_live_recommended)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_text_name_explain_promoted_post)
 vk.com###box_layer_wrap
+vk.com##.mkit_noClickArea
 vk.com##[class*="FullscreenBanner_"]
 vkplay.ru##.b-page-description
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom
+vkvideo.ru##.vkuiPopper
 vremyan.ru##.ajaxload, .fill-bg, .ok-link, footer
 vrtor.ru###adv_fon
 washingtonpost.com##.wpds-c-CRbvs

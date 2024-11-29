@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 November 2024 02:10
+! Last modified: 30 November 2024 00:59
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -62,7 +62,7 @@ aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer
 aliexpress.com##.order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
-aliexpress.ru##[class*="*adGroupBlock_"]
+aliexpress.ru##[class*="adGroupBlock_"]
 aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
 aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
 aliexpress.ru##[class*="OnboardingContextWidget_Overlay__overlay_"]
@@ -150,8 +150,7 @@ crdroid.net##.footerbg, .section-title
 dailyuploads.net##footer
 denuvo.store##.altumcode-informational-wrapper
 derpibooru.org###footer
-diakov.net##.title_spoiler
-diakov.net##td
+diakov.net##td, .title_spoiler
 discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer
 disk.yandex.ru##.AppLink
@@ -160,10 +159,6 @@ dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
-down-load.lanrar.com###go
-down-load.lanrar.com###sub2
-download.oxy.st##.footer-area
-download.oxy.st##.text-right.list-inline
 drive.google.com##.ml-Pr-kg
 drive.proton.me##.button-promotion--icon-gradient
 drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
@@ -268,6 +263,8 @@ krakenfiles.com##.home-help-block
 krakenfiles.com##.support-topic-react
 kuper.ru##[class*="Footer_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
+lanrar.com###go
+lanrar.com###sub2
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
 leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.social-snippet
@@ -383,7 +380,9 @@ oterraria.ru##.clearfix.copyright-inner
 oterraria.ru##noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area
-ozon.ru##[class*="om_18_"]
+oxy.st##.footer-area
+oxy.st##.text-right.list-inline
+ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 paypal.com##.footer
 pepper.ru###footer-content
 pepper.ru##.auto-refresh-Div-position
@@ -400,9 +399,8 @@ platform.tuya.com##.slick-current.slick-active.slick-slide
 platform.tuya.com##.smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
 plus.yandex.ru##.tariff-tarifficator-layout__footer
-pochta.ru##.Sidebarstyles__AppLink-sc-1x79bk9-1
 pochta.ru##.swiper-container-pointer-events
-pochta.ru##[class*="banner-"]
+pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
 poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
 pornhub.com###js-networkBar
 pornhub.com###onboardingInformation
@@ -452,8 +450,7 @@ rutor.info###down
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
-rutube.ru##.menu-guide-module__wrapper
-rutube.ru##.menu-social-module__list
+rutube.ru##.menu-guide-module__wrapper, .menu-social-module__list
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
 rutube.ru##[class*="footer-"]
 rutube.ru##[class*="wdp-card-video-options-module__age"]
@@ -468,18 +465,15 @@ savetwitter.net##footer
 sber.ru##[class*="CookiePolicy_"]
 sbermarket.ru##[class*="Footer_"], [class*="ShowJsPlacement_"], [class*="styles_b2bBanner_"]
 servernews.ru###copyright
-servernews.ru##.caption
-servernews.ru##.typo-hint
+servernews.ru##.caption, .typo-hint
 servernews.ru##body > .right
-smarthomebeginner.com##blockquote
+smarthomebeginner.com##.pmpro, .tipbox, .wp-polls, blockquote
 softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 sourceforge.net###main-nav-badge
-sourceforge.net##.as-row, .l-nav-bottom
-sourceforge.net##.main-nav-link
+sourceforge.net##.as-row, .l-nav-bottom, .main-nav-link
 spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
 speedtest.net##.footer
-spiskin.ru##.footer
-spiskin.ru##[class*="reclame"]
+spiskin.ru##.footer, [class*="reclame"]
 sponsr.ru##footer, .for-whom, .what-is
 sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, .mb_20.mt_15.specButtons, .se-footer
 sport-express.ru##[class*="se19-new-"]
@@ -513,8 +507,7 @@ theporndude.com##.--show.coo-widget, .copyright-message, .footer, .quotes, .top-
 ticket.rzd.ru##.app-footer
 ticketland.ru###personal_show_rek
 ticketland.ru###tab_premium
-ticketland.ru##.copyright, .feedback_popup, .promo
-ticketland.ru##[class*="footer_"]
+ticketland.ru##.copyright, .feedback_popup, .promo, [class*="footer_"]
 tilda.ru##.td-trial
 timeweb.com##.tw-domains-list-banner
 timeweb.com##[class*="-banner"]
@@ -523,6 +516,12 @@ tl.rulate.ru###up
 tl.rulate.ru##.alert-success.alert
 tl.rulate.ru##footer
 tolknews.ru##.b-footer
+torbobit.net###download-time-premium
+torbobit.net###premium-download-info
+torbobit.net##.btn-red
+torbobit.net##.col-1 > center
+torbobit.net##.footer
+torbobit.net##center
 torrent-soft.*##.pa-wrapper
 torrent-stop.*##.footer
 torrentleech.*##.topMenuAds, .vpn-msg-placeholder
@@ -633,7 +632,6 @@ vk.*##.LegalRecommendationsLinkLeftMenuAuthorized
 vk.*##.NewMiniAppsRightBlock__root
 vk.*##.OldBrowser
 vk.*##.Post--redesign.deep_active.closed_comments.mailru-visibility-check
-vk.*##.post[data-ad-view]
 vk.*##.post[data-ad]
 vk.*##.Post__copyright
 vk.*##.post_suggest._post_suggest
@@ -660,8 +658,6 @@ vk.*##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > d
 vk.*##.wcommunity_wrap
 vk.*##.WideSeparator--legalRecommendationsLink
 vk.*##[class*="ads"]
-vk.*##[class*="ads_"]
-vk.*##[class*="ads_ad_"]
 vk.*##[class*="apps_feedRightAppsBlock"]
 vk.*##[class*="feed_friends_recomm"]
 vk.*##[class*="feed_groups_recomm"]
@@ -751,6 +747,7 @@ yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer, .cbir-page-layout__neuro-input, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer
 yandex.ru##.AdvProductGallery
 yandex.ru##.business-reviews-card-view__friends-suggest
+yandex.ru##.EntityCardMetadoc
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .EcomLists
 yandex.ru##.mini-suggest__item_type_fact

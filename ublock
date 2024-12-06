@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 04 December 2024 06:23
+! Last modified: 06 December 2024 04:46
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -64,6 +64,7 @@ account.proton.me##.bg-promotion, .button-promotion--icon-gradient, .interactive
 account.vkplay.ru###ph-footer
 account.vkplay.ru##[class*="_bottom_"]
 accounts.google.com###footer-list
+accounts.spotify.com##footer
 adguard.info##[class*="footer_"]
 akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
@@ -98,11 +99,19 @@ apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
 apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles
+apkpure.net##.aegon-card
+apkpure.net##.common-footer
+apkpure.net##.similar-box
+apkpure.net##.trending-box
+app.mediafire.com###frame1
+app.mediafire.com##.scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
+app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2)
 archiveofourown.org###add_comment_placeholder, #footer, #kudos
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
 asus.com##.footerExternal
 asus.com##[class*="ProductSupportFooter_"]
+auchan.ru##.footer
 auchan.ru##.seoText
 audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.content-breaker, .fadeInDown.animated.alert-warning, .footer
@@ -175,9 +184,13 @@ drive.proton.me##.button-promotion--icon-gradient
 drive.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center
 drive.proton.me##.justify-center.items-center.gap-2.flex.w-full.my-2
 drive.proton.me##.py-5.px-4.gap-8.items-center.flex-nowrap.flex
+dropbox.com##._toolkit-link_1gpi8_1
 dropbox.com##.campaign-format-modal
 dropbox.com##.ReactModal__Overlay
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer
+duckdns.org##.border:nth-of-type(10)
+duckdns.org##.license-status
+duckdns.org##.text-center.text-muted.my-5.container
 dzen.ru##[class*="content--article-image-caption__caption-"]
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
@@ -370,6 +383,7 @@ market.yandex.ru###\/MarketNodeProfileMenu42\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru##._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy, ._1DISo, ._31uwh, .ajocN, .At4Zq, .cq9mG, .MqvoK, .kbu78
+market.yandex.ru##._2wiey
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button
 market.yandex.ru##.premiumIncutDesktop, .side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
@@ -378,6 +392,8 @@ market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(2) > .cia-cs > .r_nt5._2wiey > .
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
+mediafire.com##.AccountOverview-upgradeColumn
+mediafire.com##th:nth-of-type(4)
 mega.nz##.almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon
 mega.nz##.band-grn-noti
 mega.nz##.blinking-highlight-dot
@@ -413,6 +429,7 @@ myspar.ru##[class*="footer_"]
 nahjob.top##.node_tg
 nanoreview.net##.footer-bottom, .apf-act-btn
 nauchniestati.ru##.eduChat
+naughtymachinima.com###top-ad-bar
 naughtymachinima.com##.footer-container
 newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.blackout-hover
 nexusmods.com###opening, #rj-footer
@@ -424,6 +441,8 @@ nitroflare.com##[src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), d
 nn-card.ru##[class*="Footer_footerWrapper_"]
 nn.hh.ru##.bloko-notification, .serp-special
 noob-club.ru##.support-nc.bottomleft
+novgorod.inmyroom.ru##.s-Footer
+novgorod.inmyroom.ru##.s-Topbar
 nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com###footer-container
 nvidia.com##.footer, .bannerTracking
@@ -439,18 +458,27 @@ oxy.st##.footer-area
 oxy.st##.footer-area
 oxy.st##.text-right.list-inline
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
+pass.proton.me##.pass-top-bar
 paypal.com##.footer
 pepper.ru###footer-content
 pepper.ru##.auto-refresh-Div-position
 pepper.ru##.footer, .fixed.px-2.form-secondary-button
 pepper.ru##.shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
+person.nbki.ru##.footer
 photos.google.com##.GIj5nd, .JJpMec
+picsart.com##.pa-monetization-modal-overlay-0-1-24
+picsart.com##.sidebar-subscriptionUpgradeWrapper-0-1-123
+picsart.com##.storage-count-content-storageDescriptionText-0-1-1339
+picsart.com##.storage-count-content-visibleBlock-0-1-1341
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pixeldrain.com##strong
+pixiv.net##.cugra
+pixiv.net##.gyFSiO
+pixiv.net##.lhcRrG
 platform.tuya.com##.slick-current.slick-active.slick-slide
 platform.tuya.com##.smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
@@ -526,11 +554,14 @@ servernews.ru##.caption, .typo-hint
 servernews.ru##body > .right
 smarthomebeginner.com##.pmpro, .tipbox, .wp-polls, blockquote
 softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
+soundcloud.com##.creatorSubscriptionsButton
+soundcloud.com##.header__fanUpsell
 sourceforge.net###main-nav-badge
 sourceforge.net##.as-row, .l-nav-bottom, .main-nav-link
 spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
 speedtest.net##.footer
 spiskin.ru##.footer, [class*="reclame"]
+spiskin.ru##span.logo
 sponsr.ru##footer, .for-whom, .what-is
 sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, .mb_20.mt_15.specButtons, .se-footer
 sport-express.ru##[class*="se19-new-"]
@@ -549,6 +580,8 @@ support.avito.ru##[class*="_37DHXLmSLFs-"]
 tabler.io##.banner
 tankionline.com##.cookies-int
 terabox.com##.capacity-expansion, .coupon-Popup-box, .footer, .header-btn-text, .loading-carousel-box, .membership-entry, .popup, .share-popup-bg, .v-modal, .vip-wrap, .vjs-full-menu-badge, .vjs-menu-item-badge, .vjs-menu-title, .vjs-modal-pay-guid
+terabox.com##.operate-popup-box
+terabox.com##.operate-top-notice
 terabox.com##[class*="bottom-tip-"], [class*="card-premium-"], [class*="premium"]
 terabox.com##a.header-btn:nth-of-type(3), a.header-btn:nth-of-type(4), a.header-btn:nth-of-type(5), a.header-btn:nth-of-type(6)
 terabox.com##div.bottom-box, li.vjs-menu-item:nth-of-type(2), li.vjs-menu-item:nth-of-type(3)
@@ -575,6 +608,10 @@ tl.rulate.ru##footer
 tns-e.ru##.banner-wrapper
 tns-e.ru##.footer
 tolknews.ru##.b-footer
+topazlabs.com##.bf24-sale-sticky-banner
+topazlabs.com##.elementor-location-footer
+topazlabs.com##.tnb-footer
+topazlabs.com##.tnb-top-banner
 torbobit.net###download-time-premium
 torbobit.net###premium-download-info
 torbobit.net##.footer
@@ -583,6 +620,9 @@ torrent-soft.*##.pa-wrapper
 torrent-stop.*##.footer
 torrentleech.*##.topMenuAds, .vpn-msg-placeholder
 torrentscity.*##.footer, .pmovie__caption
+tumblr.com###glass-container
+tumblr.com##.gLEjz
+tumblr.com##.Qihwb
 turbobi.pw##.footer
 turbobi.pw##.main-menu-links > [href^="/turbo"]
 turbobi.pw##.max-speed-time
@@ -602,8 +642,13 @@ uploadhaven.com##.text-muted.text-center
 uploadhaven.com##footer, .apply-section, .premium-row
 uploadhaven.com##td.text-center:nth-of-type(3)
 uploadhaven.com##th:nth-of-type(3)
+uploadrar.com###footer2
+uploadrar.com###gdpr-cookie-notice
+uploadrar.com##.menufooter
+uploadrar.com##footer
 valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
+vamprivet.ru##.footer
 vc.ru##.l-island-round
 vds.menu##.text-center
 vds.menu##div.container > hr
@@ -891,6 +936,7 @@ zvyki.com##.rbt-card, .rbt-list.no-ajaxy
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mmoreigr.org/templates/TronTheme/images/bg_*.jpg$image
+||pixeldrain.com/res/img/inflating_star.webp$image
 ||rule34.xxx//images/r34chibi.png$image
 ||rule34.xxx/blacklisted.png$image
 ||rule34.xxx/static/icame.png$image

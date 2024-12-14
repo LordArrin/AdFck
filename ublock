@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 December 2024 05:34
+! Last modified: 14 December 2024 05:39
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -33,11 +33,8 @@
 123.ru###news
 123.ru##.footer-result
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
-3dnews.ru###footer
-3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint
-3dnews.ru##.footer, .footer-sub, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
-3dnews.ru##.rbxglob.relatedbox.content-block, .denyOrgsWARN-footer
-3dnews.ru##[href="/competitions"], [href="/job"]
+3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
+3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, [href="/competitions"], [href="/job"]
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.to###fo_-1, #go_1
 4pda.to###logostrip

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 December 2024 23:21
+! Last modified: 23 December 2024 01:11
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -107,8 +107,8 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1, .index-module-root-l7fqu
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f, .profile-sidebar-navigation-tag-fatJg, .styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp, .styles-overlay-RW8Kv, .styles-module-root-TliIl
-avito.ru##[class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"], [class*="DynamicPromoBlock-legal-"], [class*="index-miniMenu-W"], [class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
+avito.ru##[class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="styles-title-"], [class*="visual-rubricator-grid-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
@@ -224,6 +224,7 @@ hoff.ru##.banner-container
 hovatek.com###ad-header.noinline
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
+id.sber.ru##._container_1ipha_10
 id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"]
 igromania.ru##.strunmenu
 inkbunny.net##.footer
@@ -298,7 +299,9 @@ mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, 
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
+market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartList\/\@light\\\/SlotsTheCreator\/MARKET\/\@marketfront\\\/VisibilityLoaderMarket
 market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
+market.yandex.ru##._1qgfc
 market.yandex.ru##._2wiey, ._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy, ._1DISo, ._31uwh, .ajocN, .At4Zq, .cq9mG, .MqvoK, .kbu78
 market.yandex.ru##._3ahE_
 market.yandex.ru##._3in03
@@ -309,6 +312,10 @@ market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
+mediafire.com##.dl-box.ads > p
+mediafire.com##.dl-promo-cont
+mediafire.com##.footer
+mediafire.com##.lifetime-promo
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.header-entry-point
 message.aliexpress.com##.footer-copywrite, .site-footer
@@ -345,6 +352,7 @@ ok.ru###footer
 ok.ru##[class*="banner_"]
 online-audio-converter.com##.footer, .like_row_conv, .one-col
 online.sberbank.ru###universal-banner-index
+online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
 onlinetrade.ru##.footer__countersline, .footer__infoline
 openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
@@ -704,6 +712,7 @@ yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
 yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer, .cbir-page-layout__neuro-input, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer
 yandex.ru##.AdvProductGallery
+yandex.ru##.bno
 yandex.ru##.business-reviews-card-view__friends-suggest
 yandex.ru##.EntityCardMetadoc
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
@@ -788,6 +797,7 @@ zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||rule34.xxx//images/r34chibi.png$image
 ||rule34.xxx/blacklisted.png$image
 ||rule34.xxx/static/icame.png$image
+||rule34video.com/images/advertisements/*.jpg$image
 ||scorecardresearch.com^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||static.fimfiction.net/images/icons/subscribe-star.png$image
 ||static.rutube.ru/static/img/svg/adult-stub.svg$image

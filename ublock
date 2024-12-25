@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 December 2024 01:11
+! Last modified: 25 December 2024 21:06
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -231,13 +231,11 @@ inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
 iplay.com###blockers
 itorrents-igruha.net##[class*="footer-"]
-ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2, .\32 xl\:gap-6.xl\:gap-4.lg\:gap-3.lg\:inline-flex, .bg-ixbt-200, .space-x-2, .text-slate, .yandex_recommend, .place-content-between, .h-full, [class*="bg-travel-"], [class*="bg-video-"], .sm\:rounded-t-2xl, div.grid:nth-of-type(8)
-ixbt.com##.px-3.leading-5.mt-2.text-sm
+ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 jellyfin.org##[class*="footer_"]
 jsonbeautifier.org##.footer-copyright
 k2s.cc###footer
-k2s.cc##.download-box-button-premium, .help-block, .omni-email-widget, .section-question
-k2s.cc##[class*="e1d1y0"], [class*="e1ice"], [class*="e7y6g"]
+k2s.cc##.download-box-button-premium, .help-block, .omni-email-widget, .section-question, [class*="e1d1y0"], [class*="e1ice"], [class*="e7y6g"]
 kaspersky.*##footer
 katfile.com##center, div.col-sm-4:nth-of-type(3), footer
 kemono.su##[href="https://kemono.su/matrix"], aside
@@ -299,12 +297,7 @@ mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, 
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
-market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartList\/\@light\\\/SlotsTheCreator\/MARKET\/\@marketfront\\\/VisibilityLoaderMarket
-market.yandex.ru###\/content\/page\/fancyPage\/searchLegalInfo
-market.yandex.ru##._1qgfc
-market.yandex.ru##._2wiey, ._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy, ._1DISo, ._31uwh, .ajocN, .At4Zq, .cq9mG, .MqvoK, .kbu78
-market.yandex.ru##._3ahE_
-market.yandex.ru##._3in03
+market.yandex.ru##._2wiey, ._169PI, ._1_CjL, ._1nHQg, ._1oM_u, ._1s4-s, ._2bkra, ._2Gvx2, ._2jVXp, ._2LfUk, ._2PP6q, ._2q2DD, ._2qLdU, ._2xwXT, ._3avQt, ._3KfA2, ._3sgU6, ._3VhdE, ._9BBZp, .HBydy, ._1DISo, ._31uwh, .ajocN, .At4Zq, .cq9mG, .MqvoK, .kbu78, ._3in03, ._3ahE_, ._1qgfc
 market.yandex.ru##.ds-button_variant_icon.ds-button_rounded.ds-button, .premiumIncutDesktop, .side-menu-item_vacancies
 market.yandex.ru##div._1kLnL:nth-of-type(4), div._1kLnL:nth-of-type(2) > div.cia-cs.cia-vs:nth-of-type(5) > .SMANJ
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(2) > .cia-cs > .r_nt5._2wiey > .ePSUN
@@ -312,10 +305,7 @@ market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(24) > .cia-cs > .r_nt5._2wiey
 market.yandex.ru##li.cia-cs.cia-vs:nth-of-type(2) > .cia-cs.cia-vs > ._1vnug._35SYu > ._3Lwc_
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
-mediafire.com##.dl-box.ads > p
-mediafire.com##.dl-promo-cont
-mediafire.com##.footer
-mediafire.com##.lifetime-promo
+mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.header-entry-point
 message.aliexpress.com##.footer-copywrite, .site-footer

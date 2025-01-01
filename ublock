@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 January 2024 21:50
+! Last modified: 02 January 2024 02:12
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -63,6 +63,7 @@ aliexpress.com##.footer-copywrite, .site-footer
 aliexpress.com##.order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
 aliexpress.ru##.SnowSearchProductFeed_FeedIsOver__wrap__krsyd
+aliexpress.ru##.SnowShoppingcartProductList_ProductBadge__orange__w4090
 aliexpress.ru##[class*="adGroupBlock_"]
 aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
 aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
@@ -83,6 +84,7 @@ aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
 aliexpress.ru##[class*="SeoAllSalesHeader_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchRecommendations_SnowSearchRecommendations_"]
+aliexpress.ru##[class*="SnowShoppingcartProductList_ProductBadge__orange_"]
 aliexpress.ru##[class*="TryMobileApp-m_"]
 allrepack.ru###footer-bottom
 allrepack.ru##.animation-flyout.compare-simple
@@ -157,6 +159,8 @@ deviantart.com##.surface-primary.surface.forced-theme-light
 diakov.net##td, .title_spoiler
 discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink
+disk.yandex.ru##.LeftColumn__InnerWrapperBottom
+disk.yandex.ru##[class*="Popup_modal_"], [class*="Popup_root_"]
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner
@@ -245,6 +249,7 @@ itorrents-igruha.net##[class*="footer-"]
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
+ixbt.com##figcaption
 ixbt.games##.pt-3.m-wrap
 ixbt.games##div.shifted.container-fluid > p > em
 jellyfin.org##[class*="footer_"]
@@ -442,6 +447,7 @@ rule34comic.party##.footer
 rule34vault.com##.footer
 rule34video.com##.ai.button_fav
 rule34video.com##.footer, .popup-adv, .rule34comic.button_fav, .thumb.spot-thumb
+rule34video.com##div.video_6.thumb.item:nth-of-type(6)
 rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div
@@ -700,6 +706,7 @@ vk.com##.mkit_noClickArea
 vk.com##[class*="FullscreenBanner_"]
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom, .b-page-description
 vkplay.ru##.swiper-pagination-lock
+vkplay.ru##[class*="_bottom_10lag_"]
 vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"]
 vkplay.ru##[class*="banners-container_"], [class*="banner-marketing_"], [class*="server-rent-catalog-hint_"]
 vkvideo.ru##.vkuiPopper
@@ -747,6 +754,7 @@ yandex.ru##.EntityCardMetadoc
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesGrid
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .EcomLists
+yandex.ru##.MenuItem_get-premium360
 yandex.ru##.mini-suggest__item_type_fact
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.Thumb-Image

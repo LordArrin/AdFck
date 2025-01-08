@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 28 December 2024 23:44
+! Last modified: 08 January 2025 21:00
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -65,6 +65,7 @@
 ||*geo-location-api.gx.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
+||*services.gfe.*^
 # Google
 ||*androidattestationvalidation-pa*^
 ||*deviceintegritytokens-pa.googleapis*^
@@ -82,18 +83,22 @@
 ||*2c2p.*^
 ||*adobedtm*^
 ||*ads.rustore*^
-||*adspector.io*^
+||*adspector.*^
 ||*adspend.space*^
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidp1.*^
 ||*api-hprof.odkl*^
+||*api.browser.yandex*^
 ||*api.ocbase*^
 ||*api.recommendedsw*^
 ||*api.teslacoilapps*^
+||*api.topaz-labs*^
+||*api.topazlabs*^
 ||*app-measurement*^
 ||*appboy*^
 ||*appsgrowthpromo-pa.*^
+||*apptracer*^
 ||*bandicam.*^
 ||*bdurl*^
 ||*bugsnag*^
@@ -123,6 +128,7 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*comms-appx-web*^
 ||*crashlytics*^
 ||*cust-service*^
 ||*daisy.ubuntu*^
@@ -150,7 +156,9 @@
 ||*ledvance*^
 ||*lfstrm*^
 ||*lineageos.org*^
+||*market-click-baobab*^
 ||*mediatek*^
+||*metricellcollect.t2*^
 ||*miui.*^
 ||*mradx*^
 ||*nsis.bisrv*^
@@ -168,11 +176,12 @@
 ||*sbdv.*^
 ||*sberdevices*^
 ||*sc.omtrdc*^
+||*scbh.yandex*^$important
 ||*send-asr.acrobat*^
-||*services.gfe.nvidia*^
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
 ||*software-nas*^
+||*startup.mobile*^
 ||*stats.avito*^
 ||*stats.rustore*^
 ||*telemetry.mozilla*^

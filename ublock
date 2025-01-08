@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 05 January 2024 01:17
+! Last modified: 08 January 2024 07:22
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -92,6 +92,7 @@ allrepack.ru##.animation-flyout.compare-simple
 androeed.store###load_more_similar
 androeed.store##.our_app, .recomend_text, .telegram_button
 annimon.com###abldiv
+annimon.com##.footer-wrapper
 apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
@@ -171,6 +172,7 @@ dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##.border:nth-of-type(11)
 duckdns.org##.license-status
 dzen.ru##[class*="content--article-image-caption__caption-"]
+eda.yandex.ru##.AppFooter_root
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
@@ -217,6 +219,7 @@ github.com###\:rq\:, #\:rr\:, #\:r4c\:
 github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
 gitverse.ru##.border-\[\#5723AB\]
+gofile.io###index_footer
 gofile.io##.filesContentOption
 graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
@@ -377,6 +380,7 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ru##.ae8a_33, .z5c_9, .kx_27
+ozon.ru##.d4019-a2
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
@@ -391,7 +395,15 @@ picsart.com##.storage-count-content-storageDescriptionText-0-1-1339
 picsart.com##.storage-count-content-visibleBlock-0-1-1341
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="sidebar-subscriptionUpgradeWrapper-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
+pikabu.ru##.menu-promocodes
 pikabu.ru##.ny2024
+pikabu.ru##.sidebar-menu__item:nth-of-type(10)
+pikabu.ru##.sidebar-menu__item:nth-of-type(11)
+pikabu.ru##.sidebar-menu__item:nth-of-type(12)
+pikabu.ru##.sidebar-menu__item:nth-of-type(13)
+pikabu.ru##.sidebar-menu__item:nth-of-type(14)
+pikabu.ru##.sidebar-menu__item:nth-of-type(8)
+pikabu.ru##.sidebar-menu__item:nth-of-type(9)
 pikabu.ru##[href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
@@ -400,7 +412,9 @@ pixiv.net##.cugra, .gyFSiO, .lhcRrG
 platform.tuya.com##.slick-current.slick-active.slick-slide
 platform.tuya.com##.smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
+pling.com##.product-maker-sidebar
 plus.yandex.ru##.tariff-tarifficator-layout__footer
+plus.yandex.ru##[class*="Footer_"]
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
 poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
@@ -755,6 +769,7 @@ yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHead
 yandex.ru##.MenuItem_get-premium360
 yandex.ru##.mini-suggest__item_type_fact
 yandex.ru##.Organic-Footer
+yandex.ru##.Organic_withLabel
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.Thumb-Image
 yandex.ru##.UniSearchMedicine

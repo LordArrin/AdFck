@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 08 January 2024 07:51
+! Last modified: 11 January 2024 06:05
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -30,9 +30,6 @@
 !
 !
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
-##[class*="_card"]:has(:scope:contains(ads))
-##[class*="_card"]:has(:scope:contains(реклама))
-##div[class*="__card"]:empty
 123.ru###news
 123.ru##.footer-result
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
@@ -196,6 +193,7 @@ fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
 firmware.gem-flash.com###footer
 firmware.gem-flash.com##[src="https://unlock.gem-flash.com/*/unlock_service.html"]
+fix-price.com##.footer
 fix-price.com##[class*="download-app-"], [class*="subscription-"]
 forum.armbian.com###ipsLayout_footer
 forum.openwrt.org##.powered-by-discourse
@@ -316,6 +314,7 @@ mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="I
 market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartList\/\@light\\\/SlotsTheCreator\/MARKET\/\@marketfront\\\/VisibilityLoaderMarket
+market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru##._169PI
 market.yandex.ru##._1qgfc
 market.yandex.ru##._1vlnY
@@ -334,6 +333,7 @@ market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(8)
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
+mediafire.com##.DLExtraInfo-additional
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.banner-slider
 megamarket.ru##.faq-footer-links
@@ -379,9 +379,13 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ru##.aad6_33
 ozon.ru##.ae8a_33, .z5c_9, .kx_27
+ozon.ru##.b222-a6
 ozon.ru##.d4019-a2
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
+ozon.ru##li.d9k_9:nth-of-type(1)
+ozon.ru##li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
@@ -466,6 +470,7 @@ rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-con
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
 rutube.ru##.menu-guide-module__wrapper, .menu-social-module__list
+rutube.ru##.navigation_group_main.menu-links-module__list > li:nth-of-type(2)
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
 rutube.ru##[class*="footer-"], [class*="wdp-card-video-options-module__age"], section.menu-info-module__wrapper, section.menu-section-container-module__wrapper:nth-of-type(7)
 samlib.ru##td > table
@@ -753,6 +758,7 @@ ya.ru##.mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .
 ya.ru##.ProductGallery
 ya.ru##.SearchRelatedGallery
 ya.ru##.Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard
+ya.ru##div.Divider
 yandex.ru###a11y-ecommerce-additional-offers
 yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
 yandex.ru###futuris-tab-onboarding-container

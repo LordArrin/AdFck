@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 January 2024 06:05
+! Last modified: 12 January 2024 06:33
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -192,6 +192,7 @@ files.fm##.head_download__dropdown__content > [href="javascript:void(0)"]
 files.fm##.nav-upgrade, .new.library-button, .pro_flag
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button
+fimfiction.net##.navigation-drawer-tab > hr
 fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
 fimfiction.net##ul.navigation-drawer-list [href="/faq"]
@@ -325,8 +326,11 @@ market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
+market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru##._32zIc
+market.yandex.ru##.n-base__footer-container
 market.yandex.ru##.side-menu-item_alfaBankPromo
+market.yandex.ru##div._1_0e_
 market.yandex.ru##div._1kLnL:nth-of-type(4)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(8)

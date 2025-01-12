@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 January 2024 06:33
+! Last modified: 12 January 2024 08:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -114,6 +114,7 @@ avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, 
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f, .profile-sidebar-navigation-tag-fatJg, .styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp, .styles-overlay-RW8Kv, .styles-module-root-TliIl
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"], [class*="DynamicPromoBlock-legal-"], [class*="index-miniMenu-W"], [class*="index-module-root-S"], [class*="styles-module-root_size_s-C"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"], [class*="styles-title-"], [class*="visual-rubricator-grid-"]
+avito.ru##[class*="styles-module-footer-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
@@ -327,6 +328,7 @@ market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
+market.yandex.ru##._169PI
 market.yandex.ru##._32zIc
 market.yandex.ru##.n-base__footer-container
 market.yandex.ru##.side-menu-item_alfaBankPromo
@@ -746,7 +748,6 @@ wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__z
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
-www.avito.ru##.styles-module-footer-brg1O
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
 xda-developers.com###footer, #website-footer
@@ -772,7 +773,6 @@ yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
 yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer, .cbir-page-layout__neuro-input, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer
 yandex.ru##.AdvProductGallery
-yandex.ru##.bno
 yandex.ru##.business-reviews-card-view__friends-suggest
 yandex.ru##.Dot
 yandex.ru##.EntityCardMetadoc

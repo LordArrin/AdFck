@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 11 January 2024 06:05
+! Last modified: 12 January 2024 06:05
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -106,6 +106,10 @@ audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn, footer, .content-breaker, .fadeInDown.animated.alert-warning, .footer
 auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
+aviasales.*###tippy-2
+aviasales.*##[class*="CookieBanner_"]
+aviasales.*##[class*="Share_"]
+aviasales.*##[class*="SubscriptionInline_"]
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1, .index-module-root-l7fqu
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f, .profile-sidebar-navigation-tag-fatJg, .styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp, .styles-overlay-RW8Kv, .styles-module-root-TliIl
@@ -184,6 +188,7 @@ fboom.me##[class*="premium-"]
 ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle, .justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile, .js-modal-destination, a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot, div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block, ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_size > .button
+files.fm##.head_download__dropdown__content > [href="javascript:void(0)"]
 files.fm##.nav-upgrade, .new.library-button, .pro_flag
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button
@@ -278,6 +283,11 @@ losst.pro###extapp-feedback-container
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
 m.avito.ru##._5w8L, .CXv2E, .eLSEg, .JOH9X, .kqCm6, .LauOH, .mav-1a1vtua, .mav-ckkd6, .OTtKE, .p7vg1, .rNDN9, .Ti31R, .zLfY7, .mav-1i1c8ng, .SZDsk
+m.avito.ru##.aXlwB
+m.avito.ru##.jFPU4
+m.avito.ru##.sTE1i
+m.avito.ru##.styles-module-content-wrapper-EDRR1
+m.avito.ru##.UR9In
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -313,19 +323,9 @@ mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, 
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"]
 market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
-market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartList\/\@light\\\/SlotsTheCreator\/MARKET\/\@marketfront\\\/VisibilityLoaderMarket
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
-market.yandex.ru##._169PI
-market.yandex.ru##._1qgfc
-market.yandex.ru##._1vlnY
-market.yandex.ru##._2qLdU
-market.yandex.ru##._2wiey
-market.yandex.ru##._3sgU6
-market.yandex.ru##._Z4Yh
-market.yandex.ru##.cq9mG
-market.yandex.ru##.ds-button_rounded.ds-button_brand_market
-market.yandex.ru##.premiumIncutDesktop, .side-menu-item_vacancies
-market.yandex.ru##.r_nt5
+market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
+market.yandex.ru##._32zIc
 market.yandex.ru##.side-menu-item_alfaBankPromo
 market.yandex.ru##div._1kLnL:nth-of-type(4)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6)
@@ -383,6 +383,7 @@ ozon.ru##.aad6_33
 ozon.ru##.ae8a_33, .z5c_9, .kx_27
 ozon.ru##.b222-a6
 ozon.ru##.d4019-a2
+ozon.ru##.z4c_9
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1)
 ozon.ru##li.d9k_9:nth-of-type(2)
@@ -508,7 +509,10 @@ support.avito.ru##.web-footer_desktop-V95YR
 support.avito.ru##[class*="_37DHXLmSLFs-"]
 tabler.io##.banner
 tankionline.com##.cookies-int
+tbib.org##span.thumb > [href] > b
 terabox.com##.capacity-expansion, .coupon-Popup-box, .footer, .header-btn-text, .loading-carousel-box, .membership-entry, .popup, .share-popup-bg, .v-modal, .vip-wrap, .vjs-full-menu-badge, .vjs-menu-item-badge, .vjs-menu-title, .vjs-modal-pay-guid
+terabox.com##.dialog-extra-del
+terabox.com##.membership-entry-new
 terabox.com##.operate-popup-box
 terabox.com##.operate-top-notice
 terabox.com##[class*="bottom-tip-"], [class*="card-premium-"], [class*="premium"]

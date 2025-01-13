@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 January 2024 08:22
+! Last modified: 14 January 2024 00:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -69,6 +69,7 @@ aliexpress.ru##[class*="product-snippet_ProductSnippet__adGroupBlock_"]
 aliexpress.ru##[class*="product-snippet_ProductSnippet__rightTags_"]
 aliexpress.ru##[class*="PseudoSmartBanner_"]
 aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
+aliexpress.ru##[class*="RecommendationFeedV2_Tooltip_"]
 aliexpress.ru##[class*="RedCrosslinks_RedCrosslinks__wrap_"]
 aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
@@ -245,6 +246,11 @@ iplay.com###blockers
 itorrents-igruha.net##[class*="footer-"]
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
+ixbt.com##.bannertop
+ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
+ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
+ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
+ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 ixbt.com##figcaption
 ixbt.games##.pt-3.m-wrap
@@ -328,10 +334,20 @@ market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
+market.yandex.ru###RecommendationRollTabs
+market.yandex.ru##._14iDu
 market.yandex.ru##._169PI
+market.yandex.ru##._2KJEt
+market.yandex.ru##._2q96h
+market.yandex.ru##._2qLdU
 market.yandex.ru##._32zIc
+market.yandex.ru##._3nELT
+market.yandex.ru##._Z4Yh
+market.yandex.ru##.cq9mG
+market.yandex.ru##.mExzR
 market.yandex.ru##.n-base__footer-container
 market.yandex.ru##.side-menu-item_alfaBankPromo
+market.yandex.ru##.side-menu-item_vacancies
 market.yandex.ru##div._1_0e_
 market.yandex.ru##div._1kLnL:nth-of-type(4)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6)
@@ -554,6 +570,8 @@ torrent-soft.*##.pa-wrapper
 torrent-stop.*##.footer
 torrentleech.*##.topMenuAds, .vpn-msg-placeholder
 torrentscity.*##.footer, .pmovie__caption
+translate.yandex.ru##.footer
+translate.yandex.ru##.popularTranslationsTextWrapper
 tumblr.com###glass-container
 tumblr.com##.gLEjz, .Qihwb
 turbobi.pw##.footer, .max-speed-time, .main-menu-links > [href^="/turbo"]
@@ -774,17 +792,25 @@ yandex.ru###futuris-tab-onboarding-container
 yandex.ru##.AdvMastHead, .AdvOffers-Wrapper, .AdvRsyaCrossPage, .AliceFabPromo_shown, .AppAdvancedSearch-LikeTooltip, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .ReviewVerifyDisclaimer, .cbir-page-layout__neuro-input, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityFeedbackFooter, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer
 yandex.ru##.AdvProductGallery
 yandex.ru##.business-reviews-card-view__friends-suggest
+yandex.ru##.copyright
 yandex.ru##.Dot
 yandex.ru##.EntityCardMetadoc
 yandex.ru##.Fact-Footer
+yandex.ru##.feedback
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesGrid
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .EcomLists
+yandex.ru##.left-panel__block:nth-of-type(5)
+yandex.ru##.left-panel__links
 yandex.ru##.MenuItem_get-premium360
 yandex.ru##.mini-suggest__item_type_fact
 yandex.ru##.Organic-Footer
+yandex.ru##.play-game-header-menu__disable-ads-button
+yandex.ru##.profile-widget_type_ads-disabler
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
+yandex.ru##.SerpFooter-Extralinks
 yandex.ru##.UniSearchMedicine
+yandex.ru##.user-popup__disable-ad-block
 yandex.ru##.zen__list-scroller, .zen__title
 yandex.ru##[class$="_complementary_yes"]
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]

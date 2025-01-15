@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 January 2024 02:14
+! Last modified: 15 January 2024 11:27
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -110,6 +110,7 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1, .index-module-root-l7fqu
+avito.ru##.desktop-ckkd6
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f, .profile-sidebar-navigation-tag-fatJg, .styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp, .styles-overlay-RW8Kv, .styles-module-root-TliIl
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="styles-module-footer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"], [class*="DynamicPromoBlock-legal-"], [class*="index-miniMenu-W"], [class*="index-module-root-S"], [class*="styles-module-root_size_s-C"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"], [class*="styles-title-"], [class*="visual-rubricator-grid-"]
@@ -221,7 +222,12 @@ gitee.com##.gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-si
 github.com###\:rq\:, #\:rr\:, #\:r4c\:
 github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
+gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].right-0.left-0.bottom-0.fixed.\[\&\>svg\]\:text-foreground
 gitverse.ru##.border-\[\#5723AB\]
+gitverse.ru##.gap-y-6.animate-carousel
+gitverse.ru##.md\:mb-8.max-sm\:gap-y-6.mb-4.xl\:grid-cols-12.lg\:gap-x-8.md\:grid-cols-6.gap-x-4.grid-cols-2.grid
+gitverse.ru##.xl\:px-12.max-sm\:hidden.max-lg\:hidden.px-12.w-full.mx-auto
+gitverse.ru##body > .max-w-full
 gofile.io###index_footer
 gofile.io##.filesContentOption
 graviton.ru##.footer__bottom, .main-promo
@@ -326,12 +332,16 @@ mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, 
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"]
 market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
+market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR
+market.yandex.ru##._23gJ9 > .cia-cs
+market.yandex.ru##._24VKa
+market.yandex.ru##._3ToMB
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##div._1_0e_
 market.yandex.ru##div._1kLnL:nth-of-type(4)

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 January 2024 11:27
+! Last modified: 16 January 2024 07:14
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -74,6 +74,7 @@ aliexpress.ru##[class*="RedCrosslinks_RedCrosslinks__wrap_"]
 aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
 aliexpress.ru##[class*="RedFooter_FooterTop__wrapper__"]
+aliexpress.ru##[class*="RedFooter_RedFooter_"]
 aliexpress.ru##[class*="RedModuleBanner_RedModuleBanner__container__"]
 aliexpress.ru##[class*="RedOrderListTabs_TabsNew__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
@@ -341,6 +342,7 @@ market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR
 market.yandex.ru##._23gJ9 > .cia-cs
 market.yandex.ru##._24VKa
+market.yandex.ru##._3in03
 market.yandex.ru##._3ToMB
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##div._1_0e_
@@ -391,7 +393,7 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
-ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9
+ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9, .cz7_9
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
@@ -552,6 +554,9 @@ torrentleech.*##.topMenuAds, .vpn-msg-placeholder
 torrentscity.*##.footer, .pmovie__caption
 translate.yandex.ru##.footer
 translate.yandex.ru##.popularTranslationsTextWrapper
+travel.yandex.ru##.beIG8
+travel.yandex.ru##.hf0sp
+travel.yandex.ru##.QPDGK
 tumblr.com###glass-container
 tumblr.com##.gLEjz, .Qihwb
 turbobi.pw##.footer, .max-speed-time, .main-menu-links > [href^="/turbo"]

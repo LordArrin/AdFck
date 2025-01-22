@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 January 2024 08:55
+! Last modified: 22 January 2024 09:16
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -276,8 +276,12 @@ korshop.ru###footer
 korshop.ru##.tline
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid, .home-help-block, .support-topic-react
+kuper.ru##[class*="BannersAndSlidersThroughCatalog_"]
+kuper.ru##[class*="edit_b2bBanner_"]
 kuper.ru##[class*="Footer_"]
 kuper.ru##[class*="HomeLanding_app_"]
+kuper.ru##[class*="ShowJsPlacement_bannerMainHeader_"]
+kuper.ru##[class*="styles_b2bBanner_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lanrar.com###go, #sub2
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
@@ -334,6 +338,8 @@ market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
@@ -353,7 +359,12 @@ mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
 mediafire.com##.DLExtraInfo-additional
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
+megamarket.ru##.among-items-banner
 megamarket.ru##.banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point
+megamarket.ru##.pdp-see-also
+megamarket.ru##.popular-links
+megamarket.ru##.product-card-bottom-banners
+megamarket.ru##.promo-constructor
 merionet.ru##.discountBanner
 merionet.ru##.popup
 message.aliexpress.com##.footer-copywrite, .site-footer
@@ -460,6 +471,8 @@ remontka.pro##.tm-footer
 repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
 rog-forum.asus.com###cookie-policy-info
+rog.asus.com###pageContent-btn-cta
+rog.asus.com##.footer
 rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
 rsload.net##[href="https://rsload.net/soft/windows/"]
 ru.banggood.com##.modal-banner

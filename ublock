@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 January 2024 01:37
+! Last modified: 22 January 2024 08:55
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -173,6 +173,7 @@ duckdns.org##.border:nth-of-type(11)
 duckdns.org##.license-status
 dzen.ru##[class*="content--article-image-caption__caption-"]
 eda.yandex.ru##.AppFooter_root
+eda.yandex.ru##.root_r19uopkt
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
@@ -212,6 +213,7 @@ gemini.google.com##.xap-count-badge-dot
 genshin.hoyoverse.com##.footer, [class*="*logo-wrapper-"], [class*="copyright-"], [class*="statement-wrapper-"]
 genshinhelper.ru##.main-ad-button
 get.bunkrr.su##.careful
+ggsel.net##[class*="Footer_footer_"]
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
 gitee.com###gitee-blog, #udeskBtn
@@ -240,6 +242,8 @@ hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"]
+id.vk.com##[class*="Footer-container-"]
+id.vk.com##[class*="QuestionnaireEntrypoint-group-"]
 igromania.ru##.strunmenu
 inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
@@ -325,6 +329,7 @@ mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-pr
 mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, .Modal-Cell, .Modal-Overlay, .Modal-Wrapper
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"]
+mail.yandex.ru##[class*="DisableAdsButton_"]
 market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms

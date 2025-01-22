@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 January 2024 09:16
+! Last modified: 23 January 2024 01:54
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -220,6 +220,7 @@ gitee.com###gitee-blog, #udeskBtn
 gitee.com##.gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner, [class*="index_badge_"]
 github.com###\:rq\:, #\:rr\:, #\:r4c\:
 github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2
+github.com##.iLgtCH
 github.com##[href="https://stand-with-ukraine.pp.ua/"]
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].right-0.left-0.bottom-0.fixed.\[\&\>svg\]\:text-foreground
@@ -250,13 +251,16 @@ inmyroom.ru##.s-Footer, .s-Topbar
 intel.com###skip-footer
 iplay.com###blockers
 itorrents-igruha.net##[class*="footer-"]
+ixbt.com###newsBlock
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
+ixbt.com##.\[\&\>\*\:last-child\:not\(\:first-child\)_\[data-flux-group-target\]\]\:rounded-l-none.\[\&\>\*\:first-child\:not\(\:last-child\)_\[data-flux-group-target\]\]\:rounded-r-none.\[\&\>\*\:not\(\:first-child\)\:not\(\:last-child\)\:not\(\:only-child\)_\[data-flux-group-target\]\]\:rounded-none
 ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
+ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 ixbt.com##figcaption
 ixbt.games##.pt-3.m-wrap
@@ -398,6 +402,7 @@ nvidia.com##.footer, .bannerTracking
 ok.ru###footer
 ok.ru###hook_Block_LeftColumnThirdMenu
 ok.ru###hook_Block_StickyBannerContainer
+ok.ru###MusicGrowl
 ok.ru##.__l.lcTc
 ok.ru##.toolbar-music-icon
 ok.ru##[class*="banner_"]
@@ -416,6 +421,7 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9, .cz7_9
+ozon.ru##.cz6_9
 ozon.ru##.cz7_9
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
@@ -447,6 +453,8 @@ pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
+playground.ru##.file-download-box-tip
+playground.ru##.page-footer
 pling.com##.product-maker-sidebar
 plus.yandex.ru##.tariff-tarifficator-layout__footer, [class*="Footer_"]
 pochta.ru##.swiper-container-pointer-events
@@ -468,6 +476,7 @@ reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
 reddit.com##faceplate-tracker:nth-of-type(10), faceplate-tracker:nth-of-type(11), faceplate-tracker:nth-of-type(12), .py-md.visible, hr.my-sm
 remontka.pro##.tm-footer
+ren.tv##.layout-footer
 repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
 rog-forum.asus.com###cookie-policy-info

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 24 January 2024 20:46
+! Last modified: 25 January 2024 01:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -354,11 +354,15 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR
+market.yandex.ru##._1nHQg
 market.yandex.ru##._23gJ9 > .cia-cs
 market.yandex.ru##._24VKa
 market.yandex.ru##._3in03
+market.yandex.ru##._3PuPC
 market.yandex.ru##._3ToMB
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
+market.yandex.ru##.qAg78
+market.yandex.ru##.TSFZE
 market.yandex.ru##div._1_0e_
 market.yandex.ru##div._1kLnL:nth-of-type(4)
 market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(6)
@@ -504,6 +508,7 @@ rule34.xxx##div.horizontalFlexWithMargins:nth-of-type(5)
 rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
+rule34video.com###top-header
 rule34video.com##.ai.button_fav
 rule34video.com##.footer, .popup-adv, .rule34comic.button_fav, .thumb.spot-thumb
 rule34video.com##div.video_6.thumb.item:nth-of-type(6)
@@ -836,6 +841,7 @@ yandex.ru##.play-game-header-menu__disable-ads-button
 yandex.ru##.profile-widget_type_ads-disabler
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.SerpFooter-Extralinks
+yandex.ru##.SnippetTitle
 yandex.ru##.UniSearchMedicine
 yandex.ru##.user-popup__disable-ad-block
 yandex.ru##.zen__list-scroller, .zen__title

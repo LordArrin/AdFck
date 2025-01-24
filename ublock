@@ -3,14 +3,14 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 January 2024 01:54
+! Last modified: 24 January 2024 20:46
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
 !
 !
 ! Кастомный список фильтров AdFck
-! Лицензия GPL-3.0: https://www.gnu.org/licenses/gpl-3.0.html
+! Лицензия AGPL-3.0: https://www.gnu.org/licenses/agpl-3.0.html
 ! Проект создан пользователем LordArrin, и нацелен на блокировку 
 ! различных раздражающих элементов на наиболее популярных сайтах.
 !==============================================================================
@@ -110,7 +110,9 @@ aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionI
 avito.ru##.cvr-container, .desktop-1ni85sv, .desktop-t36goo, .header-nav-wQVeb, .index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-miniMenu-pZSYw, .index-module-container-_z3s1, .index-module-root-l7fqu, .desktop-ckkd6, .AEIax
 avito.ru##.index-module-content-IpbCP > div > .styles-module-theme-kvanA, .index-module-nav-stRnY, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .js-footer-app
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f, .profile-sidebar-navigation-tag-fatJg, .styles-module-margin-bottom_44-Qr8he, .styles-module-root-_9_Fp, .styles-overlay-RW8Kv, .styles-module-root-TliIl
+avito.ru##.styles-module-margin-bottom_32-kQ_OA > .styles-module-direction_vertical-_gIBq
 avito.ru##[class*="gallery-block-contactBarContainer-"], [class*="styles-module-footer-"], [class*="items-extraImage-"], [class*="js-side-menu-list-item-promotions"], [class*="navbar-root-"], [class*="PremiumBanner-"], [class*="sale-sale-"], [class*="services-root-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="style-item-view-similars-"], [class*="DynamicPromoBlock-legal-"], [class*="index-miniMenu-W"], [class*="index-module-root-S"], [class*="styles-module-root_size_s-C"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"], [class*="styles-title-"], [class*="visual-rubricator-grid-"]
+avito.ru##[class*="top-banner-module-root-"]
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
@@ -304,6 +306,9 @@ losst.pro###extapp-feedback-container
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
 m.avito.ru##._5w8L, .CXv2E, .eLSEg, .JOH9X, .kqCm6, .LauOH, .mav-1a1vtua, .mav-ckkd6, .OTtKE, .p7vg1, .rNDN9, .Ti31R, .zLfY7, .mav-1i1c8ng, .SZDsk, .UR9In, .sTE1i, .jFPU4, .aXlwB, .styles-module-content-wrapper-EDRR1
+m.avito.ru##.htTgi
+m.avito.ru##.ocbnC
+m.avito.ru##.S63Co > .vKB2A
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -423,6 +428,7 @@ oxy.st##.footer-area, .text-right.list-inline
 ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9, .cz7_9
 ozon.ru##.cz6_9
 ozon.ru##.cz7_9
+ozon.ru##.y0p_30
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert

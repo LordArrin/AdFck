@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 25 January 2024 01:26
+! Last modified: 29 January 2024 06:11
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -90,6 +90,7 @@ androeed.store###load_more_similar
 androeed.store##.our_app, .recomend_text, .telegram_button
 annimon.com###abldiv
 annimon.com##.footer-wrapper
+api-docs.deepseek.com##.footer
 apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
@@ -132,6 +133,8 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
+chat.deepseek.com##.a1e75851
+chat.deepseek.com##.d9fb9344
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.py-2.flex-col
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
@@ -775,6 +778,7 @@ vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
 vk.*#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_text_name_explain_promoted_post)
 vk.com###box_layer_wrap
 vk.com##.mkit_noClickArea
+vk.com##.vkuiSeparator__in
 vk.com##[class*="FullscreenBanner_"]
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom, .b-page-description
 vkplay.ru##.swiper-pagination-lock
@@ -820,6 +824,7 @@ ya.ru##.ProductGallery
 ya.ru##.SearchRelatedGallery
 ya.ru##.Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard
 ya.ru##div.Divider
+ya.ru##li:has-text(реклама)
 yandex.ru###a11y-ecommerce-additional-offers
 yandex.ru###a11y-ecommerce-offers, #rsya-guarantee
 yandex.ru###futuris-tab-onboarding-container
@@ -832,6 +837,7 @@ yandex.ru##.Fact-Footer
 yandex.ru##.feedback
 yandex.ru##.Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid
+yandex.ru##.LabelDiscount
 yandex.ru##.left-panel__block:nth-of-type(5)
 yandex.ru##.left-panel__links
 yandex.ru##.MenuItem_get-premium360
@@ -842,6 +848,7 @@ yandex.ru##.profile-widget_type_ads-disabler
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
 yandex.ru##.SerpFooter-Extralinks
 yandex.ru##.SnippetTitle
+yandex.ru##.Thumb-Image
 yandex.ru##.UniSearchMedicine
 yandex.ru##.user-popup__disable-ad-block
 yandex.ru##.zen__list-scroller, .zen__title
@@ -849,6 +856,7 @@ yandex.ru##[class$="_complementary_yes"]
 yandex.ru##[class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru##div > .serp-item_card.serp-item > .Typo_line_m
 yandex.ru##div > .serp-item_card.serp-item > .Typo_line_s
+yandex.ru##li:has-text(реклама)
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill

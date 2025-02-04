@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 30 January 2024 04:53
+! Last modified: 04 February 2024 08:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -114,6 +114,7 @@ avito.ru##.header-nav-wQVeb, .index-miniMenu-pZSYw, .index-module-nav-stRnY, .pr
 avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f
+avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class*="gallery-block-contactBarContainer-"], .styles-overlay-RW8Kv
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
@@ -147,6 +148,7 @@ citilink.ru##.app-catalog-1lxp2bi
 citilink.ru##.e10gofov0, .ebgozyb0, .e4tmpk70, .e1asn0y0, .e1hl8ig80
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
+cloudflare.com##.pv5.flex-wrap.flex
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
 cnews.ru##footer
 cnx-software.com###fixeddbar
@@ -349,6 +351,7 @@ market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
@@ -408,6 +411,7 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30
+ozon.ru##.cz9_9
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
@@ -426,6 +430,7 @@ pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG
+pixiv.net##.jKNKMn
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
 playground.ru##.file-download-box-tip
@@ -519,6 +524,8 @@ stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
 studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
+subscribestar.*##.layout-footer
+subscribestar.*##.warning_xodal
 superuser.com##[class*="site-footer-"]
 support.avito.ru##[class*="_37DHXLmSLFs-"]
 support.avito.ru##[class*="web-footer"]
@@ -759,6 +766,12 @@ wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__z
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
+x.com##.r-1niwhzg.r-1udh08x
+x.com##.r-1ye8kvj .r-1mmae3n
+x.com##.r-1ye8kvj .r-w7s2jr
+x.com##.r-6koalj:nth-of-type(10)
+x.com##.r-6koalj:nth-of-type(11)
+x.com##.r-6koalj:nth-of-type(8)
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
 xda-developers.com###footer, #website-footer

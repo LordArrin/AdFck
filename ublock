@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 04 February 2024 08:26
+! Last modified: 09 February 2024 21:45
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -97,6 +97,7 @@ apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .do
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
 archiveofourown.org###add_comment_placeholder, #footer, #kudos
+archiveofourown.org##.edit_subscription
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
 asus.com##.footerExternal, [class*="ProductSupportFooter_"]
@@ -113,6 +114,7 @@ avito.ru##.desktop-1ni85sv, .desktop-t36goo, .desktop-ckkd6, .AEIax, [class*="Pr
 avito.ru##.header-nav-wQVeb, .index-miniMenu-pZSYw, .index-module-nav-stRnY, .profile-sidebar-navigation-tag-fatJg, [class*="index-miniMenu-W"], [class*="navbar-root-"], [class*="js-side-menu-list-item-promotions"]
 avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
+avito.ru##.notification-badge-root-nVPsD
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class*="gallery-block-contactBarContainer-"], .styles-overlay-RW8Kv
@@ -139,7 +141,9 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
+chat.deepseek.com##.a1e75851
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
+chat.deepseek.com##.fcaa63f8
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.py-2.flex-col
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
@@ -149,6 +153,7 @@ citilink.ru##.e10gofov0, .ebgozyb0, .e4tmpk70, .e1asn0y0, .e1hl8ig80
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 cloudflare.com##.pv5.flex-wrap.flex
+club.dns-shop.ru##.action-widget
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
 cnews.ru##footer
 cnx-software.com###fixeddbar
@@ -183,6 +188,9 @@ dtf.ru##.sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##[class*="license-status"]
 dzen.ru##[class*="content--article-image-caption__caption-"]
+dzen.ru##[class*="content--dzen-pro-article-banner_"]
+dzen.ru##[class*="content--subscribe-banner_"]
+dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 eda.yandex.ru##.AppFooter_root
 eda.yandex.ru##.root_r19uopkt
 eldorado.ru##.footer
@@ -254,6 +262,7 @@ hovatek.com###ad-header.noinline
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
+id.sber.ru##.e8y4yns0
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"]
 id.vk.com##[class*="Footer-container-"]
@@ -366,6 +375,7 @@ mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
 mediafire.com##.DLExtraInfo-additional
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor
+megamarket.ru##.banner-card
 merionet.ru##.discountBanner, .popup
 message.aliexpress.com##.footer-copywrite, .site-footer
 mmoreigr.org##.footer, .maindescrip
@@ -395,25 +405,26 @@ noob-club.ru##.support-nc.bottomleft
 nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com###footer-container
 nvidia.com##.footer, .bannerTracking
+ok.ru###bbl-sidebar-hobby20
 ok.ru###footer, #hook_Block_LeftColumnThirdMenu, #hook_Block_StickyBannerContainer, #MusicGrowl
+ok.ru###rttermsBanner
 ok.ru##.__l.lcTc
 ok.ru##.toolbar-music-icon
 ok.ru##[class*="banner_"]
+ok.ru##[class*="ic-promote-"]
 ok.ru##wm-portlet.block:nth-of-type(2), wm-portlet.block:nth-of-type(3), wm-portlet.block:nth-of-type(4), wm-portlet.block:nth-of-type(5), wm-portlet.block:nth-of-type(6)
 ok.ru##wm-subscription-banner
 online-audio-converter.com##.footer, .like_row_conv, .one-col
 online.sberbank.ru###assistant-region
 online.sberbank.ru###universal-banner-index
 online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
+onlinetrade.ru###footer
 onlinetrade.ru##.footer__countersline, .footer__infoline, .indexHat__cover
 openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
-ozon.ru##.aad6_33, .ae8a_33, .z5c_9, .kx_27, .b222-a6, .d4019-a2, .z4c_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30
 ozon.ru##.cz9_9
-ozon.ru##[class*="om_18_"], [class*="dh0_9"]
-ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
@@ -421,6 +432,7 @@ pepper.ru###footer-content
 pepper.ru##.auto-refresh-Div-position, .footer, .fixed.px-2.form-secondary-button, .shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
 person.nbki.ru##.footer
+person.nbki.ru##.main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
@@ -794,6 +806,7 @@ yandex.ru##.AdvMastHead, .AdvProductGallery, .AdvOffers-Wrapper, .AdvRsyaCrossPa
 yandex.ru##.business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityCardMetadoc, .EntityFact, .Fact-Footer, .feedback, .Footer, .footer__end, .FuturisProductsChat, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .GenAnswer_view_fact, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .MessageBox-Content, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller
 yandex.ru##.ImagesOnboarding, .ImagesOverlay, .ImagesScroller, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .mini-suggest__item_type_fact, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler
 yandex.ru##.Promo_withoutBlur, .RelatedBottom, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .SearchPrevention, .SearchRelatedGallery, .SearchResultsHeader, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention
+yandex.ru##.PromoOffer
 yandex.ru##.SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 January 2025 08:15
+! Last modified: 11 February 2025 10:56
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -97,6 +97,7 @@
 ||*api.topazlabs*^
 ||*app-measurement*^
 ||*appboy*^
+||*appmetrica*^
 ||*appsgrowthpromo-pa.*^
 ||*apptracer*^
 ||*bandicam.*^
@@ -143,6 +144,8 @@
 ||*fpsmon.*^
 ||*geo-data.wildberries*^
 ||*googletagmanager*^
+||*graph.facebook*^
+||*inapp.services.ucp.kaspersky-labs*^
 ||*inappstory*^
 ||*inno.bisrv*^
 ||*inovelli*^
@@ -159,8 +162,10 @@
 ||*lineageos.org*^
 ||*market-click-baobab*^
 ||*mediatek*^
+||*memory.mts*^
 ||*metricellcollect*^
 ||*miui.*^
+||*mon.avito*^
 ||*mradx*^
 ||*nsis.bisrv*^
 ||*opcon.ubuntu*^
@@ -185,7 +190,7 @@
 ||*startup.mobile*^
 ||*stats.avito*^
 ||*stats.rustore*^
-||*telemetry.mozilla*^
+||*telemetry*^
 ||*trics.ubuntu*^
 ||*twilio*^
 ||*unbrickandroid.*^
@@ -193,6 +198,7 @@
 ||*uxfeedback*^
 ||*vertigo-games*^
 ||*vkpns.rustore*^
+||*volces.*^
 ||*webcamxp*^
 ||*xtracloud*^
 ||*xtrapath*^

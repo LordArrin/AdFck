@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 13 February 2024 20:21
+! Last modified: 18 February 2024 12:19
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -126,7 +126,9 @@ backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
 bank.yandex.ru##[class*="Qr-module_"]
-banki.ru##[class*="layout-wrapper footer"], [class*="lazy-widget--loaded"], [class*="seo-block"]
+banki.ru##.Indent__sc-1nlpw4v-0
+banki.ru##.IPEJPbpA4b_njz7Q_czp
+banki.ru##[class*="Breadcrumbsstyled__StyledBreadcrumbsWrapper-"], [class*="DownloadMobileAppstyled_"], [class*="layout-wrapper footer"], [class*="lazy-widget--loaded"], [class*="seo-block"], [class*="SpecialPanelstyled__StyledSpecialPanel-"]
 bcnn.ru##.site-footer
 beatsage.com##[class*="-socials"], [class*="footer"]
 bolshoyvopros.ru###mobile_suggest
@@ -135,6 +137,7 @@ brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-
 buhgalteria.ru##.hidden-ld
 buickcafe.com##.overlay
 bunkr.*##.catflix
+byrutgame.org##.footer
 byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
 calendar.yandex.ru##[class*="AsideFooter"]
@@ -363,6 +366,7 @@ market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
+market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
@@ -424,7 +428,10 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ru##.b6 > .e1
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6,
+ozon.ru##.d8r_10
+ozon.ru##.m4k_27
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
@@ -773,6 +780,10 @@ vkvideo.ru###sport_videos
 vkvideo.ru###tvshow_playlists
 vkvideo.ru##.vkuiPopper
 vkvideo.ru##a.MenuList__link
+vps.today##.border
+vps.today##.border-top-0
+vps.today##div.margin-bottom.card-bordered.card:nth-of-type(2)
+vps.today##div.margin-bottom.card-bordered.card:nth-of-type(6)
 vremyan.ru##.ajaxload, .fill-bg, .ok-link, footer
 vrtor.ru###adv_fon
 washingtonpost.com##.wpds-c-CRbvs
@@ -901,6 +912,7 @@ zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||vk.*/js/cmodules/web/ads_light.$script
 ||vk.*/upload_fails.php^
 ||vkplay.live/app/embed/random$subdocument
+||vps.today/images/bg.png$image
 ||vrtor.ru/templates/Torrentino/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/img/tg_welcome*$image

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 February 2024 21:25
+! Last modified: 22 February 2024 21:45
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -194,6 +194,7 @@ duckdns.org##[class*="license-status"]
 dzen.ru##.content--card-mini-news__cardLink-1i
 dzen.ru##.content--card-part-mini-wrapper__compact-yT
 dzen.ru##[class*="content--article-image-caption__caption-"]
+dzen.ru##[class*="content--corner-banner_"]
 dzen.ru##[class*="content--dzen-pro-article-banner_"]
 dzen.ru##[class*="content--subscribe-banner_"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
@@ -383,7 +384,10 @@ media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
 mediafire.com##.DLExtraInfo-additional
+mediafire.com##.upsell-ab-promo
+mega.nz###ob-dialog
 mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
+mega.nz##footer
 megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor
 megamarket.ru##.banner-card
 merionet.ru##.discountBanner, .popup
@@ -478,8 +482,13 @@ qna.habr.com##.layout__footer
 randomus.ru##.footer
 reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
+reddit.com###RESOURCES > faceplate-tracker:nth-of-type(1)
+reddit.com###RESOURCES > faceplate-tracker:nth-of-type(2)
 reddit.com##faceplate-tracker.contents:nth-of-type(4) > .mt-0
 reddit.com##faceplate-tracker:nth-of-type(10), faceplate-tracker:nth-of-type(11), faceplate-tracker:nth-of-type(12), .py-md.visible, hr.my-sm
+reddit.com##faceplate-tracker:nth-of-type(3)
+reddit.com##faceplate-tracker:nth-of-type(5)
+reddit.com##faceplate-tracker:nth-of-type(6)
 reddit.com##hr.border-0
 reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0
 reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 26 February 2024 12:13
+! Last modified: 26 February 2024 21:15
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -32,6 +32,7 @@
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 123.ru###news
 123.ru##.footer-result
+1688tb.com##.layout-main-footer
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, [href="/competitions"], [href="/job"]
@@ -106,6 +107,7 @@ audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn, footer, .content-breaker, .fadeInDown.animated.alert-warning, .footer
 auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
+author.today##.ribbon
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
@@ -179,16 +181,20 @@ discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer
+dns-shop.ru##.additional-voblers
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button
+dns-shop.ru##.choice-guide
+dns-shop.ru##.product-card__buy-together
+dns-shop.ru##.product-card__rsu-assemblies
+dns-shop.ru##.survey-button-widget
+dns-shop.ru##[class*="vobler_vobler_"]
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
 dostavkann24.ru##.l-footer
 drive.google.com##.ml-Pr-kg
 drive.proton.me##[class*="button-promotion-"], .interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .justify-center.items-center.gap-2.flex.w-full.my-2, .py-5.px-4.gap-8.items-center.flex-nowrap.flex
-dropbox.com##[class*="_toolkit-link_"], .campaign-format-modal, .ReactModal__Overlay
 dtf.ru##.account-menu__right > .button--type-minimal
-dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer
-dtf.ru##.sidebar-item__has-updates
+dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##[class*="license-status"]
 dzen.ru##.content--card-mini-news__cardLink-1i
@@ -205,8 +211,7 @@ estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###topNotice
 f95zone.to##.node--link.node--depth2.node--id129, .p-footer
-facebook.com##.x1qpq9i9 > .x10wlt62
-facebook.com##.x1swvt13.x1l90r2v
+facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
 fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
@@ -855,7 +860,7 @@ xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer, #header-mobile-right, #premium-info-frame
 xv-ru.com##.premium-results-line, .sheer-sponsor
-yandex.ru###a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container
+yandex.ru,ya.ru###a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container
 yandex.ru,ya.ru###a11y-ecommerce-offers
 yandex.ru,ya.ru###search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
@@ -865,6 +870,8 @@ yandex.ru,ya.ru##.OrganicUgcReviews-AvatarWrapper
 yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru,ya.ru##[class$="Organic_withxP"]
+yandex.ru,ya.ru##[class*="-has-warning"]
+yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="Organic_with"]
 yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
 yandex.ru,ya.ru##div.Divider

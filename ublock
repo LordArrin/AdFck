@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 26 February 2024 21:15
+! Last modified: 02 March 2025 20:47
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -161,6 +161,7 @@ cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__f
 cloudflare.com##.pv5.flex-wrap.flex
 club.dns-shop.ru##.action-widget
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
+cnews.ru##.right_side
 cnews.ru##footer
 cnx-software.com###fixeddbar
 community.cloudflare.com##.modal-container
@@ -408,6 +409,7 @@ market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
@@ -415,6 +417,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._1nHQg, ._23gJ9 > .cia-cs, ._24VKa, ._3in03, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE
+market.yandex.ru##._1Zs0D
 market.yandex.ru##.baY54
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
@@ -503,6 +506,7 @@ playground.ru##.file-download-box-tip
 playground.ru##.page-footer
 pling.com##.product-maker-sidebar
 plus.yandex.ru##.tariff-tarifficator-layout__footer, [class*="Footer_"]
+plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
 poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
@@ -510,6 +514,11 @@ pornhub.com###js-networkBar
 pornhub.com###onboardingInformation
 pornhub.com##.footerContentWrapper, .js-menuAnalytics, .menuLinkDiv, .networkBarWrapper, .removeAdLink
 pornolab.net##.hide-for-print
+pornreactor.cc###contentinner [href^="https://landing.candynetwork.ai/elara"]
+pornreactor.cc###tagList
+pornreactor.cc##li:nth-of-type(13)
+pornreactor.cc##li:nth-of-type(14)
+pornreactor.cc##li:nth-of-type(15)
 portal-shop.com###popup_iframe_wrapper
 portal-shop.com##.TOP_HEADER
 products.aspose.app###DynabicMenuFooter
@@ -539,6 +548,7 @@ rog.asus.com###pageContent-btn-cta
 rog.asus.com##.footer
 rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
 rsload.net##[href="https://rsload.net/soft/windows/"]
+rt.pornhub.org###welcome
 ru.banggood.com##.modal-banner
 rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span

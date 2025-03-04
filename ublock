@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 March 2025 20:47
+! Last modified: 04 March 2025 09:54
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -175,6 +175,7 @@ crdroid.net##.footerbg, .section-title
 dailyuploads.net##footer
 darkreader.org##.page-grid-ios
 denuvo.store##.altumcode-informational-wrapper
+deployn.de##.border.rounded-xl
 derpibooru.org###footer
 deviantart.com##.surface-primary.surface.forced-theme-light, ._2D30j
 diakov.net##td, .title_spoiler
@@ -475,9 +476,12 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ru##.a4ab_33 > .e1 > div:nth-of-type(2)
+ozon.ru##.aa4d_34
 ozon.ru##.b6 > .e1
+ozon.ru##.c8.d2
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6,
 ozon.ru##.d8r_10
+ozon.ru##.de1_10
 ozon.ru##.m4k_27
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
@@ -497,6 +501,7 @@ pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG
 pixiv.net##.jKNKMn
@@ -550,6 +555,11 @@ rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
 rsload.net##[href="https://rsload.net/soft/windows/"]
 rt.pornhub.org###welcome
 ru.banggood.com##.modal-banner
+rule34.paheal.net###\34 2efde039b6d4763fbcb431e56ddc72emain
+rule34.paheal.net###comment-list-recent
+rule34.paheal.net###d4ed435c4212ecf21b9f1ad0a2c192d8main
+rule34.paheal.net###Featured_Postleft
+rule34.paheal.net##footer
 rule34.xxx###pv_leaderboard
 rule34.xxx##.content > span
 rule34.xxx##.leftside.dp, .rightside.dp

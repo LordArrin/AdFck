@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 05 March 2025 15:19
+! Last modified: 13 March 2025 21:34
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -215,6 +215,8 @@ extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###topNotice
 f95zone.to##.node--link.node--depth2.node--id129, .p-footer
 facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
+fandom.com##.notifications-box
+fandom.com##.toc
 fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
@@ -410,8 +412,10 @@ market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecommendations\/kkmCarousel\/content
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/mainDO > div > .cia-cs.cia-vs
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
@@ -420,6 +424,7 @@ market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
+market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
@@ -848,6 +853,7 @@ vkvideo.ru###serials
 vkvideo.ru###sport_videos
 vkvideo.ru###tvshow_playlists
 vkvideo.ru##.vkuiPopper
+vkvideo.ru##.vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv
 vkvideo.ru##a.MenuList__link
 vps.today##.border
 vps.today##.border-top-0

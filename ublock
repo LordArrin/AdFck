@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 13 March 2025 21:34
+! Last modified: 17 March 2025 14:14
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -78,6 +78,7 @@ aliexpress.ru##[class*="RedModuleBanner_RedModuleBanner__container__"]
 aliexpress.ru##[class*="RedOrderListTabs_TabsNew__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
+aliexpress.ru##[class*="RedOrderNavigation_OnboardingBanner__bannerWithShadow_"]
 aliexpress.ru##[class*="SeoAllSalesHeader_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchProductFeed_FeedIsOver_"]
@@ -153,6 +154,7 @@ chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
 chat.deepseek.com##.fcaa63f8
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.py-2.flex-col
+chatgpt.com##.text-token-text-secondary.text-xs.text-center.p-2.justify-center.items-center.w-full
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
 chitai-gorod.ru##.footer
 citilink.ru##.app-catalog-1lxp2bi
@@ -423,9 +425,13 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54
+market.yandex.ru##._2ZOTu
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
+matreshka.tv##.cookies
+matreshka.tv##.download-section
+matreshka.tv##.menu__info
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
@@ -486,8 +492,11 @@ ozon.ru##.c8.d2
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6,
 ozon.ru##.d8r_10
 ozon.ru##.de1_10
+ozon.ru##.g0d_11
 ozon.ru##.m4k_27
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
+ozon.ru##div.c8.d0:nth-of-type(3)
+ozon.ru##div.d0p_11:nth-of-type(4)
 ozon.ru##li.d9k_9:nth-of-type(1), li.d9k_9:nth-of-type(2)
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
@@ -885,6 +894,7 @@ xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer, #header-mobile-right, #premium-info-frame
 xv-ru.com##.premium-results-line, .sheer-sponsor
+yandex.ru##.CbirNavigation-TabsItem_name_neurosearch-page
 yandex.ru,ya.ru###a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container
 yandex.ru,ya.ru###a11y-ecommerce-offers
 yandex.ru,ya.ru###search-result-aside

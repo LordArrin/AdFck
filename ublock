@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 17 March 2025 14:14
+! Last modified: 18 March 2025 02:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -149,9 +149,7 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
-chat.deepseek.com##.a1e75851
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
-chat.deepseek.com##.fcaa63f8
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.py-2.flex-col
 chatgpt.com##.text-token-text-secondary.text-xs.text-center.p-2.justify-center.items-center.w-full
@@ -162,8 +160,11 @@ citilink.ru##.e10gofov0, .ebgozyb0, .e4tmpk70, .e1asn0y0, .e1hl8ig80
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 cloudflare.com##.pv5.flex-wrap.flex
+club.dns-shop.ru###reaction-type-big
 club.dns-shop.ru##.action-widget
+club.dns-shop.ru##.post-page__related-product
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
+club.dns-shop.ru##em
 cnews.ru##.right_side
 cnews.ru##footer
 cnx-software.com###fixeddbar
@@ -202,13 +203,19 @@ dtf.ru##.account-menu__right > .button--type-minimal
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##[class*="license-status"]
-dzen.ru##.content--card-mini-news__cardLink-1i
-dzen.ru##.content--card-part-mini-wrapper__compact-yT
+dzen.ru##[class*="AdBlock"]
+dzen.ru##[class*="content--card-mini-news_"]
+dzen.ru##[class*="content--card-part-mini-wrapper_"]
 dzen.ru##[class*="content--article-image-caption__caption-"]
+dzen.ru##[class*="content--article-thematic-cloud_"]
+dzen.ru##[class*="content--comments-empty-info_"]
 dzen.ru##[class*="content--corner-banner_"]
+dzen.ru##[class*="content--d2d-block_"]
 dzen.ru##[class*="content--dzen-pro-article-banner_"]
 dzen.ru##[class*="content--subscribe-banner_"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
+dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
+dzen.ru##[class*="dzen-layout--tooltip_"]
 eda.yandex.ru##.AppFooter_root
 eda.yandex.ru##.root_r19uopkt
 eldorado.ru##.footer
@@ -273,6 +280,8 @@ gitverse.ru##.xl\:px-12.max-sm\:hidden.max-lg\:hidden.px-12.w-full.mx-auto
 gitverse.ru##body > .max-w-full
 gofile.io###index_footer
 gofile.io##.filesContentOption
+goha.ru##.entry-article__article-activity
+goha.ru##.layout-footer
 graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
 habr.com##.article-donation-block
@@ -298,12 +307,14 @@ habr.com##.tm-events-block
 habr.com##.tm-footer
 habr.com##.tm-footer-menu
 habr.com##.tm-header__become-author-btn
+habr.com##.tm-page__sidebar
 habr.com##.tm-project-block_variant-courses
 habr.com##.tm-project-block_variant-questions
 habr.com##.tm-project-block_variant-salary
 habr.com##.tm-project-block_variant-tasks
 habr.com##.tm-project-block_variant-vacancies
 habr.com##.tm-section-name
+habr.com##.tm-sexy-sidebar
 habr.com##.tm-stories-block
 habr.com##.tm-user-card__buttons_variant-article.tm-user-card__buttons
 habr.com##div.tm-articles-list__after-article > .tm-block_spacing-bottom.tm-block
@@ -336,6 +347,7 @@ ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
+ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 ixbt.com##figcaption
@@ -422,10 +434,9 @@ market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
+market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
-market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54
-market.yandex.ru##._2ZOTu
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
@@ -485,15 +496,7 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
-ozon.ru##.a4ab_33 > .e1 > div:nth-of-type(2)
-ozon.ru##.aa4d_34
-ozon.ru##.b6 > .e1
-ozon.ru##.c8.d2
-ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6,
-ozon.ru##.d8r_10
-ozon.ru##.de1_10
-ozon.ru##.g0d_11
-ozon.ru##.m4k_27
+ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##div.c8.d0:nth-of-type(3)
 ozon.ru##div.d0p_11:nth-of-type(4)
@@ -692,9 +695,7 @@ valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
 vamprivet.ru##.footer
 vc.ru##.l-island-round
-vds.menu##.text-center
-vds.menu##div.container > hr
-vds.menu##tr.info
+vds.menu##.text-center, div.container > hr, tr.info
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
@@ -856,16 +857,9 @@ vkplay.ru##.swiper-pagination-lock
 vkplay.ru##[class*="_bottom_10lag_"]
 vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"]
 vkplay.ru##[class*="banners-container_"], [class*="banner-marketing_"], [class*="server-rent-catalog-hint_"]
-vkvideo.ru###movies
-vkvideo.ru###recommended_live_videos
-vkvideo.ru###serials
-vkvideo.ru###sport_videos
-vkvideo.ru###tvshow_playlists
-vkvideo.ru##.vkuiPopper
-vkvideo.ru##.vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv
-vkvideo.ru##a.MenuList__link
-vps.today##.border
-vps.today##.border-top-0
+vkvideo.ru###movies, #recommended_live_videos, #serials, #sport_videos, #tvshow_playlists
+vkvideo.ru##.vkuiPopper, .vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv, .MenuList__link
+vps.today##.border-top-0, .border
 vps.today##div.margin-bottom.card-bordered.card:nth-of-type(2)
 vps.today##div.margin-bottom.card-bordered.card:nth-of-type(6)
 vremyan.ru##.ajaxload, .fill-bg, .ok-link, footer
@@ -909,7 +903,7 @@ yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="Organic_with"]
 yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
-yandex.ru,ya.ru##div.Divider
+yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

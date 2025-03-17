@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 18 March 2025 02:36
+! Last modified: 18 March 2025 02:50
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -204,10 +204,10 @@ dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__foot
 dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##[class*="license-status"]
 dzen.ru##[class*="AdBlock"]
-dzen.ru##[class*="content--card-mini-news_"]
-dzen.ru##[class*="content--card-part-mini-wrapper_"]
 dzen.ru##[class*="content--article-image-caption__caption-"]
 dzen.ru##[class*="content--article-thematic-cloud_"]
+dzen.ru##[class*="content--card-mini-news_"]
+dzen.ru##[class*="content--card-part-mini-wrapper_"]
 dzen.ru##[class*="content--comments-empty-info_"]
 dzen.ru##[class*="content--corner-banner_"]
 dzen.ru##[class*="content--d2d-block_"]
@@ -284,41 +284,19 @@ goha.ru##.entry-article__article-activity
 goha.ru##.layout-footer
 graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
-habr.com##.article-donation-block
-habr.com##.leaderboard
-habr.com##.persona
-habr.com##.reactions-panel
-habr.com##.reactions-panel-wrapper
-habr.com##.tm-article-author__company
-habr.com##.tm-article-poll-container
-habr.com##.tm-article-poll__notice
-habr.com##.tm-article-presenter__meta
-habr.com##.tm-base-layout__header
+habr.com##.article-donation-block, .leaderboard, .persona
+habr.com##.reactions-panel, .reactions-panel-wrapper
+habr.com##.tm-article-author__company, .tm-article-poll-container, .tm-article-poll__notice, .tm-article-presenter__meta, .tm-section-name
+habr.com##.tm-base-layout__header, .tm-header__become-author-btn
 habr.com##.tm-block__body_variant-condensed-slim.tm-block__body
 habr.com##.tm-block_spacing-around, .tm-notice, [href^="http://ruvds.com/ru-rub"], [href^="https://selectel.ru/blog/courses/"], [href^="https://vdsina.ru/cloud-servers"]
-habr.com##.tm-block_spacing-around.tm-block
-habr.com##.tm-block_spacing-top.tm-block
-habr.com##.tm-comments-wrapper__header
-habr.com##.tm-comments__comment-notice.tm-notice_positive.tm-notice
-habr.com##.tm-company-card__branding-image
-habr.com##.tm-company-profile-card
-habr.com##.tm-editoral-subscription
-habr.com##.tm-events-block
-habr.com##.tm-footer
-habr.com##.tm-footer-menu
-habr.com##.tm-header__become-author-btn
-habr.com##.tm-page__sidebar
-habr.com##.tm-project-block_variant-courses
-habr.com##.tm-project-block_variant-questions
-habr.com##.tm-project-block_variant-salary
-habr.com##.tm-project-block_variant-tasks
-habr.com##.tm-project-block_variant-vacancies
-habr.com##.tm-section-name
-habr.com##.tm-sexy-sidebar
-habr.com##.tm-stories-block
-habr.com##.tm-user-card__buttons_variant-article.tm-user-card__buttons
-habr.com##div.tm-articles-list__after-article > .tm-block_spacing-bottom.tm-block
-habr.com##section.tm-block_spacing-bottom.tm-block:nth-of-type(2)
+habr.com##.tm-block_spacing-around.tm-block, .tm-block_spacing-top.tm-block, div.tm-articles-list__after-article > .tm-block_spacing-bottom.tm-block, section.tm-block_spacing-bottom.tm-block:nth-of-type(2)
+habr.com##.tm-comments-wrapper__header, .tm-comments__comment-notice.tm-notice_positive.tm-notice
+habr.com##.tm-company-card__branding-image, .tm-company-profile-card, .tm-editoral-subscription
+habr.com##.tm-events-block, .tm-stories-block
+habr.com##.tm-footer, .tm-footer-menu
+habr.com##.tm-page__sidebar, .tm-sexy-sidebar, .tm-user-card__buttons_variant-article.tm-user-card__buttons
+habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions, .tm-project-block_variant-salary, .tm-project-block_variant-tasks, .tm-project-block_variant-vacancies
 hentaiera.com###footer_bar
 hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
@@ -429,7 +407,6 @@ market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecommendations\/kkmCarousel\/content
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
-market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/mainDO > div > .cia-cs.cia-vs
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
@@ -437,6 +414,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###RecommendationRollTabs
+market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
@@ -903,8 +881,8 @@ yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="Organic_with"]
 yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
-yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
+yandex.ru,ya.ru##Divider
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 18 March 2025 02:50
+! Last modified: 21 March 2025 16:47
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -185,6 +185,7 @@ deviantart.com##.surface-primary.surface.forced-theme-light, ._2D30j
 diakov.net##td, .title_spoiler
 discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
+disk.yandex.ru##.LeftColumnNavigation__Item_type_family
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer
 dns-shop.ru##.additional-voblers
@@ -233,6 +234,7 @@ fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer
 fboom.me##[class*="premium-"]
 ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle, .justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile, .js-modal-destination, a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot, div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block, ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+ficbook.net##.primary-box-with-button
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_size > .button
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
@@ -638,6 +640,10 @@ ticket.rzd.ru##.app-footer
 ticketland.ru###personal_show_rek, #tab_premium
 ticketland.ru##.copyright, .feedback_popup, .promo, [class*="footer_"]
 tilda.ru##.td-trial
+timeweb.cloud##[class*="core--"]
+timeweb.cloud##[class*="cta--"]
+timeweb.cloud##[class*="jivoButton--"]
+timeweb.cloud##[class*="vdsTariffs-"]
 timeweb.com##.tw-domains-list-banner
 timeweb.com##[class*="-banner"]
 tl.rulate.ru###down, #up
@@ -867,16 +873,16 @@ xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-
 xv-ru.com###footer, #header-mobile-right, #premium-info-frame
 xv-ru.com##.premium-results-line, .sheer-sponsor
 yandex.ru##.CbirNavigation-TabsItem_name_neurosearch-page
-yandex.ru,ya.ru###a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container
-yandex.ru,ya.ru###a11y-ecommerce-offers
-yandex.ru,ya.ru###search-result-aside
+yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru,ya.ru##.EntityCard_ecom
+yandex.ru,ya.ru##.footer__blocks
 yandex.ru,ya.ru##.MerchantDelivery-Container
 yandex.ru,ya.ru##.OrganicUgcReviews-AvatarWrapper
 yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
+yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
-yandex.ru,ya.ru##[class$="Organic_withxP"]
+yandex.ru,ya.ru##[class$="Organic_withx"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="Organic_with"]

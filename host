@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 11 February 2025 10:56
+! Last modified:  24 March 2025 20:13
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.46
@@ -34,10 +34,6 @@
 ||*.ua*^
 ||*leafletjs*^
 ||*lurkmore*^
-# Acronis
-||*acronis.*^
-# VRDesktop
-||*vrdesktop*^
 # 2GIS
 ||*advisor.api.2gis*^
 ||*binario-delivery.api.2gis*^
@@ -46,6 +42,18 @@
 ||*discounts.api.2gis*^
 ||*goods-backend.api.2gis*^
 ||*tips.api.2gis*^
+# Acronis
+||*acronis.*^
+# Avito
+||*cs.avito*^
+||*enterpriseregistration.avito*^
+||*master.avito*^
+||*mdm.avito*^
+||*mon.avito*^
+||*sccm01.avito*^
+||*sntr.avito*^
+||*stats.avito*^
+||*sts.avito*^
 # Genshin Impact
 @@||autopatchhk.yuanshen.com*^
 @@||blooming-shelf-2016.herokuapp.com*^
@@ -56,26 +64,24 @@
 @@||osuspider.yuanshen.com*^
 @@||ys-log-upload-os.hoyoverse.com*^
 ||*data-abtest-api.hoyoverse*^
-# Other whitelist
-@@||*connectivitycheck*^
-@@||*download.lineageos*^
-@@||*ntp.*^
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
 ||*ls.dtrace.nvidia*^
 ||*nvidia.cn*^
 ||*services.gfe.*^
+# VRDesktop
+||*vrdesktop*^
 # Google
 ||*androidattestationvalidation-pa*^
-||*deviceintegritytokens-pa.googleapis*^
+||*deviceintegritytokens-pa*^
 ||*federatedcompute-pa*^
 ||*firebaseinstallations*^
 ||*firebaselogging-pa*^
 ||*firebaseremoteconfig*^
-||*geller-pa.googleapis*^
-||*gmscompliance-pa.googleapis*^
-||*ondevicesafety-pa.googleapis*^
+||*geller-pa*^
+||*gmscompliance-pa*^
+||*ondevicesafety-pa*^
 ||*peoplestackwebexperiments-pa*^
 ||*safebrowsing.googleapis*^
 ||*voilatile-pa*^
@@ -90,6 +96,7 @@
 ||*androidp1.*^
 ||*api-hprof.odkl*^
 ||*api.browser.yandex*^
+||*api.epicgames*^
 ||*api.ocbase*^
 ||*api.recommendedsw*^
 ||*api.teslacoilapps*^
@@ -100,6 +107,7 @@
 ||*appmetrica*^
 ||*appsgrowthpromo-pa.*^
 ||*apptracer*^
+||*avi-ec-master*^
 ||*bandicam.*^
 ||*bdurl*^
 ||*bugsnag*^
@@ -138,13 +146,16 @@
 ||*devices.sberbank*^
 ||*divpro.yandex*^
 ||*dler.*^
+||*download.nvidia*^
 ||*egress.yandex*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
+||*games.geforce*^
 ||*geo-data.wildberries*^
 ||*googletagmanager*^
 ||*graph.facebook*^
+||*hydrapi.*^
 ||*inapp.services.ucp.kaspersky-labs*^
 ||*inappstory*^
 ||*inno.bisrv*^
@@ -153,6 +164,7 @@
 ||*installer.filebulldog*^
 ||*izatcloud*^
 ||*jethrojeff*^
+||*kerberos*^
 ||*kinescope.io*^
 ||*kmsd.online*^
 ||*lahuashanbx*^
@@ -165,7 +177,6 @@
 ||*memory.mts*^
 ||*metricellcollect*^
 ||*miui.*^
-||*mon.avito*^
 ||*mradx*^
 ||*nsis.bisrv*^
 ||*opcon.ubuntu*^
@@ -177,6 +188,7 @@
 ||*paradox-interactive*^
 ||*paradoxplaza.*^
 ||*privacy.xboxlive*^
+||*proshivkis.ru*^
 ||*qcomgeo*^
 ||*salusconnect*^
 ||*sbdv.*^
@@ -184,23 +196,33 @@
 ||*sc.omtrdc*^
 ||*send-asr.acrobat*^
 ||*sendsay.*^
+||*sentry.kontur*^
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
 ||*software-nas*^
 ||*startup.mobile*^
-||*stats.avito*^
 ||*stats.rustore*^
+||*support.topazlabs*^
 ||*telemetry*^
+||*touch.kaspersky*^
 ||*trics.ubuntu*^
+||*turn.hydrapi*^
 ||*twilio*^
 ||*unbrickandroid.*^
 ||*unchecky*^
+||*upd.kaspersky*^
 ||*uxfeedback*^
 ||*vertigo-games*^
 ||*vkpns.rustore*^
 ||*volces.*^
 ||*webcamxp*^
+||*xboxab.*^
 ||*xtracloud*^
 ||*xtrapath*^
 ||*xtratime*^
+||*yabs.ya*^
 ||*ycxrl*^
+# Whitelist
+@@||*connectivitycheck*^
+@@||*download.lineageos*^
+@@||*ntp.*^

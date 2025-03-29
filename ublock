@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 21 March 2025 16:47
+! Last modified: 29 March 2025 18:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -149,6 +149,7 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
+chat.deepseek.com##._0fcaa63
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.py-2.flex-col
@@ -188,9 +189,11 @@ disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColu
 disk.yandex.ru##.LeftColumnNavigation__Item_type_family
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer
+dns-shop.ru###soft-bundle-block
 dns-shop.ru##.additional-voblers
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button
 dns-shop.ru##.choice-guide
+dns-shop.ru##.product-card__accessories
 dns-shop.ru##.product-card__buy-together
 dns-shop.ru##.product-card__rsu-assemblies
 dns-shop.ru##.survey-button-widget
@@ -238,6 +241,12 @@ ficbook.net##.primary-box-with-button
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_size > .button
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
+files.gamerfang.in##.adsvictory
+files.gamerfang.in##.download_left_ad1
+files.gamerfang.in##.download_mobile_top_ad1
+files.gamerfang.in##.file-description
+files.gamerfang.in##.footer
+files.gamerfang.in##.page-subtitle
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button, .navigation-drawer-tab > hr
 fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
@@ -273,6 +282,7 @@ github.com##.iLgtCH
 github.com##.js-notice-dismiss
 github.com##.mr-1.Button.Button--small.Button--secondary
 github.com##[href="https://stand-with-ukraine.pp.ua/"]
+github.io###aeza-banner
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].right-0.left-0.bottom-0.fixed.\[\&\>svg\]\:text-foreground
 gitverse.ru##.border-\[\#5723AB\]
@@ -441,7 +451,25 @@ modzoco.com##.site-footer
 monocle.ru##.subscr_info
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
+music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
+music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
+music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
+music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
+music.yandex.ru##[class*="BarBelow_root_"]
+music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
+music.yandex.ru##[class*="CollectionPage_description_"]
+music.yandex.ru##[class*="CompositeHeader_"]
+music.yandex.ru##[class*="Concerts_root_"]
+music.yandex.ru##[class*="Donations_root_"]
+music.yandex.ru##[class*="Footer_root_"]
+music.yandex.ru##[class*="InStyle_root_"]
+music.yandex.ru##[class*="MainPage_footer_"]
+music.yandex.ru##[class*="Meta_explicitMark_"]
+music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
+music.yandex.ru##[class*="Neuromusic_root_"]
+music.yandex.ru##[class*="NewReleases_root_"]
+music.yandex.ru##[class*="Vibes_root_"]
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3), button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3), div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(6) > .d-tabs__link.typo-nav
 mvideo.ru###mvid-banners-container
 mvideo.ru##[class*="footer__grid"]

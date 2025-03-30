@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 March 2025 18:26
+! Last modified: 30 March 2025 19:31
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -358,7 +358,7 @@ korshop.ru###footer
 korshop.ru##.tline
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid, .home-help-block, .support-topic-react
-kuper.ru##[class*="BannersAndSlidersThroughCatalog_"], [class*="edit_b2bBanner_"], [class*="Footer_"], [class*="HomeLanding_app_"], [class*="ShowJsPlacement_bannerMainHeader_"], [class*="styles_b2bBanner_"]
+kuper.ru##[class*="BannersAndSlidersThroughCatalog_"], [class*="Footer_"], [class*="HomeLanding_app_"], [class*="ShowJsPlacement_bannerMainHeader_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lanrar.com###go, #sub2
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
@@ -422,12 +422,16 @@ market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/he
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
+market.yandex.ru###\/content\/page\/fancyPage\/recommendationRollTabs\/tabs
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/lightRecommendationRoll42
+market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu
+market.yandex.ru##._1qgfc
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
+market.yandex.ru##.r_nt5
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
 matreshka.tv##.cookies
@@ -504,7 +508,7 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
-ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27
+ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27, .h1d_11
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##div.c8.d0:nth-of-type(3)
 ozon.ru##div.d0p_11:nth-of-type(4)

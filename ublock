@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 30 March 2025 19:31
+! Last modified: 02 April 2025 23:14
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -30,6 +30,7 @@
 !
 !
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
+101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
 123.ru###news
 123.ru##.footer-result
 1688tb.com##.layout-main-footer
@@ -142,6 +143,7 @@ brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-
 buhgalteria.ru##.hidden-ld
 buickcafe.com##.overlay
 bunkr.*##.catflix
+bunkr.fi##footer
 byrutgame.org##.footer
 byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
@@ -162,10 +164,8 @@ citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 cloudflare.com##.pv5.flex-wrap.flex
 club.dns-shop.ru###reaction-type-big
-club.dns-shop.ru##.action-widget
-club.dns-shop.ru##.post-page__related-product
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
-club.dns-shop.ru##em
+club.dns-shop.ru##em, .action-widget, .post-page__related-product
 cnews.ru##.right_side
 cnews.ru##footer
 cnx-software.com###fixeddbar
@@ -188,15 +188,12 @@ discord.com##.notice_be03aa
 disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
 disk.yandex.ru##.LeftColumnNavigation__Item_type_family
 dlsoft.lanzoui.com##.foot_info
-dns-shop.ru###base-footer
-dns-shop.ru###soft-bundle-block
-dns-shop.ru##.additional-voblers
-dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button
-dns-shop.ru##.choice-guide
-dns-shop.ru##.product-card__accessories
-dns-shop.ru##.product-card__buy-together
-dns-shop.ru##.product-card__rsu-assemblies
-dns-shop.ru##.survey-button-widget
+dns-shop.ru###base-footer, #soft-bundle-block
+dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button, .additional-voblers, .choice-guide, .product-card__accessories, .product-card__buy-together, .product-card__rsu-assemblies, .survey-button-widget
+dns-shop.ru##.product-card-rsu
+dns-shop.ru##.product-card-top__tech-voblers
+dns-shop.ru##.product-card__analogs
+dns-shop.ru##.product-card__offer
 dns-shop.ru##[class*="vobler_vobler_"]
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
@@ -220,16 +217,15 @@ dzen.ru##[class*="content--subscribe-banner_"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
 dzen.ru##[class*="dzen-layout--tooltip_"]
-eda.yandex.ru##.AppFooter_root
 eda.yandex.ru##.root_r19uopkt
+eda.yandex.ru##[class*="AppFooter_root"]
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###topNotice
 f95zone.to##.node--link.node--depth2.node--id129, .p-footer
 facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
-fandom.com##.notifications-box
-fandom.com##.toc
+fandom.com##.notifications-box, .toc
 fanfics.me###site-content-center iframe
 fanfics.me##div.Sidebar_NativeAd
 fanfiction.net###p_footer
@@ -239,14 +235,13 @@ fboom.me##[class*="premium-"]
 ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle, .justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile, .js-modal-destination, a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot, div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block, ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
 ficbook.net##.primary-box-with-button
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
+file-upload.org##.col-md-offset-2.col-lg-8.col-md-8.col-sm-12.col-xs-12
+file-upload.org##.footer-section
+file-upload.org##.top-info
+file-upload.org##div.col-lg-6.col-md-6.col-sm-6.col-xs-12
 files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_size > .button
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
-files.gamerfang.in##.adsvictory
-files.gamerfang.in##.download_left_ad1
-files.gamerfang.in##.download_mobile_top_ad1
-files.gamerfang.in##.file-description
-files.gamerfang.in##.footer
-files.gamerfang.in##.page-subtitle
+files.gamerfang.in##.adsvictory, .download_left_ad1, .download_mobile_top_ad1, .file-description, .footer, .page-subtitle
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button, .navigation-drawer-tab > hr
 fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
@@ -317,11 +312,8 @@ hovatek.com###ad-header.noinline
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
-id.sber.ru##.e8y4yns0
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
-id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"]
-id.vk.com##[class*="Footer-container-"]
-id.vk.com##[class*="QuestionnaireEntrypoint-group-"]
+id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"], [class*="Footer-container-"], [class*="QuestionnaireEntrypoint-group-"]
 igromania.ru##.strunmenu
 inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
@@ -428,25 +420,17 @@ market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
-market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu
-market.yandex.ru##._1qgfc
+market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu, ._1qgfc, .r_nt5
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
-market.yandex.ru##.r_nt5
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
-matreshka.tv##.cookies
-matreshka.tv##.download-section
-matreshka.tv##.menu__info
+matreshka.tv##.cookies, .download-section, .menu__info
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
-mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo
-mediafire.com##.DLExtraInfo-additional
-mediafire.com##.upsell-ab-promo
+mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
 mega.nz###ob-dialog
-mega.nz##.band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
-mega.nz##footer
-megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor
-megamarket.ru##.banner-card
+mega.nz##footer, .band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
+megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor, .banner-card
 merionet.ru##.discountBanner, .popup
 message.aliexpress.com##.footer-copywrite, .site-footer
 mmoreigr.org##.footer, .maindescrip
@@ -476,13 +460,17 @@ music.yandex.ru##[class*="NewReleases_root_"]
 music.yandex.ru##[class*="Vibes_root_"]
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3), button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3), div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(6) > .d-tabs__link.typo-nav
 mvideo.ru###mvid-banners-container
+mvideo.ru##.footer
+mvideo.ru##.layout__footer
 mvideo.ru##[class*="footer__grid"]
+mvideo.ru##mvid-our-advantages-mp
 myspar.ru##.card-present, .seo-block, .js-popup-note, [class*="footer_"]
 nahjob.top##.node_tg
 nanoreview.net##.footer-bottom, .apf-act-btn
 nauchniestati.ru##.eduChat
 naughtymachinima.com###top-ad-bar
 naughtymachinima.com##.footer-container
+naughtymachinima.com##.thetopbar
 newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.blackout-hover
 nexusmods.com###opening, #rj-footer
 nexusmods.com##.ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade, [class*="premium-"]
@@ -496,8 +484,7 @@ nvidia.com###footer-container
 nvidia.com##.footer, .bannerTracking
 ok.ru###bbl-sidebar-hobby20
 ok.ru###footer, #hook_Block_LeftColumnThirdMenu, #hook_Block_StickyBannerContainer, #MusicGrowl, #rttermsBanner
-ok.ru##.__l.lcTc, .toolbar-music-icon
-ok.ru##[class*="banner_"], [class*="ic-promote-"]
+ok.ru##.__l.lcTc, .toolbar-music-icon, [class*="banner_"], [class*="ic-promote-"]
 ok.ru##wm-subscription-banner, wm-portlet.block:nth-of-type(2), wm-portlet.block:nth-of-type(3), wm-portlet.block:nth-of-type(4), wm-portlet.block:nth-of-type(5), wm-portlet.block:nth-of-type(6)
 online-audio-converter.com##.footer, .like_row_conv, .one-col
 online.sberbank.ru###assistant-region, #universal-banner-index
@@ -519,20 +506,19 @@ paypal.com##.footer
 pepper.ru###footer-content
 pepper.ru##.auto-refresh-Div-position, .footer, .fixed.px-2.form-secondary-button, .shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
-person.nbki.ru##.footer
-person.nbki.ru##.main-offers_best
+person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.carousel_highlights, .menu-promocodes, .ny2024
+pikabu.ru##.feed-games-carousel
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##strong
-pixiv.net##.cugra, .gyFSiO, .lhcRrG
-pixiv.net##.jKNKMn
+pixiv.net##.cugra, .gyFSiO, .lhcRrG, .jKNKMn
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
 playground.ru##.file-download-box-tip

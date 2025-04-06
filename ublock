@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 April 2025 23:14
+! Last modified: 06 April 2025 18:05
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -34,6 +34,7 @@
 123.ru###news
 123.ru##.footer-result
 1688tb.com##.layout-main-footer
+28bit.ru##.footer, .up-main-promo
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, [href="/competitions"], [href="/job"]
@@ -109,8 +110,7 @@ auchan.ru##.footer, .seoText
 audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn, footer, .content-breaker, .fadeInDown.animated.alert-warning, .footer
 auth.tuya.com##[class*="left_2jog-"]
-author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link
-author.today##.ribbon
+author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link, .ribbon
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
@@ -122,6 +122,7 @@ avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.notification-badge-root-nVPsD
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f
 avito.ru##.styles-module-root_size_s-GborZ
+avito.ru##.styles-module-root_withCloseButton-dz03O
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class*="gallery-block-contactBarContainer-"], .styles-overlay-RW8Kv
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
@@ -217,8 +218,7 @@ dzen.ru##[class*="content--subscribe-banner_"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
 dzen.ru##[class*="dzen-layout--tooltip_"]
-eda.yandex.ru##.root_r19uopkt
-eda.yandex.ru##[class*="AppFooter_root"]
+eda.yandex.ru##[class*="AppFooter_root"], .root_r19uopkt
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
@@ -227,7 +227,7 @@ f95zone.to##.node--link.node--depth2.node--id129, .p-footer
 facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
 fandom.com##.notifications-box, .toc
 fanfics.me###site-content-center iframe
-fanfics.me##div.Sidebar_NativeAd
+fanfics.me##.Sidebar_NativeAd
 fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer
@@ -269,13 +269,10 @@ ggsel.net##[class*="Footer_footer_"]
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
 gitee.com###gitee-blog, #udeskBtn
-gitee.com##.gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner
-gitee.com##[class*="index_badge_"]
+gitee.com##[class*="index_badge_"], .gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner
 github.com###\:rq\:, #\:rr\:, #\:r4c\:
-github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2
-github.com##.iLgtCH
-github.com##.js-notice-dismiss
-github.com##.mr-1.Button.Button--small.Button--secondary
+github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2, .iLgtCH
+github.com##.mr-1.Button.Button--small.Button--secondary, .js-notice-dismiss
 github.com##[href="https://stand-with-ukraine.pp.ua/"]
 github.io###aeza-banner
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
@@ -495,7 +492,9 @@ openvpn.net##.site-copyright
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ozon.ru##.di5_11:nth-of-type(2), .le1_12:nth-of-type(2), .gg5_16:nth-of-type(4)
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27, .h1d_11
+ozon.ru##.d4h_11, .aae3_34, .us9_31, .jt0_25, .a6cs_49, .d290-a6, .d2i_11, .w7d_12, .qb7_5_7, .q7b_5_7
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##div.c8.d0:nth-of-type(3)
 ozon.ru##div.d0p_11:nth-of-type(4)

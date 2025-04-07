@@ -3,10 +3,10 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  24 March 2025 20:13
+! Last modified:  07 April 2025 20:10
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
-! Syntax: AdGuard Home v0.107.46
+! Syntax: AdGuard Home v0.107.57
 !
 !
 ! Кастомный список DNS фильтров AdFck
@@ -91,6 +91,7 @@
 ||*ads.rustore*^
 ||*adspector.*^
 ||*adspend.space*^
+||*aer-reasons.aliexpress*^
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidp1.*^
@@ -177,7 +178,9 @@
 ||*memory.mts*^
 ||*metricellcollect*^
 ||*miui.*^
+||*moondownload.*^
 ||*mradx*^
+||*netmon.azure*^
 ||*nsis.bisrv*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
@@ -190,6 +193,7 @@
 ||*privacy.xboxlive*^
 ||*proshivkis.ru*^
 ||*qcomgeo*^
+||*releases.mattermost*^
 ||*salusconnect*^
 ||*sbdv.*^
 ||*sberdevices*^

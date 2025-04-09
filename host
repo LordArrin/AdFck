@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  07 April 2025 20:10
+! Last modified:  09 April 2025 18:29
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -50,7 +50,9 @@
 ||*master.avito*^
 ||*mdm.avito*^
 ||*mon.avito*^
+||*new-sentry.k.avito*^
 ||*sccm01.avito*^
+||*sentry.msk.avito*^
 ||*sntr.avito*^
 ||*stats.avito*^
 ||*sts.avito*^
@@ -91,7 +93,6 @@
 ||*ads.rustore*^
 ||*adspector.*^
 ||*adspend.space*^
-||*aer-reasons.aliexpress*^
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidp1.*^

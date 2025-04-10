@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 07 April 2025 20:07
+! Last modified: 10 April 2025 22:35
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -198,6 +198,7 @@ dns-shop.ru##.product-card__offer
 dns-shop.ru##[class*="vobler_vobler_"]
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
+dominternet.ru##.addr-tarriffs__recommend-text
 dominternet.ru##.card-help
 dostavkann24.ru##.l-footer
 drive.google.com##.ml-Pr-kg
@@ -349,9 +350,12 @@ korshop.ru###footer
 korshop.ru##.tline
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid, .home-help-block, .support-topic-react
+krakenfiles.com##.mt-3.nk-fmg-status-action
+krakenfiles.com##div.nk-fmg-status-info:nth-of-type(4)
 kuper.ru##[class*="BannersAndSlidersThroughCatalog_"], [class*="Footer_"], [class*="HomeLanding_app_"], [class*="ShowJsPlacement_bannerMainHeader_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lanrar.com###go, #sub2
+last.fm##.auth-dropdown-pro-text
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
 lavka.yandex.ru##.c1l701nd, .fxymvl5
 leafletjs.com###dialog, .iframe-container, .leaflet-right
@@ -444,6 +448,7 @@ music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
+music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(9)
 music.yandex.ru##[class*="BarBelow_root_"]
 music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
 music.yandex.ru##[class*="CollectionPage_description_"]
@@ -497,6 +502,8 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ozon.ru##.di5_11:nth-of-type(2), .le1_12:nth-of-type(2), .gg5_16:nth-of-type(4)
+ozon.ru##.aa1d_34
+ozon.ru##.as2c_51
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27, .h1d_11
 ozon.ru##.d4h_11, .aae3_34, .us9_31, .jt0_25, .a6cs_49, .d290-a6, .d2i_11, .w7d_12, .qb7_5_7, .q7b_5_7
 ozon.ru##.di5_11:nth-of-type(2)
@@ -505,6 +512,7 @@ ozon.ru##.gg5_16:nth-of-type(4)
 ozon.ru##.gg9_16:nth-of-type(4)
 ozon.ru##.q3d_11:nth-of-type(4)
 ozon.ru##.s3q_31
+ozon.ru##.zr7_31
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 ozon.ru##div.c8.d0:nth-of-type(3)
 ozon.ru##div.d0p_11:nth-of-type(4)
@@ -571,10 +579,12 @@ remontka.pro##.tm-footer
 ren.tv##.layout-footer
 repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
+restack.io##.justify-center.sm\:items-center.items-top.flex.overflow-y-auto.inset-0.fixed
 rog-forum.asus.com###cookie-policy-info
 rog.asus.com###pageContent-btn-cta
 rog.asus.com##.footer
 rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
+rsload.net##.telegram-block
 rsload.net##[href="https://rsload.net/soft/windows/"]
 rt.pornhub.org###welcome
 ru.banggood.com##.modal-banner

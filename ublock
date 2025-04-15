@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 13 April 2025 19:35
+! Last modified: 15 April 2025 20:13
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -101,6 +101,7 @@ apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .do
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
 archiveofourown.org###add_comment_placeholder, #footer, #kudos
+archiveofourown.org###admin-banner
 archiveofourown.org##.edit_subscription
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
@@ -459,6 +460,7 @@ music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
 music.yandex.ru##[class*="CollectionPage_description_"]
 music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="Concerts_root_"]
+music.yandex.ru##[class*="DeeplinkAndOnelinkContainer_root_"]
 music.yandex.ru##[class*="Donations_root_"]
 music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
@@ -502,14 +504,20 @@ online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
 onlinetrade.ru###footer
 onlinetrade.ru##.footer__countersline, .footer__infoline, .indexHat__cover
 openvpn.net##.site-copyright
+openweathermap.org###chat-banner
+openweathermap.org###footer-website
 oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 overclockers.ru##[href="//st.overclockers.ru/images/lab/testedby.png"]
 oxy.st##.footer-area, .text-right.list-inline
 ozon.ozon.ru##.di5_11:nth-of-type(2), .le1_12:nth-of-type(2), .gg5_16:nth-of-type(4)
+ozon.ru##.ac4s_51
 ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl2_27, .y0p_30, .z5c_9, .d4019-a2, .z4c_9, .b222-a6, .a4ab_33 > .e1 > div:nth-of-type(2), .aa4d_34, .b6 > .e1, .c8.d2, .d8r_10, .de1_10, .g0d_11, .m4k_27, .h1d_11
 ozon.ru##.d4h_11, .aae3_34, .us9_31, .jt0_25, .a6cs_49, .d290-a6, .d2i_11, .w7d_12, .qb7_5_7, .q7b_5_7, .e4k_12, .e8k_12, .s3q_31, .sk4_28, .zr7_31, .aa1d_34, .as2c_51, .c8.d1
 ozon.ru##.di5_11:nth-of-type(2), .g7g_16:nth-of-type(4), .gg5_16:nth-of-type(4), #.gg9_16:nth-of-type(4), .q3d_11:nth-of-type(4), .c8.d0:nth-of-type(3), .d0p_11:nth-of-type(4), .d9k_9:nth-of-type(1), .d9k_9:nth-of-type(2), .g8g_16:nth-of-type(4)
+ozon.ru##.gh0_16:nth-of-type(4)
+ozon.ru##.q4b011-a:nth-of-type(2)
+ozon.ru##.s0s_31
 ozon.ru##[class*="om_18_"], [class*="dh0_9"]
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
@@ -644,7 +652,9 @@ stoigr.org###Mdms2
 stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
+studio.rutube.ru##._secondary_xl2t3_15
 studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
+studio.rutube.ru##[class*="vl-menu-navigation-menu-item-v2-module__divider_"]
 subscribestar.*##.layout-footer
 subscribestar.*##.warning_xodal
 superuser.com##[class*="site-footer-"]
@@ -692,6 +702,7 @@ torrentleech.*##.topMenuAds, .vpn-msg-placeholder
 torrentscity.*##.footer, .pmovie__caption
 translate.yandex.ru##.footer, .popularTranslationsTextWrapper
 travel.yandex.ru##.beIG8, .hf0sp, .QPDGK
+trixiebooru.org###footer
 trixiebooru.org###imagespns
 tumblr.com###glass-container
 tumblr.com##.gLEjz, .Qihwb
@@ -964,6 +975,7 @@ youtube.com##ytd-video-description-infocards-section-renderer.ytd-structured-des
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-compact-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
+zakaznoe.pochta.ru##.webchat-icon
 zvyki.com###headerText, #footer
 zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||*.ib.metapix.net/*/*/*_daytime.jpg$image

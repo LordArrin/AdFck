@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 April 2025 14:33
+! Last modified: 16 April 2025 15:33
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -454,6 +454,7 @@ music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
+music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(9)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
 music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(10)
 music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(9)
@@ -469,6 +470,7 @@ music.yandex.ru##[class*="Footer_root_"]
 music.yandex.ru##[class*="InStyle_root_"]
 music.yandex.ru##[class*="MainPage_footer_"]
 music.yandex.ru##[class*="Meta_explicitMark_"]
+music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
 music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
 music.yandex.ru##[class*="Neuromusic_root_"]
 music.yandex.ru##[class*="NewReleases_root_"]
@@ -519,8 +521,6 @@ ozon.ru##.cz9_9, .cz7_9, .c7z_9, .cz6_9, .cz7_9, .da1a_33, .e4e_10, .ee5_10, .kl
 ozon.ru##.d3i_11
 ozon.ru##.d4h_11, .aae3_34, .us9_31, .jt0_25, .a6cs_49, .d290-a6, .d2i_11, .w7d_12, .qb7_5_7, .q7b_5_7, .e4k_12, .e8k_12, .s3q_31, .sk4_28, .zr7_31, .aa1d_34, .as2c_51, .c8.d1
 ozon.ru##.di5_11:nth-of-type(2), .g7g_16:nth-of-type(4), .gg5_16:nth-of-type(4), #.gg9_16:nth-of-type(4), .q3d_11:nth-of-type(4), .c8.d0:nth-of-type(3), .d0p_11:nth-of-type(4), .d9k_9:nth-of-type(1), .d9k_9:nth-of-type(2), .g8g_16:nth-of-type(4)
-ozon.ru##.gh0_16:nth-of-type(4)
-ozon.ru##.gh1_16:nth-of-type(4)
 ozon.ru##.q4b011-a:nth-of-type(2)
 ozon.ru##.s0s_31
 ozon.ru##.s2s_31

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 April 2025 17:11
+! Last modified: 19 April 2025 19:35
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -437,6 +437,7 @@ market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .sid
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
 matreshka.tv##.cookies, .download-section, .menu__info
+matreshka.tv##.menu__divider, .menu__title
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
@@ -515,6 +516,9 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 overclockers.ru##[href="//st.overclockers.ru/images/lab/testedby.png"]
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ru##.i1d_11, .yb0_8, .uk_28
+ozon.ru##div.d1r_11:nth-of-type(3)
+ozon.ru##div.h6g_16:nth-of-type(4)
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
@@ -675,8 +679,6 @@ ticket.rzd.ru##.app-footer
 ticketland.ru###personal_show_rek, #tab_premium
 ticketland.ru##.copyright, .feedback_popup, .promo, [class*="footer_"]
 tilda.ru##.td-trial
-timeweb.cloud##[class*="core--"]
-timeweb.cloud##[class*="cta--"]
 timeweb.cloud##[class*="jivoButton--"]
 timeweb.cloud##[class*="vdsTariffs-"]
 timeweb.com##.tw-domains-list-banner

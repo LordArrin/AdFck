@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 19 April 2025 21:00
+! Last modified: 20 April 2025 18:46
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -604,10 +604,6 @@ rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
 rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
-rule34video.com###top-header
-rule34video.com##.ai.button_fav
-rule34video.com##.footer, .popup-adv, .rule34comic.button_fav, .thumb.spot-thumb
-rule34video.com##div.video_6.thumb.item:nth-of-type(6)
 rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div

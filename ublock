@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 April 2025 18:46
+! Last modified: 20 April 2025 21:12
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -540,7 +540,6 @@ platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class
 playground.ru##.file-download-box-tip
 playground.ru##.page-footer
 pling.com##.product-maker-sidebar
-plus.yandex.ru##.tariff-tarifficator-layout__footer, [class*="Footer_"]
 plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
@@ -604,6 +603,8 @@ rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
 rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
+rule34video.com###top-header
+rule34video.com##.footer
 rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div

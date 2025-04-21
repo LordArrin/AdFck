@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  09 April 2025 18:29
+! Last modified:  19 April 2025 19:23
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -88,6 +88,7 @@
 ||*safebrowsing.googleapis*^
 ||*voilatile-pa*^
 # Other
+||*21modz*^
 ||*2c2p.*^
 ||*adobedtm*^
 ||*ads.rustore*^
@@ -96,6 +97,7 @@
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidp1.*^
+||*api-fp-retry-bj.fengkongcloud*^
 ||*api-hprof.odkl*^
 ||*api.browser.yandex*^
 ||*api.epicgames*^
@@ -115,6 +117,7 @@
 ||*bugsnag*^
 ||*bytedance*^
 ||*cackle.*^
+||*callback.symfonium.app*^
 ||*cbphe*^
 ||*cdn.appround*^
 ||*cdn.bigspeedpro*^
@@ -140,21 +143,26 @@
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
 ||*comms-appx-web*^
+||*connect-drru.hispace.dbankcloud*^
 ||*crashlytics*^
 ||*cust-service*^
 ||*daisy.ubuntu*^
 ||*dc-api-v2.adobe*^
 ||*default.exp-tas*^
+||*detectportal.firefox*^
 ||*devices.sberbank*^
 ||*divpro.yandex*^
 ||*dler.*^
 ||*download.nvidia*^
 ||*egress.yandex*^
+||*epdg.epc.*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
 ||*games.geforce*^
+||*genimee.com*^
 ||*geo-data.wildberries*^
+||*googleadservices*^
 ||*googletagmanager*^
 ||*graph.facebook*^
 ||*hydrapi.*^
@@ -182,10 +190,12 @@
 ||*moondownload.*^
 ||*mradx*^
 ||*netmon.azure*^
+||*new-sentry.k.avito*^
 ||*nsis.bisrv*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
+||*osiam.avito*^
 ||*ot.io.mi*^
 ||*ota.nvidia*^
 ||*ots.io.mi*^
@@ -202,15 +212,19 @@
 ||*send-asr.acrobat*^
 ||*sendsay.*^
 ||*sentry.kontur*^
+||*sentry.msk.avito*^
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
 ||*software-nas*^
 ||*startup.mobile*^
+||*stat.online.sberbank*^
+||*stats.crdroid*^
 ||*stats.rustore*^
 ||*support.topazlabs*^
 ||*telemetry*^
 ||*touch.kaspersky*^
 ||*trics.ubuntu*^
+||*ts.tracker-api.my.com*^
 ||*turn.hydrapi*^
 ||*twilio*^
 ||*unbrickandroid.*^
@@ -228,6 +242,8 @@
 ||*yabs.ya*^
 ||*ycxrl*^
 # Whitelist
+@@||*s.click.aliexpress.*^
+@@||*api.ipify.org*^
 @@||*connectivitycheck*^
 @@||*download.lineageos*^
 @@||*ntp.*^

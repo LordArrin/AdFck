@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 April 2025 21:12
+! Last modified: 28 April 2025 21:32
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -102,8 +102,7 @@ apkpure.*###top-slide-banner
 apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
-archiveofourown.org###add_comment_placeholder, #footer, #kudos
-archiveofourown.org###admin-banner
+archiveofourown.org###add_comment_placeholder, #footer, #kudos, #admin-banner
 archiveofourown.org##.edit_subscription
 as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
@@ -201,8 +200,7 @@ dns-shop.ru##.product-card-rsu, .product-card-top__tech-voblers, .product-card__
 dns-shop.ru##[class*="vobler_vobler_"]
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
-dominternet.ru##.addr-tarriffs__recommend-text
-dominternet.ru##.card-help
+dominternet.ru##.addr-tarriffs__recommend-text, .card-help, .footer__sub
 dostavkann24.ru##.l-footer
 drive.google.com##.ml-Pr-kg
 drive.proton.me##[class*="button-promotion-"], .interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .justify-center.items-center.gap-2.flex.w-full.my-2, .py-5.px-4.gap-8.items-center.flex-nowrap.flex
@@ -436,6 +434,8 @@ market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT,
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
+matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
+matreshka.tv##.container-notice
 matreshka.tv##.cookies, .download-section, .menu__info
 matreshka.tv##.menu__divider, .menu__title
 media.vkplay.ru##.aside__sticky
@@ -450,8 +450,11 @@ mmoreigr.org##.footer, .maindescrip
 modsfire.com##.footer, .inf-down
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
+msi.com##.footer, .footer-component, .msiFooter, .care
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
+music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
+music.yandex.ru###\:rc\:
 music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
@@ -463,6 +466,7 @@ music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(9)
 music.yandex.ru##[class*="BarBelow_root_"]
 music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
 music.yandex.ru##[class*="CollectionPage_description_"]
+music.yandex.ru##[class*="CommunicationModal_root_"]
 music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="Concerts_root_"]
 music.yandex.ru##[class*="DeeplinkAndOnelinkContainer_root_"]
@@ -476,6 +480,7 @@ music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
 music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
 music.yandex.ru##[class*="Neuromusic_root_"]
 music.yandex.ru##[class*="NewReleases_root_"]
+music.yandex.ru##[class*="PaywallModal_root_"]
 music.yandex.ru##[class*="Skeleton_header_"]
 music.yandex.ru##[class*="Special_root_"]
 music.yandex.ru##[class*="Vibes_root_"]
@@ -599,6 +604,7 @@ rule34.xxx##[href="#"] > b
 rule34.xxx##[href="https://discord.gg/rule34xxx"]
 rule34.xxx##[href="https://kanako.store"]
 rule34.xxx##[href^="http://waifu2x.booru.pics/*"]
+rule34.xxx##[href^="https://tsyndicate.com/api/v1/direct/6d0057751e904b7da03a03d7cd5bd0f1"]
 rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
 rule34.xxx##small
 rule34comic.party##.footer
@@ -611,6 +617,7 @@ rustore.ru##div._section_12qot_1:nth-of-type(3) > div
 rustore.ru##div._section_12qot_1:nth-of-type(5)
 rustore.ru##div._section_12qot_1:nth-of-type(5) > div
 rutor.info###down
+rutube.ru###communicationBanner
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > .menu-guide-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section > section.menu-info-module__wrapper.menu-section-container-module__wrapper
 rutube.ru##.menu-content-module__menuOpen.menu-content-module__menuWide.menu-content-module__menu.menu-content-module__wrapper > .menu-content-module__innerWrapper > section.menu-section-container-module__wrapper > .menu-section-container-module__wrapper-title.menu-section-container-module__title
@@ -618,6 +625,7 @@ rutube.ru##.menu-guide-module__wrapper, .menu-social-module__list
 rutube.ru##.navigation_group_main.menu-links-module__list > li:nth-of-type(2)
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
 rutube.ru##[class*="footer-"], [class*="wdp-card-video-options-module__age"], section.menu-info-module__wrapper, section.menu-section-container-module__wrapper:nth-of-type(7)
+rutube.ru##noindex, .wdp-popup-overlay-module__overlay, .menu-section-container-module__wrapper:nth-of-type(8)
 samlib.ru##td > table
 saveporn.net###itfloater_wd
 savetwitter.net###dlModal
@@ -653,6 +661,8 @@ subscribestar.*##.layout-footer
 subscribestar.*##.warning_xodal
 superuser.com##[class*="site-footer-"]
 support.avito.ru##[class*="web-footer"]
+sztomato.com###banner_scroll
+sztomato.com##.scrollsidebar, .container
 tabler.io##.banner
 tankionline.com##.cookies-int
 tbib.org##span.thumb > [href] > b
@@ -683,19 +693,14 @@ tns-e.ru##.banner-wrapper, .footer
 tolknews.ru##.b-footer
 topazlabs.com##[class*="-banner"], [class*="-footer"]
 torbobit.net###download-time-premium, #premium-download-info
-torbobit.net##.max-speed-time
-torbobit.net##center, .footer
-torbobit.net##td.download-button.no-border:nth-of-type(3)
-torbobit.net##td.minus-ok-cell:nth-of-type(3)
-torbobit.net##td.speed-img.no-border:nth-of-type(3)
+torbobit.net##center, .footer, .max-speed-time, td.download-button.no-border:nth-of-type(3), td.minus-ok-cell:nth-of-type(3), td.speed-img.no-border:nth-of-type(3)
 torrent-soft.*##.pa-wrapper
 torrent-stop.*##.footer
 torrentleech.*##.topMenuAds, .vpn-msg-placeholder
 torrentscity.*##.footer, .pmovie__caption
 translate.yandex.ru##.footer, .popularTranslationsTextWrapper
 travel.yandex.ru##.beIG8, .hf0sp, .QPDGK
-trixiebooru.org###footer
-trixiebooru.org###imagespns
+trixiebooru.org###footer, #imagespns
 tumblr.com###glass-container
 tumblr.com##.gLEjz, .Qihwb
 turbobi.pw##.footer, .max-speed-time, .main-menu-links > [href^="/turbo"]

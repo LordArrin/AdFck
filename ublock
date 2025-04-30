@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 28 April 2025 21:32
+! Last modified: 01 May 2025 01:03
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -461,6 +461,7 @@ music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(9)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
+music.yandex.ru##.NaZE1NCUxSM1MvpZuLJV
 music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(10)
 music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(9)
 music.yandex.ru##[class*="BarBelow_root_"]
@@ -470,6 +471,7 @@ music.yandex.ru##[class*="CommunicationModal_root_"]
 music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="Concerts_root_"]
 music.yandex.ru##[class*="DeeplinkAndOnelinkContainer_root_"]
+music.yandex.ru##[class*="DonationCarousel_root_"]
 music.yandex.ru##[class*="Donations_root_"]
 music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
@@ -481,8 +483,10 @@ music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
 music.yandex.ru##[class*="Neuromusic_root_"]
 music.yandex.ru##[class*="NewReleases_root_"]
 music.yandex.ru##[class*="PaywallModal_root_"]
+music.yandex.ru##[class*="PlusModal_root_"]
 music.yandex.ru##[class*="Skeleton_header_"]
 music.yandex.ru##[class*="Special_root_"]
+music.yandex.ru##[class*="VibeBlock_root_freemium_"]
 music.yandex.ru##[class*="Vibes_root_"]
 music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3), button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3), div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(6) > .d-tabs__link.typo-nav
 mvideo.ru###mvid-banners-container
@@ -544,6 +548,7 @@ platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
 playground.ru##.file-download-box-tip
 playground.ru##.page-footer
+pling.com###footer-container
 pling.com##.product-maker-sidebar
 plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
@@ -654,9 +659,7 @@ stoigr.org###Mdms2
 stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
-studio.rutube.ru##._secondary_xl2t3_15
 studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
-studio.rutube.ru##[class*="vl-menu-navigation-menu-item-v2-module__divider_"]
 subscribestar.*##.layout-footer
 subscribestar.*##.warning_xodal
 superuser.com##[class*="site-footer-"]

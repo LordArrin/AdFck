@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 May 2025 01:03
+! Last modified: 02 May 2025 17:19
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -63,6 +63,8 @@ aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
 aliexpress.ru##[class*="adGroupBlock_"]
+aliexpress.ru##[class*="CommonShelf_CommonShelf-v3__commonShelf_"]
+aliexpress.ru##[class*="CommonShelf_CommonShelf__commonShelf_"]
 aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
 aliexpress.ru##[class*="InlineBanner_InlineBanner_"]
 aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
@@ -131,7 +133,9 @@ avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
+avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avito.ru##[class*="styles-title-"], .styles-module-margin-bottom_44-Qr8he, .styles-module-margin-bottom_32-kQ_OA > .styles-module-direction_vertical-_gIBq
+avtodor-tr.ru##.footer
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
@@ -608,9 +612,11 @@ rule34.xxx##.leftside.dp, .rightside.dp
 rule34.xxx##[href="#"] > b
 rule34.xxx##[href="https://discord.gg/rule34xxx"]
 rule34.xxx##[href="https://kanako.store"]
+rule34.xxx##[href="https://www.twitch.tv/nyudachi"]
 rule34.xxx##[href^="http://waifu2x.booru.pics/*"]
 rule34.xxx##[href^="https://tsyndicate.com/api/v1/direct/6d0057751e904b7da03a03d7cd5bd0f1"]
 rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
+rule34.xxx##center
 rule34.xxx##small
 rule34comic.party##.footer
 rule34vault.com##.footer
@@ -660,6 +666,7 @@ stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
 studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
+studio.rutube.ru##[class*="vl-menu-navigation-v2-module__aboutContainer_"]
 subscribestar.*##.layout-footer
 subscribestar.*##.warning_xodal
 superuser.com##[class*="site-footer-"]
@@ -718,7 +725,9 @@ uploadrar.com##footer, .menufooter
 valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
 vamprivet.ru##.footer
+vc.ru##.account-menu__group:nth-of-type(2)
 vc.ru##.l-island-round
+vc.ru##.sidebar__section:nth-of-type(3)
 vds.menu##.text-center, div.container > hr, tr.info
 vk.*###_ads_block_data_w
 vk.*###ads_left

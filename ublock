@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 May 2025 17:19
+! Last modified: 05 May 2025 20:01
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -542,6 +542,7 @@ pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-se
 pikabu.ru##.carousel_highlights, .menu-promocodes, .ny2024
 pikabu.ru##.feed-games-carousel
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
+pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
@@ -647,6 +648,7 @@ servernews.ru###copyright
 servernews.ru##.caption, .typo-hint
 servernews.ru##body > .right
 serverspace.ru##.black-friday
+shakib.my.id###block-12
 smarthomebeginner.com##.pmpro, .tipbox, .wp-polls, blockquote
 softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 soundcloud.com##.header__fanUpsell, .creatorSubscriptionsButton
@@ -845,6 +847,7 @@ vk.*##[class*="feed_groups_recomm"]
 vk.*##[class*="FullscreenBanner_"]
 vk.*##[class*="RecommendedNarratives"]
 vk.*##[class*="stories_feed_"]
+vk.*##[class*="vkuiInternalTappable.vkitFeedActionCell__root"]
 vk.*##[class*="vkuiSeparator_"]
 vk.*##aside[aria-label="Актуальные новости"]
 vk.*##body:style(position:static!important)
@@ -989,8 +992,7 @@ zvyki.com###headerText, #footer
 zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||*.ib.metapix.net/*/*/*_daytime.jpg$image
 ||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||4pda.to/s/*.jpg$image
-||4pda.to/s/*.jpg?$image
+||4pda.to/s/3fSV*g$image
 ||4pda.to/s/3fSV*g$image
 ||about.gitlab.com/*/*/gradient.png$image
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

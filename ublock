@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 05 May 2025 20:01
+! Last modified: 05 May 2025 21:13
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -992,8 +992,6 @@ zvyki.com###headerText, #footer
 zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||*.ib.metapix.net/*/*/*_daytime.jpg$image
 ||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||4pda.to/s/3fSV*g$image
-||4pda.to/s/3fSV*g$image
 ||about.gitlab.com/*/*/gradient.png$image
 ||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||ad.mail.ru/vp/*&duration=domain=vk.com|vk.ru|m.vk.com|m.vk.ru

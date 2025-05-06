@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 05 May 2025 21:13
+! Last modified: 06 May 2025 19:37
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -162,8 +162,10 @@ championat.com##.footer, .article-footer__row
 chat.deepseek.com##._0fcaa63
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
+chatgpt.com##.md\:px-\[60px\].text-xs.text-center.p-2.justify-center.items-center.w-full.min-h-8.flex.mt-auto.relative.text-token-text-secondary
 chatgpt.com##.py-2.flex-col
 chatgpt.com##.text-token-text-secondary.text-xs.text-center.p-2.justify-center.items-center.w-full
+chatgpt.com##div.pe-3:nth-of-type(3)
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
 chitai-gorod.ru##.footer
 citilink.ru##.app-catalog-1lxp2bi
@@ -309,6 +311,7 @@ habr.com##.tm-events-block, .tm-stories-block
 habr.com##.tm-footer, .tm-footer-menu
 habr.com##.tm-page__sidebar, .tm-sexy-sidebar, .tm-user-card__buttons_variant-article.tm-user-card__buttons
 habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions, .tm-project-block_variant-salary, .tm-project-block_variant-tasks, .tm-project-block_variant-vacancies
+habr.com##[href^="https://bit.ly/"]
 hentaiera.com###footer_bar
 hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
@@ -942,7 +945,7 @@ yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="Organic_withx"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
-yandex.ru,ya.ru##[class*="Organic_with"]
+yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
 yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yandex.ru,ya.ru##Divider

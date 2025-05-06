@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 06 May 2025 19:37
+! Last modified: 06 May 2025 20:57
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -445,6 +445,7 @@ matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-fle
 matreshka.tv##.container-notice
 matreshka.tv##.cookies, .download-section, .menu__info
 matreshka.tv##.menu__divider, .menu__title
+matreshka.tv##.menu__info, .download-section
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
@@ -685,6 +686,7 @@ terabox.*##.capacity-expansion, .coupon-Popup-box, .footer, .header-btn-text, .l
 terabox.*##[class*="bottom-tip-"], [class*="card-premium-"], [class*="premium"]
 terabox.*##a.header-btn:nth-of-type(3), a.header-btn:nth-of-type(4), a.header-btn:nth-of-type(5), a.header-btn:nth-of-type(6)
 terabox.*##div.bottom-box, li.vjs-menu-item:nth-of-type(2), li.vjs-menu-item:nth-of-type(3)
+terabox.*##div.bottom-box:nth-of-type(6), .premium, .dialog-extra-del, .capacity-expansion, .membership-entry-new
 terastream.fun##.video-background
 thecommunity.ru##.footer
 thehentai.net##.boxParcerias, .textoRodape

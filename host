@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  19 April 2025 19:23
+! Last modified:  09 May 2025 20:55
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -92,7 +92,7 @@
 ||*2c2p.*^
 ||*adobedtm*^
 ||*ads.rustore*^
-||*adspector.*^
+||*adspector*^
 ||*adspend.space*^
 ||*amazon-adsystem*^
 ||*analytics*^
@@ -109,15 +109,15 @@
 ||*app-measurement*^
 ||*appboy*^
 ||*appmetrica*^
-||*appsgrowthpromo-pa.*^
+||*appsgrowthpromo*^
 ||*apptracer*^
 ||*avi-ec-master*^
-||*bandicam.*^
+||*bandicam*^
 ||*bdurl*^
 ||*bugsnag*^
 ||*bytedance*^
 ||*cackle.*^
-||*callback.symfonium.app*^
+||*callback.symfonium*^
 ||*cbphe*^
 ||*cdn.appround*^
 ||*cdn.bigspeedpro*^
@@ -197,6 +197,7 @@
 ||*os2.yefeneri2*^
 ||*osiam.avito*^
 ||*ot.io.mi*^
+||*ota.dstudio*^$
 ||*ota.nvidia*^
 ||*ots.io.mi*^
 ||*paradox-interactive*^
@@ -211,8 +212,7 @@
 ||*sc.omtrdc*^
 ||*send-asr.acrobat*^
 ||*sendsay.*^
-||*sentry.kontur*^
-||*sentry.msk.avito*^
+||*sentry*^$
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
 ||*software-nas*^

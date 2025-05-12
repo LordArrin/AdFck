@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 06 May 2025 20:57
+! Last modified: 12 May 2025 15:31
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -129,9 +129,12 @@ avito.ru##.styles-module-root_withCloseButton-dz03O
 avito.ru##.styles-overlay-RW8Kv
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##.top-rubricator-item-_ocrx:nth-of-type(1)
+avito.ru##[class*="filter-item-badge-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
+avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
+avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avito.ru##[class*="styles-title-"], .styles-module-margin-bottom_44-Qr8he, .styles-module-margin-bottom_32-kQ_OA > .styles-module-direction_vertical-_gIBq
@@ -467,7 +470,6 @@ music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
 music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
-music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(9)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
 music.yandex.ru##.NaZE1NCUxSM1MvpZuLJV
 music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(10)
@@ -947,6 +949,9 @@ yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="Organic_withx"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
+yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
+yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
+yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
 yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])

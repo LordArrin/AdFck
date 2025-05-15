@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 May 2025 15:31
+! Last modified: 15 May 2025 03:25
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -124,6 +124,7 @@ avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .ind
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.notification-badge-root-nVPsD
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f
+avito.ru##.styles-module-margin-bottom_44-IlSf6
 avito.ru##.styles-module-root_size_s-GborZ
 avito.ru##.styles-module-root_withCloseButton-dz03O
 avito.ru##.styles-overlay-RW8Kv
@@ -133,8 +134,10 @@ avito.ru##[class*="filter-item-badge-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
+avito.ru##[class*="index-seoNavigationWrapper-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="queries-root_marginTop-"]
+avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avito.ru##[class*="styles-title-"], .styles-module-margin-bottom_44-Qr8he, .styles-module-margin-bottom_32-kQ_OA > .styles-module-direction_vertical-_gIBq
@@ -284,6 +287,7 @@ gismeteo.ru##.footer
 gitee.com###gitee-blog, #udeskBtn
 gitee.com##[class*="index_badge_"], .gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner
 github.com###\:rq\:, #\:rr\:, #\:r4c\:
+github.com###\:rs\:
 github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2, .iLgtCH
 github.com##.mr-1.Button.Button--small.Button--secondary, .js-notice-dismiss
 github.com##[href="https://stand-with-ukraine.pp.ua/"]
@@ -442,6 +446,7 @@ market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu, ._1qgfc, .r_nt5
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
+market.yandex.ru##.side-menu-item_help
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
@@ -453,6 +458,8 @@ media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
 mega.nz###ob-dialog
+mega.nz##.outline.upgrade
+mega.nz##.upgrade-to-pro
 mega.nz##footer, .band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor, .banner-card
 merionet.ru##.discountBanner, .popup
@@ -528,6 +535,7 @@ online.sberbank.ru###assistant-region, #universal-banner-index
 online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
 onlinetrade.ru###footer
 onlinetrade.ru##.footer__countersline, .footer__infoline, .indexHat__cover
+onlinetrade.ru##.itemCount__green
 openvpn.net##.site-copyright
 openweathermap.org###chat-banner
 openweathermap.org###footer-website

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 May 2025 03:25
+! Last modified: 15 May 2025 05:49
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -34,6 +34,7 @@
 123.ru###news
 123.ru##.footer-result
 1688tb.com##.layout-main-footer
+1fichier.com###footer
 28bit.ru##.footer, .up-main-promo
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
@@ -203,8 +204,8 @@ derpibooru.org###footer
 deviantart.com##.surface-primary.surface.forced-theme-light, ._2D30j
 diakov.net##td, .title_spoiler
 discord.com##.notice_be03aa
-disk.yandex.ru##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
-disk.yandex.ru##.LeftColumnNavigation__Item_type_family
+disk.yandex.*##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
+disk.yandex.*##.LeftColumnNavigation__Item_type_family
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer, #soft-bundle-block
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button, .additional-voblers, .choice-guide, .product-card__accessories, .product-card__buy-together, .product-card__rsu-assemblies, .survey-button-widget
@@ -215,7 +216,13 @@ dom.ru###hat
 dominternet.ru##.addr-tarriffs__recommend-text, .card-help, .footer__sub
 dostavkann24.ru##.l-footer
 drive.google.com##.ml-Pr-kg
+drive.proton.me##.offer-modal--one-deal, .offer-modal, .modal-two, .modal-two-backdrop, .items-center.flex.button-ghost-weak
 drive.proton.me##[class*="button-promotion-"], .interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .justify-center.items-center.gap-2.flex.w-full.my-2, .py-5.px-4.gap-8.items-center.flex-nowrap.flex
+dropbox.com##.dig-6lejgsv_22-1-0.dig-6lejgsk_22-1-0.dig-6lejgss_22-1-0.dig-Text--size-xsmall
+dropbox.com##.oa-pulsar-effect-FREE_TEAMS_INVITE_BUTTON
+dropbox.com##[class*="_learningCenterHeaderDesktop_"]
+dropbox.com##[class*="_toolkit-link_"]
+dropbox.com##[class*="dig-Banner--attention"]
 dtf.ru##.account-menu__right > .button--type-minimal
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
@@ -325,6 +332,7 @@ hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com###ad-header.noinline
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
+hub.docker.com##.css-1aylyrp.MuiBox-root
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
@@ -377,6 +385,7 @@ lavka.yandex.ru##.c1l701nd, .fxymvl5
 leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.social-snippet, .footer_panel
 lewdninja.com##.is-warning.notification
+linkbox.to##.adm-mask, .subscribe, .ant-carousel, .main-footer, .subscription-btn, .banner, .line
 linode.com##.bg-brand.justify-between.flex
 liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
 litres.ru##[class*="Footer_"], [class*="MainPromoBanner_"], [class*="Search_banner_"]
@@ -561,6 +570,7 @@ pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##span:nth-of-type(3)
+pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/home#pro"]
 pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG, .jKNKMn
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
@@ -735,6 +745,7 @@ turbobi.pw##td.download-button.no-border:nth-of-type(3), td.minus-ok-cell:nth-of
 turbobita.net##.footer, .max-speed-time, .payment-block, .title-cell
 turbobita.net##td.download-button.no-border:nth-of-type(3), td.minus-ok-cell:nth-of-type(2), td.minus-ok-cell:nth-of-type(3), td.speed-img.no-border:nth-of-type(3)
 tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
+uloz.to##.t-footer, .news-carousel
 unite4buy.ru##.footer-wrapper
 uploadhaven.com##td.text-center:nth-of-type(3), th:nth-of-type(3), footer, .apply-section, .premium-row, .text-center.mt-3.mb-0.d-block, .text-muted.text-center
 uploadrar.com###footer2, #gdpr-cookie-notice

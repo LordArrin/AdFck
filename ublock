@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 May 2025 05:49
+! Last modified: 20 May 2025 19:16
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -103,6 +103,7 @@ apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
 apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container
+app.koofr.net##.l-hint
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
 archiveofourown.org###add_comment_placeholder, #footer, #kudos, #admin-banner
@@ -131,12 +132,15 @@ avito.ru##.styles-module-root_withCloseButton-dz03O
 avito.ru##.styles-overlay-RW8Kv
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##.top-rubricator-item-_ocrx:nth-of-type(1)
+avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="filter-item-badge-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
+avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
+avito.ru##[class*="promoWidget-"]
 avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
@@ -275,6 +279,7 @@ firmware.gem-flash.com##[src="https://unlock.gem-flash.com/*/unlock_service.html
 fix-price.com##.footer, [class*="download-app-"], [class*="subscription-"]
 forum.armbian.com###ipsLayout_footer
 forum.openwrt.org##.powered-by-discourse
+forum.proxmox.com##.p-footer
 forum.questionablequesting.com##.p-footer-copyright, .p-footer-row-opposite
 forum.theabyss.ru##.copyright
 forum.xda-developers.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-footer-inner, .uix_extendedFooter
@@ -381,6 +386,7 @@ kuplinov-play.games##div.cols:nth-of-type(3)
 lanrar.com###go, #sub2
 last.fm##.auth-dropdown-pro-text
 lastpass.com##.lp-page-end, .social, .top-banner, [class*="slim-footer_"]
+lavka.market.yandex.ru##.fxymvl5
 lavka.yandex.ru##.c1l701nd, .fxymvl5
 leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.social-snippet, .footer_panel
@@ -454,6 +460,7 @@ market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu, ._1qgfc, .r_nt5
+market.yandex.ru##.drY8r
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
@@ -539,6 +546,8 @@ ok.ru###bbl-sidebar-hobby20
 ok.ru###footer, #hook_Block_LeftColumnThirdMenu, #hook_Block_StickyBannerContainer, #MusicGrowl, #rttermsBanner
 ok.ru##.__l.lcTc, .toolbar-music-icon, [class*="banner_"], [class*="ic-promote-"]
 ok.ru##wm-subscription-banner, wm-portlet.block:nth-of-type(2), wm-portlet.block:nth-of-type(3), wm-portlet.block:nth-of-type(4), wm-portlet.block:nth-of-type(5), wm-portlet.block:nth-of-type(6)
+onedrive.live.com###ModalFocusTrapZone135
+onedrive.live.com##.ms-Overlay, .is-open.ms-Modal, ms-MessageBar-dismissalSingleLine, .od-QuotaBannerWrapper
 online-audio-converter.com##.footer, .like_row_conv, .one-col
 online.sberbank.ru###assistant-region, #universal-banner-index
 online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
@@ -555,6 +564,7 @@ oxy.st##.footer-area, .text-right.list-inline
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
+pcloud.com##[class*="UserPlanInfo__UpgradeButton-"]
 pepper.ru###footer-content
 pepper.ru##.auto-refresh-Div-position, .footer, .fixed.px-2.form-secondary-button, .shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright

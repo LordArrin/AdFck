@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 May 2025 19:16
+! Last modified: 26 May 2025 13:48
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -176,6 +176,7 @@ chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.md\:px-\[60px\].text-xs.text-center.p-2.justify-center.items-center.w-full.min-h-8.flex.mt-auto.relative.text-token-text-secondary
 chatgpt.com##.py-2.flex-col
 chatgpt.com##.text-token-text-secondary.text-xs.text-center.p-2.justify-center.items-center.w-full
+chatgpt.com##.z-30.bottom-0.sticky.bg-token-bg-elevated-secondary
 chatgpt.com##div.pe-3:nth-of-type(3)
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
 chitai-gorod.ru##.footer
@@ -449,7 +450,9 @@ market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecomm
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/reasonToBuy
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/verifiedBadge
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/recommendationRollTabs\/tabs
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
@@ -460,6 +463,7 @@ market.yandex.ru###\/lightRecommendationRoll42
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu, ._1qgfc, .r_nt5
+market.yandex.ru##._3ahE_
 market.yandex.ru##.drY8r
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
@@ -542,6 +546,7 @@ noob-club.ru##.support-nc.bottomleft
 nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com###footer-container
 nvidia.com##.footer, .bannerTracking
+nxt.sdgfsdgyuise3.duckdns.org##.development-notice
 ok.ru###bbl-sidebar-hobby20
 ok.ru###footer, #hook_Block_LeftColumnThirdMenu, #hook_Block_StickyBannerContainer, #MusicGrowl, #rttermsBanner
 ok.ru##.__l.lcTc, .toolbar-music-icon, [class*="banner_"], [class*="ic-promote-"]
@@ -678,6 +683,7 @@ savetwitter.net###dlModal
 savetwitter.net##footer, .container-main > .container, .alert-gr.alert-warning.alert, extension-header
 sber.ru##[class*="CookiePolicy_"]
 sbermarket.ru##[class*="Footer_"], [class*="ShowJsPlacement_"], [class*="styles_b2bBanner_"]
+serverflow.ru##.subscribe, .footer, .js-main-delivery-toggle, .main__pdf
 servernews.ru###copyright
 servernews.ru##.caption, .typo-hint
 servernews.ru##body > .right
@@ -964,6 +970,8 @@ xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer, #header-mobile-right, #premium-info-frame
 xv-ru.com##.premium-results-line, .sheer-sponsor
+yandex.ru##li:has([class$="-Text"])
+yandex.ru##li[class*="Organic"]:has([class$="-Text"])
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru,ya.ru##.CbirNavigation-TabsItem_name_neurosearch-page

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 May 2025 03:53
+! Last modified: 29 May 2025 04:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -409,6 +409,15 @@ lovehentai.icu##.mdpDeblocker-wrapper, .mdpDeblocker-blackout
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
 m.avito.ru##._5w8L, .CXv2E, .eLSEg, .JOH9X, .kqCm6, .LauOH, .mav-1a1vtua, .mav-ckkd6, .OTtKE, .p7vg1, .rNDN9, .Ti31R, .zLfY7, .mav-1i1c8ng, .SZDsk, .UR9In, .sTE1i, .jFPU4, .aXlwB, .styles-module-content-wrapper-EDRR1, .htTgi, .ocbnC, .S63Co > .vKB2A
+m.avito.ru##.AWOsK
+m.avito.ru##.Ay1yG
+m.avito.ru##.c5iBM > .AWOsK.M3D7I
+m.avito.ru##.gYvef
+m.avito.ru##.N8jfZ
+m.avito.ru##.nzzQF
+m.avito.ru##.S63Co > .YAsoq > .sQJK0
+m.avito.ru##.x8Quq
+m.avito.ru##.YAsoq:nth-of-type(25) > .sQJK0 > .fKeD4.W6DYH
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -570,23 +579,34 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 overclockers.ru##[href="//st.overclockers.ru/images/lab/testedby.png"]
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ru##.b3120-a
 ozon.ru##.c8 > div > .bq022-a
 ozon.ru##.c8.d1
+ozon.ru##.d6q_11
 ozon.ru##.dj5_11
 ozon.ru##.dz_12
 ozon.ru##.e7m_12
 ozon.ru##.em7_12
 ozon.ru##.ix0_24
+ozon.ru##.j1x_25
+ozon.ru##.j9x_25
+ozon.ru##.kd2_11
 ozon.ru##.kw3_28
 ozon.ru##.m6e_12
 ozon.ru##.me6_12.tsHeadline600Medium
+ozon.ru##.nac7_49
+ozon.ru##.ne2_12
 ozon.ru##.om_21_a0.om_21_a
 ozon.ru##.om_7_a7.om_7_a
+ozon.ru##.q4b013-a:nth-of-type(2)
 ozon.ru##.rb3100-a0 > svg
 ozon.ru##.sd4_11:nth-of-type(3)
+ozon.ru##.u7s_31
 ozon.ru##.uv0_32
 ozon.ru##.w2k_28
+ozon.ru##.xj8_25
 ozon.ru##div:nth-of-type(5) > .tsHeadline700XLarge
+ozon.ru##svg.ie6_12
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer

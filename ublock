@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 26 May 2025 13:48
+! Last modified: 29 May 2025 03:53
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -42,6 +42,7 @@
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.to###fo_-1, #go_1, #logostrip
 4pda.to##.copyright, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
+4pda.to##.materials-box
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
@@ -172,6 +173,7 @@ cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
 chat.deepseek.com##._0fcaa63
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
+chatgpt.com##.gap-2.__menu-item.group
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.md\:px-\[60px\].text-xs.text-center.p-2.justify-center.items-center.w-full.min-h-8.flex.mt-auto.relative.text-token-text-secondary
 chatgpt.com##.py-2.flex-col
@@ -260,6 +262,8 @@ fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer
 fboom.me##[class*="premium-"]
 ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle, .justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile, .js-modal-destination, a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot, div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block, ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+ficbook.net##.android-smart-banner
+ficbook.net##.mb-15 > .heading
 ficbook.net##.primary-box-with-button
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 file-upload.org##.col-md-offset-2.col-lg-8.col-md-8.col-sm-12.col-xs-12
@@ -566,6 +570,23 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 overclockers.ru##[href="//st.overclockers.ru/images/lab/testedby.png"]
 oxy.st##.footer-area, .text-right.list-inline
+ozon.ru##.c8 > div > .bq022-a
+ozon.ru##.c8.d1
+ozon.ru##.dj5_11
+ozon.ru##.dz_12
+ozon.ru##.e7m_12
+ozon.ru##.em7_12
+ozon.ru##.ix0_24
+ozon.ru##.kw3_28
+ozon.ru##.m6e_12
+ozon.ru##.me6_12.tsHeadline600Medium
+ozon.ru##.om_21_a0.om_21_a
+ozon.ru##.om_7_a7.om_7_a
+ozon.ru##.rb3100-a0 > svg
+ozon.ru##.sd4_11:nth-of-type(3)
+ozon.ru##.uv0_32
+ozon.ru##.w2k_28
+ozon.ru##div:nth-of-type(5) > .tsHeadline700XLarge
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
@@ -579,6 +600,7 @@ picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscri
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.carousel_highlights, .menu-promocodes, .ny2024
 pikabu.ru##.feed-games-carousel
+pikabu.ru##.m-h-4
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
@@ -589,7 +611,10 @@ pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/
 pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG, .jKNKMn
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
+platform.tuya.com##[class*="AiGuide_"]
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
+platform.tuya.com##body > .mars-modal-root > .mars-modal-mask
+platform.tuya.com##body > .mars-modal-root > .mars-modal-wrap
 playground.ru##.file-download-box-tip
 playground.ru##.page-footer
 pling.com###footer-container

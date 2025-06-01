@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 June 2025 07:55
+! Last modified: 01 June 2025 08:32
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -515,33 +515,26 @@ msi.com##.footer, .footer-component, .msiFooter, .care
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
 music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
-music.yandex.ru###\:rc\:
-music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
-music.yandex.ru##[class*="BarBelow_root_"]
-music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
-music.yandex.ru##[class*="CollectionPage_description_"]
+music.yandex.ru##[class*="MainPage_footer_"]
+music.yandex.ru##[class*="Meta_explicitMark_"]
+music.yandex.ru##[class*="NavbarDesktopPlusBar_root_"]
+music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
+music.yandex.ru##[class*="PaywallModal_root_"]
+music.yandex.ru##[class*="PlusModal_root_"]
 music.yandex.ru##[class*="CommunicationModal_root_"]
 music.yandex.ru##[class*="CompositeHeader_"]
-music.yandex.ru##[class*="Concerts_root_"]
-music.yandex.ru##[class*="DeeplinkAndOnelinkContainer_root_"]
-music.yandex.ru##[class*="DonationCarousel_root_"]
+music.yandex.ru##[class*="CollectionPage_description_"]
+music.yandex.ru##[class*="CollectionPage_footer_"]
 music.yandex.ru##[class*="Donations_root_"]
 music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
-music.yandex.ru##[class*="InStyle_root_"]
-music.yandex.ru##[class*="MainPage_footer_"]
-music.yandex.ru##[class*="Meta_explicitMark_"]
+music.yandex.ru##[class*="PaymentWidgetModal_root_"]
+music.yandex.ru##[class*="VibeBlock_subscriptionText_"]
 music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
-music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
-music.yandex.ru##[class*="Neuromusic_root_"]
-music.yandex.ru##[class*="NewReleases_root_"]
-music.yandex.ru##[class*="PaywallModal_root_"]
-music.yandex.ru##[class*="PlusModal_root_"]
+music.yandex.ru##[class*="VibeBlock_button_"]
+music.yandex.ru##[class*="InStyle_tabCarousel_"]
+music.yandex.ru##[class*="Vibes_important_"]
 music.yandex.ru##[class*="Skeleton_header_"]
-music.yandex.ru##[class*="Special_root_"]
-music.yandex.ru##[class*="VibeBlock_root_freemium_"]
-music.yandex.ru##[class*="Vibes_root_"]
-music.yandex.ru##a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(2), a.typo-nav_contrast.typo-nav.nav-kids__link.nav-kids__tab:nth-of-type(3), button.sidebar-rup-button_type-diversity.sidebar-rup-button:nth-of-type(3), div.typo-caps.d-tabs__tab:nth-of-type(3) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(5) > .d-tabs__link.typo-nav, div.typo-caps.d-tabs__tab:nth-of-type(6) > .d-tabs__link.typo-nav
 mvideo.ru###mvid-banners-container
 mvideo.ru##[class*="footer__grid"], .footer, .layout__footer
 mvideo.ru##mvid-our-advantages-mp

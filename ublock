@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 June 2025 07:39
+! Last modified: 01 June 2025 07:55
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -516,14 +516,7 @@ mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
 music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
 music.yandex.ru###\:rc\:
-music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
-music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(4)
-music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(6)
-music.yandex.ru##.CarouselBlock_root__aeOla:nth-of-type(8)
 music.yandex.ru##.footer, .page-line_chart, .page-line_clips, .page-line_new-playlists, .page-line_new-releases, .page-line_podcasts, .head-kids__buttons, .auto-playlists__item_recentTracks, .page-line_mixes, .page-main__title-chart.d-tabs__link.typo-nav, .playlist-notification__point_ready, .sidebar-rup__special-station-section, .sidebar__under, .d-explicit-mark, rup__content_disable
-music.yandex.ru##.NaZE1NCUxSM1MvpZuLJV
-music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(10)
-music.yandex.ru##.Skeleton_container_withContentVisibility__BIjgM:nth-of-type(9)
 music.yandex.ru##[class*="BarBelow_root_"]
 music.yandex.ru##[class*="CollectionAlbumsEmpty_root_"]
 music.yandex.ru##[class*="CollectionPage_description_"]
@@ -609,7 +602,6 @@ ozon.ru##.ne2_12
 ozon.ru##.om_21_a0.om_21_a
 ozon.ru##.om_7_a7.om_7_a
 ozon.ru##.q4b013-a:nth-of-type(2)
-ozon.ru##.r1.r0
 ozon.ru##.rb3100-a0 > svg
 ozon.ru##.sd4_11:nth-of-type(3)
 ozon.ru##.u7s_31

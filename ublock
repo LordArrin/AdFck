@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 May 2025 04:20
+! Last modified: 01 June 2025 07:38
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -360,6 +360,7 @@ ixbt.com##.\[\&\>\*\:last-child\:not\(\:first-child\)_\[data-flux-group-target\]
 ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
+ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-4.pb-1.rounded-2xl.mb-4
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
@@ -375,6 +376,7 @@ k2s.cc###footer
 k2s.cc##.download-box-button-premium, .help-block, .omni-email-widget, .section-question, [class*="e1d1y0"], [class*="e1ice"], [class*="e7y6g"]
 kaspersky.*##footer
 katfile.com##center, div.col-sm-4:nth-of-type(3), footer
+kemono.su##.sidebar-extra-style.global-sidebar-entry-item
 kemono.su##[href="https://kemono.su/matrix"], aside
 kinopoisk.ru##.ReactModalPortal, [class*="Footer_"], [class*="styles_plusBadgeCounter_"], [class*="styles_withPromotionBlock_"]
 knowyourmeme.com###global-message, #sub_network_footer_wrapper
@@ -473,15 +475,23 @@ market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchBreadcrumbs
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/lightRecommendationRoll42
+market.yandex.ru###\/MarketNodeProfileMenu43\/favouriteCategoryMenuItem
+market.yandex.ru###\/MarketNodeProfileMenu43\/fortuneWheelMenuItem
+market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
+market.yandex.ru###\/MarketNodeProfileMenu43\/yandexHelpMenuItem
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT, ._Z4Yh, .cq9mG, .mExzR, ._3PuPC, ._3ToMB, ._3uPZE, .HBydy, .kbu78, .qAg78, .TSFZE, ._24VKa,  ._3in03, ._1nHQg, ._1Zs0D, .baY54, ._2ZOTu, ._1qgfc, .r_nt5
+market.yandex.ru##._2lt3W
 market.yandex.ru##._3ahE_
 market.yandex.ru##.drY8r
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(14)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(15)
+market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(16)
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice
 matreshka.tv##.cookies, .download-section, .menu__info
@@ -599,6 +609,7 @@ ozon.ru##.ne2_12
 ozon.ru##.om_21_a0.om_21_a
 ozon.ru##.om_7_a7.om_7_a
 ozon.ru##.q4b013-a:nth-of-type(2)
+ozon.ru##.r1.r0
 ozon.ru##.rb3100-a0 > svg
 ozon.ru##.sd4_11:nth-of-type(3)
 ozon.ru##.u7s_31
@@ -1035,8 +1046,6 @@ yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
-yandex.ru,ya.ru##div > .serp-item_card.serp-item > .Typo_line_m, div > .serp-item_card.serp-item > .Typo_line_s
-yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yandex.ru,ya.ru##Divider
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

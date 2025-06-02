@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 June 2025 08:32
+! Last modified: 02 June 2025 19:59
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -406,6 +406,7 @@ livelib.ru##footer, .main-slider, .book-page__price-block
 lk.bcnn.ru##.centered-image
 lk.mts.ru##.mts-lk-footer__wrapper
 login.mts.ru##.iMXcpm
+login.sankakucomplex.com##.jss140
 losst.pro###extapp-feedback-container
 lovehentai.icu##.mdpDeblocker-wrapper, .mdpDeblocker-blackout
 lumpics.ru##.tgchat
@@ -485,6 +486,7 @@ market.yandex.ru##._14iDu, ._169PI, ._2KJEt, ._2q96h, ._2qLdU, ._32zIc, ._3nELT,
 market.yandex.ru##._2lt3W
 market.yandex.ru##._3ahE_
 market.yandex.ru##.drY8r
+market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
@@ -515,26 +517,26 @@ msi.com##.footer, .footer-component, .msiFooter, .care
 mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
 music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
-music.yandex.ru##[class*="MainPage_footer_"]
-music.yandex.ru##[class*="Meta_explicitMark_"]
-music.yandex.ru##[class*="NavbarDesktopPlusBar_root_"]
 music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
-music.yandex.ru##[class*="PaywallModal_root_"]
-music.yandex.ru##[class*="PlusModal_root_"]
-music.yandex.ru##[class*="CommunicationModal_root_"]
-music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="CollectionPage_description_"]
 music.yandex.ru##[class*="CollectionPage_footer_"]
+music.yandex.ru##[class*="CommunicationModal_root_"]
+music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="Donations_root_"]
 music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
-music.yandex.ru##[class*="PaymentWidgetModal_root_"]
-music.yandex.ru##[class*="VibeBlock_subscriptionText_"]
-music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
-music.yandex.ru##[class*="VibeBlock_button_"]
 music.yandex.ru##[class*="InStyle_tabCarousel_"]
-music.yandex.ru##[class*="Vibes_important_"]
+music.yandex.ru##[class*="MainPage_footer_"]
+music.yandex.ru##[class*="Meta_explicitMark_"]
+music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
+music.yandex.ru##[class*="NavbarDesktopPlusBar_root_"]
+music.yandex.ru##[class*="PaymentWidgetModal_root_"]
+music.yandex.ru##[class*="PaywallModal_root_"]
+music.yandex.ru##[class*="PlusModal_root_"]
 music.yandex.ru##[class*="Skeleton_header_"]
+music.yandex.ru##[class*="VibeBlock_button_"]
+music.yandex.ru##[class*="VibeBlock_subscriptionText_"]
+music.yandex.ru##[class*="Vibes_important_"]
 mvideo.ru###mvid-banners-container
 mvideo.ru##[class*="footer__grid"], .footer, .layout__footer
 mvideo.ru##mvid-our-advantages-mp
@@ -575,34 +577,6 @@ oterraria.ru##.clearfix.copyright-inner, noindex
 overclockers.ru##.aligned.center.column.wide.four, .aligned.middle.column.wide.two, .donate-author-link, .footer, .over-pay, .overpay-top-menu, .tag-trend, .top-an-underlogo
 overclockers.ru##[href="//st.overclockers.ru/images/lab/testedby.png"]
 oxy.st##.footer-area, .text-right.list-inline
-ozon.ru##.b3120-a
-ozon.ru##.c8 > div > .bq022-a
-ozon.ru##.c8.d1
-ozon.ru##.d6q_11
-ozon.ru##.dj5_11
-ozon.ru##.dz_12
-ozon.ru##.e7m_12
-ozon.ru##.em7_12
-ozon.ru##.ix0_24
-ozon.ru##.j1x_25
-ozon.ru##.j9x_25
-ozon.ru##.kd2_11
-ozon.ru##.kw3_28
-ozon.ru##.m6e_12
-ozon.ru##.me6_12.tsHeadline600Medium
-ozon.ru##.nac7_49
-ozon.ru##.ne2_12
-ozon.ru##.om_21_a0.om_21_a
-ozon.ru##.om_7_a7.om_7_a
-ozon.ru##.q4b013-a:nth-of-type(2)
-ozon.ru##.rb3100-a0 > svg
-ozon.ru##.sd4_11:nth-of-type(3)
-ozon.ru##.u7s_31
-ozon.ru##.uv0_32
-ozon.ru##.w2k_28
-ozon.ru##.xj8_25
-ozon.ru##div:nth-of-type(5) > .tsHeadline700XLarge
-ozon.ru##svg.ie6_12
 panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
@@ -617,6 +591,7 @@ pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-se
 pikabu.ru##.carousel_highlights, .menu-promocodes, .ny2024
 pikabu.ru##.feed-games-carousel
 pikabu.ru##.m-h-4
+pikabu.ru##.sidebar-game-block
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
@@ -719,6 +694,8 @@ rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-sho
 rutube.ru##[class*="footer-"], [class*="wdp-card-video-options-module__age"], section.menu-info-module__wrapper, section.menu-section-container-module__wrapper:nth-of-type(7)
 rutube.ru##noindex, .wdp-popup-overlay-module__overlay, .menu-section-container-module__wrapper:nth-of-type(8)
 samlib.ru##td > table
+sankakucomplex.com##.jss1663
+sankakucomplex.com##.jss363
 saveporn.net###itfloater_wd
 savetwitter.net###dlModal
 savetwitter.net##footer, .container-main > .container, .alert-gr.alert-warning.alert, extension-header

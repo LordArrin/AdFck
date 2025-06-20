@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  09 May 2025 20:55
+! Last modified:  20 June 2025 23:24
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -46,6 +46,8 @@
 ||*acronis.*^
 # Avito
 ||*cs.avito*^
+||*dfas.avito*^
+||*dlp-agent*^
 ||*enterpriseregistration.avito*^
 ||*master.avito*^
 ||*mdm.avito*^
@@ -156,10 +158,14 @@
 ||*download.nvidia*^
 ||*egress.yandex*^
 ||*epdg.epc.*^
+||*f6.ru*^
+||*facct.ru*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
+||*frontend.vh.yandex*^
 ||*games.geforce*^
+||*geetest.co*^
 ||*genimee.com*^
 ||*geo-data.wildberries*^
 ||*googleadservices*^
@@ -183,6 +189,7 @@
 ||*lfstrm*^
 ||*lineageos.org*^
 ||*market-click-baobab*^
+||*media-adv.market.yandex*^
 ||*mediatek*^
 ||*memory.mts*^
 ||*metricellcollect*^
@@ -202,6 +209,7 @@
 ||*ots.io.mi*^
 ||*paradox-interactive*^
 ||*paradoxplaza.*^
+||*partner.browser.yandex*^
 ||*privacy.xboxlive*^
 ||*proshivkis.ru*^
 ||*qcomgeo*^
@@ -210,6 +218,7 @@
 ||*sbdv.*^
 ||*sberdevices*^
 ||*sc.omtrdc*^
+||*selfupdate.sberbank*^
 ||*send-asr.acrobat*^
 ||*sendsay.*^
 ||*sentry*^$

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  20 June 2025 23:24
+! Last modified:  21 June 2025 14:31
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -163,7 +163,6 @@
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
-||*frontend.vh.yandex*^
 ||*games.geforce*^
 ||*geetest.co*^
 ||*genimee.com*^
@@ -251,8 +250,9 @@
 ||*yabs.ya*^
 ||*ycxrl*^
 # Whitelist
-@@||*s.click.aliexpress.*^
 @@||*api.ipify.org*^
 @@||*connectivitycheck*^
 @@||*download.lineageos*^
+@@||*frontend.vh.yandex*^
 @@||*ntp.*^
+@@||*s.click.aliexpress.*^

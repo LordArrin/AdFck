@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 July 2025 22:38
+! Last modified: 02 July 2025 20:11
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -539,6 +539,19 @@ mts.ru##[class*="footer_"]
 music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*="footer_"]
 music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
 music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
+music.yandex.ru##.column-chart
+music.yandex.ru##.d-tabs__tab:nth-of-type(6)
+music.yandex.ru##.footer
+music.yandex.ru##.head-kids__new-design
+music.yandex.ru##.nav-kids__tab:nth-of-type(2)
+music.yandex.ru##.nav-kids__tab:nth-of-type(3)
+music.yandex.ru##.page-line__subtitle-wrapper
+music.yandex.ru##.page-line_clips
+music.yandex.ru##.page-line_clips, .page-line__subtitle-wrapper, .page-main__albums, .page-main__playlists, .page-main__genres, .column-chart, .sidebar-rup__special-station-section, .footer, .nav-kids__tab:nth-of-type(2), .nav-kids__tab:nth-of-type(3), .head-kids__new-design, .d-tabs__tab:nth-of-type(6)
+music.yandex.ru##.page-main__albums
+music.yandex.ru##.page-main__genres
+music.yandex.ru##.page-main__playlists
+music.yandex.ru##.sidebar-rup__special-station-section
 music.yandex.ru##[class*="CollectionPage_description_"]
 music.yandex.ru##[class*="CollectionPage_footer_"]
 music.yandex.ru##[class*="CommunicationModal_root_"]
@@ -550,6 +563,7 @@ music.yandex.ru##[class*="InStyle_tabCarousel_"]
 music.yandex.ru##[class*="MainPage_footer_"]
 music.yandex.ru##[class*="Meta_explicitMark_"]
 music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
+music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
 music.yandex.ru##[class*="NavbarDesktopPlusBar_root_"]
 music.yandex.ru##[class*="PaymentWidgetModal_root_"]
 music.yandex.ru##[class*="PaywallModal_root_"]
@@ -609,16 +623,11 @@ person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
-pikabu.ru##.carousel_highlights, .menu-promocodes, .ny2024
-pikabu.ru##.feed-games-carousel
-pikabu.ru##.hint, .story__donate, .pkb-donation-btn
-pikabu.ru##.m-h-4
-pikabu.ru##.popup_show, .pkb-highlight-block
-pikabu.ru##.sidebar-game-block
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
+pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/home#pro"]
@@ -695,8 +704,7 @@ rule34.xxx##[href="https://www.twitch.tv/nyudachi"]
 rule34.xxx##[href^="http://waifu2x.booru.pics/*"]
 rule34.xxx##[href^="https://tsyndicate.com/api/v1/direct/6d0057751e904b7da03a03d7cd5bd0f1"]
 rule34.xxx##[src="//rule34.xxx/images/r34chibi.png"]
-rule34.xxx##center
-rule34.xxx##small
+rule34.xxx##center, small
 rule34comic.party##.footer
 rule34vault.com##.footer
 rule34video.com###top-header
@@ -750,8 +758,7 @@ store.epicgames.com##.epic_games
 store.steampowered.com###footer
 studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
 studio.rutube.ru##[class*="vl-menu-navigation-v2-module__aboutContainer_"]
-subscribestar.*##.layout-footer
-subscribestar.*##.warning_xodal
+subscribestar.*##.layout-footer, .warning_xodal
 superuser.com##[class*="site-footer-"]
 support.avito.ru##[class*="web-footer"]
 sztomato.com###banner_scroll
@@ -777,8 +784,7 @@ ticket.rzd.ru##.app-footer
 ticketland.ru###personal_show_rek, #tab_premium
 ticketland.ru##.copyright, .feedback_popup, .promo, [class*="footer_"]
 tilda.ru##.td-trial
-timeweb.cloud##[class*="jivoButton--"]
-timeweb.cloud##[class*="vdsTariffs-"]
+timeweb.cloud##[class*="jivoButton--"], [class*="vdsTariffs-"]
 timeweb.com##.tw-domains-list-banner
 timeweb.com##[class*="-banner"]
 tl.rulate.ru###down, #up

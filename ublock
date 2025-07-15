@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 July 2025 20:11
+! Last modified: 15 July 2025 20:07
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -65,6 +65,7 @@ akspic.ru##.gallery_fluid-column-block-raw_container
 aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
+aliexpress.ru##.CarouselBanner_Banner__banner__1m0cz
 aliexpress.ru##[class*="adGroupBlock_"]
 aliexpress.ru##[class*="CommonShelf_CommonShelf-v3__commonShelf_"]
 aliexpress.ru##[class*="CommonShelf_CommonShelf__commonShelf_"]
@@ -121,8 +122,10 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
+avito.ru##.Cards-module-wrapper-vgoX3
 avito.ru##.cvr-container, .index-module-container-_z3s1, .index-module-root-l7fqu, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .styles-module-root-_9_Fp, .styles-module-root-TliIl
 avito.ru##.desktop-1ni85sv, .desktop-t36goo, .desktop-ckkd6, .AEIax, [class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
+avito.ru##.dOHj6 > div
 avito.ru##.header-nav-wQVeb, .index-miniMenu-pZSYw, .index-module-nav-stRnY, .profile-sidebar-navigation-tag-fatJg, [class*="index-miniMenu-W"], [class*="navbar-root-"], [class*="js-side-menu-list-item-promotions"]
 avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
@@ -131,10 +134,12 @@ avito.ru##.notification-badge-root-nVPsD
 avito.ru##.personal-items-ajuce8, .personal-items-glc3f
 avito.ru##.Qoc0y, .zHHRg, .QOVE4, .RJt8B, .wnVZe, .TASSv, .AEaQs, .hI17T, .AZRET
 avito.ru##.Qoc0y, .zHHRg, .QOVE4, .wnVZe, .TASSv, .RJt8B
+avito.ru##.styles-module-animation-origin-bottom-Gp7AN
 avito.ru##.styles-module-margin-bottom_44-IlSf6
 avito.ru##.styles-module-root_size_s-GborZ
 avito.ru##.styles-module-root_withCloseButton-dz03O
 avito.ru##.styles-overlay-RW8Kv
+avito.ru##.styles-overlay-z2Lxj
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##.top-rubricator-item-_ocrx:nth-of-type(1)
 avito.ru##[class*="avito-ads-"]
@@ -289,6 +294,8 @@ files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_siz
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
 files.gamerfang.in##.adsvictory, .download_left_ad1, .download_mobile_top_ad1, .file-description, .footer, .page-subtitle
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
+filespayouts.com###premium
+filespayouts.com##.paybox, .footer, .container > h4, .container > hr
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button, .navigation-drawer-tab > hr
 fimfiction.net##[href="/chat"], li:nth-of-type(5) > [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list > li > [href="/writing-guide"]
@@ -376,6 +383,7 @@ ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-4.pb-1.rounded-2xl.mb-4
+ixbt.com##.desktop-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
@@ -476,10 +484,12 @@ market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/description\/specs\/specsWarnings
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/heroBannerCarousel
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCarousel
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecommendations\/kkmCarousel\/content
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/mainDO > div > .cia-cs.cia-vs
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/productWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/reasonToBuy
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/recommendationRoll
@@ -552,6 +562,7 @@ music.yandex.ru##.page-main__albums
 music.yandex.ru##.page-main__genres
 music.yandex.ru##.page-main__playlists
 music.yandex.ru##.sidebar-rup__special-station-section
+music.yandex.ru##.typo-caps.d-tabs__tab:nth-of-type(5)
 music.yandex.ru##[class*="CollectionPage_description_"]
 music.yandex.ru##[class*="CollectionPage_footer_"]
 music.yandex.ru##[class*="CommunicationModal_root_"]
@@ -644,6 +655,7 @@ pling.com###footer-container
 pling.com##.product-maker-sidebar
 plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
+pochta.ru##.webchat-icon, .portal-footer
 pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
 poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
 pornhub.com###js-networkBar
@@ -662,6 +674,7 @@ promotion.aliexpress.ru##.ae-ru-footer
 pugetsystems.com##.site-footer, [class*="banner-"]
 qmodapks.com##.site-footer
 qna.habr.com##.layout__footer
+r34.app##[href^="/premium"]
 randomus.ru##.footer
 reactor.cc###usertop_week_content
 reactor.cc##.avatars.sidebarContent
@@ -793,6 +806,7 @@ tns-e.ru##.banner-wrapper, .footer
 tolknews.ru##.b-footer
 topazlabs.com##[class*="-banner"], [class*="-footer"]
 torbobit.net###download-time-premium, #premium-download-info
+torbobit.net##.page-footer, .offer-registration
 torbobit.net##center, .footer, .max-speed-time, td.download-button.no-border:nth-of-type(3), td.minus-ok-cell:nth-of-type(3), td.speed-img.no-border:nth-of-type(3)
 torrent-soft.*##.pa-wrapper
 torrent-stop.*##.footer
@@ -816,6 +830,8 @@ uploadrar.com##footer, .menufooter
 valid.x86.*###main__legals
 valid.x86.*##[class*="widget-advert-"]
 vamprivet.ru##.footer
+vault.bitwarden.com###premium-banner
+vault.bitwarden.com##navigation-product-switcher
 vc.ru##.account-menu__group:nth-of-type(2)
 vc.ru##.l-island-round
 vc.ru##.sidebar__section:nth-of-type(3)
@@ -999,6 +1015,7 @@ wikihow.com##.wh_ad_inner, .fluid, .house-promo
 wikipedia.org###footer > .noprint
 wikipedia.org###footer-places
 wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__zones, [class*="footer"]
+wlux.net##.xtr-message-block, .notices--floating, .notice--thnoticesplus_error, .notice--welcome
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
@@ -1040,6 +1057,7 @@ yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
+yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yandex.ru,ya.ru##Divider
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  21 June 2025 14:31
+! Last modified:  15 July 2025 20:12
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -87,11 +87,12 @@
 ||*gmscompliance-pa*^
 ||*ondevicesafety-pa*^
 ||*peoplestackwebexperiments-pa*^
-||*safebrowsing.googleapis*^
+||*safebrowsing.google*^
 ||*voilatile-pa*^
 # Other
 ||*21modz*^
 ||*2c2p.*^
+||*activepieces.*^
 ||*adobedtm*^
 ||*ads.rustore*^
 ||*adspector*^
@@ -144,12 +145,15 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*clck.yandex*^
+||*codecanyon.net*^
 ||*comms-appx-web*^
 ||*connect-drru.hispace.dbankcloud*^
 ||*crashlytics*^
 ||*cust-service*^
 ||*daisy.ubuntu*^
 ||*dc-api-v2.adobe*^
+||*deepseekhubs*^
 ||*default.exp-tas*^
 ||*detectportal.firefox*^
 ||*devices.sberbank*^
@@ -170,6 +174,7 @@
 ||*googleadservices*^
 ||*googletagmanager*^
 ||*graph.facebook*^
+||*great-tit.com*^
 ||*hydrapi.*^
 ||*inapp.services.ucp.kaspersky-labs*^
 ||*inappstory*^
@@ -177,6 +182,7 @@
 ||*inovelli*^
 ||*installer.betterinstaller*^
 ||*installer.filebulldog*^
+||*island-server.*^
 ||*izatcloud*^
 ||*jethrojeff*^
 ||*kerberos*^
@@ -192,6 +198,7 @@
 ||*mediatek*^
 ||*memory.mts*^
 ||*metricellcollect*^
+||*mi.*^$important
 ||*miui.*^
 ||*moondownload.*^
 ||*mradx*^
@@ -209,6 +216,7 @@
 ||*paradox-interactive*^
 ||*paradoxplaza.*^
 ||*partner.browser.yandex*^
+||*poisk.mts*^
 ||*privacy.xboxlive*^
 ||*proshivkis.ru*^
 ||*qcomgeo*^
@@ -232,7 +240,7 @@
 ||*telemetry*^
 ||*touch.kaspersky*^
 ||*trics.ubuntu*^
-||*ts.tracker-api.my.com*^
+||*ts.tracker-api.my*^
 ||*turn.hydrapi*^
 ||*twilio*^
 ||*unbrickandroid.*^
@@ -256,3 +264,4 @@
 @@||*frontend.vh.yandex*^
 @@||*ntp.*^
 @@||*s.click.aliexpress.*^
+@@||*translate-pa.google*^

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 July 2025 20:07
+! Last modified: 24 July 2025 03:24
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -303,6 +303,7 @@ fimfiction.net##ul.navigation-drawer-list [href="/faq"]
 fimfiction.net##ul.navigation-drawer-list [href="/rules"]
 firmware.gem-flash.com###footer
 firmware.gem-flash.com##[src="https://unlock.gem-flash.com/*/unlock_service.html"]
+fix-price.com##.animated-banner, .banner.slider
 fix-price.com##.footer, [class*="download-app-"], [class*="subscription-"]
 forum.armbian.com###ipsLayout_footer
 forum.openwrt.org##.powered-by-discourse
@@ -1019,12 +1020,6 @@ wlux.net##.xtr-message-block, .notices--floating, .notice--thnoticesplus_error, 
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
-x.com##.r-1niwhzg.r-1udh08x
-x.com##.r-1ye8kvj .r-1mmae3n
-x.com##.r-1ye8kvj .r-w7s2jr
-x.com##.r-6koalj:nth-of-type(10)
-x.com##.r-6koalj:nth-of-type(11)
-x.com##.r-6koalj:nth-of-type(8)
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
 xda-developers.com###footer, #website-footer
@@ -1053,10 +1048,12 @@ yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="Organic_withx"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
+yandex.ru,ya.ru##[class*="-no-padding-bottom"]
 yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
+yandex.ru,ya.ru##div > [class]:has( [class*="Typo_line_s"][class*="Typo_text_m"][class*="Typo"][class*="organic"][class*="-Text"])
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yandex.ru,ya.ru##Divider
 yougame.biz##.yg_first_post

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 24 July 2025 03:24
+! Last modified: 26 July 2025 15:56
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -67,12 +67,14 @@ aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
 aliexpress.ru##.CarouselBanner_Banner__banner__1m0cz
 aliexpress.ru##[class*="adGroupBlock_"]
+aliexpress.ru##[class*="CarouselBanner_Banner__banner_"]
 aliexpress.ru##[class*="CommonShelf_CommonShelf-v3__commonShelf_"]
 aliexpress.ru##[class*="CommonShelf_CommonShelf__commonShelf_"]
 aliexpress.ru##[class*="down-load-app--simpleMenuItem-"]
 aliexpress.ru##[class*="InlineBanner_InlineBanner_"]
 aliexpress.ru##[class*="ModuleBanner_ModuleBanner__outer-wrapper__"]
 aliexpress.ru##[class*="ModuleBannerNew_ModuleBannerNew__banner_"]
+aliexpress.ru##[class*="OnboardingContextWidget_OnboardingElement_"]
 aliexpress.ru##[class*="OnboardingContextWidget_Overlay__overlay_"]
 aliexpress.ru##[class*="product-snippet_ProductSnippet__adGroupBlock_"]
 aliexpress.ru##[class*="product-snippet_ProductSnippet__rightTags_"]
@@ -233,6 +235,7 @@ discord.com##.notice__6e2b9
 discord.com##.notice_be03aa
 disk.yandex.*##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
 disk.yandex.*##.LeftColumnNavigation__Item_type_family
+disk.yandex.ru##.footer
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer, #soft-bundle-block
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button, .additional-voblers, .choice-guide, .product-card__accessories, .product-card__buy-together, .product-card__rsu-assemblies, .survey-button-widget
@@ -388,9 +391,12 @@ ixbt.com##.desktop-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
+ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
+ixbt.com##.recommend-c
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
+ixbt.com##[id^="video-sidebar-"]
 ixbt.com##figcaption
 ixbt.games##.pt-3.m-wrap
 ixbt.games##div.shifted.container-fluid > p > em
@@ -1053,6 +1059,7 @@ yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
+yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
 yandex.ru,ya.ru##div > [class]:has( [class*="Typo_line_s"][class*="Typo_text_m"][class*="Typo"][class*="organic"][class*="-Text"])
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
 yandex.ru,ya.ru##Divider

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 27 July 2025 22:32
+! Last modified: 30 July 2025 05:22
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -552,10 +552,9 @@ matreshka.tv##.menu__info, .download-section
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
-mega.nz###ob-dialog
-mega.nz##.outline.upgrade
+mega.nz##.js-storage-usage-block.storage-usage-panel > .info
+mega.nz##.nav-elem.s4.drive
 mega.nz##.upgrade-to-pro
-mega.nz##footer, .band-grn-noti, .blinking-highlight-dot, .img-rw-promo-dialog, .rw-promo-dialog, .pwm-promo-dialog, .rub-grn-noti, .upgrade-to-pro-dialog, .with-btn, .almost-full.fm-notification-block, .almost-full.storage-dialog, .anouncement.banner.mega-component, .top-social-bl, .ui-droppable.js-fm-tab.icon-chat-before.sprite-fm-uni-before.conversations.nw-fm-left-icon, div.submenu-item, div.top-menu-divider
 megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor, .banner-card
 merionet.ru##.discountBanner, .popup
 message.aliexpress.com##.footer-copywrite, .site-footer
@@ -659,6 +658,7 @@ pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/home#pro"]
 pixeldrain.com##strong

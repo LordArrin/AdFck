@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 30 July 2025 05:22
+! Last modified: 30 July 2025 09:17
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -663,6 +663,7 @@ pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/home#pro"]
 pixeldrain.com##strong
 pixiv.net##.cugra, .gyFSiO, .lhcRrG, .jKNKMn
+platform.tuya.com##.driver-aichat, .iot-rc-ai-button_container
 platform.tuya.com##.slick-current.slick-active.slick-slide, .smart_menu_purchase, .smart_menu_serviceMarket
 platform.tuya.com##[class*="AiGuide_"]
 platform.tuya.com##[class*="Help_videoContent_"], [class*="Home_right_"], [class*="iot-rc-ai-assistant"]
@@ -1046,8 +1047,6 @@ xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video, [class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
 xv-ru.com###footer, #header-mobile-right, #premium-info-frame
-xv-ru.com##.premium-results-line, .sheer-sponsor
-xv-ru.com##body > div:nth-of-type(4)
 yandex.ru##.Bno_isPromoSnippet
 yandex.ru##div > .serp-item_card.serp-item
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside

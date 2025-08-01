@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 August 2025 05:21
+! Last modified: 01 August 2025 06:23
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -29,6 +29,7 @@
 ! that I ruined your day, I will laugh at you.
 !
 !
+! 15 июл. 2025 г. https://alice.yandex.ru
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
 123.ru###news
@@ -62,6 +63,7 @@ accounts.google.com###footer-list
 accounts.spotify.com##footer
 adguard.info##[class*="footer_"]
 akspic.ru##.gallery_fluid-column-block-raw_container
+alice.yandex.ru##.legal-disclaimer, .try-pro-status
 aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
@@ -124,10 +126,22 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
+avito.ru##.AEaQs
+avito.ru##.channel-preview-root_roundAvatar-CozVK
+avito.ru##.jrX7O.M5bdx.d1zrJ
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
+avito.ru##.o84ms
+avito.ru##.q2QPN
+avito.ru##.Qoc0y
+avito.ru##.QOVE4
+avito.ru##.RJt8B
+avito.ru##.TASSv
 avito.ru##.top-banner-module-root-_R_Ad
+avito.ru##.wnVZe
+avito.ru##.zHHRg
 avito.ru##[class*="avito-ads-"]
+avito.ru##[class*="Cards-module-wrapper-"]
 avito.ru##[class*="filter-item-badge-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
@@ -422,6 +436,21 @@ losst.pro###extapp-feedback-container
 lovehentai.icu##.mdpDeblocker-wrapper, .mdpDeblocker-blackout
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
+m.avito.ru##.AuPHe
+m.avito.ru##.channel-preview-root_roundAvatar-CozVK
+m.avito.ru##.dkVwZ > .tR_eh
+m.avito.ru##.Ej_et > .AWOsK
+m.avito.ru##.H873h
+m.avito.ru##.hhpUg.dkVwZ
+m.avito.ru##.jFPU4
+m.avito.ru##.Jxv_n
+m.avito.ru##.ocbnC
+m.avito.ru##.pVenW > .wCUN5
+m.avito.ru##.QUq4O > .AWOsK
+m.avito.ru##.rQjyo
+m.avito.ru##.sNzBX
+m.avito.ru##.XrHpC
+m.avito.ru##.zhRC9
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -614,6 +643,7 @@ pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
+pikabu.ru##[class*="app__trigger_"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##article.story:has([class*="company-blog-badge"])

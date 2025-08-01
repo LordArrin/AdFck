@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 30 July 2025 09:18
+! Last modified: 01 August 2025 05:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -124,41 +124,23 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
-avito.ru##.Cards-module-wrapper-vgoX3
-avito.ru##.cvr-container, .index-module-container-_z3s1, .index-module-root-l7fqu, .index-module-root-cedSM, .index-module-root-FJ4jT, .index-module-root_23-_oWcy, .styles-module-root-_9_Fp, .styles-module-root-TliIl
-avito.ru##.desktop-1ni85sv, .desktop-t36goo, .desktop-ckkd6, .AEIax, [class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
-avito.ru##.dOHj6 > div
-avito.ru##.header-nav-wQVeb, .index-miniMenu-pZSYw, .index-module-nav-stRnY, .profile-sidebar-navigation-tag-fatJg, [class*="index-miniMenu-W"], [class*="navbar-root-"], [class*="js-side-menu-list-item-promotions"]
-avito.ru##.index-innerPosition_main-I64Is, .index-innerPosition_main-ZP_26, .index-module-content-IpbCP > div > .styles-module-theme-kvanA
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
-avito.ru##.notification-badge-root-nVPsD
-avito.ru##.personal-items-ajuce8, .personal-items-glc3f
-avito.ru##.Qoc0y, .zHHRg, .QOVE4, .RJt8B, .wnVZe, .TASSv, .AEaQs, .hI17T, .AZRET
-avito.ru##.Qoc0y, .zHHRg, .QOVE4, .wnVZe, .TASSv, .RJt8B
-avito.ru##.styles-module-animation-origin-bottom-Gp7AN
-avito.ru##.styles-module-margin-bottom_44-IlSf6
-avito.ru##.styles-module-root_size_s-GborZ
-avito.ru##.styles-module-root_withCloseButton-dz03O
-avito.ru##.styles-overlay-RW8Kv
-avito.ru##.styles-overlay-z2Lxj
 avito.ru##.top-banner-module-root-_R_Ad
-avito.ru##.top-rubricator-item-_ocrx:nth-of-type(1)
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="filter-item-badge-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
-avito.ru##[class*="index-module-root-S"], [class*="styles-module-root_size_s-C"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
 avito.ru##[class*="index-sideAds-"]
 avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
+avito.ru##[class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
 avito.ru##[class*="promoWidget-"]
 avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
-avito.ru##[class*="styles-title-"], .styles-module-margin-bottom_44-Qr8he, .styles-module-margin-bottom_32-kQ_OA > .styles-module-direction_vertical-_gIBq
 avtodor-tr.ru##.footer
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
@@ -363,7 +345,6 @@ habr.com##.tm-page__sidebar, .tm-sexy-sidebar, .tm-user-card__buttons_variant-ar
 habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions, .tm-project-block_variant-salary, .tm-project-block_variant-tasks, .tm-project-block_variant-vacancies
 habr.com##[href^="https://bit.ly/"]
 hentaiera.com###footer_bar
-hh.ru##.announcement, .banner-substrate, [class*="applicant-"]
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com###ad-header.noinline
@@ -441,16 +422,6 @@ losst.pro###extapp-feedback-container
 lovehentai.icu##.mdpDeblocker-wrapper, .mdpDeblocker-blackout
 lumpics.ru##.tgchat
 lurkmore.me###siteNotice
-m.avito.ru##._5w8L, .CXv2E, .eLSEg, .JOH9X, .kqCm6, .LauOH, .mav-1a1vtua, .mav-ckkd6, .OTtKE, .p7vg1, .rNDN9, .Ti31R, .zLfY7, .mav-1i1c8ng, .SZDsk, .UR9In, .sTE1i, .jFPU4, .aXlwB, .styles-module-content-wrapper-EDRR1, .htTgi, .ocbnC, .S63Co > .vKB2A
-m.avito.ru##.AWOsK
-m.avito.ru##.Ay1yG
-m.avito.ru##.c5iBM > .AWOsK.M3D7I
-m.avito.ru##.gYvef
-m.avito.ru##.N8jfZ
-m.avito.ru##.nzzQF
-m.avito.ru##.S63Co > .YAsoq > .sQJK0
-m.avito.ru##.x8Quq
-m.avito.ru##.YAsoq:nth-of-type(25) > .sQJK0 > .fKeD4.W6DYH
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -528,22 +499,10 @@ market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexHelpMenuItem
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
-market.yandex.ru##._2kAHE.ds-flex_ai_c.ds-flex_jc_sb.ds-flex
-market.yandex.ru##._2lt3W
-market.yandex.ru##._3ahE_
-market.yandex.ru##._3dlyh
-market.yandex.ru##.drY8r
-market.yandex.ru##.mFile
 market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
-market.yandex.ru##.uNxdC
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
-market.yandex.ru##div._1_0e_, div._1kLnL:nth-of-type(4), div.cia-cs.cia-vs:nth-of-type(6), div.cia-cs.cia-vs:nth-of-type(8)
-market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(14)
-market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(15)
-market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(16)
-market.yandex.ru##div.cia-cs.cia-vs:nth-of-type(7)
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice
 matreshka.tv##.cookies, .download-section, .menu__info
@@ -630,7 +589,6 @@ onedrive.live.com###ModalFocusTrapZone135
 onedrive.live.com##.ms-Overlay, .is-open.ms-Modal, ms-MessageBar-dismissalSingleLine, .od-QuotaBannerWrapper
 online-audio-converter.com##.footer, .like_row_conv, .one-col
 online.sberbank.ru###assistant-region, #universal-banner-index
-online.sberbank.ru##.AqkRZW7Av8BL95gxNoJL
 onlinetrade.ru###footer
 onlinetrade.ru##.footer__countersline, .footer__infoline, .indexHat__cover
 onlinetrade.ru##.itemCount__green

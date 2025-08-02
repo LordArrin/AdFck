@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 01 August 2025 06:23
+! Last modified: 02 August 2025 13:23
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -29,7 +29,6 @@
 ! that I ruined your day, I will laugh at you.
 !
 !
-! 15 июл. 2025 г. https://alice.yandex.ru
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
 123.ru###news
@@ -83,6 +82,7 @@ aliexpress.ru##[class*="product-snippet_ProductSnippet__rightTags_"]
 aliexpress.ru##[class*="PseudoSmartBanner_"]
 aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
 aliexpress.ru##[class*="RecommendationFeedV2_Tooltip_"]
+aliexpress.ru##[class*="red-snippet_RedSnippet__container__"]:has([class*="red-snippet_RedSnippet__p4pElement__"])
 aliexpress.ru##[class*="RedCrosslinks_RedCrosslinks__wrap_"]
 aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
@@ -136,10 +136,12 @@ avito.ru##.q2QPN
 avito.ru##.Qoc0y
 avito.ru##.QOVE4
 avito.ru##.RJt8B
+avito.ru##.styles-module-animation-origin-bottom-azXB9
 avito.ru##.TASSv
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##.wnVZe
 avito.ru##.zHHRg
+avito.ru##[class$="styles-similars-"]
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="Cards-module-wrapper-"]
 avito.ru##[class*="filter-item-badge-"]
@@ -1034,6 +1036,9 @@ xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link, .p-footer
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video, [class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
+xv-ru.com###premium-info-frame, #footer
+xv-ru.com##.premium-results-line, .head__btn--join.head__btn
+xv-ru.com##body > div:nth-of-type(3)
 yandex.ru##.Bno_isPromoSnippet
 yandex.ru##div > .serp-item_card.serp-item
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside

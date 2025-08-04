@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  23 July 2025 12:55
+! Last modified:  04 August 2025 20:17
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -53,6 +53,7 @@
 ||*mdm.avito*^
 ||*mon.avito*^
 ||*new-sentry.k.avito*^
+||*osiam.avito*^
 ||*sccm01.avito*^
 ||*sentry.msk.avito*^
 ||*sntr.avito*^
@@ -142,6 +143,7 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*chouchou.*^
 ||*clck.yandex*^
 ||*codecanyon.net*^
 ||*comms-appx-web*^
@@ -156,12 +158,16 @@
 ||*devices.sberbank*^
 ||*divpro.yandex*^
 ||*dler.*^
+||*dns.msftncsi*^
 ||*download.nvidia*^
+||*dr.yandex*^
 ||*egress.yandex*^
 ||*epdg.epc.*^
+||*et.topazlabs*^
 ||*f6.ru*^
 ||*facct.ru*^
 ||*feedbacks*.wb*^
+||*firebaselogging*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
 ||*games.geforce*^
@@ -194,24 +200,24 @@
 ||*media-adv.market.yandex*^
 ||*mediatek*^
 ||*memory.mts*^
+||*metrica*^
 ||*metricellcollect*^
 ||*mi.*^$important
 ||*miui.*^
 ||*moondownload.*^
 ||*mradx*^
 ||*netmon.azure*^
-||*new-sentry.k.avito*^
 ||*nsis.bisrv*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
-||*osiam.avito*^
 ||*ot.io.mi*^
 ||*ota.dstudio*^$
 ||*ota.nvidia*^
 ||*ots.io.mi*^
 ||*paradox-interactive*^
 ||*paradoxplaza.*^
+||*paragon-software*^
 ||*partner.browser.yandex*^
 ||*poisk.mts*^
 ||*privacy.xboxlive*^
@@ -254,12 +260,12 @@
 ||*xtratime*^
 ||*yabs.ya*^
 ||*ycxrl*^
+||*zconfig.alibabausercontent*^
 # Whitelist
 @@||*api.ipify.org*^
 @@||*connectivitycheck*^
 @@||*download.lineageos*^
 @@||*firebase*^
-@@||*frontend.vh.yandex*^
 @@||*mtalk*^
 @@||*ntp.*^
 @@||*s.click.aliexpress.*^

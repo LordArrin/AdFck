@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 August 2025 13:23
+! Last modified: 07 August 2025 02:03
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -83,6 +83,7 @@ aliexpress.ru##[class*="PseudoSmartBanner_"]
 aliexpress.ru##[class*="RecommendationFeedV2_Grid__redChoiceBanner__"]
 aliexpress.ru##[class*="RecommendationFeedV2_Tooltip_"]
 aliexpress.ru##[class*="red-snippet_RedSnippet__container__"]:has([class*="red-snippet_RedSnippet__p4pElement__"])
+aliexpress.ru##[class*="RedCheckoutFooter_"]
 aliexpress.ru##[class*="RedCrosslinks_RedCrosslinks__wrap_"]
 aliexpress.ru##[class*="RedEntryPoints_RedEntryPoints__outer__"]
 aliexpress.ru##[class*="RedFooter_FooterBottom__wrapper__"]
@@ -128,6 +129,7 @@ aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionI
 avito.ktalk.ru##.banner
 avito.ru##.AEaQs
 avito.ru##.channel-preview-root_roundAvatar-CozVK
+avito.ru##.HrD5K
 avito.ru##.jrX7O.M5bdx.d1zrJ
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
@@ -197,6 +199,9 @@ chitai-gorod.ru##.footer
 citilink.ru##.app-catalog-1lxp2bi
 citilink.ru##.e10gofov0, .ebgozyb0, .e4tmpk70, .e1asn0y0, .e1hl8ig80
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
+citilink.ru##[class*="StyledConsultationWrapper"]
+citilink.ru##[class*="StyledFooterRow"]
+citilink.ru##[class*="StyledWrapperComponent"]
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 cloudflare.com##.pv5.flex-wrap.flex
 club.dns-shop.ru###reaction-type-big
@@ -509,6 +514,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/heroBannerCarousel\/heroBanner\/c
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
 market.yandex.ru###\/content\/page\/fancyPage\/recommendationRollTabs\/tabs
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
+market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/m2bSearchEntryPoint
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchBreadcrumbs
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
 market.yandex.ru###\/content\/page\/layout\/agreementNote
@@ -530,6 +536,8 @@ market.yandex.ru###\/MarketNodeProfileMenu43\/yandexBuyForBusinessMenuItem
 market.yandex.ru###\/MarketNodeProfileMenu43\/yandexHelpMenuItem
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
+market.yandex.ru##._1ART1, .kbu78, .Ci2no, ._2lt3W
+market.yandex.ru##.BE0pp > ._1i7sa
 market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
@@ -558,6 +566,7 @@ music.mts.ru##.prp-profile-menu-premium, [class*="base-system-banner_"], [class*
 music.mts.ru##[class*="music-subscription-block_wrapper_"], [class*="fog-play-banner_"]
 music.yandex.ru##.Bp1d3U6W8Nrbqi3MRQS_:nth-of-type(3)
 music.yandex.ru##.column-chart
+music.yandex.ru##.d-explicit-mark
 music.yandex.ru##.d-tabs__tab:nth-of-type(6)
 music.yandex.ru##.footer
 music.yandex.ru##.head-kids__new-design
@@ -641,11 +650,15 @@ person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
+pikabu.ru##.footer__email
+pikabu.ru##.promo-banner-sticky
+pikabu.ru##.sidebar-game
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##[class*="app__trigger_"]
+pikabu.ru##[class*="item-trigger__host"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##article.story:has([class*="company-blog-badge"])

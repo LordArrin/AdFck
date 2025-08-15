@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 07 August 2025 02:03
+! Last modified: 15 August 2025 16:40
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -39,6 +39,7 @@
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, [href="/competitions"], [href="/job"]
+3dnews.ru##.slider-track
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.to###fo_-1, #go_1, #logostrip
 4pda.to##.copyright, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
@@ -269,7 +270,10 @@ dzen.ru##[class*="content--comments-empty-info_"]
 dzen.ru##[class*="content--corner-banner_"]
 dzen.ru##[class*="content--d2d-block_"]
 dzen.ru##[class*="content--dzen-pro-article-banner_"]
+dzen.ru##[class*="content--running-line__link-"]
 dzen.ru##[class*="content--subscribe-banner_"]
+dzen.ru##[class*="content--theme-pinnersafePadding-"]
+dzen.ru##[class*="content--theme-pinnerwithNavigation-"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
 dzen.ru##[class*="dzen-layout--tooltip_"]
@@ -393,6 +397,7 @@ ixbt.com##.desktop-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
+ixbt.com##.mobile-c
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
 ixbt.com##.recommend-c
 ixbt.com##.sm\:rounded-t-2xl
@@ -538,6 +543,7 @@ market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._1ART1, .kbu78, .Ci2no, ._2lt3W
 market.yandex.ru##.BE0pp > ._1i7sa
+market.yandex.ru##.FjBw9
 market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
@@ -553,6 +559,7 @@ mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExt
 mega.nz##.js-storage-usage-block.storage-usage-panel > .info
 mega.nz##.nav-elem.s4.drive
 mega.nz##.upgrade-to-pro
+mega.nz##.upgrade-to-pro-dialog
 megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-modal-inner__law-info, .header-entry-point, .pdp-see-also, .popular-links, .product-card-bottom-banners, .promo-constructor, .banner-card
 merionet.ru##.discountBanner, .popup
 message.aliexpress.com##.footer-copywrite, .site-footer
@@ -651,14 +658,16 @@ photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.footer__email
-pikabu.ru##.promo-banner-sticky
+pikabu.ru##.promo-banner-sticky > .footer__email
 pikabu.ru##.sidebar-game
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
+pikabu.ru##.sidebarfooter > .footeremail
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
 pikabu.ru##[class*="app__trigger_"]
 pikabu.ru##[class*="item-trigger__host"]
+pikabu.ru##[class*="item-trigger__host-"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##article.story:has([class*="company-blog-badge"])

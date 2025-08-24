@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 15 August 2025 16:40
+! Last modified: 24 August 2025 15:08
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -111,7 +111,7 @@ annimon.com##.footer-wrapper
 apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
-apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container
+apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container, .dt-security-statement-card, .download-vip-subscribe-wrap, .how-to-install, .nav-download-management
 app.koofr.net##.l-hint
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
@@ -148,6 +148,7 @@ avito.ru##[class$="styles-similars-"]
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="Cards-module-wrapper-"]
 avito.ru##[class*="filter-item-badge-"]
+avito.ru##[class*="FormBanner-module-container-"]
 avito.ru##[class*="gallery-block-contactBarContainer-"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
@@ -542,6 +543,7 @@ market.yandex.ru###\/MarketNodeProfileMenu43\/yandexHelpMenuItem
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru##._1ART1, .kbu78, .Ci2no, ._2lt3W
+market.yandex.ru##._2uqo-
 market.yandex.ru##.BE0pp > ._1i7sa
 market.yandex.ru##.FjBw9
 market.yandex.ru##.mini-suggest__item_type_nav
@@ -1058,9 +1060,6 @@ xda-developers.com##.panel-list > li > [href="https://xda-developers.com/about/"
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link, .p-footer
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video, [class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
-xv-ru.com###premium-info-frame, #footer
-xv-ru.com##.premium-results-line, .head__btn--join.head__btn
-xv-ru.com##body > div:nth-of-type(3)
 yandex.ru##.Bno_isPromoSnippet
 yandex.ru##div > .serp-item_card.serp-item
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside

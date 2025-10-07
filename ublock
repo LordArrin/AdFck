@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 25 September 2025 21:52
+! Last modified: 08 October 2025 01:11
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -163,6 +163,7 @@ avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avtodor-tr.ru##.footer
+azurlane.mrlar.dev##.cookies, .gap-1.d-grid
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
@@ -284,6 +285,7 @@ eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###topNotice
+f95zone.to##.node--link.node--depth2.node--id127
 f95zone.to##.node--link.node--depth2.node--id129, .p-footer
 facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
 fandom.com##.notifications-box, .toc
@@ -504,6 +506,7 @@ market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
+market.yandex.ru###\/content\/page\/fancyPage\/agitationsBlock
 market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/description\/specs\/specsWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/heroBannerCarousel
@@ -552,6 +555,7 @@ market.yandex.ru##.FjBw9
 market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
+market.yandex.ru##.uDAKG, ._3b2kX, _2qLdU
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice
@@ -1113,6 +1117,7 @@ youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
 youtube.com##.ytd-metadata-row-container-renderer.style-scope
+youtube.com##.ytLockupAttachmentsViewModelHost
 youtube.com##.ytp-cards-button, .ytp-cards-teaser, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-ce-expanding-image, .ytp-pause-overlay, .ytp-scroll-min.ytp-pause-overlay
 youtube.com##tp-yt-paper-dialog
 youtube.com##tp-yt-paper-tab.ytd-c4-tabbed-header-renderer.style-scope:nth-of-type(3)
@@ -1157,7 +1162,6 @@ zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||https://mc.yandex.ru/metrika/watch.js
 ||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||img.staticbg.com/myos/*/*/*.jpg.webp$image
-||kemono.su/static/ktan.png$image
 ||korshop.ru/*/*/*/*/MergedLayers.png$image
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

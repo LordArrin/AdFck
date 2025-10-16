@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 08 October 2025 01:11
+! Last modified: 16 October 2025 05:25
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -134,6 +134,7 @@ avito.ru##.HrD5K
 avito.ru##.jrX7O.M5bdx.d1zrJ
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
+avito.ru##.llYLO, .Ci2no
 avito.ru##.o84ms
 avito.ru##.q2QPN
 avito.ru##.Qoc0y
@@ -560,6 +561,7 @@ market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"]
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice
 matreshka.tv##.cookies, .download-section, .menu__info
+matreshka.tv##.donation-matr-button, .player-foreign-agent
 matreshka.tv##.menu__divider, .menu__title
 matreshka.tv##.menu__info, .download-section
 media.vkplay.ru##.aside__sticky
@@ -1094,6 +1096,7 @@ yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
+yandex.ru,ya.ru##[class*="VK"]:has([class*="Organic_with"])
 yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
 yandex.ru,ya.ru##div > [class]:has( [class*="Typo_line_s"][class*="Typo_text_m"][class*="Typo"][class*="organic"][class*="-Text"])
 yandex.ru,ya.ru##div[class*="__card"]:has([class$="-Text"])
@@ -1117,6 +1120,7 @@ youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
 youtube.com##.ytd-metadata-row-container-renderer.style-scope
+youtube.com##.ytGridShelfViewModelHostHasBottomButton
 youtube.com##.ytLockupAttachmentsViewModelHost
 youtube.com##.ytp-cards-button, .ytp-cards-teaser, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-ce-expanding-image, .ytp-pause-overlay, .ytp-scroll-min.ytp-pause-overlay
 youtube.com##tp-yt-paper-dialog

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 October 2025 05:25
+! Last modified: 17 October 2025 17:00
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -802,6 +802,7 @@ sourceforge.net###main-nav-badge
 sourceforge.net##.as-row, .l-nav-bottom, .main-nav-link
 spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
 speedtest.net##.footer
+spiskin.ru###reclame-block
 spiskin.ru##span.logo, .footer, [class*="reclame"]
 sponsr.ru##footer, .for-whom, .what-is
 sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, .mb_20.mt_15.specButtons, .se-footer, [class*="se19-new-"]
@@ -1048,6 +1049,10 @@ vkvideo.ru##.MenuList__item--recommendation
 vkvideo.ru##.MenuList__separator
 vkvideo.ru##.vkuiPopper, .vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv, .MenuList__link
 vkvideo.ru##[class*="HeaderVideoActions__root-"] > .vkuiRootComponent__host.vkuiDiv__host
+vkvideo.ru##[class*="RightActions__authorsLink"]
+vkvideo.ru##[class*="vkitOnboardingTooltipMarker_"]
+vkvideo.ru##[class*="vkuiMiniInfoCell__textWrapNowrap"]
+vkvideo.ru##[class*="vkuiSeparator_"]
 vps.today##.border-top-0, .border
 vps.today##div.margin-bottom.card-bordered.card:nth-of-type(2)
 vps.today##div.margin-bottom.card-bordered.card:nth-of-type(6)
@@ -1063,6 +1068,7 @@ wlux.net##.xtr-message-block, .notices--floating, .notice--thnoticesplus_error, 
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
+x.com##.r-1w6e6rj
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
 xda-developers.com###footer, #website-footer
@@ -1088,7 +1094,6 @@ yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru,ya.ru##[class$="_full-width"]
-yandex.ru,ya.ru##[class$="Organic_withx"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]
@@ -1096,6 +1101,7 @@ yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
+yandex.ru,ya.ru##[class*="Organic_with"]:has([class*="-Text"])
 yandex.ru,ya.ru##[class*="VK"]:has([class*="Organic_with"])
 yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
 yandex.ru,ya.ru##div > [class]:has( [class*="Typo_line_s"][class*="Typo_text_m"][class*="Typo"][class*="organic"][class*="-Text"])

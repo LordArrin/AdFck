@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 17 October 2025 17:00
+! Last modified: 31 October 2025 14:16
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -128,23 +128,12 @@ author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ktalk.ru##.banner
-avito.ru##.AEaQs
 avito.ru##.channel-preview-root_roundAvatar-CozVK
-avito.ru##.HrD5K
-avito.ru##.jrX7O.M5bdx.d1zrJ
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
-avito.ru##.llYLO, .Ci2no
-avito.ru##.o84ms
-avito.ru##.q2QPN
-avito.ru##.Qoc0y
-avito.ru##.QOVE4
-avito.ru##.RJt8B
+avito.ru##.S5QCT
 avito.ru##.styles-module-animation-origin-bottom-azXB9
-avito.ru##.TASSv
 avito.ru##.top-banner-module-root-_R_Ad
-avito.ru##.wnVZe
-avito.ru##.zHHRg
 avito.ru##[class$="styles-similars-"]
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="Cards-module-wrapper-"]
@@ -155,22 +144,23 @@ avito.ru##[class*="index-advRootWidgetNoStories"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
 avito.ru##[class*="index-sideAds-"]
+avito.ru##[class*="index\.module__nav__"]
 avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
+avito.ru##[class*="profile-sidebar-navigation__tag_"]
 avito.ru##[class*="promoWidget-"]
 avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
+avito.ru##[class*="styles\.module__footer_"]
 avtodor-tr.ru##.footer
 azurlane.mrlar.dev##.cookies, .gap-1.d-grid
 backit.me##.onboarding-modal.el-dialog__wrapper
 banggood.com###footer
 banggood.com##.app-entry, .exclick.main-keyword, .product-service, .related-title, [class*="exclick main-keyword"], [class*="main-sellingPoint"], [class*="wrap footer-authitem"]
 bank.yandex.ru##[class*="Qr-module_"]
-banki.ru##.Indent__sc-1nlpw4v-0
-banki.ru##.IPEJPbpA4b_njz7Q_czp
 banki.ru##[class*="Breadcrumbsstyled__StyledBreadcrumbsWrapper-"], [class*="DownloadMobileAppstyled_"], [class*="layout-wrapper footer"], [class*="lazy-widget--loaded"], [class*="seo-block"], [class*="SpecialPanelstyled__StyledSpecialPanel-"]
 bcnn.ru##.site-footer
 beatsage.com##[class*="-socials"], [class*="footer"]
@@ -188,8 +178,7 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
-chat.deepseek.com##._0fcaa63
-chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8
+chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8, ._0fcaa63
 chatgpt.com##.gap-2.__menu-item.group
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
 chatgpt.com##.md\:px-\[60px\].text-xs.text-center.p-2.justify-center.items-center.w-full.min-h-8.flex.mt-auto.relative.text-token-text-secondary
@@ -423,6 +412,8 @@ kemono.*##[href="https://kemono.su/matrix"], aside
 kinopoisk.ru##.ReactModalPortal, [class*="Footer_"], [class*="styles_plusBadgeCounter_"], [class*="styles_withPromotionBlock_"]
 knowyourmeme.com###global-message, #sub_network_footer_wrapper
 knowyourmeme.com##.ad-unit-wrapper
+kod.ru##[class*="Header_top_"]
+kod.ru##[class*="Layout_cookies_"]
 kod.ru##[class*="Layout_footerWrapper"], [class*="NewsDetail_banner_"]
 korshop.ru###footer
 korshop.ru##.tline
@@ -468,6 +459,7 @@ m.avito.ru##.QUq4O > .AWOsK
 m.avito.ru##.rQjyo
 m.avito.ru##.sNzBX
 m.avito.ru##.XrHpC
+m.avito.ru##.yMSKz, .Uu8_m, .Z7XsT, .eg8C3
 m.avito.ru##.zhRC9
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
@@ -529,6 +521,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/m2bSearchEntryPoint
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchBreadcrumbs
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
+market.yandex.ru###\/content\/page\/fancyPage\/seoChips
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/footer
 market.yandex.ru###\/lightRecommendationRoll42
@@ -737,6 +730,7 @@ ren.tv##.layout-footer
 repack-igruha.net##.footer, .site-desc
 resizepixel.com##.ad-container
 restack.io##.justify-center.sm\:items-center.items-top.flex.overflow-y-auto.inset-0.fixed
+rkn.gov.ru##.banner-container
 rog-forum.asus.com###cookie-policy-info
 rog.asus.com###pageContent-btn-cta
 rog.asus.com##.footer

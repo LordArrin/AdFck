@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 31 October 2025 14:16
+! Last modified: 03 November 2025 14:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -281,6 +281,7 @@ facebook.com##.x1qpq9i9 > .x10wlt62, .x1swvt13.x1l90r2v
 fandom.com##.notifications-box, .toc
 fanfics.me###site-content-center iframe
 fanfics.me##.Sidebar_NativeAd
+fanfiction.net###content_wrapper_inner > table > tbody > tr > td > div
 fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer
@@ -505,6 +506,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/description\/specs\/
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/heroBannerCarousel
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCarousel
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecommendations\/kkmCarousel\/content
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/liveStreamBannerPreview
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncut
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/madvIncutWrapper\/header
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/mainDO > div > .cia-cs.cia-vs

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  25 September 2025 14:54
+! Last modified:  03 November 2025 14:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -88,6 +88,7 @@
 ||*safebrowsing.google*^
 ||*voilatile-pa*^
 # Other
+||*.vip.global.*^
 ||*21modz*^
 ||*2c2p.*^
 ||*activepieces.*^
@@ -144,7 +145,6 @@
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
 ||*chouchou.*^
-||*clck.yandex*^
 ||*codecanyon.net*^
 ||*comms-appx-web*^
 ||*connect-drru.hispace.dbankcloud*^
@@ -152,7 +152,6 @@
 ||*cust-service*^
 ||*daisy.ubuntu*^
 ||*dc-api-v2.adobe*^
-||*deepseekhubs*^
 ||*default.exp-tas*^
 ||*detectportal.firefox*^
 ||*devices.sberbank*^
@@ -167,7 +166,6 @@
 ||*f6.ru*^
 ||*facct.ru*^
 ||*feedbacks*.wb*^
-||*firebaselogging*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
 ||*games.geforce*^
@@ -197,7 +195,7 @@
 ||*lfstrm*^
 ||*lineageos.org*^
 ||*market-click-baobab*^
-||*media-adv.market.yandex*^
+||*media-adv.market.*^
 ||*mediatek*^
 ||*memory.mts*^
 ||*metrica*^
@@ -214,6 +212,7 @@
 ||*ot.io.mi*^
 ||*ota.dstudio*^
 ||*ota.nvidia*^
+||*ota.rupa.*^
 ||*ots.io.mi*^
 ||*paradox-interactive*^
 ||*paradoxplaza.*^
@@ -224,6 +223,7 @@
 ||*proshivkis.ru*^
 ||*qcomgeo*^
 ||*releases.mattermost*^
+||*revenuecat.com*^
 ||*salusconnect*^
 ||*sbdv.*^
 ||*sberdevices*^
@@ -237,8 +237,7 @@
 ||*software-nas*^
 ||*startup.mobile*^
 ||*stat.online.sberbank*^
-||*stats.crdroid*^
-||*stats.rustore*^
+||*stats.*^
 ||*support.topazlabs*^
 ||*telemetry*^
 ||*touch.kaspersky*^
@@ -264,9 +263,11 @@
 # Whitelist
 @@||*api.ipify.org*^
 @@||*connectivitycheck*^
+@@||*dhwnh.co*^
 @@||*download.lineageos*^
 @@||*firebase*^
 @@||*mtalk*^
 @@||*ntp.*^
+@@||*rzekl.co*^
 @@||*s.click.aliexpress.*^
 @@||*translate-pa.google*^

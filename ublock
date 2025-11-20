@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 03 November 2025 14:21
+! Last modified: 20 November 2025 12:01
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -37,6 +37,7 @@
 1fichier.com###footer
 28bit.ru##.footer, .up-main-promo
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"]
+360.yandex.ru##[class*="forHero_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, [href="/competitions"], [href="/job"]
 3dnews.ru##.slider-track
@@ -64,6 +65,7 @@ accounts.spotify.com##footer
 adguard.info##[class*="footer_"]
 akspic.ru##.gallery_fluid-column-block-raw_container
 alice.yandex.ru##.legal-disclaimer, .try-pro-status
+alice.yandex.ru##.StandaloneInput-DisclaimerSpacer
 aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
 aliexpress.ru###ae-ru-privacy-banner__container
@@ -135,6 +137,7 @@ avito.ru##.S5QCT
 avito.ru##.styles-module-animation-origin-bottom-azXB9
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class$="styles-similars-"]
+avito.ru##[class*=".index\.module__banner-block_"]
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="Cards-module-wrapper-"]
 avito.ru##[class*="filter-item-badge-"]
@@ -171,7 +174,6 @@ buhgalteria.ru##.hidden-ld
 buickcafe.com##.overlay
 bunkr.*##.catflix
 bunkr.fi##footer
-byrutgame.org##.footer
 byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
 calendar.yandex.ru##[class*="AsideFooter"]
@@ -199,6 +201,7 @@ citilink.ru##[class*="StyledWrapperComponent"]
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
 cloudflare.com##.pv5.flex-wrap.flex
 club.dns-shop.ru###reaction-type-big
+club.dns-shop.ru##.site-banner-list
 club.dns-shop.ru##[class*="club-sidebar__footer"], [class*="comments__rules"], [class*="on-air_"]
 club.dns-shop.ru##em, .action-widget, .post-page__related-product
 cnews.ru##.right_side
@@ -342,6 +345,7 @@ gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:tr
 gitverse.ru##.border-\[\#5723AB\]
 gitverse.ru##.gap-y-6.animate-carousel
 gitverse.ru##.md\:mb-8.max-sm\:gap-y-6.mb-4.xl\:grid-cols-12.lg\:gap-x-8.md\:grid-cols-6.gap-x-4.grid-cols-2.grid
+gitverse.ru##.md\:py-2.md\:px-12.md\:justify-between.md\:flex-row.md\:h-24.py-6.px-4.to-100\%.to-\[\#2028AB\].from-100\%.from-\[\#5858DB\].bg-gradient-to-r.flex-col.flex.z-\[900\].left-0.bottom-0.right-0.sticky
 gitverse.ru##.xl\:px-12.max-sm\:hidden.max-lg\:hidden.px-12.w-full.mx-auto
 gitverse.ru##body > .max-w-full
 gofile.io###index_footer
@@ -375,6 +379,7 @@ iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"], [class*="Footer-container-"], [class*="QuestionnaireEntrypoint-group-"]
 igromania.ru##.strunmenu
+indiegala.com##.default-footer
 inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
 intel.com###skip-footer
@@ -422,7 +427,7 @@ krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid, .home-help-block, .support-topic-react
 krakenfiles.com##.mt-3.nk-fmg-status-action
 krakenfiles.com##div.nk-fmg-status-info:nth-of-type(4)
-kuper.ru##[class*="BannersAndSlidersThroughCatalog_"], [class*="Footer_"], [class*="HomeLanding_app_"], [class*="ShowJsPlacement_bannerMainHeader_"]
+kuper.ru##[class*="DownloadAppModal_root_"]
 kuplinov-play.games##div.cols:nth-of-type(3)
 lanrar.com###go, #sub2
 last.fm##.auth-dropdown-pro-text
@@ -570,6 +575,9 @@ megamarket.ru##.among-items-banner, .banner-slider, .faq-footer-links, .faq-moda
 merionet.ru##.discountBanner, .popup
 message.aliexpress.com##.footer-copywrite, .site-footer
 mmoreigr.org##.footer, .maindescrip
+mobdisc.com###pdalife_widget
+mobdisc.com##.banner-top, .b-download__header, .btn-prem, .b-download__info, .b-download__help-link_mode_visible.js-help-link.b-download__help-link
+mobdisc.com##a.b-download__button:nth-of-type(2)
 modsfire.com##.footer, .inf-down
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
@@ -844,6 +852,7 @@ timeweb.com##[class*="-banner"]
 tl.rulate.ru###down, #up
 tl.rulate.ru##footer, .alert-success.alert
 tns-e.ru##.banner-wrapper, .footer
+tns-e.ru##.oldSiteInfo
 tolknews.ru##.b-footer
 topazlabs.com##[class*="-banner"], [class*="-footer"]
 torbobit.net###download-time-premium, #premium-download-info
@@ -1055,6 +1064,7 @@ vps.today##div.margin-bottom.card-bordered.card:nth-of-type(6)
 vremyan.ru##.ajaxload, .fill-bg, .ok-link, footer
 vrtor.ru###adv_fon
 washingtonpost.com##.wpds-c-CRbvs
+web.kuper.ru##[class*="pwa-banner_"]
 wikihow.com###footer
 wikihow.com##.wh_ad_inner, .fluid, .house-promo
 wikipedia.org###footer > .noprint
@@ -1076,6 +1086,7 @@ xv-ru.com###footer
 xvideos.red##.auto-width-popup
 yandex.ru##.Bno_isPromoSnippet
 yandex.ru##.main__carousel-item_type_product_gallery
+yandex.ru##.OrganicUgcReviews-QuoteWrapper
 yandex.ru##div > .serp-item_card.serp-item
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
@@ -1090,6 +1101,8 @@ yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru,ya.ru##[class$="_full-width"]
+yandex.ru,ya.ru##[class$="_withStore"]
+yandex.ru,ya.ru##[class$="VideoListPageDirect"]
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="-metadoc"]
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 November 2025 12:01
+! Last modified: 26 November 2025 04:14
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -384,6 +384,7 @@ inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
 intel.com###skip-footer
 iplay.com###blockers
+island-of-pleasure.site###footer
 itorrents-igruha.net##[class*="footer-"]
 ixbt.com###newsBlock
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
@@ -402,6 +403,7 @@ ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
 ixbt.com##.recommend-c
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
+ixbt.com##.w-3.h-3.flex.relative
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 ixbt.com##[id^="video-sidebar-"]
 ixbt.com##figcaption
@@ -495,6 +497,7 @@ m.youtube.com##ytm-privacy-tos-footer-renderer
 m.youtube.com##ytm-reel-shelf-renderer
 m.youtube.com##ytm-search ytm-compact-video-renderer:has(ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"])
 m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-context-renderer:has(ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/))
+magnit.ru##.footer, .magazine, .sections-ticker
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .spotlight--no-side-radius
 mail.ru##.footer, .setting-promo
@@ -700,6 +703,7 @@ playground.ru##.file-download-box-tip
 playground.ru##.page-footer
 pling.com###footer-container
 pling.com##.product-maker-sidebar
+plus.yandex.ru##[class*="Footer_"]
 plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##.webchat-icon, .portal-footer
@@ -1093,19 +1097,19 @@ yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvance
 yandex.ru,ya.ru##.CbirNavigation-TabsItem_name_neurosearch-page
 yandex.ru,ya.ru##.EntityCard_ecom
 yandex.ru,ya.ru##.footer__blocks
+yandex.ru,ya.ru##.ImagesTouchViewer-ViewerItem > div > [class^="ImagesTouchViewer-Card_"]
+yandex.ru,ya.ru##.JustifierRowLayout-Incut > [class*="_skeleton"]
 yandex.ru,ya.ru##.MerchantDelivery-Container
 yandex.ru,ya.ru##.OrganicUgcReviews-AvatarWrapper
 yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
 yandex.ru,ya.ru##.ProductsModePanel
 yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
-yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*_card-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
+yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="_withStore"]
 yandex.ru,ya.ru##[class$="VideoListPageDirect"]
 yandex.ru,ya.ru##[class*="-has-warning"]
-yandex.ru,ya.ru##[class*="-metadoc"]
-yandex.ru,ya.ru##[class*="-no-padding-bottom"]
 yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
@@ -1135,6 +1139,7 @@ youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
 youtube.com##.ytd-metadata-row-container-renderer.style-scope
+youtube.com##.ytDismissibleItemReplacedContent
 youtube.com##.ytGridShelfViewModelHostHasBottomButton
 youtube.com##.ytLockupAttachmentsViewModelHost
 youtube.com##.ytp-cards-button, .ytp-cards-teaser, .ytp-ce-covering-image, .ytp-ce-covering-overlay, .ytp-ce-element, .ytp-ce-element-shadow, .ytp-ce-expanding-image, .ytp-pause-overlay, .ytp-scroll-min.ytp-pause-overlay

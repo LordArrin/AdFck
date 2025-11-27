@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 26 November 2025 04:14
+! Last modified: 27 November 2025 14:51
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -225,6 +225,10 @@ dash.cloudflare.com##.c_ew.c_tf.c_arr.c_ts.c_gv.c_da.c_cz.c_bs.c_br.c_o.c_amx.c_
 dash.cloudflare.com##.c_ew.c_up.c_uo.c_uy.c_gv.c_da.c_cz.c_bs.c_br.c_o.c_un.c_cx.c_cw.c_ap
 dash.cloudflare.com##.c_lq.c_ap.c_e.c_d.c_gq.c_ys.c_pw
 dash.cloudflare.com##.c_t.c_d > .c_d.c_cu
+datanodes.to##.md\:rounded-r-xl.md\:rounded-l-none.rounded-xl.bg-blue-600
+datanodes.to##.p-16.items-center.flex.md\:w-8\/12.w-full.rounded-lg
+datanodes.to##.proFeatures
+datanodes.to##.z-50.relative.px-4.py-6
 deepseek.com##.footer
 denuvo.store##.altumcode-informational-wrapper
 deployn.de##.border.rounded-xl
@@ -393,6 +397,7 @@ ixbt.com##.\[\&\>\*\:last-child\:not\(\:first-child\)_\[data-flux-group-target\]
 ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
+ixbt.com##.branding__mobile-spacer, .infinite-scroll-container, .text-center.py-12.justify-center
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-4.pb-1.rounded-2xl.mb-4
 ixbt.com##.desktop-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
@@ -674,7 +679,9 @@ person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
+pikabu.ru##.external_branding
 pikabu.ru##.footer__email
+pikabu.ru##.pkb-badge
 pikabu.ru##.promo-banner-sticky > .footer__email
 pikabu.ru##.sidebar-game
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
@@ -748,6 +755,7 @@ rkn.gov.ru##.banner-container
 rog-forum.asus.com###cookie-policy-info
 rog.asus.com###pageContent-btn-cta
 rog.asus.com##.footer
+roskomsvoboda.org##.contacts, .footer
 rsload.net##.footer, .bundle-descr, .prfl, .tgwrap
 rsload.net##.telegram-block
 rsload.net##[href="https://rsload.net/soft/windows/"]
@@ -890,6 +898,8 @@ vc.ru##.account-menu__group:nth-of-type(2)
 vc.ru##.l-island-round
 vc.ru##.sidebar__section:nth-of-type(3)
 vds.menu##.text-center, div.container > hr, tr.info
+vik1ngfile.site###support-us
+vik1ngfile.site##.row
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
@@ -1186,6 +1196,7 @@ zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||https://mc.yandex.ru/metrika/watch.js
 ||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||img.staticbg.com/myos/*/*/*.jpg.webp$image
+||island-of-pleasure.site/templates/flat-cinema/images/woman.jpg$image
 ||korshop.ru/*/*/*/*/MergedLayers.png$image
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru

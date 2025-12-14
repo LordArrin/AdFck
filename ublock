@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 December 2025 16:51
+! Last modified: 14 December 2025 16:52
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1383,10 +1383,7 @@ youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-ti
 youtube.com##ytd-browse ytd-rich-item-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"])
 youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer span.ytd-thumbnail-overlay-time-status-renderer[aria-label="Shorts"]:upward(ytd-item-section-renderer)
 youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
-youtube.com##ytd-compact-video-renderer.ytd-item-section-renderer.style-scope:nth-of-type(3)
 youtube.com##ytd-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-guide-entry-renderer)
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
-youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint[title="Shorts"]:upward(ytd-mini-guide-entry-renderer)
 youtube.com##ytd-reel-shelf-renderer
 youtube.com##ytd-search ytd-video-renderer:has(span.ytd-thumbnail-overlay-time-status-renderer:has-text(/\s(0:\d\d|1:0\d)\s/))

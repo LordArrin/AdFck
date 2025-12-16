@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  03 December 2025 05:34
+! Last modified:  16 December 2025 11:50
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -93,9 +93,12 @@
 ||*2c2p.*^
 ||*activepieces.*^
 ||*adobedtm*^
+||*adriver.*^
 ||*ads.rustore*^
 ||*adspector*^
 ||*adspend.space*^
+||*adthrive.*^
+||*aio.media*^
 ||*amazon-adsystem*^
 ||*analytics*^
 ||*androidp1.*^
@@ -116,7 +119,9 @@
 ||*avi-ec-master*^
 ||*bandicam*^
 ||*bdurl*^
+||*bitrix.info*^
 ||*bugsnag*^
+||*buzzoola.com*^
 ||*bytedance*^
 ||*cackle.*^
 ||*callback.symfonium*^
@@ -144,10 +149,15 @@
 ||*cdn.solimba*^
 ||*cdn.tuto4pc*^
 ||*cdn.visualbee*^
+||*channel.io*^
 ||*chouchou.*^
+||*cloudflareinsights.*^
+||*code.jivosite.*^
 ||*codecanyon.net*^
 ||*comms-appx-web*^
 ||*connect-drru.hispace.dbankcloud*^
+||*content-loader.*^
+||*convead.io*^
 ||*crashlytics*^
 ||*cust-service*^
 ||*daisy.ubuntu*^
@@ -162,23 +172,31 @@
 ||*dr.yandex*^
 ||*egress.yandex*^
 ||*epdg.epc.*^
+||*error-report.*^
 ||*et.topazlabs*^
 ||*f6.ru*^
 ||*facct.ru*^
+||*fb.content-loader.*^
+||*fb.html-load.*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*fpsmon.*^
+||*front-ws.channel*^
 ||*games.geforce*^
 ||*geetest.co*^
 ||*genimee.com*^
 ||*geo-data.wildberries*^
+||*google-analytics*^
 ||*googleadservices*^
+||*googlesyndication*^
 ||*googletagmanager*^
 ||*graph.facebook*^
 ||*great-tit.com*^
+||*html-load.*^
 ||*hydrapi.*^
 ||*inapp.services.ucp.kaspersky-labs*^
 ||*inappstory*^
+||*informer.yandex.*^
 ||*inno.bisrv*^
 ||*inovelli*^
 ||*installer.betterinstaller*^
@@ -186,6 +204,7 @@
 ||*island-server.*^
 ||*izatcloud*^
 ||*jethrojeff*^
+||*jivosite.*^
 ||*kerberos*^
 ||*kinescope.io*^
 ||*kmsd.online*^
@@ -224,7 +243,9 @@
 ||*qcomgeo*^
 ||*releases.mattermost*^
 ||*revenuecat.com*^
+||*roistat.*^
 ||*salusconnect*^
+||*sape.ru*^
 ||*sbdv.*^
 ||*sberdevices*^
 ||*sc.omtrdc*^
@@ -234,7 +255,9 @@
 ||*sentry*^
 ||*services.paradoxplaza*^
 ||*sitereview.zscaler*^
+||*skcrtxr.*^
 ||*software-nas*^
+||*spot.im*^
 ||*startup.mobile*^
 ||*stat.online.sberbank*^
 ||*stats.*^
@@ -258,6 +281,7 @@
 ||*xtrapath*^
 ||*xtratime*^
 ||*yabs.ya*^
+||*yadro.*^
 ||*ycxrl*^
 ||*zconfig.alibabausercontent*^
 # Whitelist

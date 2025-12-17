@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 December 2025 11:36
+! Last modified: 17 December 2025 07:53
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -205,6 +205,8 @@ allrepack.ru###footer-bottom
 alternativeto.net##.site-footer
 androeed.store##.our_app, .recomend_text, .telegram_button
 androeed.store###load_more_similar
+anifap.com##.ignore-select.article.fullstory > div:nth-of-type(7)
+animeidhentai.com###promo-topbar
 annimon.com##.footer-wrapper
 annimon.com###abldiv
 apkmirror.com##.expandMargins
@@ -277,6 +279,7 @@ calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
+chan.sankakucomplex.com##.companion--draggable_element
 chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8, ._0fcaa63
 chatgpt.com##.gap-2.__menu-item.group
 chatgpt.com##.md\:px-\[60px\].empty\:hidden
@@ -471,7 +474,10 @@ habr.com##.tm-page__sidebar, .tm-sexy-sidebar, .tm-user-card__buttons_variant-ar
 habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions, .tm-project-block_variant-salary, .tm-project-block_variant-tasks, .tm-project-block_variant-vacancies
 habr.com##[href^="https://bit.ly/"]
 habr.com###news_block_1
+hentai.tv###promo-topbar
 hentaiera.com###footer_bar
+hentaihaven.xxx##.bottom.player_logic_opt_c, .pt-2, .vraven_expand, .sidebar-col
+hentaiworld.tv##.cams-button, .site-footer
 hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
@@ -686,6 +692,7 @@ market.yandex.ru###RecommendationRollTabs
 market.yandex.ru###searchSeoFooterChips
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice
+matreshka.tv##.container-notice, .donation-matr-button
 matreshka.tv##.cookies, .download-section, .menu__info
 matreshka.tv##.donation-matr-button, .player-foreign-agent
 matreshka.tv##.menu__divider, .menu__title
@@ -753,6 +760,7 @@ music.yandex.ru###_r_bm_
 mvideo.ru##[class*="footer__grid"], .footer, .layout__footer
 mvideo.ru###mvid-banners-container
 mvideo.ru##mvid-our-advantages-mp
+my.mail.ru##.l-music__bottom-informer
 myspar.ru##.card-present, .seo-block, .js-popup-note, [class*="footer_"]
 nahjob.top##.node_tg
 nanoreview.net##.footer-bottom, .apf-act-btn
@@ -760,6 +768,8 @@ nauchniestati.ru##.eduChat
 naughtymachinima.com##.footer-container, .thetopbar
 naughtymachinima.com###top-ad-bar
 newgrounds.com##.blackout-inner, .header-deck, .inhousepromo, div.blackout, div.blackout-hover
+news.sankakucomplex.com##.vce-related-box, .gold.nav-button
+news.sankakucomplex.com###footer
 nexusmods.com##.ad, .ad-unit, .donation-form, .hr, .mfp-ready, .mfp-s-ready, .subheader, .user-profile-menu-upgrade, [class*="premium-"]
 nexusmods.com###opening, #rj-footer
 nitroflare.com##[href="payment"], .good.table2, [src="img/swf/HighSpeedMeter.png"], body > div:nth-of-type(2), div > .bootstrapButton, li:nth-of-type(3)
@@ -1016,6 +1026,7 @@ unite4buy.ru##.footer-wrapper
 uploadhaven.com##td.text-center:nth-of-type(3), th:nth-of-type(3), footer, .apply-section, .premium-row, .text-center.mt-3.mb-0.d-block, .text-muted.text-center
 uploadrar.com###footer2, #gdpr-cookie-notice
 uploadrar.com##footer, .menufooter
+v4.afap.me##.ignore-select.article.fullstory > div:nth-of-type(7)
 valid.x86.*##[class*="widget-advert-"]
 valid.x86.*###main__legals
 vamprivet.ru##.footer
@@ -1329,7 +1340,9 @@ xda-developers.com###footer, #website-footer
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link, .p-footer
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video, [class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
+xv-ru.com##.banner-game, .premium-results-line
 xv-ru.com###footer
+xv-ru.com###premium-info-frame
 xvideos.red##.auto-width-popup
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .images-viewer-content2__behavioral-direct, .ImagesTouchViewer-Card_behavioralDirect, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru,ya.ru##.Bno_isPromoSnippet
@@ -1346,14 +1359,12 @@ yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
 yandex.ru,ya.ru##.OrganicUgcReviews-QuoteWrapper
 yandex.ru,ya.ru##.ProductsModePanel
 yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
+yandex.ru,ya.ru##.SuggestSearchThemesSection
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
 yandex.ru,ya.ru##[class*="-has-warning"]
 yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
-yandex.ru,ya.ru##[class*="Organic_with"]:has([class*="-Text"])
-yandex.ru,ya.ru##[class*="Organic"][class*="_compact"]
-yandex.ru,ya.ru##[class*="VK"]:has([class*="Organic_with"])
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
 yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="_withStore"]
@@ -1361,8 +1372,8 @@ yandex.ru,ya.ru##[class$="VideoListPageDirect"]
 yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##div > .serp-item_card.serp-item
-yandex.ru,ya.ru##div > [class]:has( [class*="Typo_line_s"][class*="Typo_text_m"][class*="Typo"][class*="organic"][class*="-Text"])
 yandex.ru,ya.ru##Divider
+yandex.ru,ya.ru##li[class*="lh"]:has([class$="-Text"])
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

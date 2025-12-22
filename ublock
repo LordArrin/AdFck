@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 December 2025 17:25
+! Last modified: 22 December 2025 18:35
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -35,6 +35,7 @@
 ##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
 ##[class^="AppMoney"]
 ##[class^="AppMoneySidebar"]
+##div[id^="vk_ads_"]
 101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
 123.ru###news
 123.ru##.footer-result
@@ -397,6 +398,7 @@ indiegala.com##.default-footer
 inkbunny.net##.footer
 inmyroom.ru##.s-Footer, .s-Topbar
 intel.com###skip-footer
+iotools.cloud##.aw-above_tool.aw, .aw-below_tool.aw, .main-footer, .side-content, .mb-3.info-box, .wrapper > .bsa-gap
 iplay.com###blockers
 island-of-pleasure.site###footer
 itorrents-igruha.net##[class*="footer-"]
@@ -717,6 +719,7 @@ perekrestok.ru##.footer-copyright
 person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
+pikabu.ru##.bell, .pkb-badge-shop
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.external_branding
 pikabu.ru##.footer__email
@@ -737,6 +740,7 @@ pikabu.ru##[class*="item-trigger__host-"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##article.story:has([class*="company-blog-badge"])
+pikabu.ru##canvas
 pikabu.ru##span:nth-of-type(3)
 pixeldrain.com##.svelte-1tt5g44, .svelte-188flqi.button:nth-of-type(3), [href="/home#pro"]
 pixeldrain.com##strong
@@ -1029,6 +1033,7 @@ vk.*###settings_ps_promo_big_banner_container
 vk.*###settings_vkpay_promo_big_banner_container
 vk.*###system_msg
 vk.*###ui_rmenu_recommended
+vk.*###vkMsg
 vk.*##._ads_promoted_post_data_w
 vk.*##.ads_ads_box
 vk.*##.ads_ads_news_wrap
@@ -1261,88 +1266,65 @@ youtube.com##ytd-watch-next-secondary-results-renderer ytd-shelf-renderer:has(sp
 zakaznoe.pochta.ru##.webchat-icon
 zvyki.com###headerText, #footer
 zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
-||*.ib.metapix.net/*/*/*_daytime.jpg$image
-||*.ms.vk.*^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||about.gitlab.com/*/*/gradient.png$image
-||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com,important
-||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||ad.mail.ru/vp/*&duration=$domain=vk.com
-||ad.mail.ru/vp/*&duration=domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||ad.mail.ru^$domain=vk.com,important
-||ad.mail.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||aliexpress.ru/$image
-||an.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||avatars.mds.yandex.net/get-adfox-content
 ||cdn.sstatic.net/Sites/askubuntu/img/site-background-image.png$image
 ||cowaii.club/banner*$image
 ||cowaii.club/bg*$image
 ||dailyuploads.net/images_*/bg*.png$image
-||dixy.ru/local/templates/dixy_ru/images/ng-2025/stars.svg$image
+||dixy.ru/local/templates/dixy_ru/images/ng-*/stars.svg$image
+||doubleclick.net/instream/ad_status.js^
+||fimfiction.net/images/icons/subscribe-star.png$image
 ||genshin.ru/wp-content/uploads/*/*/bg$image
-||google-analytics.com/analytics.js^$domain=important
-||googleads.g.doubleclick.net/pagead/id^$domain=important
+||google-analytics.*/analytics.js^
 ||help.ubuntu.com/*/*/img/bg_dotted.png$image
-||https://mc.yandex.ru/metrika/metrika_match.html
-||https://mc.yandex.ru/metrika/watch.js
-||https://vk.*/rtrg?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||img.staticbg.com/myos/*/*/*.jpg.webp$image
-||island-of-pleasure.site/templates/flat-cinema/images/woman.jpg$image
+||island-of-pleasure.site/templates/*/images/woman.jpg$image
 ||korshop.ru/*/*/*/*/MergedLayers.png$image
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||mc.yandex.ru/metrika/watch.js^$domain=vk.com,important
-||mc.yandex.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||mmoreigr.org/templates/TronTheme/images/bg_*.jpg$image
+||metapix.net/*/*/*_daytime.jpg$image
+||mmoreigr.org/templates/*/images/bg_*.jpg$image
+||ms.vk.com^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
+||ms.vk.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||pixeldrain.com/res/img/inflating_star.webp$image
-||r.mail.ru$domain=vk.com,important
-||rs.mail.ru^$domain=vk.com,important
-||rule34.xxx//images/r34chibi.png$image
+||rule34.xxx/*/icame.png$image
+||rule34.xxx/*/r34chibi.png$image
 ||rule34.xxx/blacklisted.png$image
-||rule34.xxx/static/icame.png$image
 ||rule34video.com/images/advertisements/*.jpg$image
-||scorecardresearch.com^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||stat.pladform.ru$domain=vk.com,important
-||static.doubleclick.net/instream/ad_status.js^$domain=important
-||static.fimfiction.net/images/icons/subscribe-star.png$image
-||static.rutube.ru/static/img/svg/adult-stub.svg$image
-||stats.vk-portal.net/uxzoom$domain=vk.com,important
-||stats.vk-portal.net/web-stats$domain=vk.com,important
-||stats.vk-portal.net^$domain=vk.com,important
-||stats.vk-portal.net^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
+||rutube.ru/static/img/svg/adult-stub.svg$image
 ||thelastgame.ru/wp-content/uploads/*/*/games_of_*.jpg$image
-||tns-counter.ru^$domain=vk.com,important
-||tns-counter.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
-||top-fwz1.mail.ru/js/code.js$domain=vk.com,important
-||top-fwz1.mail.ru^$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
 ||totalbox-frontend.taxi.yandex-team.ru/wizard$subdocument
-||tracker-api.my.com$domain=vk.com,important
-||trk.mail.ru$domain=vk.com,important
 ||unlock.gem-flash.com/*/unlock_service.html$subdocument
-||vk.*/ads_rotate^$domain=important
-||vk.*/al_audio.php?act=need_show_promo^
-||vk.*/al_feed.php?ads_section^
-||vk.*/al_video.php?act=ads_stat
-||vk.*/css/al/ads_light.$script
-||vk.*/dist/web/ads_light.$script
-||vk.*/dist/web/jobs_devtools_notification.$script
-||vk.*/dist/web/performance_observers.$script
-||vk.*/errors.php^
-||vk.*/js/cmodules/web/ads_light.$script
-||vk.*/upload_fails.php^
-||vk.com/ads_rotate^$domain=important
-||vk.com/al_audio.php?act=need_show_promo^
-||vk.com/al_feed.php?ads_section^$domain=vk.com,important
-||vk.com/al_video.php?act=ads_stat^$domain=important
+||vk.com/*ads_rotate^
+||vk.com/*ads_section*^
+||vk.com/*ads_stat*^
+||vk.com/*need_show_promo*^
 ||vk.com/css/al/ads_light.$script
-||vk.com/css/al/mrtarg.^$domain=vk.com,important
-||vk.com/errors.php^$domain=vk.com,important
-||vk.com/js/al/mrtarg.js^$domain=vk.com,important
+||vk.com/css/al/mrtarg.^
+||vk.com/dist/web/ads_light.$script
+||vk.com/dist/web/jobs_devtools_notification.$script
+||vk.com/dist/web/performance_observers.$script
+||vk.com/errors.php^
+||vk.com/js/al/mrtarg.js^
 ||vk.com/js/cmodules/web/ads_light.$script
-||vk.com/rtrg?^$domain=vk.com,important
-||vk.com/upload_fails.php^$domain=vk.com,important
+||vk.com/rtrg?^
+||vk.com/upload_fails.php^
+||vk.ru/*ads_rotate^
+||vk.ru/*ads_section*^
+||vk.ru/*ads_stat*^
+||vk.ru/*need_show_promo*^
+||vk.ru/css/al/ads_light.$script
+||vk.ru/css/al/mrtarg.^
+||vk.ru/dist/web/ads_light.$script
+||vk.ru/dist/web/jobs_devtools_notification.$script
+||vk.ru/dist/web/performance_observers.$script
+||vk.ru/errors.php^
+||vk.ru/js/al/mrtarg.js^
+||vk.ru/js/cmodules/web/ads_light.$script
+||vk.ru/rtrg?^
+||vk.ru/upload_fails.php^
 ||vkplay.live/app/embed/random$subdocument
 ||vps.today/images/bg.png$image
-||vrtor.ru/templates/Torrentino/images/fon.jpg$image
+||vrtor.ru/*/*/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
-||xeon-e5450.ru/img/tg_welcome*$image
-~vk.*###vkMsg
-~vk.*##div[id^="vk_ads_"]
+||xeon-e5450.ru/*/tg_welcome*$image

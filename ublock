@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 22 December 2025 18:35
+! Last modified: 26 December 2025 17:18
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -144,6 +144,8 @@ aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionI
 avito.ru##.channel-preview-root_roundAvatar-CozVK
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
+avito.ru##.styles\.module__root___YjI4ZW
+avito.ru##.styles\.module__root_preset_gray___XzVhMW
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class$="styles-similars-"]
 avito.ru##[class*=".index\.module__banner-block_"]
@@ -159,12 +161,14 @@ avito.ru##[class*="index-sideAds-"]
 avito.ru##[class*="index\.module__nav__"]
 avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
+avito.ru##[class*="items-itemsCarouselWidget-"]
 avito.ru##[class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
 avito.ru##[class*="profile-sidebar-navigation__tag_"]
 avito.ru##[class*="promoWidget-"]
 avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="seo-tags-module-"]
 avito.ru##[class*="services-root-"], [class*="sale-sale-"], [class*="visual-rubricator-grid-"]
+avito.ru##[class*="style__item-view-similars_"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avito.ru##[class*="styles\.module__footer_"]
 avtodor-tr.ru##.footer
@@ -236,6 +240,8 @@ deployn.de##.border.rounded-xl
 derpibooru.org###footer
 deviantart.com##.surface-primary.surface.forced-theme-light, ._2D30j
 diakov.net##td, .title_spoiler
+discord.com##[class*="-expressiveWrapper"], [class*="-newBadge"]
+discord.com##[class*="-newBadge"]
 disk.yandex.*##._nb-promo-button, .notifier, .root__footer, .AppLink, .LeftColumn__InnerWrapperBottom, [class*="Popup_modal_"], [class*="Popup_root_"]
 disk.yandex.*##.LeftColumnNavigation__Item_type_family
 disk.yandex.ru##.footer
@@ -386,6 +392,9 @@ hub.docker.com##.css-1aylyrp.MuiBox-root
 i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
+id.vk.*##[class*="AdvertisingBanner-"]
+id.vk.*##[class*="GroupRounded-group-"][class*="Recommendations-group-"]
+id.vk.*##[class*="PanelRounded-panel-"][class*="-tabletMinus-"]
 id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling, [class*="RecommendationCard-card-"], [class*="Recommendations-content-"], [class*="Footer-container-"], [class*="QuestionnaireEntrypoint-group-"]
 igm.gg##.Banner_layout__f050h
 igm.gg##.Template_modal-root___e0Yy
@@ -491,6 +500,7 @@ m.avito.ru##.sNzBX
 m.avito.ru##.XrHpC
 m.avito.ru##.yMSKz, .Uu8_m, .Z7XsT, .eg8C3
 m.avito.ru##.zhRC9
+m.vk.*##.basis__footer, .UnsupportedBrowser, .Separator, .MiniAppsServicesBarScroll, .FeedSliderTabs, .StoriesFeedBlock, .ServicesBar__slider, .Row.Pad__header
 m.vk.*##.feedAssistancePromoButtonInstallApp
 m.vk.*##.vkuiModalRoot, .vkuiModalRoot--desktop
 m.vk.*##.vkuiPopoutRoot__modal
@@ -538,6 +548,7 @@ mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="I
 mail.yandex.ru##[class*="DisableAdsButton_"]
 market.yandex.ru###\/cardRecommendationRollV42
 market.yandex.ru###\/content\/footer
+market.yandex.ru###\/content\/header\/header\/ecomAssistantModalTrigger
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/page\/fancyPage\/\@chef\\\/cart\\\/CartLayout\/\@chef\\\/cart\\\/ChefCartLegalInformation
 market.yandex.ru###\/content\/page\/fancyPage\/agitationsBlock
@@ -651,6 +662,7 @@ music.yandex.ru##[class*="CompositeHeader_"]
 music.yandex.ru##[class*="Donations_root_"]
 music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
+music.yandex.ru##[class*="Gr0Nt"]
 music.yandex.ru##[class*="InStyle_tabCarousel_"]
 music.yandex.ru##[class*="MainPage_footer_"]
 music.yandex.ru##[class*="MainPage_specialHeaderContainer_"]
@@ -1271,6 +1283,7 @@ zvyki.com##.onesongblock-btns, .onesongblock-end, .rbt-card, .rbt-list.no-ajaxy
 ||cdn.sstatic.net/Sites/askubuntu/img/site-background-image.png$image
 ||cowaii.club/banner*$image
 ||cowaii.club/bg*$image
+||cs.pikabu.ru/page/newyear*/ny*.webp$image
 ||dailyuploads.net/images_*/bg*.png$image
 ||dixy.ru/local/templates/dixy_ru/images/ng-*/stars.svg$image
 ||doubleclick.net/instream/ad_status.js^

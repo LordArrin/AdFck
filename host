@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  18 December 2025 16:46
+! Last modified:  05 January 2026 20:18
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -114,11 +114,13 @@
 ||*app-measurement*^
 ||*appboy*^
 ||*appmetrica*^
+||*appsflyer.*^
 ||*appsgrowthpromo*^
 ||*apptracer*^
 ||*avi-ec-master*^
 ||*bandicam*^
 ||*bdurl*^
+||*bidata.blackview*^
 ||*bitrix.info*^
 ||*bugsnag*^
 ||*buzzoola.com*^
@@ -168,6 +170,7 @@
 ||*divpro.yandex*^
 ||*download.nvidia*^
 ||*dr.yandex*^
+||*ecmdm2.avito.*^
 ||*egress.yandex*^
 ||*epdg.epc.*^
 ||*error-report.*^
@@ -234,6 +237,7 @@
 ||*paradoxplaza.*^
 ||*paragon-software*^
 ||*partner.browser.yandex*^
+||*payclick.mts*^
 ||*poisk.mts*^
 ||*privacy.xboxlive*^
 ||*proshivkis.ru*^
@@ -254,6 +258,7 @@
 ||*sitereview.zscaler*^
 ||*skcrtxr.*^
 ||*software-nas*^
+||*special.pikabu*^
 ||*spot.im*^
 ||*startup.mobile*^
 ||*stat.online.sberbank*^

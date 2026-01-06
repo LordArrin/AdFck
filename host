@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  05 January 2026 20:18
+! Last modified:  06 January 2026 14:33
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -52,9 +52,9 @@
 ||*master.avito*^
 ||*mdm.avito*^
 ||*mon.avito*^
-||*new-sentry.k.avito*^
 ||*osiam.avito*^
 ||*sccm01.avito*^
+||*sentry.k.avito*^
 ||*sentry.msk.avito*^
 ||*sntr.avito*^
 ||*stats.avito*^
@@ -78,15 +78,11 @@
 # VRDesktop
 ||*vrdesktop*^
 # Google
-||*androidattestationvalidation-pa*^
-||*deviceintegritytokens-pa*^
 ||*federatedcompute-pa*^
 ||*geller-pa*^
-||*gmscompliance-pa*^
 ||*ondevicesafety-pa*^
 ||*peoplestackwebexperiments-pa*^
 ||*safebrowsing.google*^
-||*voilatile-pa*^
 # Other
 ||*.vip.global.*^
 ||*21modz*^
@@ -179,6 +175,7 @@
 ||*facct.ru*^
 ||*fb.content-loader.*^
 ||*fb.html-load.*^
+||*federation.mts*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*front-ws.channel*^
@@ -223,8 +220,12 @@
 ||*miui.*^
 ||*moondownload.*^
 ||*mradx*^
+||*mts.tvbit*^
+||*mtsopros.mts*^
+||*mwvsmm.mts*^
 ||*netmon.azure*^
 ||*nsis.bisrv*^
+||*obs.mts.*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
@@ -262,7 +263,6 @@
 ||*spot.im*^
 ||*startup.mobile*^
 ||*stat.online.sberbank*^
-||*stats.*^
 ||*support.topazlabs*^
 ||*telemetry*^
 ||*touch.kaspersky*^
@@ -270,6 +270,7 @@
 ||*ts.tracker-api.my*^
 ||*turn.hydrapi*^
 ||*twilio*^
+||*uipltf.mts*^
 ||*unbrickandroid.*^
 ||*unchecky*^
 ||*upd.kaspersky*^
@@ -300,3 +301,4 @@
 @@||*startup.mobile.yandex*^$important
 @@||*static.deepseek.*^
 @@||*translate-pa.google*^
+@@||*yo-star.com*^

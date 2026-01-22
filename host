@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  06 January 2026 23:16
+! Last modified:  22 January 2026 21:10
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -175,7 +175,6 @@
 ||*facct.ru*^
 ||*fb.content-loader.*^
 ||*fb.html-load.*^
-||*federation.mts*^
 ||*feedbacks*.wb*^
 ||*firmwarespro.*^
 ||*front-ws.channel*^
@@ -212,19 +211,14 @@
 ||*market-click-baobab*^
 ||*media-adv.market.*^
 ||*mediatek*^
-||*memory.mts*^
 ||*metrica*^
 ||*metricellcollect*^
-||*mi.*^
-||*miui.*^
 ||*moondownload.*^
 ||*mradx*^
-||*mts.tvbit*^
 ||*mtsopros.mts*^
 ||*mwvsmm.mts*^
 ||*netmon.azure*^
 ||*nsis.bisrv*^
-||*obs.mts.*^
 ||*opcon.ubuntu*^
 ||*opencandy*^
 ||*os2.yefeneri2*^
@@ -237,8 +231,6 @@
 ||*paradoxplaza.*^
 ||*paragon-software*^
 ||*partner.browser.yandex*^
-||*payclick.mts*^
-||*poisk.mts*^
 ||*privacy.xboxlive*^
 ||*proshivkis.ru*^
 ||*qcomgeo*^
@@ -269,7 +261,6 @@
 ||*ts.tracker-api.my*^
 ||*turn.hydrapi*^
 ||*twilio*^
-||*uipltf.mts*^
 ||*unbrickandroid.*^
 ||*unchecky*^
 ||*upd.kaspersky*^

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 27 January 2026 00:19
+! Last modified: 28 January 2026 14:38
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -75,6 +75,7 @@ accounts.spotify.com##footer
 adguard.info##[class*="footer_"]
 akspic.ru##.gallery_fluid-column-block-raw_container
 alice.yandex.ru##.legal-disclaimer, .try-pro-status
+alice.yandex.ru##.Standalone-MobileApp
 alice.yandex.ru##.StandaloneInput-DisclaimerSpacer
 aliexpress.com###mobile-download
 aliexpress.com##.footer-copywrite, .site-footer, .order-block.order-recommend
@@ -181,6 +182,7 @@ bank.yandex.ru##[class*="Qr-module_"]
 banki.ru##[class*="Breadcrumbsstyled__StyledBreadcrumbsWrapper-"], [class*="DownloadMobileAppstyled_"], [class*="layout-wrapper footer"], [class*="lazy-widget--loaded"], [class*="seo-block"], [class*="SpecialPanelstyled__StyledSpecialPanel-"]
 bcnn.ru##.site-footer
 beatsage.com##[class*="-socials"], [class*="footer"]
+bigasia.ru##header
 bolshoyvopros.ru###mobile_suggest
 boosty.to##[class*="Footer_block_"]
 brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-join
@@ -417,6 +419,7 @@ iplocation.net##.hide-ip-button, .adHome, .feedback-row
 island-of-pleasure.site###footer
 itch.io##.base_widget.content_warning_widget
 itorrents-igruha.net##[class*="footer-"]
+ixbt.com###footer
 ixbt.com###newsBlock
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
@@ -479,12 +482,14 @@ leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.box-inline-topic
 lenta.ru##.social-snippet, .footer_panel
 lewdninja.com##.is-warning.notification
+ligaudio.ru###DesktopInread, #billboard_mob, #billboard, #foot, #DesktopFooter
 linkbox.to##.adm-mask, .subscribe, .ant-carousel, .main-footer, .subscription-btn, .banner, .line
 linode.com##.bg-brand.justify-between.flex
 liteapks.com##.site-footer.pt-4.border-top.bg-primary.text-white
 litres.ru##[class*="Footer_"], [class*="MainPromoBanner_"], [class*="Search_banner_"]
 livelib.ru##footer, .main-slider, .book-page__price-block
 lk-nn.tns-e.ru##.isTextGray.form__col > p
+lk-nn.tns-e.ru##[class*="infoCard"]
 lk.bcnn.ru##.centered-image
 lk.mts.ru##.mts-lk-footer__wrapper
 login.mts.ru##.iMXcpm
@@ -776,6 +781,7 @@ pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-
 pikabu.ru##a.pkb-tab:nth-of-type(6)
 pikabu.ru##a.pkb-tab:nth-of-type(7)
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##article.story:has([class*="-boost-badge"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##canvas
 pikabu.ru##span:nth-of-type(3)
@@ -883,6 +889,8 @@ rutube.ru##.navigation_group_main.menu-links-module__list > li:nth-of-type(2)
 rutube.ru##.wdp-wrapper-module__wdpCommonWrapper > .wdp-showcase-module__wdp-showcase_full-width
 rutube.ru##[class*="footer-"], [class*="wdp-card-video-options-module__age"], section.menu-info-module__wrapper, section.menu-section-container-module__wrapper:nth-of-type(7)
 rutube.ru##noindex, .wdp-popup-overlay-module__overlay, .menu-section-container-module__wrapper:nth-of-type(8)
+ruwiki.ru##.article-footer
+ruwiki.ru##[class*="_toolbar"]
 samlib.ru##td > table
 sankakucomplex.com##.jss1663
 sankakucomplex.com##.jss363

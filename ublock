@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 28 January 2026 14:38
+! Last modified: 29 January 2026 08:01
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -436,6 +436,7 @@ ixbt.com##.ixbt-opinion-wrapper
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
 ixbt.com##.mobile-c
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
+ixbt.com##.recommend-b, .desktop-b
 ixbt.com##.recommend-c
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
@@ -899,6 +900,7 @@ savetwitter.net###dlModal
 savetwitter.net##footer, .container-main > .container, .alert-gr.alert-warning.alert, extension-header
 sber.ru##[class*="CookiePolicy_"]
 sbermarket.ru##[class*="Footer_"], [class*="ShowJsPlacement_"], [class*="styles_b2bBanner_"]
+securitylab.ru##.blog-post-meta, .d-lg-block
 serverflow.ru##.subscribe, .footer, .js-main-delivery-toggle, .main__pdf
 servernews.ru###copyright
 servernews.ru##.caption, .typo-hint
@@ -1290,6 +1292,7 @@ yandex.ru,ya.ru##div[class*="_card"]:has([class*="action-counter"])
 yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##li.card__extra-width
 yandex.ru,ya.ru##li:has([class*="Organic"] > [class*="Organic-Subtitle"] > [class*="Organicon"] > [class*="-Text"])
+yandex.ru,ya.ru##li[class*="g"]:has([class$="-Text"])
 yandex.ru,ya.ru##li[class*="j"]:has([class$="_extra-width"])
 yandex.ru,ya.ru##li[class*="lh"]:has([class$="-Text"])
 yougame.biz##.yg_first_post

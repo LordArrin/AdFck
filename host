@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  02 February 2026 13:06
+! Last modified:  03 February 2026 22:37
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -98,6 +98,7 @@
 # Other
 ||*-adservices*^
 ||*-adsystem*^
+||*.ads.*^
 ||*.vip.global*^
 ||*17324726.cfd*^
 ||*21modz*^
@@ -124,7 +125,6 @@
 ||*ads-pixiv*^
 ||*ads-sg*^
 ||*ads-twitter*^
-||*ads.*^
 ||*ads.deezer.com*^
 ||*ads.pinterest*^
 ||*ads.rustore*^
@@ -212,7 +212,6 @@
 ||*channel.io*^
 ||*chartboost.com*^
 ||*chaseherbalpasty*^
-||*chouchou.*^
 ||*ck.ads.*^
 ||*click.oneplus.*^
 ||*cloudflareinsights*^
@@ -315,8 +314,7 @@
 ||*market-click-baobab*^
 ||*mc.yandex*^
 ||*mdstats.*^
-||*media-adv.market.*^
-||*media-adv*^
+||*media-adv.*^
 ||*media.net*^
 ||*mediatek*^
 ||*mediavisor.doubleclick*^
@@ -324,6 +322,7 @@
 ||*metrica*^
 ||*metricellcollect*^
 ||*metrics.icloud.com*^
+||*metrics*^
 ||*metrika*^
 ||*mgid.com*^
 ||*mistat.*^
@@ -331,7 +330,6 @@
 ||*mouseflow.com*^
 ||*mpsuadv.ru*^
 ||*mradx.net*^
-||*mradx*^
 ||*mssdk-va.tiktok*^
 ||*mtsopros.mts*^
 ||*mwvsmm.mts*^
@@ -394,8 +392,6 @@
 ||*send-asr.acrobat*^
 ||*sendsay.*^
 ||*sentry-cdn*^
-||*sentry.dominternet*^
-||*sentry.obs*^
 ||*sentry*^
 ||*services.paradoxplaza*^
 ||*sf-syn.com*^
@@ -403,7 +399,6 @@
 ||*sharethrough.com*^
 ||*sitereview.zscaler*^
 ||*skcrtxr.*^
-||*skcrtxr.com*^
 ||*slashdotmedia.com*^
 ||*smaato.net*^
 ||*smetrics.*^
@@ -466,7 +461,6 @@
 ||*yadro.*^
 ||*yahooinc*^
 ||*ycxrl*^
-||*zconfig.alibabausercontent*^
 ||*zemanta.c*^
 ||*zen.yandex*^
 # Whitelist

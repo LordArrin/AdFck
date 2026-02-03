@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  03 February 2026 22:37
+! Last modified:  03 February 2026 11:17
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -87,26 +87,24 @@
 ||*geller-pa*^
 ||*google-analytics*^
 ||*googleads*^
-||*googleadservices*^
 ||*googleanalytics*^
 ||*googlesyndication*^
 ||*googletagmanager*^
-||*imasdk.googleapis*^
-||*jnn-pa.googleapis*^
+||*imasdk.goog*^
+||*jnn-pa.goog*^
 ||*ondevicesafety-pa*^
 ||*peoplestackwebexperiments-pa*^
 # Other
 ||*-adservices*^
 ||*-adsystem*^
 ||*.ads.*^
-||*.vip.global*^
 ||*17324726.cfd*^
 ||*21modz*^
 ||*2c2p.*^
 ||*2o7.net*^
 ||*3lift.com*^
 ||*6sc.co*^
-||*a.cdnpure.com*^
+||*a.cdnpure.*^
 ||*abt.s3.yandex*^
 ||*acquiredeceasedundress.com*^
 ||*activepieces.*^
@@ -145,7 +143,6 @@
 ||*agkn.com*^
 ||*ahrefs.com*^
 ||*aio.media*^
-||*aliyuncs.com*^
 ||*amazon-adsystem*^
 ||*amplitude.com*^
 ||*an.facebook*^
@@ -321,7 +318,6 @@
 ||*megaphone.fm*^
 ||*metrica*^
 ||*metricellcollect*^
-||*metrics.icloud.com*^
 ||*metrics*^
 ||*metrika*^
 ||*mgid.com*^
@@ -391,7 +387,6 @@
 ||*selfupdate.sberbank*^
 ||*send-asr.acrobat*^
 ||*sendsay.*^
-||*sentry-cdn*^
 ||*sentry*^
 ||*services.paradoxplaza*^
 ||*sf-syn.com*^
@@ -443,8 +438,6 @@
 ||*vertigo-games*^
 ||*vidyard.*^
 ||*vkpns.rustore*^
-||*volces.*^
-||*volcgtm.*^
 ||*vungle.*^
 ||*weather-analytics-events*^
 ||*webcamxp*^

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 February 2026 09:23
+! Last modified: 08 February 2026 10:26
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -270,6 +270,7 @@ dtf.ru##.account-menu__right > .button--type-minimal
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
 duckdns.org##[class*="license-status"]
+dzen.ru##[class*="ad__container"]
 dzen.ru##[class*="AdBlock"]
 dzen.ru##[class*="content--article-image-caption__caption-"]
 dzen.ru##[class*="content--article-thematic-cloud_"]
@@ -286,6 +287,9 @@ dzen.ru##[class*="content--theme-pinnerwithNavigation-"]
 dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
 dzen.ru##[class*="dzen-layout--tooltip_"]
+dzen.ru##[class*="floor-ad_"]
+e5450.com##.sgpb-popup-dialog-main-div-wrapper
+e5450.com##.sgpb-popup-overlay
 eda.yandex.ru##[class*="AppFooter_root"], .root_r19uopkt
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
@@ -430,15 +434,12 @@ ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.branding__mobile-spacer, .infinite-scroll-container, .text-center.py-12.justify-center
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-4.pb-1.rounded-2xl.mb-4
-ixbt.com##.desktop-c
+ixbt.com##.desktop-mobile-b, .desktop-b, .desktop-c, .mobile-b, .mobile-c, .recommend-b, .recommend-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.ixbt-opinion-wrapper
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
-ixbt.com##.mobile-c
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
-ixbt.com##.recommend-b, .desktop-b
-ixbt.com##.recommend-c
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
 ixbt.com##.w-3.h-3.flex.relative
@@ -575,6 +576,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/agitationsBlock
 market.yandex.ru###\/content\/page\/fancyPage\/content\/seoText
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/description\/specs\/specsWarnings
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/heroBannerCarousel
+market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/hintInformer
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCarousel
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/kkmCommon\/kkmRecommendations\/kkmCarousel\/content
 market.yandex.ru###\/content\/page\/fancyPage\/defaultPage\/liveStreamBannerPreview
@@ -1273,6 +1275,7 @@ yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
 yandex.ru,ya.ru##.OrganicUgcReviews-QuoteWrapper
 yandex.ru,ya.ru##.ProductsModePanel
 yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
+yandex.ru,ya.ru##.SafeSearch
 yandex.ru,ya.ru##.ShopInfo-DeliveryBnplContainer
 yandex.ru,ya.ru##.SuggestSearchThemesSection
 yandex.ru,ya.ru##.Translate

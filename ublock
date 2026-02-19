@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 19 February 2026 07:18
+! Last modified: 19 February 2026 07:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -1197,8 +1197,6 @@ xv-ru.com###premium-info-frame
 xv-ru.com##.banner-game, .premium-results-line
 xvideos.red##.auto-width-popup
 ya.ru##.mini-suggest__carousel, .mini-suggest__item_enriched_yes, .mini-suggest__item_type_carousel
-ya.ru##.SearchThemesSection
-ya.ru##.SearchThemesSection_justify_center.SearchThemesSection, .HeaderFormSearchThemesSection
 ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Organic"]):has(> div [class*="Typo"])
 ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Typo"])
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
@@ -1244,8 +1242,6 @@ yandex.ru,ya.ru##div > .serp-item_card.serp-item
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="action-counter"])
 yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##li.card__extra-width
-yandex.ru,ya.ru##li:has([class$="-Text"])
-yandex.ru,ya.ru##li:has([class$="_extra-width"])
 yandex.ru,ya.ru##li:has([class*="Organic"] > [class*="Organic-Subtitle"] > [class*="Organicon"] > [class*="-Text"])
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button

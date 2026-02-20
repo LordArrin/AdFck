@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 19 February 2026 07:25
+! Last modified: 20 February 2026 10:15
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -158,6 +158,7 @@ avito.ru##[class*="index-advRootWidgetNoStories"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
 avito.ru##[class*="index-sideAds-"]
+avito.ru##[class*="index.module__ticketContainer"]
 avito.ru##[class*="index\.module__nav__"]
 avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
@@ -1196,9 +1197,6 @@ xv-ru.com###footer
 xv-ru.com###premium-info-frame
 xv-ru.com##.banner-game, .premium-results-line
 xvideos.red##.auto-width-popup
-ya.ru##.mini-suggest__carousel, .mini-suggest__item_enriched_yes, .mini-suggest__item_type_carousel
-ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Organic"]):has(> div [class*="Typo"])
-ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Typo"])
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru,ya.ru##.Bno_isPromoSnippet
@@ -1215,14 +1213,11 @@ yandex.ru,ya.ru##.main__carousel-item_type_product_gallery
 yandex.ru,ya.ru##.MarketCheckout-Button
 yandex.ru,ya.ru##.MerchantDelivery-Container
 yandex.ru,ya.ru##.OfferInfo
-yandex.ru,ya.ru##.OrganicUgcReviews-AvatarWrapper
-yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText
-yandex.ru,ya.ru##.OrganicUgcReviews-QuoteWrapper
+yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText, .OrganicUgcReviews-QuoteWrapper, .OrganicUgcReviews-AvatarWrapper
 yandex.ru,ya.ru##.ProductsModePanel
 yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
 yandex.ru,ya.ru##.SafeSearch
 yandex.ru,ya.ru##.ShopInfo-DeliveryBnplContainer
-yandex.ru,ya.ru##.SuggestSearchThemesSection
 yandex.ru,ya.ru##.Translate
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
 yandex.ru,ya.ru##[class$="-has-shadow"]
@@ -1231,17 +1226,16 @@ yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="_withStore"]
 yandex.ru,ya.ru##[class$="VideoListPageDirect"]
 yandex.ru,ya.ru##[class*="-has-warning"]
-yandex.ru,ya.ru##[class*="_behavioral-direct"]
-yandex.ru,ya.ru##[class*="_behavioralDirect"]
+yandex.ru,ya.ru##[class*="_behavioral-direct"], [class*="_behavioralDirect"]
 yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
 yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
 yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Orgmn_"], [class*="MarketCheckoutButtonBase_"], [class*="ypho__card"]
 yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
-yandex.ru,ya.ru##div > .serp-item_card.serp-item
+yandex.ru,ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Organic"]):has(> div [class*="Typo"])
+yandex.ru,ya.ru##div:has(> div > div > [class$="-Text"]):has(> div [class*="Typo"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="action-counter"])
 yandex.ru,ya.ru##Divider
-yandex.ru,ya.ru##li.card__extra-width
 yandex.ru,ya.ru##li:has([class$="-Text"])
 yandex.ru,ya.ru##li:has([class$="_extra-width"])
 yandex.ru,ya.ru##li:has([class*="Organic"] > [class*="Organic-Subtitle"] > [class*="Organicon"] > [class*="-Text"])

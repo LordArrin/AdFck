@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 24 February 2026 11:51
+! Last modified: 27 February 2026 01:45
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -142,8 +142,15 @@ auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link, .ribbon
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
+avito.ru##._09992ae0389262a6
+avito.ru##._194edff26f32943f
+avito.ru##._1efe3f3eec82d0aa
+avito.ru##._39d03d65e9198282
+avito.ru##._9ad86d32bf9dc2a9
 avito.ru##.channel-preview-root_roundAvatar-CozVK
 avito.ru##.cvr-container
+avito.ru##.d2abc7990cce8158
+avito.ru##.d6e30380b8439282
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
 avito.ru##.top-banner-module-root-_R_Ad
@@ -552,6 +559,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/m2bSearchEntryPoint
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchBreadcrumbs
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchContentSync\/searchBreadcrumbs
+market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchContentSync\/seoChips
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
 market.yandex.ru###\/content\/page\/fancyPage\/seoChips
 market.yandex.ru###\/content\/page\/layout\/agreementNote
@@ -586,6 +594,7 @@ matreshka.tv##.menu__divider, .menu__title, .menu__info, .download-section
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
+mediafire.com##.Download-compatibility, .description
 mega.nz##.js-storage-usage-block.storage-usage-panel > .info
 mega.nz##.nav-elem.s4.drive
 mega.nz##.right-icon.right-badge.small.transferit
@@ -734,6 +743,7 @@ pikabu.ru##a.pkb-tab:nth-of-type(6)
 pikabu.ru##a.pkb-tab:nth-of-type(7)
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
 pikabu.ru##article.story:has([class*="-boost-badge"])
+pikabu.ru##article.story:has([class*="advert"]):nth-ancestor(1)
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##canvas
 pikabu.ru##span:nth-of-type(3)

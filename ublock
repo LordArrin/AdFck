@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 03 March 2026 09:48
+! Last modified: 11 March 2026 06:21
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -397,8 +397,6 @@ i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.sber.ru##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.swiper
-id.vk.*##[class*="GroupRounded-group-"], [class*="Recommendations-group-"], [class*="PanelRounded-panel-"], [class*="-tabletMinus-"], [class*="AdvertisingBanner-"], [class*="RecommendationCard-card-"], [class*="Recommendations-content-"], [class*="Footer-container-"], [class*="QuestionnaireEntrypoint-group-"]
-id.vk.com##.vkuiContentCard__tappable, .vkuiGroup__separator-sibling
 igm.gg##[class*="Banner_layout_"]
 igm.gg##[class*="Disclaimer_"]
 igm.gg##[class*="Footer_footer__lower_"]
@@ -753,6 +751,7 @@ pikabu.ru##article.story:has([class*="-boost-badge"])
 pikabu.ru##article.story:has([class*="advert"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##article.story:has([class*="story__debate"])
+pikabu.ru##article.story:has(img[src*="m3569541-1965510972.png"])
 pikabu.ru##article.story:has(img[src*="m8832375-1500599010.png"])
 pikabu.ru##canvas
 pikabu.ru##span:nth-of-type(3)
@@ -1267,6 +1266,7 @@ yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
 yandex.ru,ya.ru##[class*="Orgmn_"], [class*="MarketCheckoutButtonBase_"], [class*="ypho__card"]
 yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
 yandex.ru,ya.ru##[id^="MicrodataBase__"]
+yandex.ru,ya.ru##div:has(> [id^="difww"] > .Extralinks-Icon)
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="action-counter.link.organic__url"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="AppHeaderPrice"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="Disclaimer_gpt"])

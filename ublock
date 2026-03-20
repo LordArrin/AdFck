@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 11 March 2026 06:21
+! Last modified: 20 March 2026 09:44
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -43,7 +43,6 @@
 123.ru##.footer-result
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"], [class*="forHero_"]
 1688tb.com##.layout-main-footer
-! 3 мар. 2026 г. https://www.techradar.com
 ###ads_left
 ##.adsbyyottos
 ##.trg-b-banner-block
@@ -304,6 +303,8 @@ fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer, [class*="premium-"]
 fex.net##.fs-page__sidebar-wrapper, .layout__footer
 ficbook.net##.alert-news, .bd-ribbon, .btn-on-book-background--premium, .btn-primary.btn-sm.btn, .copyright, .disclaimer, .discount-sticky-container, .fanfic-promo, .help-box, .home-promo, .if-you-were-premium, .important-link, .js-fanfic-promo-carousel, .js-reset-filter-group.link-button, .jsVueComponent.dropdown.vs--searchable.vs--single.v-select, .jsVueComponent.fake-create-bookmark-button.bookmark-btn-circle, .justify-content-between, .justify-content-center.align-items-center, .list-inline, .main-holder > .mb-10, .mb-15 > .primary-box, .mb-15 > .section-title, .mb-15 > .text-muted, .mb-30.d-flex.fb-ads-block, .page-footer, .premium-button, .request-area, .sticky-bottom-block, .text-right.mb-30, .top-notifications, .visible-xs.main-discount-mobile, .js-modal-destination, a.mb-5, article.fanfic-block-disliked, article.fanfic-inline-hot, div.d-flex.fb-ads-block, div.fanfic-author-actions__column:nth-of-type(2), div.mx-xs-5.mx-15.d-flex.fb-ads-block, ul.search-dropdown-list.list-unstyled [href="/questionary/beta/search"], ul.search-dropdown-list.list-unstyled:nth-of-type(3)
+ficbook.net##.gap-16.flex-column.d-flex > .gap-16.flex-column.d-flex
+ficbook.net##.gap-16.flex-column.d-flex > section:nth-of-type(2)
 ficbook.net##.mb-15 > .heading
 ficbook.net##.primary-box-with-button
 ficbook.net##[class*="-smart-banner"], [class*="global-banner-"]
@@ -752,6 +753,7 @@ pikabu.ru##article.story:has([class*="advert"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##article.story:has([class*="story__debate"])
 pikabu.ru##article.story:has(img[src*="m3569541-1965510972.png"])
+pikabu.ru##article.story:has(img[src*="m6461233-2103128693.png"])
 pikabu.ru##article.story:has(img[src*="m8832375-1500599010.png"])
 pikabu.ru##canvas
 pikabu.ru##span:nth-of-type(3)
@@ -986,6 +988,7 @@ vik1ngfile.site##.row
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
+vk.*###ads_wrapper
 vk.*###apps_ads_wrap
 vk.*###block_aliexpress-recommendations-carousel
 vk.*###box_layer_bg
@@ -1254,7 +1257,9 @@ yandex.ru,ya.ru##.SafeSearch
 yandex.ru,ya.ru##.ShopInfo-DeliveryBnplContainer
 yandex.ru,ya.ru##.Translate
 yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
+yandex.ru,ya.ru##[class$="-has-shadow"]
 yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
+yandex.ru,ya.ru##[class$="_full-width"]
 yandex.ru,ya.ru##[class$="_withStore"]
 yandex.ru,ya.ru##[class$="extra-width"]
 yandex.ru,ya.ru##[class$="VideoListPageDirect"]

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 23 March 2026 09:00
+! Last modified: 04 April 2026 08:54
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -48,6 +48,7 @@
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.*###fo_-1, #go_1, #logostrip
 4pda.*##.copyright, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .materials-box, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
+4pda.to##.footer
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 9xbuddy.site##.px-4.md\:text-left.text-center.items-center.justify-center.md\:flex.my-8
 @@://vk.*/ads$document,~third-party
@@ -62,6 +63,8 @@
 @@||vk.*/vkpay
 @@||vk.*/vkpay$stealth
 about.gitlab.com##.banner, .gradient-background, .hero-scroll-gallery, .intro-block, .slp-btn-primary, .source
+academia.edu##.buttonStyles-cls1_C1F.ds2-5-button
+academia.edu##[class*="TranslateButton-"], [class*="PaperPodcastRequest-"], [class*="BulkDownloadPing-"], [class*="BulkDownloadButton-"], [class*="ProfilePdfPackCard-"], [class*="Unibrow-"]
 account.proton.me###credits, #invoices, #payment-methods
 account.proton.me##.bg-promotion, .button-promotion--icon-gradient, .interactive-pseudo-protrude
 account.vkplay.ru###ph-footer
@@ -107,6 +110,7 @@ aliexpress.ru##[class*="RedOrderListTabsV2_Tabs__outsideCounter_"]
 aliexpress.ru##[class*="RedOrderListV2_GenerateRecommendation_"]
 aliexpress.ru##[class*="RedOrderNavigation_OnboardingBanner__bannerWithShadow_"]
 aliexpress.ru##[class*="SeoAllSalesHeader_"]
+aliexpress.ru##[class*="ShopsShelf_ShopsShelf__marginContainer_"], [class*="PCPContainer_"]
 aliexpress.ru##[class*="SnowCartHotListHeader_Header__bannerNew_"]
 aliexpress.ru##[class*="SnowSearchProductFeed_FeedIsOver_"]
 aliexpress.ru##[class*="SnowSearchRecommendations__red_"]:has([class*="SnowSearchRecommendations_"])
@@ -122,6 +126,7 @@ androeed.store##.our_app, .recomend_text, .telegram_button
 angels.love##.hidden-lg-down > .framecuts-row > .darken85
 anifap.com##.ignore-select.article.fullstory > div:nth-of-type(7)
 animeidhentai.com###promo-topbar
+angelslove.xxx###tpbr_topbar
 annimon.com###abldiv
 annimon.com##.footer-wrapper
 apkmirror.com##.expandMargins
@@ -147,6 +152,7 @@ avito.ru##._09992ae0389262a6
 avito.ru##._194edff26f32943f
 avito.ru##._1efe3f3eec82d0aa
 avito.ru##._39d03d65e9198282
+avito.ru##._652b190eea19b68b, .aa8a09ee59c9017c
 avito.ru##._9ad86d32bf9dc2a9
 avito.ru##.channel-preview-root_roundAvatar-CozVK
 avito.ru##.cvr-container
@@ -236,8 +242,12 @@ crdroid.net##.footerbg, .section-title
 dailyuploads.net##footer
 darkreader.org##.page-grid-ios
 dash.cloudflare.com###account-marketing-banner-header-notification-container, #zone-marketing-banner-header-notification-container, #site-footer
+datanodes.to##.font-bold.p-4.md\:w-3\/12.text-center.w-full
+datanodes.to##.hover\:text-white.no-underline.justify-between.items-center.flex.w-full.text-white.font-medium.text-sm.bg-gray-900.hover\:opacity-90.px-6.rounded-lg.gap-4.shadow.leading-none.relative.py-3
+datanodes.to##.lg\:p-12.py-8.px-6.bg-white.flex-1
 datanodes.to##.md\:rounded-r-xl.md\:rounded-l-none.rounded-xl.bg-blue-600
 datanodes.to##.p-16.items-center.flex.md\:w-8\/12.w-full.rounded-lg, .proFeatures, .z-50.relative.px-4.py-6,
+datanodes.to##.text-blue-600.font-bold.p-4.md\:w-3\/12.text-center.w-full
 deepseek.com##.footer
 denuvo.store##.altumcode-informational-wrapper
 deployn.de##.border.rounded-xl
@@ -262,7 +272,10 @@ drive.proton.me##.offer-modal--one-deal, .offer-modal, .modal-two, .modal-two-ba
 drive.proton.me##[class*="button-promotion-"], .interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .justify-center.items-center.gap-2.flex.w-full.my-2, .py-5.px-4.gap-8.items-center.flex-nowrap.flex
 dropbox.com##.dig-6lejgsv_22-1-0.dig-6lejgsk_22-1-0.dig-6lejgss_22-1-0.dig-Text--size-xsmall
 dropbox.com##.oa-pulsar-effect-FREE_TEAMS_INVITE_BUTTON
+dropbox.com##[class*="_downloadDesktopBannerBottomPrompt_"]
 dropbox.com##[class*="_learningCenterHeaderDesktop_"], [class*="_toolkit-link_"], [class*="dig-Banner--attention"]
+dropmefiles.com###footer, #footer2
+dropmefiles.com##.selector-footer
 dtf.ru##.account-menu__right > .button--type-minimal
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
@@ -385,6 +398,7 @@ hd.kinopoisk.ru##[class*="item_promo_"]
 hd.kinopoisk.ru##[class*="PromoBlockFactory_root_first_"]
 hd.kinopoisk.ru##[class*="SelectionList_content-section_"]
 hd.kinopoisk.ru##[class*="ShowcaseSelection_root_"]
+hdqwalls.com###pb_footer
 hentai.tv###promo-topbar
 hentaiera.com###footer_bar
 hentaihaven.xxx##.bottom.player_logic_opt_c, .pt-2, .vraven_expand, .sidebar-col
@@ -430,6 +444,7 @@ ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.ixbt-opinion-wrapper
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
+ixbt.com##.shrink-0.hidden.sidebar__container
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
 ixbt.com##.w-3.h-3.flex.relative
@@ -571,6 +586,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
 market.yandex.ru###\/content\/page\/fancyPage\/seoChips
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/footer
+market.yandex.ru###\/header\/ecomAssistantModalTrigger
 market.yandex.ru###optimize
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru###searchSeoFooterChips
@@ -614,6 +630,8 @@ mmoreigr.org##.footer, .maindescrip
 mobdisc.com###pdalife_widget
 mobdisc.com##.banner-top, .b-download__header, .btn-prem, .b-download__info, .b-download__help-link_mode_visible.js-help-link.b-download__help-link
 mobdisc.com##a.b-download__button:nth-of-type(2)
+modsfire.com###myTabContent
+modsfire.com##.disc-tab, .links-explore-wrp
 modsfire.com##.footer, .inf-down
 modzoco.com##.site-footer
 monocle.ru##.subscr_info
@@ -732,6 +750,7 @@ pikabu.ru##.footer__email
 pikabu.ru##.gamification-btn, .gamification-coins, .pkb-indicator
 pikabu.ru##.header-menu__item_finances
 pikabu.ru##.page-topic-links
+pikabu.ru##.page-topic-links
 pikabu.ru##.promo-banner-sticky > .footer__email
 pikabu.ru##.sidebar-game, .sidebar-gamification
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
@@ -744,6 +763,7 @@ pikabu.ru##[class*="app__trigger_"]
 pikabu.ru##[class*="item-trigger__host"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##[class*="pkb-badge"]
+pikabu.ru##[data-blog="1"]
 pikabu.ru##a.menu__item:nth-of-type(8)
 pikabu.ru##a.menu__item:nth-of-type(9)
 pikabu.ru##a.pkb-tab:nth-of-type(6)
@@ -883,6 +903,7 @@ shop.megafon.ru##[class*="ExpandedBuySimButton_"]
 shop.megafon.ru##[class*="FooterBlock_"]
 silverstudiogames.org###poopup
 silverstudiogames.org###tc-widget
+silverstudiogames.org###tc-widget
 smarthomebeginner.com##.pmpro, .tipbox, .wp-polls, blockquote
 softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 soundcloud.com##.header__fanUpsell, .creatorSubscriptionsButton
@@ -954,6 +975,7 @@ torrentscity.*##.footer, .pmovie__caption
 translate.yandex.ru##.footer, .popularTranslationsTextWrapper
 travel.yandex.ru##.beIG8, .hf0sp, .QPDGK
 trixiebooru.org###footer, #imagespns
+trixiebooru.org##.donation-banner
 tumblr.com###glass-container
 tumblr.com##.gLEjz, .Qihwb
 turbobi.pw##.footer, .max-speed-time, .main-menu-links > [href^="/turbo"]
@@ -981,6 +1003,7 @@ vault.bitwarden.com##navigation-product-switcher
 vc.ru##.account-menu__group:nth-of-type(2)
 vc.ru##.l-island-round
 vc.ru##.sidebar__section:nth-of-type(3)
+vds.menu##.panel-default.panel > div > [href^="/out.php"]
 vds.menu##.text-center, div.container > hr, tr.info
 vexfile.com##.banner-shp, .post-d, .badge-pop.badge
 vexfile.com##a.offer-link.btn-primary.btn-xlarge.btn:nth-of-type(1)
@@ -990,6 +1013,7 @@ vik1ngfile.site##.row
 vk.*###_ads_block_data_w
 vk.*###ads_left
 vk.*###ads_special_promo_wrap
+vk.*###ads_with_extra
 vk.*###ads_wrapper
 vk.*###apps_ads_wrap
 vk.*###block_aliexpress-recommendations-carousel
@@ -1214,8 +1238,6 @@ wlux.net##.xtr-message-block, .notices--floating, .notice--thnoticesplus_error, 
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
-www.angelslove.xxx###tpbr_topbar
-x.com##.r-1w6e6rj
 x5club.ru##.focus-visible\:before\:block.before\:-outline-offset-2.before\:w-full.before\:h-full.before\:hidden.before\:z-\[2\].before\:top-0.before\:left-0.before\:absolute.focus-visible\:before\:lk-black-outline.block.relative
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
@@ -1228,7 +1250,6 @@ xv-ru.com###footer
 xv-ru.com###premium-info-frame
 xv-ru.com##.banner-game, .premium-results-line
 xvideos.red##.auto-width-popup
-ya.ru##.FuturisSearchWrapper
 yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
 yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
 yandex.ru,ya.ru##.Bno-Companies.CompaniesMeta
@@ -1238,6 +1259,7 @@ yandex.ru,ya.ru##.EcomGroup-Header
 yandex.ru,ya.ru##.EntityCard, .EntityCard_ecom, .ImagesIdeasGrid, .Microdata, .OneOrg-Item.OrgPrices, .OneOrg-Item.ObjectFooter
 yandex.ru,ya.ru##.EntityCarousel_visible-part_half.EntityCarousel
 yandex.ru,ya.ru##.footer__blocks
+yandex.ru,ya.ru##.FuturisSearchWrapper
 yandex.ru,ya.ru##.grid_unmargin-x_yes.grid.main__carousel
 yandex.ru,ya.ru##.HeaderFormSearchThemesSection
 yandex.ru,ya.ru##.ImagesTouchViewer-Card[class*="_skeleton"]
@@ -1282,6 +1304,7 @@ youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill
 youtube.com###chat
 youtube.com###chat-container
+youtube.com###chat-container, #panels-full-bleed-container
 youtube.com###content > .ytd-rich-section-renderer.style-scope
 youtube.com###copyright
 youtube.com###dismissed

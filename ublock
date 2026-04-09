@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 04 April 2026 08:54
+! Last modified: 09 April 2026 08:51
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -124,9 +124,9 @@ alternativeto.net##.site-footer
 androeed.store###load_more_similar
 androeed.store##.our_app, .recomend_text, .telegram_button
 angels.love##.hidden-lg-down > .framecuts-row > .darken85
+angelslove.xxx###tpbr_topbar
 anifap.com##.ignore-select.article.fullstory > div:nth-of-type(7)
 animeidhentai.com###promo-topbar
-angelslove.xxx###tpbr_topbar
 annimon.com###abldiv
 annimon.com##.footer-wrapper
 apkmirror.com##.expandMargins
@@ -329,6 +329,11 @@ file-upload.org##div.col-lg-6.col-md-6.col-sm-6.col-xs-12
 files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_size > .button
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
 files.gamerfang.in##.adsvictory, .download_left_ad1, .download_mobile_top_ad1, .file-description, .footer, .page-subtitle
+files.sdisk.ru###web_profile_badge_widget_link
+files.sdisk.ru##[class*="MobileAppBar-"]
+files.sdisk.ru##[class*="Modal-module_Modal__wrap--isOpened_"]
+files.sdisk.ru##[class*="SciSurveyBanner-"]
+files.sdisk.ru##[class*="SidebarPromo-"]
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 filespayouts.com###premium, .paybox, .footer, .container > h4, .container > hr
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button, .navigation-drawer-tab > hr
@@ -380,6 +385,7 @@ graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
 habr.com##.article-donation-block, .leaderboard, .persona
 habr.com##.reactions-panel, .reactions-panel-wrapper
+habr.com##.sponsor-block
 habr.com##.tm-article-author__company, .tm-article-poll-container, .tm-article-poll__notice, .tm-article-presenter__meta, .tm-section-name
 habr.com##.tm-base-layout__header, .tm-header__become-author-btn
 habr.com##.tm-block__body_variant-condensed-slim.tm-block__body
@@ -427,9 +433,11 @@ iotools.cloud##.aw-above_tool.aw, .aw-below_tool.aw, .main-footer, .side-content
 iplay.com###blockers
 iplocation.net##.hide-ip-button, .adHome, .feedback-row
 island-of-pleasure.site###footer
+island-of-pleasure.site###news_modal
 itch.io##.base_widget.content_warning_widget
 itorrents-igruha.net##[class*="footer-"]
 ixbt.com###footer, #newsBlock
+ixbt.com###newsBlock
 ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
 ixbt.com##.\[\&\>\*\:last-child\:not\(\:first-child\)_\[data-flux-group-target\]\]\:rounded-l-none.\[\&\>\*\:first-child\:not\(\:last-child\)_\[data-flux-group-target\]\]\:rounded-r-none.\[\&\>\*\:not\(\:first-child\)\:not\(\:last-child\)\:not\(\:only-child\)_\[data-flux-group-target\]\]\:rounded-none
@@ -445,8 +453,10 @@ ixbt.com##.ixbt-opinion-wrapper
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
 ixbt.com##.shrink-0.hidden.sidebar__container
+ixbt.com##.sidebar__container, .infinite-scroll-container
 ixbt.com##.sm\:rounded-t-2xl
 ixbt.com##.space-x-2.justify-center.items-center.flex
+ixbt.com##.text-gray-100.px-6.sm\:rounded-2xl.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.w-3.h-3.flex.relative
 ixbt.com##.yandex_recommend, [class*="bg-travel-"], [class*="bg-video-"]
 ixbt.com##[id^="video-sidebar-"]
@@ -549,6 +559,7 @@ mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-pr
 mail.proton.me##[class*="button-promotion-"]
 mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, .Modal-Cell, .Modal-Overlay, .Modal-Wrapper
+mail.yandex.ru##.Badge_view_promo
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"], [class*="DisableAdsButton_"], [class*="sidebarPromo"], [class*="promoPanel"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/ecomAssistantModalTrigger
@@ -769,6 +780,7 @@ pikabu.ru##a.menu__item:nth-of-type(9)
 pikabu.ru##a.pkb-tab:nth-of-type(6)
 pikabu.ru##a.pkb-tab:nth-of-type(7)
 pikabu.ru##a.sidebar-menu__item_extra.sidebar-menu__item > .sidebar-menu__counter_subs, div.sidebar-block-links, .sidebar-menu_profile.sidebar-menu > a.sidebar-menu__item > .sidebar-menu__counter_subs
+pikabu.ru##article.story:has(a[href*="max.ru"])
 pikabu.ru##article.story:has([class*="-boost-badge"])
 pikabu.ru##article.story:has([class*="advert"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
@@ -952,6 +964,7 @@ thelastgame.*###footer
 thelastgames.*##.footer
 theporndude.com###mobile_menu_header > .socials
 theporndude.com##.--show.coo-widget, .copyright-message, .footer, .quotes, .top-text, .with-bg
+theporndude.com##.age-limit-modal, .micromodal-overlay
 ticket.rzd.ru##.app-footer
 ticketland.ru###personal_show_rek, #tab_premium
 ticketland.ru##.copyright, .feedback_popup, .promo, [class*="footer_"]
@@ -1149,9 +1162,11 @@ vk.*##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > d
 vk.*##.wcommunity_wrap
 vk.*##.WideSeparator--legalRecommendationsLink
 vk.*##[class*="ads"]
+vk.*##[class*="AdvertisingBanner-"]
 vk.*##[class*="apps_feedRightAppsBlock"]
 vk.*##[class*="feed_friends_recomm"]
 vk.*##[class*="feed_groups_recomm"]
+vk.*##[class*="Footer-"]
 vk.*##[class*="FullscreenBanner_"]
 vk.*##[class*="RecommendedNarratives"]
 vk.*##[class*="stories_feed_"]
@@ -1250,47 +1265,24 @@ xv-ru.com###footer
 xv-ru.com###premium-info-frame
 xv-ru.com##.banner-game, .premium-results-line
 xvideos.red##.auto-width-popup
-yandex.ru,ya.ru###a11y-ecommerce-offers, #a11y-ecommerce-additional-offers, #rsya-guarantee, #futuris-tab-onboarding-container, #search-result-aside
-yandex.ru,ya.ru##.AdvOffers-Wrapper, .AdvPremium, .AdvRsyaCrossPage, .AppAdvancedSearch-LikeTooltip, .click, .cbir-page-layout__neuro-input, .dialog__overlay, .dialog__wrapper, .EntityFeedbackFooter, .FactHeader_with-hint, .Footer, .EntityOffersOrganic_united, .GenAnswer_view_fact, .AdvProductGallery, .DirectFeature, .CompaniesMeta, .EntityCardList_type_association-list, .EntityCardMetadoc, .EntityHeader-TabsStickyWrap, .ERecommendations, .FuturisProductsChat, .FuturisSearch, .ImagesScroller, .ImagesTouchViewer-Products, .ImagesTouchViewer-Tags, .message-promo_js_inited, .MessageBox-Content, .Organic-Warning, .Promo_withoutBlur, .RelatedBottom.VanillaReact, .RequestMeta_view_minified, .RknWarningFeature, .search3__doodle-link.home-link2, .SearchPrevention, .SearchResultsHeader, .SerpFooter-LinksGroup_type_feedback, .SerpFooter-LinksGroup_type_morda, .SerpFooter-LinksGroup_type_recommendations, .survey__content, .usermenu-redesign__after-footer, .Video-Footer.VideoFooter_warning, .ya-search-promo, .mini-suggest__item_type_fact, .RelatedBottom, .ReviewVerifyDisclaimer, .Scroller_smallerArrows, .SerpBlock-Content, .Sitelinks-Items, .SnippetTitle-Text, .Tooltip-Content, .ProductGallery, .SearchRelatedGallery, .Skeleton, .VideoViewer-Pane, .VideoViewer-BlockInner, .VideoOnboardingPopup, .Video_wizard, .AdvMastHead, .Branding_with-hint, .business-card-view__gray-section, .card-footer-view__bold, .card-footer-view__disclaimer-info, .card-footer-view__social-links, .CommercialCropTouch-Button, .copyright-tech, .DarkThemePromo, .distr-nav, .distr-popup__content.popup2__content, .EntityCardRichText-Branding, .EntityOffersOrganic, .ExtraMore.Button2, .Fact_answerGap_l, .Feedback.FactFeedback, .EntityCardRichText-FuturisContainer, .business-reviews-card-view__friends-suggest, .copyright, .Dot, .EntityFact, .Fact-Footer, .feedback, .footer__end, .FuturisSearch_gen_offline, .FuturisSearchCard_gen, .FuturisOnboardingPopup, .HeaderPhoneActions-Alice, .headline.container > .row, .ImagesTouchViewer-Card_products, .ImagesTouchViewer-Card_behavioralDirect, .ImagesViewer-SidebarAdv, .main__carousel-item_type_entity_carousel, .Metadoc, .PreventionFeature, .ProductFiltersAtop_outlined, .OrganicSearch, .ProductFiltersAtop, .RknDisclaimer, .Root-FuturisSearchOuter, .Scroller, .ImagesOnboarding, .ImagesOverlay, .Video, .FactHeader, .Branding, .EcomLists, .ImagesGrid, .LabelDiscount, .left-panel__block:nth-of-type(5), .left-panel__links, .MenuItem_get-premium360, .Organic-Footer, .play-game-header-menu__disable-ads-button, .profile-widget_type_ads-disabler, .RequestMeta-Level_type_antispam, .RequestMeta-Level_type_level, .RknPrevention_smaller-font, .Root_inited.FuturisSearch_gen, .search-collapsed-card-view__advert-offer-banner, .serp-footer__mob-app, .serp-footer__right, .serp-item_card-metadoc, .serp-item_card-no-padding-bottom, .SerpFooter-LinksGroup_type_morda.SerpFooter-LinksGroup, .SerpFooter-LinksGroup_type_recommendations.SerpFooter-LinksGroup, .SerpFooterLinksGroup_type_feedback, .services-new__content, .services-new__list, .SettingsToolbarShortFiltersButton_unsupported, .SplashscreenDefault, .Stocks, .sitelinks, .user-menu-view__plus, .VideoNohostFilter_type_apply, .VideoPlayerMetaInfo-RknPrevention, .PromoOffer, .SerpFooter-Extralinks, .SnippetTitle, .UniSearchMedicine, .user-popup__disable-ad-block, .zen__list-scroller, .zen__title
-yandex.ru,ya.ru##.Bno-Companies.CompaniesMeta
-yandex.ru,ya.ru##.Bno_isPromoSnippet
-yandex.ru,ya.ru##.CbirNavigation-TabsItem_name_neurosearch-page
-yandex.ru,ya.ru##.EcomGroup-Header
-yandex.ru,ya.ru##.EntityCard, .EntityCard_ecom, .ImagesIdeasGrid, .Microdata, .OneOrg-Item.OrgPrices, .OneOrg-Item.ObjectFooter
-yandex.ru,ya.ru##.EntityCarousel_visible-part_half.EntityCarousel
-yandex.ru,ya.ru##.footer__blocks
-yandex.ru,ya.ru##.FuturisSearchWrapper
-yandex.ru,ya.ru##.grid_unmargin-x_yes.grid.main__carousel
-yandex.ru,ya.ru##.HeaderFormSearchThemesSection
-yandex.ru,ya.ru##.ImagesTouchViewer-Card[class*="_skeleton"]
-yandex.ru,ya.ru##.ImagesTouchViewer-ViewerItem > div > [class^="ImagesTouchViewer-Card_"]
-yandex.ru,ya.ru##.IndexPage-ImageGeneration
-yandex.ru,ya.ru##.JustifierRowLayout-Incut > [class*="_skeleton"]
-yandex.ru,ya.ru##.main__carousel-item_type_product_gallery
-yandex.ru,ya.ru##.MarketCheckout-Button
-yandex.ru,ya.ru##.MerchantDelivery-Container
-yandex.ru,ya.ru##.Microdata
-yandex.ru,ya.ru##.mini-suggest__item_group-end.mini-suggest__item_group-start.mini-suggest__item_groupped.mini-suggest__item_subtype_entity[class*="mini-suggest__item_type_"]
-yandex.ru,ya.ru##.OfferInfo
-yandex.ru,ya.ru##.Organic-AppHeaderPrice
-yandex.ru,ya.ru##.OrganicUgcReviews-QuoteText, .OrganicUgcReviews-QuoteWrapper, .OrganicUgcReviews-AvatarWrapper
-yandex.ru,ya.ru##.ProductsModePanel
-yandex.ru,ya.ru##.PSHeaderPremiumButton-Wrap
+yandex.ru,ya.ru##.card__narrow
+yandex.ru,ya.ru##.EntityOffersOrganic
+yandex.ru,ya.ru##.EPrice_view_old
+yandex.ru,ya.ru##.EQuote
+yandex.ru,ya.ru##.FuturisAliceLegal
+yandex.ru,ya.ru##.FuturisInlineHeader
+yandex.ru,ya.ru##.GoodsHeader
+yandex.ru,ya.ru##.HeaderFormSearchThemesSection-Wrapper
+yandex.ru,ya.ru##.LabelDiscount
+yandex.ru,ya.ru##.main__carousel-item_type_products_mode_panel
 yandex.ru,ya.ru##.RelatedBottom
-yandex.ru,ya.ru##.SafeSearch
-yandex.ru,ya.ru##.ShopInfo-DeliveryBnplContainer
-yandex.ru,ya.ru##.Translate
-yandex.ru,ya.ru##.UniSearchLayout, .Organic-App
-yandex.ru,ya.ru##[class$="_complementary_yes"], [class*="*-no-padding-bottom"], [class*="card-metadoc"], [class*="RknPrevention"], [class*="VideoPlayerMetaInfo-"], [class*="main__block-banner"]
-yandex.ru,ya.ru##[class$="VideoListPageDirect"]
-yandex.ru,ya.ru##[class*="-has-warning"]
-yandex.ru,ya.ru##[class*="_behavioral-direct"], [class*="_behavioralDirect"]
-yandex.ru,ya.ru##[class*="AppLayoutTypeMain_footer_"]
-yandex.ru,ya.ru##[class*="AppLeftPanelLinks_meteumLink_"]
-yandex.ru,ya.ru##[class*="AppWeatherFAQ_section_"]
-yandex.ru,ya.ru##[class*="Orgmn_"], [class*="MarketCheckoutButtonBase_"], [class*="ypho__card"]
-yandex.ru,ya.ru##[id^="FuturisProductsComplexChoice_"]
-yandex.ru,ya.ru##[id^="MicrodataBase__"]
+yandex.ru,ya.ru##.UniSearchLayout-Header
+yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="FinanceCard"])
+yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="UniSearch"])
+yandex.ru,ya.ru##[class*="-no-padding-bottom"]:has([class*="UniSearchList"])
+yandex.ru,ya.ru##[class*="_futuris-snippet"]
+yandex.ru,ya.ru##[id^="EntityFeedback_disclaimerNeuro_"]
+yandex.ru,ya.ru##[id^="MarketCheckoutButtonBase_"]
 yandex.ru,ya.ru##div:has(> [id^="difww"] > .Extralinks-Icon)
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="action-counter.link.organic__url"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="AppHeaderPrice"])
@@ -1298,7 +1290,9 @@ yandex.ru,ya.ru##div[class*="_card"]:has([class*="Disclaimer_gpt"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="Orgmn"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="UniSearchCredits"])
 yandex.ru,ya.ru##Divider
-yandex.ru,ya.ru##li:has([class*="organic__greenurl"]):has([class$="-Text"])
+yandex.ru,ya.ru##li:has(.organic):has-text(/^[Пп]ромо$/)
+yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-Text"])
+yandex.ru,ya.ru##li:has([class*="Products"])
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill

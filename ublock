@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 16 April 2026 22:46
+! Last modified: 19 April 2026 06:37
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -44,11 +44,6 @@
 123.ru##.footer-result
 360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"], [class*="forHero_"]
 1688tb.com##.layout-main-footer
-! 9 апр. 2026 г. https://yandex.ru
-! 11 апр. 2026 г. https://vk.mail.ru
-! 12 апр. 2026 г. https://www.avito.ru
-! 12 апр. 2026 г. https://yandex.ru
-! 13 апр. 2026 г. https://yandex.ru
 ###ads_left
 ##.adsbyyottos
 ##.trg-b-banner-block
@@ -565,6 +560,7 @@ mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, .Modal-Cell, .Modal-Overlay, .Modal-Wrapper
 mail.yandex.ru##.Badge_view_promo
 mail.yandex.ru##[class*="Banner-"], [class*="qa-LeftColumn-Footer-"], [class*="InboxGPT-"], [class*="InboxGPTOnboarding_"], [class*="BarComponent_root_"], [class*="DisableAdsButton_"], [class*="sidebarPromo"], [class*="promoPanel"]
+mail.yandex.ru##[class*="MobileAppPromo_"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/ecomAssistantModalTrigger
 market.yandex.ru###\/content\/header\/header\/search\/cms
@@ -590,6 +586,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/fomoPopup
 market.yandex.ru###\/content\/page\/fancyPage\/heroBannerCarousel\/content
 market.yandex.ru###\/content\/page\/fancyPage\/heroBannerCarousel\/heroBanner\/content
 market.yandex.ru###\/content\/page\/fancyPage\/highRelevanceNotification
+market.yandex.ru###\/content\/page\/fancyPage\/ordersList\/agitationsBlock
 market.yandex.ru###\/content\/page\/fancyPage\/recommendationRoll
 market.yandex.ru###\/content\/page\/fancyPage\/recommendationRollTabs\/tabs
 market.yandex.ru###\/content\/page\/fancyPage\/reviewPollPopup
@@ -1269,6 +1266,7 @@ xv-ru.com###footer
 xv-ru.com###premium-info-frame
 xv-ru.com##.banner-game, .premium-results-line
 xvideos.red##.auto-width-popup
+yandex.ru,ya.ru##._root_1lqeu_1._item_pc1s2_1
 yandex.ru,ya.ru##.card__narrow
 yandex.ru,ya.ru##.EntityOffersOrganic
 yandex.ru,ya.ru##.EPrice_view_old
@@ -1288,6 +1286,7 @@ yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="FinanceCard"])
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="UniSearch"])
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]:has([class*="UniSearchList"])
 yandex.ru,ya.ru##[class*="_futuris-snippet"]
+yandex.ru,ya.ru##[class*="EProductSnippet2_shopInfoView"]:upward(li)
 yandex.ru,ya.ru##[id^="EntityFeedback_disclaimerNeuro_"]
 yandex.ru,ya.ru##[id^="MarketCheckoutButtonBase_"]
 yandex.ru,ya.ru##div:has(> [id^="difww"] > .Extralinks-Icon)

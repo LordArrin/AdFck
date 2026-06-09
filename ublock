@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 May 2026 05:48
+! Last modified: 09 July 2026 05:37
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -29,20 +29,7 @@
 ! that I ruined your day, I will laugh at you.
 !
 !
-###ads_left
-##.adsbyyottos
-##.trg-b-banner-block
-##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
-##[class^="AppMoney"]
-##[class^="AppMoneySidebar"]
-##div[id^="vk_ads_"]
-101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
-123.ru###news
-123.ru##.footer-result
-1688tb.com##.layout-main-footer
 1fichier.com###footer
-28bit.ru##.footer, .up-main-promo
-360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"], [class*="forHero_"]
 3dnews.ru###footer, #btwLabel, #currencyTicker, #stripe, #projects, #right-sidebar
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, .slider-track, [href="/competitions"], [href="/job"]
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
@@ -51,6 +38,19 @@
 4pda.to##.footer
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 9xbuddy.site##.px-4.md\:text-left.text-center.items-center.justify-center.md\:flex.my-8
+28bit.ru##.footer, .up-main-promo
+101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
+123.ru###news
+123.ru##.footer-result
+360.yandex.ru##[class*="BottomText_"], [class*="SocialMediaBlock_"], [class*="forHero_"]
+1688tb.com##.layout-main-footer
+###ads_left
+##.adsbyyottos
+##.trg-b-banner-block
+##.ytp-ce-element, .ytp-ce-video, .ytp-ce-element-show, .ytp-scroll-min, .ytp-pause-overlay, .ytp-ce-bottom-left-quad, .ytp-ce-bottom-right-quad, .ytp-ce-size-640, .ytp-ce-size-1280, .branding-img-container
+##[class^="AppMoney"]
+##[class^="AppMoneySidebar"]
+##div[id^="vk_ads_"]
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
 @@api_url=http://api.vk.*/api.php
@@ -143,20 +143,20 @@ as-portal.openvpn.com###single-spa-application\:\@openvpn\/billing-banner-mf
 askubuntu.com##.fc-medium.fs-fine, .js-footer
 asus.com##.footerExternal, [class*="ProductSupportFooter_"]
 auchan.ru##.footer, .seoText
-audio-extractor.net###allapps-extension-popup, .copyright, .menu
 audio2edit.com##.queue-complete.priority-item > p, .bg-warning.queue-btn.btn, footer, .content-breaker, .fadeInDown.animated.alert-warning, .footer
+audio-extractor.net###allapps-extension-popup, .copyright, .menu
 auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link, .ribbon
 aviasales.*###tippy-2
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 avito.ru##._09992ae0389262a6
-avito.ru##._194edff26f32943f
 avito.ru##._1efe3f3eec82d0aa
-avito.ru##._39d03d65e9198282
 avito.ru##._4bd8e883dee82953
-avito.ru##._652b190eea19b68b, .aa8a09ee59c9017c
-avito.ru##._98f5d68cffb47d10
 avito.ru##._9ad86d32bf9dc2a9
+avito.ru##._39d03d65e9198282
+avito.ru##._98f5d68cffb47d10
+avito.ru##._194edff26f32943f
+avito.ru##._652b190eea19b68b, .aa8a09ee59c9017c
 avito.ru##.channel-preview-root_roundAvatar-CozVK
 avito.ru##.cvr-container
 avito.ru##.d2abc7990cce8158
@@ -247,8 +247,11 @@ darkreader.org##.page-grid-ios
 dash.cloudflare.com###account-marketing-banner-header-notification-container, #zone-marketing-banner-header-notification-container, #site-footer
 datanodes.to##.font-bold.p-4.md\:w-3\/12.text-center.w-full
 datanodes.to##.hover\:text-white.no-underline.justify-between.items-center.flex.w-full.text-white.font-medium.text-sm.bg-gray-900.hover\:opacity-90.px-6.rounded-lg.gap-4.shadow.leading-none.relative.py-3
+datanodes.to##.items-start.gap-3.flex.md\:mt-6.mt-4.md\:p-5.p-4.bg-amber-50\/60.rounded-lg
 datanodes.to##.lg\:p-12.py-8.px-6.bg-white.flex-1
+datanodes.to##.md\:pb-5.md\:px-6.pb-4.px-4
 datanodes.to##.md\:rounded-r-xl.md\:rounded-l-none.rounded-xl.bg-blue-600
+datanodes.to##.mt-3.m-0.text-center
 datanodes.to##.p-16.items-center.flex.md\:w-8\/12.w-full.rounded-lg, .proFeatures, .z-50.relative.px-4.py-6,
 datanodes.to##.text-blue-600.font-bold.p-4.md\:w-3\/12.text-center.w-full
 deepseek.com##.footer
@@ -317,6 +320,8 @@ fanfiction.net###p_footer
 fanfiction.net##.main-content > .spacer.core-msg, .panel_normal
 fboom.me###footer, [class*="premium-"]
 fex.net##.fs-page__sidebar-wrapper, .layout__footer
+ficbook.net##.jsVueComponent.d-contents > .btn-top-bar
+ficbook.net##.primary-box-with-button, .page-footer, .fanfic-hat-cover-picture
 ficbook.net##[class*="-smart-banner"], [class*="global-banner-"]
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 ficbook.net##[class*="wheel-of-fortune"]
@@ -380,6 +385,7 @@ goha.ru##.layout-footer
 graviton.ru##.footer__bottom, .main-promo
 habr.com###news_block_1
 habr.com##.article-donation-block, .leaderboard, .persona
+habr.com##.floating-image
 habr.com##.reactions-panel, .reactions-panel-wrapper
 habr.com##.sponsor-block
 habr.com##.tm-article-author__company, .tm-article-poll-container, .tm-article-poll__notice, .tm-article-presenter__meta, .tm-section-name
@@ -415,6 +421,7 @@ i2hard.ru##.footer, .content__col-right, [class*="*footer_"]
 iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.sber.ru##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.swiper
+id.sber.ru##[class*="module_recsys_main-swiper-slide-override-"]
 igm.gg##[class*="Banner_layout_"]
 igm.gg##[class*="Disclaimer_"]
 igm.gg##[class*="Footer_footer__lower_"]
@@ -435,8 +442,8 @@ itch.io##.base_widget.content_warning_widget
 itorrents-igruha.net##[class*="footer-"]
 ixbt.com###footer, #newsBlock
 ixbt.com###newsBlock
-ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\32 xl\:gap-6.xl\:gap-4.lg\:gap-2
+ixbt.com##.\!hover\:zoom-in-103.\!text-white
 ixbt.com##.\[\&\>\*\:last-child\:not\(\:first-child\)_\[data-flux-group-target\]\]\:rounded-l-none.\[\&\>\*\:first-child\:not\(\:last-child\)_\[data-flux-group-target\]\]\:rounded-r-none.\[\&\>\*\:not\(\:first-child\)\:not\(\:last-child\)\:not\(\:only-child\)_\[data-flux-group-target\]\]\:rounded-none
 ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
@@ -478,6 +485,7 @@ knowyourmeme.com###global-message, #sub_network_footer_wrapper
 knowyourmeme.com##.ad-unit-wrapper
 kod.ru##[class*="Header_top_"], [class*="Layout_cookies_"], [class*="Layout_footerWrapper"], [class*="NewsDetail_banner_"]
 korshop.ru###footer, .tline
+krakenfiles.com###download-ads-container
 krakenfiles.com###faqs
 krakenfiles.com##.bg-lighter.nk-footer-fluid, .home-help-block, .support-topic-react
 krakenfiles.com##.buy-premium-promo-file-banner
@@ -556,6 +564,7 @@ magnit.ru##.footer, .magazine, .sections-ticker
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .spotlight--no-side-radius
 mail.proton.me##[class*="button-promotion-"]
+mail.rambler.ru##[class*="Review-root-"], [class*="Digest-digestContainer-"], [class*="styles-root-"], [class*="AppContainer-footer-"], [class*="rc__"]
 mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge-Dot, .Promozavr, .promozavr-anchor-servicePremiumButton, .Modal-Cell, .Modal-Overlay, .Modal-Wrapper
 mail.yandex.ru##.Badge_view_promo
@@ -597,6 +606,7 @@ market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchContentSync\
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/searchContentSync\/seoChips
 market.yandex.ru###\/content\/page\/fancyPage\/searchContent\/seoChips
 market.yandex.ru###\/content\/page\/fancyPage\/seoChips
+market.yandex.ru###\/content\/page\/footer
 market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/footer
 market.yandex.ru###\/header\/ecomAssistantModalTrigger
@@ -609,6 +619,7 @@ market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
 market.yandex.ru##.wDoko.ds-flex_shr_0
+market.yandex.ru##[id*="\/cardRecommendationRoll"]
 market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id$="\/referralEntry"]
 market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/ABOUT_MARKET"]
 market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/BLACK_MARKET"]
@@ -680,6 +691,7 @@ music.yandex.ru##[class*="ExplicitMarkIcon_"]
 music.yandex.ru##[class*="Footer_root_"]
 music.yandex.ru##[class*="Gr0Nt"]
 music.yandex.ru##[class*="InStyle_tabCarousel_"]
+music.yandex.ru##[class*="MainPage_feedbackForm_"]
 music.yandex.ru##[class*="MainPage_footer_"]
 music.yandex.ru##[class*="MainPage_specialHeaderContainer_"]
 music.yandex.ru##[class*="Meta_explicitMark_"]
@@ -693,6 +705,8 @@ music.yandex.ru##[class*="PlusModal_root_"]
 music.yandex.ru##[class*="Skeleton_header_"]
 music.yandex.ru##[class*="VibeBlock_button_"]
 music.yandex.ru##[class*="VibeBlock_subscriptionText_"]
+music.yandex.ru##[class*="VibePage_wheel_"]
+music.yandex.ru##[class*="VibePage_words_"]
 music.yandex.ru##[class*="Vibes_important_"]
 music.yandex.ru##li:nth-of-type(6)
 mvideo.ru###mvid-banners-container
@@ -749,12 +763,15 @@ panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
 pcloud.com##[class*="UserPlanInfo__UpgradeButton-"]
+pepper.ru###comment-order-wrapper
 pepper.ru###footer-content
+pepper.ru##.active.pointer-events-none
 pepper.ru##.auto-refresh-Div-position, .footer, .fixed.px-2.form-secondary-button, .shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
 person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
+pikabu.ru##.avatar__notifications
 pikabu.ru##.bell, .pkb-badge-shop
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.carousel.story-page-related-carousel
@@ -767,6 +784,7 @@ pikabu.ru##.promo-banner-sticky > .footer__email
 pikabu.ru##.sidebar-game, .sidebar-gamification
 pikabu.ru##.sidebar-menu__item:nth-of-type(8), .sidebar-menu__item:nth-of-type(9), .sidebar-menu__item:nth-of-type(10), .sidebar-menu__item:nth-of-type(11), .sidebar-menu__item:nth-of-type(12), .sidebar-menu__item:nth-of-type(13), .sidebar-menu__item:nth-of-type(14)
 pikabu.ru##.sidebarfooter > .footeremail
+pikabu.ru##.stories-feed__container > section
 pikabu.ru##.story-block_type_products
 pikabu.ru##.story__comments-link-spark
 pikabu.ru##.story__read-more > span:nth-of-type(2)
@@ -839,10 +857,10 @@ reddit.com###RESOURCES > faceplate-tracker:nth-of-type(2)
 reddit.com##.nd\:hidden > .rounded-none.border-none.bg-transparent.m-0.p-0
 reddit.com##.nd\:visible > faceplate-expandable-section-helper > .rounded-none.border-none.bg-transparent.m-0.p-0
 reddit.com##faceplate-tracker.contents:nth-of-type(4) > .mt-0
-reddit.com##faceplate-tracker:nth-of-type(10), faceplate-tracker:nth-of-type(11), faceplate-tracker:nth-of-type(12), .py-md.visible, hr.my-sm
 reddit.com##faceplate-tracker:nth-of-type(3)
 reddit.com##faceplate-tracker:nth-of-type(5)
 reddit.com##faceplate-tracker:nth-of-type(6)
+reddit.com##faceplate-tracker:nth-of-type(10), faceplate-tracker:nth-of-type(11), faceplate-tracker:nth-of-type(12), .py-md.visible, hr.my-sm
 reddit.com##hr.border-0
 reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(2) > .contents > .mt-0
 reddit.com##ul.my-xs.list-none.m-0.p-0.w-100:nth-of-type(4) > .contents > .mt-0
@@ -902,8 +920,8 @@ rutube.ru##noindex, .wdp-popup-overlay-module__overlay, .menu-section-container-
 ruwiki.ru##.article-footer
 ruwiki.ru##[class*="_toolbar"]
 samlib.ru##td > table
-sankakucomplex.com##.jss1663
 sankakucomplex.com##.jss363
+sankakucomplex.com##.jss1663
 saveporn.net###itfloater_wd
 savetwitter.net###dlModal
 savetwitter.net##footer, .container-main > .container, .alert-gr.alert-warning.alert, extension-header
@@ -1005,7 +1023,9 @@ tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
 tv.yandex.ru##.recommended-ott
 uloz.to##.t-footer, .news-carousel
 unite4buy.ru##.footer-wrapper
+uploadhaven.com##.pro.uh-dl-time-box
 uploadhaven.com##.uh-dl-divider, .uh-dl-features, .uh-suc-upsell, .btn-download-upgrade, .uh-dl-btn-pro
+uploadhaven.com##.uh-dl-tip
 uploadhaven.com##td.text-center:nth-of-type(3), th:nth-of-type(3), footer, .apply-section, .premium-row, .text-center.mt-3.mb-0.d-block, .text-muted.text-center
 uploadrar.com###footer2, #gdpr-cookie-notice
 uploadrar.com##footer, .menufooter
@@ -1020,6 +1040,7 @@ valid.x86.*##[class*="widget-advert-"]
 vamprivet.ru##.footer
 vault.bitwarden.com###premium-banner
 vault.bitwarden.com##navigation-product-switcher
+vbr.ru##[class*="carousel-tgb-banner_container_"], .-compact.product-card-tgb
 vc.ru##.account-menu__group:nth-of-type(2)
 vc.ru##.l-island-round
 vc.ru##.sidebar__section:nth-of-type(3)
@@ -1261,6 +1282,8 @@ wlux.net##.xtr-message-block, .notices--floating, .notice--thnoticesplus_error, 
 wordpress.com##.current-site__notices
 workspace.ru##._brif--new
 workupload.com###footer
+www.ixbt.com##.gap-1.items-center.flex.z-\[9990\].left-2.bottom-2.fixed
+www.ixbt.com##.min-h-12.justify-between.gap-y-2.gap-x-1.md\:flex-row.flex-col.flex
 x5club.ru##.focus-visible\:before\:block.before\:-outline-offset-2.before\:w-full.before\:h-full.before\:hidden.before\:z-\[2\].before\:top-0.before\:left-0.before\:absolute.focus-visible\:before\:lk-black-outline.block.relative
 xakep.ru###current_issue_box, #sticker
 xakep.ru##.bdaia-author-box, .default, .info.panel
@@ -1289,12 +1312,14 @@ yandex.ru,ya.ru##.main__carousel-item_type_product_gallery
 yandex.ru,ya.ru##.main__carousel-item_type_products_mode_panel
 yandex.ru,ya.ru##.ProductGalleryHeader
 yandex.ru,ya.ru##.RelatedBottom
+yandex.ru,ya.ru##.StocksFooter
 yandex.ru,ya.ru##.UniSearchLayout-Header
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="FinanceCard"])
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="UniSearch"])
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]:has([class*="UniSearchList"])
 yandex.ru,ya.ru##[class*="_futuris-snippet"]
 yandex.ru,ya.ru##[class*="EProductSnippet2_shopInfoView"]:upward(li)
+yandex.ru,ya.ru##[class*="PromoOffer_"]
 yandex.ru,ya.ru##[id^="EntityFeedback_disclaimerNeuro_"]
 yandex.ru,ya.ru##[id^="MarketCheckoutButtonBase_"]
 yandex.ru,ya.ru##div:has(> [id^="difww"] > .Extralinks-Icon)

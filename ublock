@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 09 July 2026 05:37
+! Last modified: 09 July 2026 06:04
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -34,8 +34,7 @@
 3dnews.ru##.caption, .comment-warn, .content-block-header.entry-meta, .typo-hint, .footer, .footer-sub, .rbxglob.relatedbox.content-block, .denyOrgsWARN-footer, .slider-track, [href="/competitions"], [href="/job"]
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.*###fo_-1, #go_1, #logostrip
-4pda.*##.copyright, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .materials-box, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
-4pda.to##.footer
+4pda.*##.copyright, .footer, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .materials-box, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 9xbuddy.site##.px-4.md\:text-left.text-center.items-center.justify-center.md\:flex.my-8
 28bit.ru##.footer, .up-main-promo
@@ -132,8 +131,7 @@ annimon.com##.footer-wrapper
 apkmirror.com##.expandMargins
 apkmody.com##.alignfull.cover, .entry-block.entry-content, .padding-top-30, .social-links, .truncate, .wp-block-group
 apkpure.*###top-slide-banner
-apkpure.*##.app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container, .dt-security-statement-card, .download-vip-subscribe-wrap, .how-to-install, .nav-download-management
-apkpure.*##.virus-total-module
+apkpure.*##.similar-module, .dt-news-article-list, .featured-reviews-card, .dt-tag-module, .available-module, .virus-total-module, .app-store, .apple-store-btn, .detail-safe-btn, .discover.module, .download.telegram-btn.mt-large, .dt-faq, .dt-faq.faq.module, .dt-nav-parent.dt_nav_button.nav-p, .editor-choice, .fast-download-start-btn, .footer_new, .game-on-sale, .has-pubg-entry, .hot-apps, .hot-games, .hot-search-games-24h, .hot_list.list_box.dt-app-hot, .latest-update-apps, .latest-update-games, .list-margin.sa-all-div.list, .list_box.dt-discover, .mb.search-telegram, .module.aegon-card, .popular-apps, .popular-games, .right_apkpure.module, .search-telegram-side, .searching-hide.nav_tv.item, .shan, div.searching-hide.many.item:nth-of-type(7), .google-anno-skip.available-box, .google-anno-skip.discover, .google-anno-skip.dt-news-article-list, .google-anno-skip.hot-apk, .ranking-apk, .top-news-app, .top-news-game, .available-platform, .discover.dt-discover, .hot-apk, .latest-news, .related-articles, .aegon-card, .common-footer, .similar-box, .trending-box, .security-statement, .hot-search-box, .faq, .developer-box, .dt-hot-topics, .footer-banner-container, .home-telegram-container, .dt-security-statement-card, .download-vip-subscribe-wrap, .how-to-install, .nav-download-management
 app.koofr.net##.l-hint
 app.mediafire.com###frame1
 app.mediafire.com##div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2), .scrollViewportV.scrollViewport > div > div:nth-of-type(1) > div:nth-of-type(3) > button > div
@@ -263,6 +261,7 @@ diakov.net##td, .title_spoiler
 discord.com##[class*="-expressiveWrapper"], [class*="-newBadge"]
 discord.com##[class*="-newBadge"]
 disk.yandex.ru##.footer
+disk.yandex.ru##[class*="AppLink__Link"]
 dlsoft.lanzoui.com##.foot_info
 dns-shop.ru###base-footer, #soft-bundle-block
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button, .additional-voblers, .choice-guide, .product-card__accessories, .product-card__buy-together, .product-card__rsu-assemblies, .survey-button-widget, .product-card-rsu, .product-card-top__tech-voblers, .product-card__analogs, .product-card__offer
@@ -276,14 +275,12 @@ drive.proton.me##.offer-modal--one-deal, .offer-modal, .modal-two, .modal-two-ba
 drive.proton.me##[class*="button-promotion-"], .interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .justify-center.items-center.gap-2.flex.w-full.my-2, .py-5.px-4.gap-8.items-center.flex-nowrap.flex
 dropbox.com##.dig-6lejgsv_22-1-0.dig-6lejgsk_22-1-0.dig-6lejgss_22-1-0.dig-Text--size-xsmall
 dropbox.com##.oa-pulsar-effect-FREE_TEAMS_INVITE_BUTTON
-dropbox.com##[class*="_downloadDesktopBannerBottomPrompt_"]
-dropbox.com##[class*="_learningCenterHeaderDesktop_"], [class*="_toolkit-link_"], [class*="dig-Banner--attention"]
+dropbox.com##[class*="_learningCenterHeaderDesktop_"], [class*="_toolkit-link_"], [class*="dig-Banner--attention"], [class*="_downloadDesktopBannerBottomPrompt_"]
 dropmefiles.com###footer, #footer2
 dropmefiles.com##.selector-footer
 dtf.ru##.account-menu__right > .button--type-minimal
 dtf.ru##.comments__show-all-always, .layout__right-column, .live, .sidebar__footer, .sidebar-item__has-updates
 dtf.ru##div.account-menu__group:nth-of-type(2)
-duckdns.org##[class*="license-status"]
 dzen.ru##[class*="-article-image-caption__caption-"]
 dzen.ru##[class*="-article-thematic-cloud_"]
 dzen.ru##[class*="-card-mini-news_"]
@@ -303,9 +300,7 @@ dzen.ru##[class*="dzen-layout--content-desktop__indicator-"]
 dzen.ru##[class*="dzen-layout--sidebar-meta-links_"]
 dzen.ru##[class*="dzen-layout--tooltip_"]
 dzen.ru##[class*="floor-ad_"]
-e5450.com##.sgpb-popup-dialog-main-div-wrapper
-e5450.com##.sgpb-popup-overlay
-e5450.com##.wppopups-whole
+e5450.com##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay, .wppopups-whole
 eda.yandex.ru##[class*="AppFooter_root"], .root_r19uopkt
 eldorado.ru##.footer
 estmebelshop.ru##.bottom_block_foot
@@ -332,10 +327,7 @@ files.fm###footer_container, #onboard_survey_form, #settings_navbar__storage_siz
 files.fm##.head_download__dropdown__content > [href="javascript:void(0)"], .nav-upgrade, .new.library-button, .pro_flag
 files.gamerfang.in##.adsvictory, .download_left_ad1, .download_mobile_top_ad1, .file-description, .footer, .page-subtitle
 files.sdisk.ru###web_profile_badge_widget_link
-files.sdisk.ru##[class*="MobileAppBar-"]
-files.sdisk.ru##[class*="Modal-module_Modal__wrap--isOpened_"]
-files.sdisk.ru##[class*="SciSurveyBanner-"]
-files.sdisk.ru##[class*="SidebarPromo-"]
+files.sdisk.ru##[class*="MobileAppBar-"], [class*="Modal-module_Modal__wrap--isOpened_"], [class*="SciSurveyBanner-"], [class*="SidebarPromo-"]
 filespayout.com##h4, .footer, .mb-lg-5, .mt-5.mb-1, .paybox
 filespayouts.com###premium, .paybox, .footer, .container > h4, .container > hr
 fimfiction.net##.adsbygoogle, .advert, .branded-button-subscribe-star, .footer, .main-responsive, .mobile-inline, .sponsor-reminder, .branded-button, .navigation-drawer-tab > hr
@@ -400,12 +392,6 @@ habr.com##.tm-footer, .tm-footer-menu
 habr.com##.tm-page__sidebar, .tm-sexy-sidebar, .tm-user-card__buttons_variant-article.tm-user-card__buttons
 habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions, .tm-project-block_variant-salary, .tm-project-block_variant-tasks, .tm-project-block_variant-vacancies
 habr.com##[href^="https://bit.ly/"]
-hd.kinopoisk.ru##.Tooltip
-hd.kinopoisk.ru##[class*="Hint_tooltip_"]
-hd.kinopoisk.ru##[class*="item_promo_"]
-hd.kinopoisk.ru##[class*="PromoBlockFactory_root_first_"]
-hd.kinopoisk.ru##[class*="SelectionList_content-section_"]
-hd.kinopoisk.ru##[class*="ShowcaseSelection_root_"]
 hdqwalls.com###pb_footer
 hentai.tv###promo-topbar
 hentaiera.com###footer_bar
@@ -422,12 +408,7 @@ iboysoft.com##.btn-rating
 id.sber.ru##.e8y4yns0, ._container_1ipha_10
 id.sber.ru##.swiper-backface-hidden.swiper-android.swiper-horizontal.swiper-initialized.swiper
 id.sber.ru##[class*="module_recsys_main-swiper-slide-override-"]
-igm.gg##[class*="Banner_layout_"]
-igm.gg##[class*="Disclaimer_"]
-igm.gg##[class*="Footer_footer__lower_"]
-igm.gg##[class*="Modal_modal__overflow_"]
-igm.gg##[class*="SubscriptionCTA_"]
-igm.gg##[class*="Template_modal-root_"]
+igm.gg##[class*="Banner_layout_"], [class*="Disclaimer_"], [class*="Footer_footer__lower_"], [class*="Modal_modal__overflow_"], [class*="SubscriptionCTA_"], [class*="Template_modal-root_"]
 igromania.ru##.strunmenu
 indiegala.com##.default-footer
 inkbunny.net##.footer

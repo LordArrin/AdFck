@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 14 June 2026 10:36
+! Last modified: 15 June 2026 05:09
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -205,8 +205,6 @@ bcnn.ru##.site-footer
 beatsage.com##[class*="-socials"], [class*="footer"]
 bigasia.ru##header
 bolshoyvopros.ru###mobile_suggest
-boosty.to##[class*="Footer-scss--module_"]
-boosty.to##[class*="Footer_block_"]
 brattysis.com##.footer-container, .front-page-slider, .below-nav-banner, .hover-join
 buhgalteria.ru##.hidden-ld
 buickcafe.com##.overlay
@@ -740,8 +738,7 @@ panorama.pub##.alert
 pass.proton.me##.pass-top-bar
 paypal.com##.footer
 pcloud.com##[class*="UserPlanInfo__UpgradeButton-"]
-pepper.ru###comment-order-wrapper
-pepper.ru###footer-content
+pepper.ru###comment-order-wrapper, #footer-content
 pepper.ru##.active.pointer-events-none
 pepper.ru##.auto-refresh-Div-position, .footer, .fixed.px-2.form-secondary-button, .shadow-custom-4.rounded-bradius10
 perekrestok.ru##.footer-copyright
@@ -767,8 +764,7 @@ pikabu.ru##.story__comments-link-spark
 pikabu.ru##.story__read-more > span:nth-of-type(2)
 pikabu.ru##.user__label
 pikabu.ru##[class*="app__host-"], [href="/experts"]
-pikabu.ru##[class*="app__trigger_"]
-pikabu.ru##[class*="item-trigger__host"]
+pikabu.ru##[class*="app__trigger_"], [class*="item-trigger_"]
 pikabu.ru##[class*="ny20"], .carousel_highlights, .menu-promocodes, .feed-games-carousel, .story__donate, .pkb-donation-btn, m-h-4, .pkb-highlight-block, .sidebar-game-block
 pikabu.ru##[class*="pkb-badge"]
 pikabu.ru##[data-blog="1"]
@@ -911,8 +907,7 @@ servernews.ru##.caption, .typo-hint
 servernews.ru##body > .right
 serverspace.ru##.black-friday
 shakib.my.id###block-12
-shop.megafon.ru##[class*="ExpandedBuySimButton_"]
-shop.megafon.ru##[class*="FooterBlock_"]
+shop.megafon.ru##[class*="ExpandedBuySimButton_"], [class*="FooterBlock_"]
 silverstudiogames.org###poopup
 silverstudiogames.org###tc-widget
 smarthomebeginner.com##.pmpro, .tipbox, .wp-polls, blockquote
@@ -932,14 +927,12 @@ sports.ru###footer-ssi-mount-point
 sports.ru##.blog-post__header-social, .is-show.js-active.webpush, .main-footer__top-position, .material-item__social-line, .poll-share, .social-links
 sprut.ai##.col-12.col-md-4
 sravni.ru##.h-br-tr-24.h-br-tl-24
-sravni.ru##[class*="FeedBack_text_"], [class*="style_seoBlock_"]
-sravni.ru##[class*="Sponsor_"]
+sravni.ru##[class*="FeedBack_text_"], [class*="style_seoBlock_"], [class*="Sponsor_"]
 stoigr.org###Mdms2
 stoigr.org##.footer, .abusemessage
 store.epicgames.com##.epic_games
 store.steampowered.com###footer
-studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"]
-studio.rutube.ru##[class*="vl-menu-navigation-v2-module__aboutContainer_"]
+studio.rutube.ru##.vl-navigation__info-block, .vl-navigation__bottom-links, .vl-navigation__copyright, vl-navigation__info-block, [class*="qr-banner-module_"], [class*="vl-notification-module_"], [class*="vl-menu-navigation-v2-module__aboutContainer_"]
 subscribestar.*##.layout-footer, .warning_xodal
 super-hobby.ru###cookie_window
 superuser.com##[class*="site-footer-"]
@@ -1314,16 +1307,11 @@ yandex.ru,ya.ru##li:has([class*="Products"])
 yougame.biz##.yg_first_post
 youtube.com###button-shape > .yt-spec-button-shape-next--icon-button
 youtube.com###categoryPill
-youtube.com###chat
-youtube.com###chat-container
-youtube.com###chat-container, #panels-full-bleed-container
+youtube.com###chat, #chat-container, #panels-full-bleed-container, #copyright, #dismissed
 youtube.com###content > .ytd-rich-section-renderer.style-scope
-youtube.com###copyright
-youtube.com###dismissed
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > tp-yt-paper-tooltip
 youtube.com###flexible-item-buttons > ytd-button-renderer.ytd-menu-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
-youtube.com###guide-links-primary
-youtube.com###guide-links-secondary
+youtube.com###guide-links-primary, #guide-links-secondary
 youtube.com###panels-full-bleed-container
 youtube.com###teaser-carousel
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 June 2026 07:43
+! Last modified: 28 June 2026 10:24
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -277,6 +277,7 @@ byruthub.org##.br_stat, .footer
 calendar.proton.me##[class*="button-promotion-"]
 calendar.yandex.ru##[class*="AsideFooter"]
 castlepeak.ru###disclaimer
+cdek.*##.footer, .mobile-applications, .banner-left.base-container--fluid
 cdek.shopping##[class*="app-footer"]
 championat.com##.footer, .article-footer__row
 chan.sankakucomplex.com##.companion--draggable_element
@@ -421,6 +422,7 @@ genshinhelper.ru##.main-ad-button
 get.bunkrr.su##.careful
 gethomepage.dev###goog-gt-vt
 ggsel.net##[class*="Footer_footer_"]
+gigabyte.com##.gbt-cl-page-banner
 gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
 gitee.com##[class*="index_badge_"], .gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner
@@ -503,6 +505,7 @@ ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.flex-wrap.flex-row.flex.my-2.mx-auto
 ixbt.com##.ixbt-opinion-wrapper
 ixbt.com##.justify-between.items-center.\32 xl\:gap-x-6.lg\:gap-x-2.lg\:flex
+ixbt.com##.marking-footnotes
 ixbt.com##.pt-2.justify-between.items-center.flex > .gap-2.items-center.flex
 ixbt.com##.shrink-0.hidden.sidebar__container
 ixbt.com##.sidebar__container, .infinite-scroll-container
@@ -554,6 +557,7 @@ leafletjs.com###dialog, .iframe-container, .leaflet-right
 lenta.ru##.box-inline-topic
 lenta.ru##.social-snippet, .footer_panel
 lewdninja.com##.is-warning.notification
+librain.ru##.animate-fade-in-up.g-4.row
 ligaudio.ru###DesktopInread, #billboard_mob, #billboard, #foot, #DesktopFooter
 linkbox.to##.adm-mask, .subscribe, .ant-carousel, .main-footer, .subscription-btn, .banner, .line
 linode.com##.bg-brand.justify-between.flex
@@ -744,6 +748,7 @@ music.yandex.ru###_r_bm_
 mvideo.ru##[class*="footer__grid"], .footer, .layout__footer
 mvideo.ru###mvid-banners-container
 mvideo.ru##mvid-our-advantages-mp
+my.cdek.*##.md\:mx-0.mx-4.mt-10
 my.mail.ru##.l-music__bottom-informer
 my.porno365x.link###footer
 myspar.ru##.card-present, .seo-block, .js-popup-note, [class*="footer_"]
@@ -1137,6 +1142,7 @@ vk.*##.submit_post_box_with_sitposting
 vk.*##.trg-b-banner-block
 vk.*##.UxpollsBlock
 vk.*##.videoplayer_share_action_goods
+vk.*##.vkuiSpinner__host
 vk.*##.wall_authors_rec
 vk.*##.wall_live_recommended
 vk.*##.wall_marked_as_ads

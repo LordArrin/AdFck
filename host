@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  04 April 2026 08:54
+! Last modified:  30 June 2026 01:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -60,16 +60,6 @@
 ||*sntr.avito*^
 ||*stats.avito*^
 ||*sts.avito*^
-# Genshin Impact
-@@||autopatchhk.yuanshen.com*^
-@@||blooming-shelf-2016.herokuapp.com*^
-@@||dispatchosglobal.yuanshen.com*^
-@@||herokuapp.com*^
-@@||minor-api-os.hoyoverse.com*^
-@@||oseurodispatch.yuanshen.com*^
-@@||osuspider.yuanshen.com*^
-@@||ys-log-upload-os.hoyoverse.com*^
-||*data-abtest-api.hoyoverse*^
 # Nvidia
 ||*events.gfe.nvidia*^
 ||*geo-location-api.gx.nvidia*^
@@ -244,6 +234,7 @@
 ||*et.topazlabs*^
 ||*event.msi*^
 ||*events.reddit*^
+||*exteragram.*^
 ||*f6.ru*^
 ||*facct.ru*^
 ||*feedbacks*.wb*^

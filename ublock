@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 28 June 2026 10:24
+! Last modified: 10 July 2026 08:53
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -371,6 +371,8 @@ e5450.com##.sgpb-popup-dialog-main-div-wrapper, .sgpb-popup-overlay, .wppopups-w
 eda.yandex.ru##.ewc_r19uopkt
 eda.yandex.ru##[class*="AppFooter_root"], .root_r19uopkt
 eldorado.ru##.footer
+elektroda.*##.noblock-logo-ti
+elektroda.*##.title-swicher-wrapper
 estmebelshop.ru##.bottom_block_foot
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###tn7k9m2x
@@ -499,6 +501,7 @@ ixbt.com##.bannertop
 ixbt.com##.bg-gray-700.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.bg-market-500.sm\:mb-0.pb-1.rounded-2xl.mb-2
 ixbt.com##.branding__mobile-spacer, .infinite-scroll-container, .text-center.py-12.justify-center
+ixbt.com##.content-block.not-prose
 ixbt.com##.dark\:hover\:text-gray-300.bg-gray-700.sm\:mb-4.pb-1.rounded-2xl.mb-4
 ixbt.com##.desktop-mobile-b, .desktop-b, .desktop-c, .mobile-b, .mobile-c, .recommend-b, .recommend-c
 ixbt.com##.flex-col.flex.mx-auto.relative.text-slate
@@ -609,7 +612,9 @@ m.youtube.com##ytm-single-column-watch-next-results-renderer ytm-video-with-cont
 magnit.ru##.footer, .magazine, .sections-ticker
 mail.google.com##.aeU
 mail.proton.me##.interactive--no-background.interactive-pseudo-protrude.color-primary.p-0.text-ellipsis.text-center, .spotlight--no-side-radius
+mail.proton.me##.modal-two-backdrop
 mail.proton.me##[class*="button-promotion-"]
+mail.proton.me##div.modal-two
 mail.rambler.ru##[class*="Review-root-"], [class*="Digest-digestContainer-"], [class*="styles-root-"], [class*="AppContainer-footer-"], [class*="rc__"]
 mail.ru##.footer, .setting-promo
 mail.yandex.ru##.Badge_view_promo
@@ -839,6 +844,7 @@ pikabu.ru##article.story:has([class*="-boost-badge"])
 pikabu.ru##article.story:has([class*="advert"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##article.story:has([class*="story__debate"])
+pikabu.ru##article.story:has([class*="tags__tag_pikabu-plus"])
 pikabu.ru##article.story:has(a[href*="max.ru"])
 pikabu.ru##article.story:has(img[src*="m3569541-1965510972.png"])
 pikabu.ru##article.story:has(img[src*="m6461233-2103128693.png"])
@@ -864,6 +870,7 @@ plusgaming.yandex.ru##[class*="Footer_Background_"]
 pochta.ru##.swiper-container-pointer-events
 pochta.ru##.webchat-icon, .portal-footer
 pochta.ru##[class*="banner-"], [class*="Sidebarstyles__AppLink-"]
+pochta.ru###cookie-consent-pochta
 poe.com##[class*="Banner_"], [class*="SidebarFooter_"]
 pornhub.com##.footerContentWrapper, .js-menuAnalytics, .menuLinkDiv, .networkBarWrapper, .removeAdLink
 pornhub.com###js-networkBar
@@ -936,6 +943,7 @@ rule34.xxx##center, small
 rule34comic.party##.footer
 rule34vault.com##.footer
 rule34video.com##.footer
+rule34video.com##.spot_under
 rule34video.com###top-header
 rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
@@ -1069,6 +1077,7 @@ uploady.io##.p-md-5.p-4.card-body > .align-items-center.row
 uploady.io##.p-md-5.p-4.card-body > .mt-3.text-muted.small.text-center
 uploady.io###premiumplans
 v4.afap.me##.ignore-select.article.fullstory > div:nth-of-type(7)
+vacuum.mindsolo.net##.lg\:bottom-8.backdrop-blur-md
 valid.x86.*##[class*="widget-advert-"]
 valid.x86.*###main__legals
 vamprivet.ru##.footer
@@ -1082,8 +1091,7 @@ vc.ru##.sidebar__section:nth-of-type(3)
 vds.menu##.panel-default.panel > div > [href^="/out.php"]
 vds.menu##.text-center, div.container > hr, tr.info
 vexfile.com##.banner-shp, .post-d, .badge-pop.badge
-vexfile.com##a.offer-link.btn-primary.btn-xlarge.btn:nth-of-type(1)
-vexfile.com##a.offer-link.btn-primary.btn-xlarge.btn:nth-of-type(2)
+vexfile.com##a.offer-link.btn-primary.btn-xlarge.btn:nth-of-type(1), a.offer-link.btn-primary.btn-xlarge.btn:nth-of-type(2)
 vik1ngfile.site##.row
 vik1ngfile.site###support-us
 vk.*#?##feed_rows > div[class="feed_row "]:has(.ui_actions_menu_item[data-task-click="AdsLight/copy_marker_id"])
@@ -1290,11 +1298,9 @@ vk.*#$##ads_left { position: absolute; top: -2500px; }
 vk.mail.ru##.mini-notify-stack
 vkplay.ru##.ph-footer-wrapper, ph-footer__bottom, .b-page-description
 vkplay.ru##.swiper-pagination-lock
-vkplay.ru##[class*="_bottom_10lag_"]
-vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"]
+vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"], [class*="_bottom_10lag_"]
 vkplay.ru##[class*="banners-container_"], [class*="banner-marketing_"], [class*="server-rent-catalog-hint_"]
-vkvideo.ru##.MenuList__item--recommendation
-vkvideo.ru##.MenuList__separator
+vkvideo.ru##.MenuList__item--recommendation, .MenuList__separator
 vkvideo.ru##.vkuiPopper, .vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv, .MenuList__link
 vkvideo.ru##[class*="HeaderVideoActions__root-"] > .vkuiRootComponent__host.vkuiDiv__host
 vkvideo.ru##[class*="RightActions__authorsLink"]

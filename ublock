@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 10 July 2026 08:53
+! Last modified: 18 July 2026 09:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -302,6 +302,7 @@ community.intel.com##.lia-component-quilt-footer
 community.intel.com###skip-footer
 compare.embedika.ru##.cdk-overlay-container, .header-banner
 comss.ru##.footer
+coontool.com##.fc-dialog-overlay
 cowaii.club##.anim1
 crdroid.net##.footerbg, .section-title
 crdroid.net###dl-ads
@@ -319,6 +320,7 @@ datanodes.to##.md\:rounded-r-xl.md\:rounded-l-none.rounded-xl.bg-blue-600
 datanodes.to##.mt-3.m-0.text-center
 datanodes.to##.p-16.items-center.flex.md\:w-8\/12.w-full.rounded-lg, .proFeatures, .z-50.relative.px-4.py-6,
 datanodes.to##.text-blue-600.font-bold.p-4.md\:w-3\/12.text-center.w-full
+datavaults.co##footer
 deepseek.com##.footer
 denuvo.store##.altumcode-informational-wrapper
 deployn.de##.border.rounded-xl
@@ -571,6 +573,11 @@ lk-nn.tns-e.ru##.isTextGray.form__col > p
 lk-nn.tns-e.ru##[class*="infoCard"]
 lk.bcnn.ru##.centered-image
 lk.mts.ru##.mts-lk-footer__wrapper
+lk.rt.ru##.application-footer_wrapper-1
+lk.rt.ru##.application-footer_wrapper-2
+lk.rt.ru##.banner-carousel-style-narrow
+lk.rt.ru##.main-page_content_banners
+lk.rt.ru##.main-page_control_banner
 login.mts.ru##.iMXcpm
 login.sankakucomplex.com##.jss140
 losst.pro###extapp-feedback-container
@@ -689,6 +696,7 @@ market.yandex.ru###searchSeoFooterChips
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice, .donation-matr-button, .cookies, .download-section, .menu__info, .player-foreign-agent,
 matreshka.tv##.menu__divider, .menu__title, .menu__info, .download-section
+matreshka.tv##.video-category__wrapper, .found-channel__wrapper
 media.vkplay.ru##.aside__sticky
 mediafire.com##.AccountOverview-upgradeColumn, th:nth-of-type(4)
 mediafire.com##.dl-box.ads > p, .dl-promo-cont, .footer, .lifetime-promo, .DLExtraInfo-additional, .upsell-ab-promo
@@ -945,6 +953,7 @@ rule34vault.com##.footer
 rule34video.com##.footer
 rule34video.com##.spot_under
 rule34video.com###top-header
+rustore.ru##.hwyvddEa
 rustore.ru##[class*="Footer_"], [class*="copyRight_"], [class*="qrCodeBlock_"], [class*="socialLinks_"]
 rustore.ru##div._section_12qot_1:nth-of-type(3)
 rustore.ru##div._section_12qot_1:nth-of-type(3) > div
@@ -1121,6 +1130,8 @@ vk.*##.CallHistoryScreenLanding--header
 vk.*##.CallHistoryScreenLanding--list
 vk.*##.CallHistoryScreenLanding--subheader
 vk.*##.CatalogBlock__subscription, .CatalogSection__rightColumn > .CatalogSection__stickyColumn .CatalogBlock__separator
+vk.*##.ConvoList__convoBanner
+vk.*##.FeaturesDisabledBanner
 vk.*##.feed_friends_recomm
 vk.*##.feed_groups_recomm
 vk.*##.FeedBlockWrap__marginM
@@ -1150,6 +1161,7 @@ vk.*##.submit_post_box_with_sitposting
 vk.*##.trg-b-banner-block
 vk.*##.UxpollsBlock
 vk.*##.videoplayer_share_action_goods
+vk.*##.vkuiPopper__host
 vk.*##.vkuiSpinner__host
 vk.*##.wall_authors_rec
 vk.*##.wall_live_recommended
@@ -1236,6 +1248,7 @@ vk.*###groups_filters_wrap > .page_block
 vk.*###groups_list_right_blocks_root
 vk.*###l_ads
 vk.*###l_ap, #l_mk
+vk.*###l_invite_promo
 vk.*###mailru-visibility-check
 vk.*###page_block.FeedVideosForYou
 vk.*###page_block.ShortVideoFeedBlock
@@ -1265,6 +1278,7 @@ vk.*###ui_rmenu_recommended
 vk.*###vkMsg
 vk.*##aside[aria-label="Актуальные новости"]
 vk.*##body:style(position:static!important)
+vk.*##canvas
 vk.*##div[ads_left]
 vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.FeedVideosForYou)
 vk.*##div[class*="feed_row "] > div[id^="feed_repost-"]:has(.Post__copyright)
@@ -1353,6 +1367,7 @@ yandex.ru,ya.ru##.main__carousel-item_type_product_gallery
 yandex.ru,ya.ru##.main__carousel-item_type_products_mode_panel
 yandex.ru,ya.ru##.ProductGalleryHeader
 yandex.ru,ya.ru##.RelatedBottom
+yandex.ru,ya.ru##.Skeleton_type_ad_search
 yandex.ru,ya.ru##.StocksFooter
 yandex.ru,ya.ru##.UniSearchLayout-Header
 yandex.ru,ya.ru##[class*="_futuris-snippet"]
@@ -1374,7 +1389,6 @@ yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##li:has(.organic):has-text(/^[Пп]ромо$/)
 yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-Text"])
 yandex.ru,ya.ru##li:has([class*="Products"])
-yandex.ru##.Skeleton_type_ad_search
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
@@ -1394,6 +1408,7 @@ youtube.com###guide-links-primary, #guide-links-secondary
 youtube.com###panels-full-bleed-container
 youtube.com###teaser-carousel
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.service_worker_enabled, false)
+youtube.com##grid-shelf-view-model.ytd-item-section-renderer.ytGridShelfViewModelHost
 youtube.com##tp-yt-paper-dialog
 youtube.com##tp-yt-paper-tab.ytd-c4-tabbed-header-renderer.style-scope:nth-of-type(3)
 youtube.com##yt-button-view-model.ytd-menu-renderer:nth-of-type(2) > .ytd-menu-renderer.style-scope.ytSpecButtonViewModelHost > .yt-spec-button-shape-next--enable-drop-shadow-experiment.yt-spec-button-shape-next--enable-backdrop-filter-experiment.yt-spec-button-shape-next--icon-leading.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--tonal.yt-spec-button-shape-next

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 18 July 2026 09:20
+! Last modified: 25 July 2026 22:32
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -123,6 +123,7 @@
 3dnews.ru##div.strong.mid.menu-item.sidebar-chunk:nth-of-type(29), div.strong.mid.menu-item.sidebar-chunk:nth-of-type(32)
 4pda.*##.copyright, .footer, .f-holder, .globalmesscontent, .rnd-replace-revive_zone-type, .second-menu, .materials-box, .menu-main > li.menu-main-item > [href="//4pda.to/honor/"], .menu-main-mobile > li.menu-main-item > [href^="https://4pda.to/huawei/"]
 4pda.*###fo_-1, #go_1, #logostrip
+5play.org##.sect-more.sect, .footer-5p
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 9xbuddy.site##.px-4.md\:text-left.text-center.items-center.justify-center.md\:flex.my-8
 about.gitlab.com##.banner, .gradient-background, .hero-scroll-gallery, .intro-block, .slp-btn-primary, .source
@@ -747,6 +748,8 @@ music.yandex.ru##[class*="Meta_explicitMark_"]
 music.yandex.ru##[class*="NavbarDesktop_subTitle_"]
 music.yandex.ru##[class*="NavbarDesktopAnimatedBar_root_"]
 music.yandex.ru##[class*="NavbarDesktopPlusBar_root_"]
+music.yandex.ru##[class*="PageHeaderArtist_donateControl_"]
+music.yandex.ru##[class*="PageHeaderArtist_donationButtonTooltip_"]
 music.yandex.ru##[class*="PaymentWidgetModal_root_"]
 music.yandex.ru##[class*="PaywallModal_root_"]
 music.yandex.ru##[class*="PlaylistPageFooter_"]
@@ -852,6 +855,7 @@ pikabu.ru##article.story:has([class*="-boost-badge"])
 pikabu.ru##article.story:has([class*="advert"])
 pikabu.ru##article.story:has([class*="company-blog-badge"])
 pikabu.ru##article.story:has([class*="story__debate"])
+pikabu.ru##article.story:has([class*="story-label"])
 pikabu.ru##article.story:has([class*="tags__tag_pikabu-plus"])
 pikabu.ru##article.story:has(a[href*="max.ru"])
 pikabu.ru##article.story:has(img[src*="m3569541-1965510972.png"])
@@ -1048,8 +1052,10 @@ timeweb.com##.tw-domains-list-banner
 timeweb.com##[class*="-banner"]
 tl.rulate.ru###down, #up
 tl.rulate.ru##footer, .alert-success.alert
+tns-e.ru##.alert--isTextAlignJustify.alert--isCritical.alert
 tns-e.ru##.banner-wrapper, .footer
 tns-e.ru##.oldSiteInfo
+tns-e.ru##[class*="readingsPaymentFormWrapper__footerText"]
 tolknews.ru##.b-footer
 topazlabs.com##[class*="-banner"], [class*="-footer"]
 torbobit.net##.page-footer, .offer-registration
@@ -1130,6 +1136,7 @@ vk.*##.CallHistoryScreenLanding--header
 vk.*##.CallHistoryScreenLanding--list
 vk.*##.CallHistoryScreenLanding--subheader
 vk.*##.CatalogBlock__subscription, .CatalogSection__rightColumn > .CatalogSection__stickyColumn .CatalogBlock__separator
+vk.*##.ConversationsBar
 vk.*##.ConvoList__convoBanner
 vk.*##.FeaturesDisabledBanner
 vk.*##.feed_friends_recomm
@@ -1248,6 +1255,7 @@ vk.*###groups_filters_wrap > .page_block
 vk.*###groups_list_right_blocks_root
 vk.*###l_ads
 vk.*###l_ap, #l_mk
+vk.*###l_invite_menu_promo
 vk.*###l_invite_promo
 vk.*###mailru-visibility-check
 vk.*###page_block.FeedVideosForYou

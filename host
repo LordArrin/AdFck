@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  30 June 2026 01:36
+! Last modified:  28 July 2026 08:36
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.57
@@ -42,8 +42,6 @@
 ||*discounts.api.2gis*^
 ||*goods-backend.api.2gis*^
 ||*tips.api.2gis*^
-# Acronis
-||*acronis.*^
 # Avito
 ||*cs.avito*^
 ||*dfas.avito*^
@@ -72,6 +70,7 @@
 @@||*translate-pa.google*^
 ||*admob.googleapis*^
 ||*adservice.google*^
+||*doubleclick.*^
 ||*federatedcompute-pa*^
 ||*fundingchoicesmessages.google*^
 ||*geller-pa*^
@@ -95,8 +94,8 @@
 ||*6sc.co*^
 ||*a.cdnpure.*^
 ||*abt.s3.yandex*^
-||*acquiredeceasedundress.com*^
 ||*activepieces.*^
+||*acronis.*^
 ||*ad.doubleclick.net*^
 ||*ad.intl.xiaomi*^
 ||*ad.xiaomi*^
@@ -104,6 +103,7 @@
 ||*adfox*^
 ||*adfstat*^
 ||*adglare.*^
+||*adnxs.*^
 ||*adnxs.com*^
 ||*adobedtm*^
 ||*adriver.*^
@@ -266,6 +266,7 @@
 ||*iadsdk.apple*^
 ||*id5-sync.*^
 ||*iheart.com*^
+||*impact.com*^
 ||*imrworldwide.com*^
 ||*inapp.services.ucp.kaspersky-labs*^
 ||*inappstory*^
@@ -279,6 +280,7 @@
 ||*iot-eu-logser.realme*^
 ||*iot-logser.realme*^
 ||*ipinfo.be*^
+||*ironsource.mobi*^
 ||*island-server.*^
 ||*izatcloud*^
 ||*jethrojeff*^
@@ -327,6 +329,7 @@
 ||*notes-analytics-events*^
 ||*nsis.bisrv*^
 ||*ntv.io*^
+||*observability.x5*^
 ||*offerwall.yandex*^
 ||*onesignal.com*^
 ||*opcon.ubuntu*^

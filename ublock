@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 25 July 2026 22:32
+! Last modified: 25 August 2026 03:02
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -31,11 +31,15 @@
 !
 @@://vk.*/ads$document,~third-party
 @@://vk.*/exchange$document
+@@||api.music.yandex.net^$xhr,domain=music.yandex.ru
+@@||api.music.yandex.ru/dynamic-pages/v2/$xhr,domain=music.yandex.ru
 @@||login.vk.*/?act=openapi$domain=220vk.ru
 @@||oauth.vk.*/authorize?
 @@||oauth.vk.*$document
 @@||vk.*/vkpay
 @@||vk.*/vkpay$stealth
+@@||yandex.ru/clck/click$ping,domain=music.yandex.ru
+@@||yastatic-net.ru/s3/music-frontend-static/music/$script,domain=music.yandex.ru
 @@api_url=http://api.vk.*/api.php
 @@api_url=http://api.vk.com/api.php$jsinject
 @@api_url=https://api.vk.*/api.php$
@@ -56,6 +60,7 @@
 ||dailyuploads.net/images_*/bg*.png$image
 ||dixy.ru/local/templates/dixy_ru/images/ng-*/stars.svg$image
 ||doubleclick.net/instream/ad_status.js^
+||favicon.yandex.net/favicon/v2/direct.yandex.ru$image
 ||fimfiction.net/images/icons/subscribe-star.png$image
 ||genshin.ru/wp-content/uploads/*/*/bg$image
 ||google-analytics.*/analytics.js^
@@ -111,6 +116,7 @@
 ||vrtor.ru/*/*/images/fon.jpg$image
 ||widget.uxfeedback.ru$image
 ||xeon-e5450.ru/*/tg_welcome*$image
+||yandex.ru/ads/$script
 101internet.ru##[class*="ScrollToTop_root_"], [class*="HouseNZLPage_perks-trust-block_"], [class*="BottomFooterPart_"], [class*="Cookies_background_"]
 123.ru##.footer-result
 123.ru###news
@@ -243,6 +249,7 @@ avito.ru##[class*="index-advRootWidgetNoStories"]
 avito.ru##[class*="index-bottom_compensation_padding-"]
 avito.ru##[class*="index-seoNavigationWrapper-"]
 avito.ru##[class*="index-sideAds-"]
+avito.ru##[class*="index-top_main_withDesign23Header"]
 avito.ru##[class*="index.module__ticketContainer"]
 avito.ru##[class*="index\.module__nav__"]
 avito.ru##[class*="items-banner-"]
@@ -315,10 +322,12 @@ dashboardicons.com##.shadow-lg.text-card-foreground.p-4.bg-card.border.rounded-l
 datanodes.to##.font-bold.p-4.md\:w-3\/12.text-center.w-full
 datanodes.to##.hover\:text-white.no-underline.justify-between.items-center.flex.w-full.text-white.font-medium.text-sm.bg-gray-900.hover\:opacity-90.px-6.rounded-lg.gap-4.shadow.leading-none.relative.py-3
 datanodes.to##.items-start.gap-3.flex.md\:mt-6.mt-4.md\:p-5.p-4.bg-amber-50\/60.rounded-lg
+datanodes.to##.lg\:gap-10.lg\:items-center.lg\:flex
 datanodes.to##.lg\:p-12.py-8.px-6.bg-white.flex-1
 datanodes.to##.md\:pb-5.md\:px-6.pb-4.px-4
 datanodes.to##.md\:rounded-r-xl.md\:rounded-l-none.rounded-xl.bg-blue-600
 datanodes.to##.mt-3.m-0.text-center
+datanodes.to##.no-underline.transition-colors
 datanodes.to##.p-16.items-center.flex.md\:w-8\/12.w-full.rounded-lg, .proFeatures, .z-50.relative.px-4.py-6,
 datanodes.to##.text-blue-600.font-bold.p-4.md\:w-3\/12.text-center.w-full
 datavaults.co##footer
@@ -1009,6 +1018,8 @@ sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, 
 sports.ru##.blog-post__header-social, .is-show.js-active.webpush, .main-footer__top-position, .material-item__social-line, .poll-share, .social-links
 sports.ru###footer-ssi-mount-point
 sprut.ai##.col-12.col-md-4
+sputniknews.ru##.banner__hidden-button
+sputniknews.ru##.m-article-desktop.m-article-body.banner > .banner__content
 sravni.ru##.h-br-tr-24.h-br-tl-24
 sravni.ru##[class*="FeedBack_text_"], [class*="style_seoBlock_"], [class*="Sponsor_"]
 stoigr.org##.footer, .abusemessage
@@ -1323,6 +1334,8 @@ vkplay.ru##.swiper-pagination-lock
 vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"], [class*="_bottom_10lag_"]
 vkplay.ru##[class*="banners-container_"], [class*="banner-marketing_"], [class*="server-rent-catalog-hint_"]
 vkvideo.ru##.MenuList__item--recommendation, .MenuList__separator
+vkvideo.ru##.vkitInternalGroupExpandedContent
+vkvideo.ru##.vkuiHeader__host
 vkvideo.ru##.vkuiPopper, .vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv, .MenuList__link
 vkvideo.ru##[class*="HeaderVideoActions__root-"] > .vkuiRootComponent__host.vkuiDiv__host
 vkvideo.ru##[class*="RightActions__authorsLink"]
@@ -1371,16 +1384,18 @@ yandex.ru,ya.ru##.GoodsHeader
 yandex.ru,ya.ru##.HeaderFormSearchThemesSection-Wrapper
 yandex.ru,ya.ru##.ImageGeneration
 yandex.ru,ya.ru##.LabelDiscount
-yandex.ru,ya.ru##.main__carousel-item_type_product_gallery
-yandex.ru,ya.ru##.main__carousel-item_type_products_mode_panel
 yandex.ru,ya.ru##.ProductGalleryHeader
 yandex.ru,ya.ru##.RelatedBottom
 yandex.ru,ya.ru##.Skeleton_type_ad_search
 yandex.ru,ya.ru##.StocksFooter
 yandex.ru,ya.ru##.UniSearchLayout-Header
+yandex.ru,ya.ru##[class*="_banner_cu"]
 yandex.ru,ya.ru##[class*="_futuris-snippet"]
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]:has([class*="UniSearchList"])
 yandex.ru,ya.ru##[class*="EProductSnippet2_shopInfoView"]:upward(li)
+yandex.ru,ya.ru##[class*="extra-width"]:has(img[src*="favicon.yandex.net/favicon/v2/direct.yandex.ru"], [style*="favicon.yandex.net/favicon/v2/direct.yandex.ru"])
+yandex.ru,ya.ru##[class*="main__carousel-item_type_product"]
+yandex.ru,ya.ru##[class*="OfferInfoCheckoutButtonBase"]
 yandex.ru,ya.ru##[class*="PromoOffer_"]
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="FinanceCard"])
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="UniSearch"])
@@ -1397,6 +1412,7 @@ yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##li:has(.organic):has-text(/^[Пп]ромо$/)
 yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-Text"])
 yandex.ru,ya.ru##li:has([class*="Products"])
+yandex.ru##.e9aw3qxZ5ibaIjx8x6Eg.e1Lo8unRimruLuR8.e9aw3qxZ5ibaI
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the DNS blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified:  28 July 2026 08:39
+! Last modified:  05 August 2026 03:04
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: AdGuard Home v0.107.76
@@ -94,8 +94,8 @@
 ||*6sc.co*^
 ||*a.cdnpure.*^
 ||*abt.s3.yandex*^
-||*activepieces.*^
 ||*acronis.*^
+||*activepieces.*^
 ||*ad.doubleclick.net*^
 ||*ad.intl.xiaomi*^
 ||*ad.xiaomi*^
@@ -256,7 +256,10 @@
 ||*great-tit.com*^
 ||*grow.me*^
 ||*hcaptcha.com*^
+||*he-mc.t2*^
+||*he-mc.tele2*^ 
 ||*heapanalytics.*^
+||*hhe.mts*^
 ||*hicloud.com*^
 ||*hit.ua*^
 ||*hotjar.com*^
@@ -314,6 +317,8 @@
 ||*metrika*^
 ||*mgid.com*^
 ||*mistat.*^
+||*mobileid.megafon*^
+||*mobileid.mts*^
 ||*moondownload.*^
 ||*mouseflow.com*^
 ||*mpsuadv.ru*^
@@ -409,6 +414,7 @@
 ||*telemetry*^
 ||*tns-counter*^
 ||*touch.kaspersky*^
+||*trace‑flow*^
 ||*tracker-api.my*^
 ||*tracking.rus.miui*^
 ||*tremorhub.*^

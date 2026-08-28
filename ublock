@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 20 August 2026 09:58
+! Last modified: 29 August 2026 00:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -51,6 +51,7 @@
 ##[class^="AppMoneySidebar"]
 ###ads_left
 ##div[id^="vk_ads_"]
+||*.geobasket.ru/*/crm-bnrs/adsf/*.webp$image
 ||about.gitlab.com/*/*/gradient.png$image
 ||avatars.mds.yandex.net/get-adfox-content
 ||cdn.sstatic.net/Sites/askubuntu/img/site-background-image.png$image
@@ -133,6 +134,7 @@
 5play.org##.sect-more.sect, .footer-5p
 9xbuddy.*##.left-0, .uppercase.items-center.justify-between
 9xbuddy.site##.px-4.md\:text-left.text-center.items-center.justify-center.md\:flex.my-8
+чито-гврито.рф##.footer__copyright-block
 about.gitlab.com##.banner, .gradient-background, .hero-scroll-gallery, .intro-block, .slp-btn-primary, .source
 academia.edu##.buttonStyles-cls1_C1F.ds2-5-button
 academia.edu##[class*="TranslateButton-"], [class*="PaperPodcastRequest-"], [class*="BulkDownloadPing-"], [class*="BulkDownloadButton-"], [class*="ProfilePdfPackCard-"], [class*="Unibrow-"]
@@ -220,10 +222,16 @@ auth.tuya.com##[class*="left_2jog-"]
 author.today###banner\.at-col-07\.23, .aside-banner, .col-xs-3 > .panel-default.panel, .footer, .genre-s-footer, .pb-lg.pr.pl.genre-s-footer, .slick-slider.slick-initialized.section-f-books.slick-container, [href="/discussions"], aside-widget > .panel, li.accordion-item:nth-of-type(5), li:nth-of-type(6) > .item-link-no-icon.item-content.item-link, .ribbon
 aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionInline_"]
 aviasales.*###tippy-2
+avito.ru##._01aa00209403473e
+avito.ru##._09992ae0389262a6
+avito.ru##._4bd8e883dee82953
+avito.ru##._709cb01eee979014
 avito.ru##.channel-preview-root_roundAvatar-CozVK
+avito.ru##.d6e30380b8439282
 avito.ru##.js-footer-app, [class*="styles-module-footer-"]
 avito.ru##.js-promo-sticky-container
 avito.ru##.nav-container-HEADER
+avito.ru##.top_main-_454637316e6d4e5a
 avito.ru##.top-banner-module-root-_R_Ad
 avito.ru##[class*=".index\.module__banner-block_"]
 avito.ru##[class*="avito-ads-"]
@@ -254,6 +262,7 @@ avito.ru##[class*="styles-banner-block-k"]
 avito.ru##[class*="styles-module-content_padding_horizontal-"]
 avito.ru##[class*="styles-similars-"]
 avito.ru##[class*="styles\.module__footer_"]
+avito.ru##[class*="top_main_withDesign"]
 avtodor-tr.ru##.footer
 azurlane.mrlar.dev##.cookies, .gap-1.d-grid
 backit.me##.onboarding-modal.el-dialog__wrapper
@@ -282,6 +291,7 @@ chat.deepseek.com##.a1e75851, .d9fb9344, .fcaa63f8, ._0fcaa63
 chat.qwen.ai##.chat-container-statement
 chatgptchatapp.com##.chat-form-footer, .footer.px-2
 chitai-gorod.ru##.footer
+chosic.com##.textwidget, .donate
 citilink.ru##.Footer__copyright, .js--MainLayout__footer, .Subscribe
 citilink.ru##[class*="StyledConsultationWrapper"], [class*="StyledFooterRow"], [class*="StyledWrapperComponent"]
 cloud.mail.ru##[class*="_footer_"], [class*="Footer_"], [class*="Page-desktop__footer-"]
@@ -304,6 +314,7 @@ cowaii.club##.anim1
 crdroid.net##.footerbg, .section-title
 crdroid.net###dl-ads
 dailyuploads.net##footer
+danbooru.donmai.us###page-footer
 darkreader.org##.page-grid-ios
 dash.cloudflare.com##.lg\:self-start.lg\:h-screen.lg\:block.lg\:top-0.lg\:sticky.border-kumo-hairline.border-l.overflow-hidden.flex-1.min-w-0.hidden.relative
 dash.cloudflare.com###account-marketing-banner-header-notification-container, #zone-marketing-banner-header-notification-container, #site-footer
@@ -335,6 +346,7 @@ dlsoft.lanzoui.com##.foot_info
 dns-shop.ru##.banner-slider-block, .footer, .left-filters__consult-wrap, .survey-button-widget_filter, .survey-button-wrap, .products-list__banner, .app-link, .shorts-button, .additional-voblers, .choice-guide, .product-card__accessories, .product-card__buy-together, .product-card__rsu-assemblies, .survey-button-widget, .product-card-rsu, .product-card-top__tech-voblers, .product-card__analogs, .product-card__offer
 dns-shop.ru##[class*="vobler_vobler_"]
 dns-shop.ru###base-footer, #soft-bundle-block
+docs.yandex.ru##.footer__left
 docs.yandex.ru##.Modal-Overlay, .Modal-Wrapper
 dom.ru###hat
 dominternet.ru##.addr-tarriffs__recommend-text, .card-help, .footer__sub
@@ -376,6 +388,7 @@ eldorado.ru##.footer
 elektroda.*##.noblock-logo-ti
 elektroda.*##.title-swicher-wrapper
 estmebelshop.ru##.bottom_block_foot
+euronews.com##.widget--align-center
 extract-audio-online.com###ouibounce-modal, .floating-widget, .modal-content
 f95zone.to###tn7k9m2x
 f95zone.to###topNotice, .p-footer, .uix_newIndicator
@@ -478,6 +491,8 @@ hitfile.net##.footer, .max-speed-time, ok-cell, premium-link-holder
 hoff.ru##.banner-container
 hovatek.com##.alert-warning, .copyright-area, .icon-bar, .hovatek_bannner, .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(1), .text-center.mb-4.col-lg-6.col-md-6 > div:nth-of-type(3)
 hovatek.com###ad-header.noinline
+hoyoverse.com##.footer
+hoyoverse.com###footer
 hub.docker.com##.css-1aylyrp.MuiBox-root
 hub.docker.com##.css-8dpass.MuiList-padding
 hwlibre.com##div.code-block-1.code-block > div
@@ -505,6 +520,7 @@ ixbt.com##.lg\:pb-8.lg\:pt-3.rounded-lg.my-3
 ixbt.com##.mt-6.flex-col.flex.mx-auto.relative.text-slate
 ixbt.com##.rounded-2xl.overflow-hidden.flex-col.max-w-full.w-full.flex
 ixbt.com##.sm\:gap-1\.5.shrink-0.gap-1.items-center.flex
+ixbt.com##.text-center.mx-auto > .text-xs
 ixbt.com###footer, #newsBlock
 ixbt.com###newsBlock
 iz.ru##.tablet_css.mibile_css, .active.inside_page.page-content, .footer, .ticker
@@ -773,7 +789,9 @@ noob-club.ru##.support-nc.bottomleft
 noodlemagazine.com##.suggestions, .footer
 nutaku.net##.seo-box, .home-masthead, .fnt-small-2, .game-play-footer
 nvidia.com##.footer, .bannerTracking
+nvidia.com###autoDetectDriver
 nvidia.com###footer-container
+nvidia.com###latest-driver-downloads-div
 nxt.sdgfsdgyuise3.duckdns.org##.development-notice
 ok.ru##.__l.lcTc, .toolbar-music-icon, [class*="banner_"], [class*="ic-promote-"]
 ok.ru###bbl-sidebar-hobby20
@@ -988,6 +1006,7 @@ spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords
 speedtest.net##.footer
 spiskin.ru###reclame-block
 spiskin.ru##span.logo, .footer, [class*="reclame"]
+sponsr.ru##[class*="main_whySponsrContainer"]
 sponsr.ru##footer, .for-whom, .what-is
 sport-express.ru##.footerinfo__about, .js-share-container-wrap.share-container, .mb_20.mt_15.specButtons, .se-footer, [class*="se19-new-"]
 sports.ru##.blog-post__header-social, .is-show.js-active.webpush, .main-footer__top-position, .material-item__social-line, .poll-share, .social-links
@@ -1025,6 +1044,9 @@ terabox.*##div.bottom-box, li.vjs-menu-item:nth-of-type(2), li.vjs-menu-item:nth
 terabox.*##div.bottom-box:nth-of-type(6), .premium, .dialog-extra-del, .capacity-expansion, .membership-entry-new
 terastream.fun##.video-background
 thecommunity.ru##.footer
+theguardian.com##.open-lightbox
+theguardian.com##footer
+theguardian.com##gu-island
 thehentai.net##.boxParcerias, .textoRodape
 thejavasea.me##[href^="https://dnsproxy.org/"], [href^="https://lunaproxy.com/"]
 thelastdb.games##.footer
@@ -1069,6 +1091,7 @@ turbobita.net##td.download-button.no-border:nth-of-type(3), td.minus-ok-cell:nth
 tv.yandex.ru##.button_icon_bright.button_size_s.button_theme_action.button
 tv.yandex.ru##.recommended-ott
 uloz.to##.t-footer, .news-carousel
+umfc-no.ru###rm-greeting-widget
 unite4buy.ru##.footer-wrapper
 uploadhaven.com##.pro.uh-dl-time-box
 uploadhaven.com##.uh-dl-divider, .uh-dl-features, .uh-suc-upsell, .btn-download-upgrade, .uh-dl-btn-pro
@@ -1370,6 +1393,7 @@ yandex.ru,ya.ru##.StocksFooter
 yandex.ru,ya.ru##.UniSearchLayout-Header
 yandex.ru,ya.ru##[class*="_banner_cu"]
 yandex.ru,ya.ru##[class*="_futuris-snippet"]
+yandex.ru,ya.ru##[class*="_placement_"]
 yandex.ru,ya.ru##[class*="-no-padding-bottom"]:has([class*="UniSearchList"])
 yandex.ru,ya.ru##[class*="EProductSnippet2_shopInfoView"]:upward(li)
 yandex.ru,ya.ru##[class*="extra-width"]:has(img[src*="favicon.yandex.net/favicon/v2/direct.yandex.ru"], [style*="favicon.yandex.net/favicon/v2/direct.yandex.ru"])
@@ -1392,7 +1416,7 @@ yandex.ru,ya.ru##Divider
 yandex.ru,ya.ru##li:has(.organic):has-text(/^[Пп]ромо$/)
 yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-Text"])
 yandex.ru,ya.ru##li:has([class*="Products"])
-yandex.ru##.e9aw3qxZ5ibaIjx8x6Eg.e1Lo8unRimruLuR8.e9aw3qxZ5ibaI
+yandex.ru,ya.ru##li:has([class*="Video"])
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

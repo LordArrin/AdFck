@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 29 August 2026 00:20
+! Last modified: 07 September 2026 15:00
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -233,6 +233,7 @@ avito.ru##.js-promo-sticky-container
 avito.ru##.nav-container-HEADER
 avito.ru##.top_main-_454637316e6d4e5a
 avito.ru##.top-banner-module-root-_R_Ad
+avito.ru##[alt="Настоящие скидки"]
 avito.ru##[class*=".index\.module__banner-block_"]
 avito.ru##[class*="avito-ads-"]
 avito.ru##[class*="Cards-module-wrapper-"]
@@ -251,8 +252,10 @@ avito.ru##[class*="index\.module__nav__"]
 avito.ru##[class*="items-banner-"]
 avito.ru##[class*="items-extraImage-"], [class*="style-item-view-similars-"], [class*="story-previewer-storyPreviewer_circle-"], [class*="story-previewer-preview-"], [class*="index-storiesPreviewer_"]
 avito.ru##[class*="items-itemsCarouselWidget-"]
+avito.ru##[class*="mobile-app-module-twoPlates-"]
 avito.ru##[class*="PremiumBanner-"], [class*="DynamicPromoBlock-legal-"], [class*="top-banner-module-root-"]
 avito.ru##[class*="profile-sidebar-navigation__tag_"]
+avito.ru##[class*="ProfileItems-module-bannerRoot-"]
 avito.ru##[class*="promoWidget-"]
 avito.ru##[class*="queries-root_marginTop-"]
 avito.ru##[class*="seo-tags-module-"]
@@ -401,8 +404,10 @@ fanfiction.net###p_footer
 fboom.me###footer, [class*="premium-"]
 fex.net##.fs-page__sidebar-wrapper, .layout__footer
 ficbook.net##.fanfic-hat-cover-picture, .page-footer, .ds-label-hot
+ficbook.net##.gap-8.align-items-start.flex-column.d-flex.primary-box
 ficbook.net##.jsVueComponent.d-contents > .btn-top-bar
 ficbook.net##.primary-box-with-button, .page-footer, .fanfic-hat-cover-picture
+ficbook.net##.user-badge
 ficbook.net##[class*="-smart-banner"], [class*="global-banner-"]
 ficbook.net##[class*="ads-"], [class*="discount-"], [class*="ficfan-"], [class*="hot-"], [class*="promo-"], [href="/authors/845367/blog#content"], [href="/home/premium/coins"], [href="/randomfic"], [href^="/home/money"]
 ficbook.net##[class*="wheel-of-fortune"]
@@ -515,6 +520,7 @@ island-of-pleasure.site###footer
 island-of-pleasure.site###news_modal
 itch.io##.base_widget.content_warning_widget
 itorrents-igruha.net##[class*="footer-"]
+ixbt.com##.editor-js-embed
 ixbt.com##.lg\:mt-3.lg\:flex.gap-y-4.flex-col.shrink-0
 ixbt.com##.lg\:pb-8.lg\:pt-3.rounded-lg.my-3
 ixbt.com##.mt-6.flex-col.flex.mx-auto.relative.text-slate
@@ -632,6 +638,7 @@ market.yandex.ru##.footerContainer
 market.yandex.ru##.mini-suggest__item_type_nav
 market.yandex.ru##.n-base__footer-container, .side-menu-item_alfaBankPromo, .side-menu-item_vacancies
 market.yandex.ru##.side-menu-item_help
+market.yandex.ru##.urbanads-dark
 market.yandex.ru##.wDoko.ds-flex_shr_0
 market.yandex.ru##[id*="\/cardRecommendationRoll"]
 market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/ABOUT_MARKET"]
@@ -649,9 +656,11 @@ market.yandex.ru##[id*="\/MarketNodeProfileMenu"][id$="\/yandexHelpMenuItem"]
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##[id^="\/lightRecommendationRoll"]
 market.yandex.ru##[id^="\/marketfrontRecomLayout"][id*="\/recomLayoutItem_"]:has(._11QAm)
+market.yandex.ru##[id$="/HELP_IS_NEAR"], [id$="/VTB_SPECIAL"], [id$="/VACANCIES"], [id$="/CHANGE_BUSINESS_TYPE_BUSINESS"], [id$="/OPEN_OUTLET"], [id$="/SELL_ON_MARKET"], [id$="/CHAT_LIST"], [id$="/accounts"], [id$="/gamesHubEntryPoint"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/ecomAssistantModalTrigger
 market.yandex.ru###\/content\/header\/header\/search\/cms
+market.yandex.ru###\/content\/header\/header\/superAppHotlinks
 market.yandex.ru###\/content\/page\/content\/\@marketfront\\\/VisibilityLoaderMarket
 market.yandex.ru###\/content\/page\/content\/\@mf-online-ux\\\/CartContent\/\@mf-online-ux\\\/CartFintechAgitation
 market.yandex.ru###\/content\/page\/content\/\@mf-online-ux\\\/CartLegalInfo
@@ -823,6 +832,7 @@ perekrestok.ru##.footer-copyright
 person.nbki.ru##.footer, .main-offers_best
 photos.google.com##.GIj5nd, .JJpMec
 picsart.com##[class*="pa-monetization-modal-overlay-"], [class*="sidebar-subscriptionUpgradeWrapper-"], [class*="storage-count-content-storageDescriptionText-"], [class*="storage-count-content-visibleBlock-"]
+pikabu.ru/##.story-block_type_fundraising
 pikabu.ru##.avatar__notifications
 pikabu.ru##.bell_profile-menu, .community-info-block__rules, .emotions, .feed-separator.section-hr, .footer, .header-menu__item_notification-dot, .menu_promo-sidebar, .pkb-tab_notification-dot, .popup__content-notification, .popup_show.popup_animate.popup_green, .profile-series_empty, .profile__section_achievements, .promo-banner_button, .recommended-communities, .section_warning, .sidebar-achievements, .sidebar-menu__item_notification-dot, .sidebar-menu__new-badge_green, .sidebar-public-ratings, .stories-feed__container > div > div, .story-block_type_fundraising, .story__donate_new, .story__title-comstories_hot.hint, .thematic-campaign
 pikabu.ru##.bell, .pkb-badge-shop
@@ -1372,11 +1382,16 @@ xda-developers.com###footer, #website-footer
 xdaforums.com##.listInline.listInline--bullet.xda_canvasSiteLinks.block-row, .p-navgroup-link--whatsnew.p-navgroup-link--iconic.p-navgroup-link, .p-footer
 xhamster.com##.exp_b, .fap-highlight, div.related-container, .promo-inside-video, [class*="footer-"], [class*="premium-"], [class*="suggestions-"], [class*="insideVideoList-"], [class*="root-0f"]
 xhamstervideo.net##.cookie-announce, .no-ts-initiailize, .no-update, .top-video-block
+xocollection.com##[id^="elementor-popup-modal-"]
 xv-ru.com##.banner-game, .premium-results-line
 xv-ru.com###footer
 xv-ru.com###premium-info-frame
 xvideos.red##.auto-width-popup
+yandex.ru,ya.ru##._borderless[class$="__org-container"]
+yandex.ru,ya.ru##._type_middle[class*="nob_"], ._type_bottom[class*="nob_"]
+yandex.ru,ya.ru##._type_upper
 yandex.ru,ya.ru##.card__narrow
+yandex.ru,ya.ru##.card-footer-view, .toponym-card-view__breadcrumbs
 yandex.ru,ya.ru##.EntityOffersOrganic
 yandex.ru,ya.ru##.EPrice_view_old
 yandex.ru,ya.ru##.EQuote
@@ -1386,9 +1401,12 @@ yandex.ru,ya.ru##.GoodsHeader
 yandex.ru,ya.ru##.HeaderFormSearchThemesSection-Wrapper
 yandex.ru,ya.ru##.ImageGeneration
 yandex.ru,ya.ru##.LabelDiscount
+yandex.ru,ya.ru##.maillist-form-view
 yandex.ru,ya.ru##.ProductGalleryHeader
 yandex.ru,ya.ru##.RelatedBottom
+yandex.ru,ya.ru##.scroll__content > div > [class*="nob_"][class$="__extend"]
 yandex.ru,ya.ru##.Skeleton_type_ad_search
+yandex.ru,ya.ru##.Stocks, .OfferInfo
 yandex.ru,ya.ru##.StocksFooter
 yandex.ru,ya.ru##.UniSearchLayout-Header
 yandex.ru,ya.ru##[class*="_banner_cu"]
@@ -1400,6 +1418,8 @@ yandex.ru,ya.ru##[class*="extra-width"]:has(img[src*="favicon.yandex.net/favicon
 yandex.ru,ya.ru##[class*="main__carousel-item_type_product"]
 yandex.ru,ya.ru##[class*="OfferInfoCheckoutButtonBase"]
 yandex.ru,ya.ru##[class*="PromoOffer_"]
+yandex.ru,ya.ru##[class$="__footer-link-wrapper"]
+yandex.ru,ya.ru##[class$="__org-middle-container"]
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="FinanceCard"])
 yandex.ru,ya.ru##[class$="-no-padding-bottom"]:has([class*="UniSearch"])
 yandex.ru,ya.ru##[id*="OfferInfoCheckoutButtonBase"]
@@ -1413,10 +1433,12 @@ yandex.ru,ya.ru##div[class*="_card"]:has([class*="Disclaimer_gpt"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="Orgmn"])
 yandex.ru,ya.ru##div[class*="_card"]:has([class*="UniSearchCredits"])
 yandex.ru,ya.ru##Divider
+yandex.ru,ya.ru##footer
 yandex.ru,ya.ru##li:has(.organic):has-text(/^[Пп]ромо$/)
 yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-Text"])
 yandex.ru,ya.ru##li:has([class*="Products"])
 yandex.ru,ya.ru##li:has([class*="Video"])
+yandex.ru##:xpath(//div[parent::div and string-length(normalize-space(@class))=20 and .//div[string-length(normalize-space(@class))=19 and div[string-length(normalize-space(@class))=19]]])
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope

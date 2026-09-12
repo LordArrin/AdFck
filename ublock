@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 07 September 2026 15:00
+! Last modified: 12 September 2026 18:20
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -67,6 +67,7 @@
 ||google-analytics.*/analytics.js^
 ||help.ubuntu.com/*/*/img/bg_dotted.png$image
 ||img.staticbg.com/myos/*/*/*.jpg.webp$image
+||ir.ozone.ru/s3/cms/*/*/*/main_ozon.png$image
 ||island-of-pleasure.site/templates/*/images/woman.jpg$image
 ||korshop.ru/*/*/*/*/MergedLayers.png$image
 ||mail.ru/k?$domain=vk.com|vk.ru|m.vk.com|m.vk.ru
@@ -449,11 +450,8 @@ gigabyte.com##.img-ribbon
 gismeteo.ru##.footer
 gitee.com##[class*="index_badge_"], .gitee-header__search, .h-\[56px\].block.z-\[1\], footer, .session-sidebox, .session__footer, .text-link-tertiary, .wechat-banner
 gitee.com###gitee-blog, #udeskBtn
-github.com##.blankslate-spacious, .border-bottom.mb-5.feed-right-sidebar > .js-notice, .color-fg-muted.f6.pb-6.pt-8.footer, .flex-items-center.flex-justify-between.d-flex > .flex-items-center.d-flex > [href], .hTYflC, .jRFAHs, .mb-2.mt-md-2.mt-3.color-fg-muted.text-small, .overflow-hidden.js-notice-dismiss, .p-responsive.color-fg-muted, .px-2.flex-column.d-flex.Overlay-body > .px-2, .px-md-0.px-3 > .my-2, .iLgtCH
 github.com##.footer
-github.com##.mr-1.Button.Button--small.Button--secondary, .js-notice-dismiss
 github.com##[href="https://stand-with-ukraine.pp.ua/"]
-github.com###\:rq\:, #\:rr\:, #\:r4c\:, #\:rs\:
 github.io###aeza-banner
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].md\:w-\[40rem\].md\:mx-0.md\:right-8.md\:left-auto.shadow-md.p-4.bg-white.rounded-8.w-\[95\%\].mx-auto.z-\[1000\].right-0.left-0.bottom-8.fixed.\[\&\>svg\]\:text-foreground, .hover\:underline.text-bl-60.font-semibold.cursor-pointer, a.hover\:underline:nth-of-type(2), div.space-x-4.items-start.flex:nth-of-type(2)
 gitverse.ru##.\[\&\>svg\]\:text-gr-50.\[\&\>svg\]\:absolute.\[\&\>svg\+div\]\:translate-y-\[-3px\].right-0.left-0.bottom-0.fixed.\[\&\>svg\]\:text-foreground
@@ -467,6 +465,8 @@ gofile.io##.filesContentOption
 gofile.io##.lg\:px-10.sm\:px-6.py-6.px-4.border-white\/10.border-t
 gofile.io##.pt-3.border-white\/10.border-t.gap-1.flex-col.flex.mt-auto
 gofile.io###index_footer
+gog.com##.footer-microservice-secondary
+gog.com##.footer-spacer
 goha.ru##.entry-article__article-activity
 goha.ru##.layout-footer
 graviton.ru##.footer__bottom, .main-promo
@@ -641,13 +641,6 @@ market.yandex.ru##.side-menu-item_help
 market.yandex.ru##.urbanads-dark
 market.yandex.ru##.wDoko.ds-flex_shr_0
 market.yandex.ru##[id*="\/cardRecommendationRoll"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/ABOUT_MARKET"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/BLACK_MARKET"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/HELP_IS_NEAR"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/OPEN_OUTLET"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/REFERRAL_PAYMENTS"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/SELL_ON_MARKET"]
-market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id*="\/menuBlocks\/menuBlocksSlot\/menu-block-"][id$="\/VACANCIES"]
 market.yandex.ru##[id*="\/marketfrontProfileMenuView"][id$="\/referralEntry"]
 market.yandex.ru##[id*="\/MarketNodeProfileMenu"][id$="\/favouriteCategoryMenuItem"]
 market.yandex.ru##[id*="\/MarketNodeProfileMenu"][id$="\/fortuneWheelMenuItem"]
@@ -656,11 +649,12 @@ market.yandex.ru##[id*="\/MarketNodeProfileMenu"][id$="\/yandexHelpMenuItem"]
 market.yandex.ru##[id^="/content/page/fancyPage/actualOrders/carousel/snippet-"][id$="/buttons/upsell"]
 market.yandex.ru##[id^="\/lightRecommendationRoll"]
 market.yandex.ru##[id^="\/marketfrontRecomLayout"][id*="\/recomLayoutItem_"]:has(._11QAm)
-market.yandex.ru##[id$="/HELP_IS_NEAR"], [id$="/VTB_SPECIAL"], [id$="/VACANCIES"], [id$="/CHANGE_BUSINESS_TYPE_BUSINESS"], [id$="/OPEN_OUTLET"], [id$="/SELL_ON_MARKET"], [id$="/CHAT_LIST"], [id$="/accounts"], [id$="/gamesHubEntryPoint"]
+market.yandex.ru##[id$="/HELP_IS_NEAR"], [id$="/VTB_SPECIAL"], [id$="/VACANCIES"], [id$="/CHANGE_BUSINESS_TYPE_BUSINESS"], [id$="/OPEN_OUTLET"], [id$="/SELL_ON_MARKET"], [id$="/CHAT_LIST"], [id$="/accounts"], [id$="/gamesHubEntryPoint"], [id$="/ABOUT_MARKET"], [id$="/BLACK_MARKET"], [id$="/HELP_IS_NEAR"], [id$="/OPEN_OUTLET"], [id$="/REFERRAL_PAYMENTS"], [id$="/SELL_ON_MARKET"]
 market.yandex.ru###\/content\/footer
 market.yandex.ru###\/content\/header\/header\/ecomAssistantModalTrigger
 market.yandex.ru###\/content\/header\/header\/search\/cms
 market.yandex.ru###\/content\/header\/header\/superAppHotlinks
+market.yandex.ru###\/content\/header\/topMenu\/tabs\/market2BusinessTab
 market.yandex.ru###\/content\/page\/content\/\@marketfront\\\/VisibilityLoaderMarket
 market.yandex.ru###\/content\/page\/content\/\@mf-online-ux\\\/CartContent\/\@mf-online-ux\\\/CartFintechAgitation
 market.yandex.ru###\/content\/page\/content\/\@mf-online-ux\\\/CartLegalInfo
@@ -736,7 +730,6 @@ music.yandex.ru##.footer
 music.yandex.ru##.page-line__subtitle-wrapper
 music.yandex.ru##.page-line_clips, .page-line__subtitle-wrapper, .page-main__albums, .page-main__playlists, .page-main__genres, .column-chart, .sidebar-rup__special-station-section, .footer
 music.yandex.ru##.sidebar-rup__special-station-section
-music.yandex.ru##.typo-caps.d-tabs__tab:nth-of-type(5)
 music.yandex.ru##[class*="_footerContainer"]
 music.yandex.ru##[class*="CollectionPage_description_"]
 music.yandex.ru##[class*="CollectionPage_footer_"]
@@ -1439,8 +1432,10 @@ yandex.ru,ya.ru##li:has(.Typo.organic.Organic > [class*="Organic"] > [class$="-T
 yandex.ru,ya.ru##li:has([class*="Products"])
 yandex.ru,ya.ru##li:has([class*="Video"])
 yandex.ru##:xpath(//div[parent::div and string-length(normalize-space(@class))=20 and .//div[string-length(normalize-space(@class))=19 and div[string-length(normalize-space(@class))=19]]])
+yandex.ru##.ECheckoutButton
 yougame.biz##.yg_first_post
 youtube.com##.iv-click-target
+youtube.com##.ryd-premium-teaser
 youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
 youtube.com##.ytd-download-button-renderer.style-scope > yt-button-shape > .yt-spec-button-shape-next--icon-leading
 youtube.com##.ytd-metadata-row-container-renderer.style-scope

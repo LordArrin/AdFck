@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 12 September 2026 18:20
+! Last modified: 14 September 2026 11:30
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -575,6 +575,7 @@ litres.ru##[class*="Footer_"], [class*="MainPromoBanner_"], [class*="Search_bann
 livelib.ru##footer, .main-slider, .book-page__price-block
 lk-nn.tns-e.ru##.isTextGray.form__col > p
 lk-nn.tns-e.ru##[class*="infoCard"]
+lk-nn.tns-e.ru##body > .calltrafic_button_widget_mobile.calltrafic_button_widget
 lk.bcnn.ru##.centered-image
 lk.mts.ru##.mts-lk-footer__wrapper
 lk.rt.ru##.application-footer_wrapper-1
@@ -693,8 +694,10 @@ market.yandex.ru###\/content\/page\/layout\/agreementNote
 market.yandex.ru###\/footer
 market.yandex.ru###\/header\/ecomAssistantModalTrigger
 market.yandex.ru###optimize
+market.yandex.ru###pwaPushPopup
 market.yandex.ru###RecommendationRollTabs
 market.yandex.ru###searchSeoFooterChips
+market.yandex.ru##div.modalFloatPortal
 matreshka.tv##.align-items-center.smart-app-banner.justify-content-between.d-flex
 matreshka.tv##.container-notice, .donation-matr-button, .cookies, .download-section, .menu__info, .player-foreign-agent,
 matreshka.tv##.menu__divider, .menu__title, .menu__info, .download-section
@@ -1003,6 +1006,7 @@ softdroids.com##.fx-row.footer, .sect-recl, .tabs-box
 soundcloud.com##.header__fanUpsell, .creatorSubscriptionsButton
 sourceforge.net##.as-row, .l-nav-bottom, .main-nav-link
 sourceforge.net###main-nav-badge
+sp.yandex.ru##[class*="FeaturingSection-module-"]
 sp.yandex.ru##[class*="Footer_"]
 sp.yandex.ru##[class*="Layout_footer_"]
 spankbang.com##footer, .ad_button, .channels_scroll_list, .go, .related_keywords, .tag_list
@@ -1220,8 +1224,6 @@ vk.*###ads_with_extra
 vk.*###ads_wrapper
 vk.*###apps_ads_wrap
 vk.*###block_aliexpress-recommendations-carousel
-vk.*###box_layer_bg
-vk.*###box_layer_wrap
 vk.*###content > div._audio_page_layout.audio_page_layout.audio_page_layout2 > div._audio_page_content_block_wrap.audio_page_content_block_wrap:nth-child(3) > div.audio_page_sections._audio_page_sections.clear_fix:last-child > div.audio_section._audio_section._audio_section__all.audio_section__all.clear_fix.audio_w_covers:last-child > div.CatalogSection.CatalogSection--divided.CatalogSection__my > div.CatalogBlock.CatalogBlock--divided:last-child > div.CatalogSection__columns > div.CatalogSection__rightColumn:last-child > div.CatalogSection__stickyColumn > div.CatalogBlock:last-child
 vk.*###cookies_policy_wrap
 vk.*###feed_blog_reminder
@@ -1339,8 +1341,7 @@ vkplay.ru##.swiper-pagination-lock
 vkplay.ru##[class*="ArtBanner-module_"], [class*="TopSliderSkeleton-module_"], [class*="ImageBanner-module_"], [class*="TopSlider-module_"], [class*="_bottom_10lag_"]
 vkplay.ru##[class*="banners-container_"], [class*="banner-marketing_"], [class*="server-rent-catalog-hint_"]
 vkvideo.ru##.MenuList__item--recommendation, .MenuList__separator
-vkvideo.ru##.vkitInternalGroupExpandedContent
-vkvideo.ru##.vkuiHeader__host
+vkvideo.ru##.vkuiBanner__modeImage.vkuiBanner__host.vkuiInternalTappable
 vkvideo.ru##.vkuiPopper, .vkuiRootComponent.vkuiFlex--align-center > .vkuiRootComponent.vkuiDiv, .MenuList__link
 vkvideo.ru##[class*="HeaderVideoActions__root-"] > .vkuiRootComponent__host.vkuiDiv__host
 vkvideo.ru##[class*="RightActions__authorsLink"]

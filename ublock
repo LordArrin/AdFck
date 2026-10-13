@@ -3,7 +3,7 @@
 ! Description: Custom filter list for using with the ad blocker
 ! Homepage: https://github.com/LordArrin/AdFck
 ! License: https://github.com/LordArrin/AdFck/blob/main/LICENSE
-! Last modified: 02 October 2026 04:39
+! Last modified: 13 October 2026 09:22
 ! Expires: 24 hours (update frequency)
 ! Issues: https://github.com/LordArrin/AdFck/issues
 ! Syntax: uBlock Origin
@@ -64,6 +64,7 @@
 ||favicon.yandex.net/favicon/v2/direct.yandex.ru$image
 ||fimfiction.net/images/icons/subscribe-star.png$image
 ||genshin.ru/wp-content/uploads/*/*/bg$image
+||geobasket.ru^$media
 ||google-analytics.*/analytics.js^
 ||help.ubuntu.com/*/*/img/bg_dotted.png$image
 ||img.staticbg.com/myos/*/*/*.jpg.webp$image
@@ -228,6 +229,7 @@ aviasales.*##[class*="CookieBanner_"], [class*="Share_"], [class*="SubscriptionI
 aviasales.*###tippy-2
 avito.ru##._01aa00209403473e
 avito.ru##._09992ae0389262a6
+avito.ru##._39d03d65e9198282
 avito.ru##._4bd8e883dee82953
 avito.ru##._709cb01eee979014
 avito.ru##.channel-preview-root_roundAvatar-CozVK
@@ -493,6 +495,13 @@ habr.com##.tm-project-block_variant-courses, .tm-project-block_variant-questions
 habr.com##[href^="https://bit.ly/"]
 habr.com###news_block_1
 hdqwalls.com###pb_footer
+heise.de##.a-article-header__service
+heise.de##.ad-desktop-group-2
+heise.de##.article-layout__header-wrbng
+heise.de##.article-sidebar
+heise.de##.footer
+heise.de##.nav-bottom
+heise.de###wtma_teaser_ho_vertrieb_inline_branding
 hentai.tv###promo-topbar
 hentaiera.com###footer_bar
 hentaihaven.xxx##.bottom.player_logic_opt_c, .pt-2, .vraven_expand, .sidebar-col
@@ -1383,11 +1392,14 @@ wikihow.com##.wh_ad_inner, .fluid, .house-promo
 wikihow.com###footer
 wikipedia.org###footer > .noprint
 wikipedia.org###footer-places
+wildberries.ru##.j-b-basket-footer:style(display: block !important)
+wildberries.ru##.j-b-recommended-goods-wrapper
 wildberries.ru##.j-recent-items
 wildberries.ru##.lk-recommendations-list-new
 wildberries.ru##.lk-recommendations-new
 wildberries.ru##.main-page__banner, .banner__content, .banners-catalog-custom__zones, [class*="footer"]
 wildberries.ru##.navbar-mobile__icon--ai-assistant
+wildberries.ru##.navbar-pc__icon--ai-assistant:upward(2)
 wildberries.ru##.order-confirmed__bottom-slider
 wildberries.ru##.simple-menu.header__simple-menu
 wildberries.ru##.slider-container.goods-carousel.j-b-recommended-goods-wrapper > .j-b-slider-wrapper.goods-slider.j-b-recommended-goods-wrapper
